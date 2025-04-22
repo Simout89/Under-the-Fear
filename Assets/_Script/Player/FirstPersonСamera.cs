@@ -1,4 +1,5 @@
 using System;
+using _Script.Settings;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Zenject;
@@ -15,8 +16,9 @@ namespace _Script.Player
         private bool Move => playerController.Move;
         [SerializeField] private Transform cameraPivot;
         [SerializeField] private Transform cameraPlayer;
-        
-        // private float Sensitivity => _settingsManager.sensitivity;
+
+        [Inject] private SettingsManager _settingsManager;
+        private float Sensitivity => _settingsManager.SettingsConfig.MouseSensitivity;
 
         private float _xRotation;
         private float _yRotation;

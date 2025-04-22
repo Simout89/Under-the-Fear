@@ -5,9 +5,10 @@ namespace _Script.Settings
 {
     public class SettingsManager : MonoBehaviour
     {
+        public SettingConfig SettingsConfig { private set; get; }
         private void Awake()
         {
-            SettingConfig settingConfig = new SettingConfig();
+            SettingsConfig = new SettingConfig();
         }
     }
 

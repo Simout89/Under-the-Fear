@@ -17,9 +17,11 @@ namespace _Script.Player
 
         [Header("Settings")]
         [SerializeField] private float speedMovement = 5;
+        [SerializeField] private float sprintSpeedMovement = 5;
         [SerializeField] private float gravity = 9.8f;
         
         private float _verticalVelocity;
+        private float _additionalVelocity;
         private CharacterController _characterController;
         public CharacterController CharacterController => _characterController;
 
@@ -37,9 +39,14 @@ namespace _Script.Player
         
             float yRotation = cameraTarget.rotation.eulerAngles.y;
             Quaternion characterRotation = Quaternion.Euler(0f, yRotation, 0f);
-        
+
+            if (input.OnSprint()) // TODO: доделать
+                _additionalVelocity = sprintSpeedMovement;
+            else
+                _additionalVelocity = 0f;
+
             Vector3 localMovement = (characterRotation * movementInput);
-            _characterController.Move((localMovement * (speedMovement * Time.deltaTime)));
+            _characterController.Move((localMovement * ((speedMovement + _additionalVelocity) * Time.deltaTime)));
         }
 
         private float VerticalForceCalculator()

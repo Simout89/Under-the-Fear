@@ -21,6 +21,11 @@ public class PCKeyInput : ScriptableObject, IInput
     {
         return _inputActionAsset.FindAction("Jump").IsPressed();
     }
+    
+    public bool OnSprint()
+    {
+        return _inputActionAsset.FindAction("Sprint").IsPressed();
+    }
 }
 
 public interface IInput
@@ -29,4 +34,5 @@ public interface IInput
 
     public Vector2 GetLookInput();
     public bool OnJump();
+    public bool OnSprint();
 }
