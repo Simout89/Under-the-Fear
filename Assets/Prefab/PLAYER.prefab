@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 5241130754308064883}
   - component: {fileID: 660254043337861534}
   - component: {fileID: 5430039749584579751}
+  - component: {fileID: 732666702749912666}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -231,6 +232,22 @@ MonoBehaviour:
   cameraPivot: {fileID: 4591072750138713192}
   cameraPlayer: {fileID: 1838100856748491905}
   _sensitivityMultiplayer: 1
+--- !u!114 &732666702749912666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2948353751794122834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4025451be7f942dca77997f47d07d63c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerController: {fileID: 660254043337861534}
+  cam: {fileID: 1838100856748491905}
+  Speed: 14
+  Amount: 0.05
 --- !u!1 &3002515305514020192
 GameObject:
   m_ObjectHideFlags: 0
