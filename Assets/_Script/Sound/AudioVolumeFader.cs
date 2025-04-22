@@ -1,21 +1,22 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 namespace _Script.Sound
 {
+    [Serializable]
     public class AudioVolumeFader
     {
-        public AudioSource audioSource;
-        public float fadeDuration = 2.0f;
-        public AnimationCurve fadeCurve = AnimationCurve.Linear(0, 0, 1, 1);
+        [SerializeField] public AudioSource audioSource; // TODO: будет инститься
+        [SerializeField] private float fadeDuration = 2.0f;
+        [SerializeField] private AnimationCurve fadeCurve = AnimationCurve.Linear(0, 0, 1, 1);
     
         private bool isFading = false;
         private MonoBehaviour coroutineRunner;
         private Coroutine currentFadeCoroutine;
     
-        public AudioVolumeFader(AudioSource audioSource, MonoBehaviour coroutineRunner, float fadeDuration = 2.0f)
+        public void Init(MonoBehaviour coroutineRunner, float fadeDuration = 2.0f)
         {
-            this.audioSource = audioSource;
             this.coroutineRunner = coroutineRunner;
             this.fadeDuration = fadeDuration;
         }
