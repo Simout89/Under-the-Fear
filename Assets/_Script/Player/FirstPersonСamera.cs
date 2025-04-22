@@ -20,6 +20,8 @@ namespace _Script.Player
         [Inject] private SettingsManager _settingsManager;
         private float Sensitivity => _settingsManager.SettingsConfig.MouseSensitivity;
 
+        [SerializeField] private float _sensitivityMultiplayer = 1f;
+
         private float _xRotation;
         private float _yRotation;
 
@@ -33,10 +35,10 @@ namespace _Script.Player
 
         public void LateUpdate()
         {
-            _xRotation += input.GetLookInput().y * Time.deltaTime * 10;
+            _xRotation += input.GetLookInput().y * Time.deltaTime * Sensitivity * _sensitivityMultiplayer;
             _xRotation = Mathf.Clamp(_xRotation, -89.9f, 89.9f);
         
-            _yRotation += input.GetLookInput().x * Time.deltaTime * 10;
+            _yRotation += input.GetLookInput().x * Time.deltaTime * Sensitivity * _sensitivityMultiplayer;
         
             cameraPivot.localRotation = Quaternion.Euler(0, _yRotation, _xRotation);
         }
