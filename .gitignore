@@ -64,3 +64,11 @@ crashlytics-build.properties
 
 
 .idea/.idea.Under the Fear/.idea/
+
+Assets/.DS_Store
+
+Assets/Plugins/.DS_Store
+
+Assets/Plugins/Zenject/.DS_Store
+
+Assets/Plugins/Zenject/package.json.meta
