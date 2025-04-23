@@ -414,11 +414,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &344765538 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1838100856748491905, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
-  m_PrefabInstance: {fileID: 8292554565932343661}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &722808871
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,160 +522,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &729796179 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6734189009203169392, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
-  m_PrefabInstance: {fileID: 8292554565932343661}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1507210827
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1507210828}
-  - component: {fileID: 1507210829}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1507210828
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507210827}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 729796179}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1507210829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507210827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 579c67d219e04662a4d699a1c8b4f1d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _audioVolumeFaders:
-  - audioSource: {fileID: 0}
-    fadeDuration: 2
-    fadeCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - audioSource: {fileID: 0}
-    fadeDuration: 2
-    fadeCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - audioSource: {fileID: 0}
-    fadeDuration: 2
-    fadeCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - audioSource: {fileID: 0}
-    fadeDuration: 2
-    fadeCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 34
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
 --- !u!1 &1645319781
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,38 +631,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1721042083 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2948353751794122834, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
-  m_PrefabInstance: {fileID: 8292554565932343661}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1721042084 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 660254043337861534, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
-  m_PrefabInstance: {fileID: 8292554565932343661}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721042083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e4f1dc4be0bc7d47bc3e57b96d8a6a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1721042088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721042083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4025451be7f942dca77997f47d07d63c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _playerController: {fileID: 1721042084}
-  cam: {fileID: 344765538}
-  Speed: 14
-  Amount: 0.05
 --- !u!1 &1766492334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,14 +915,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6734189009203169392, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1507210828}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2948353751794122834, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1721042088}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
