@@ -6,6 +6,7 @@ namespace _Script.Player
     [RequireComponent(typeof(CharacterController))]
     public class PlayerController : MonoBehaviour
     {
+        [Inject] public MonsterEars monsterEars;
         [Inject] private GameStateManager _gameStateManager;
 
         public bool Move => _gameStateManager.PlayerMove;
@@ -41,7 +42,10 @@ namespace _Script.Player
             Quaternion characterRotation = Quaternion.Euler(0f, yRotation, 0f);
 
             if (input.OnSprint()) // TODO: доделать
+            {
                 _additionalVelocity = sprintSpeedMovement;
+                monsterEars.Ears(transform.position, 1);
+            }
             else
                 _additionalVelocity = 0f;
 
