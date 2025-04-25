@@ -12,6 +12,7 @@ public class MonsterController : MonoBehaviour
     [SerializeField] private List<Hole> holes;
     [SerializeField] private NavMeshAgent _navMeshAgent;
     private Vector3 _lastPointToCheck;
+    private Coroutine _lastCoroutine;
     private Hole _lastHole;
     
     private MonsterState _currentState = MonsterState.SitsInAHole;
@@ -24,27 +25,43 @@ public class MonsterController : MonoBehaviour
     
     public void ChangeState(MonsterState newState, Vector3 transform = new Vector3())
     {
-        if (_currentState == newState) return;
+        if(newState != MonsterState.SoundCheck && CurrentState == MonsterState.SoundCheck)
+            if (_currentState == newState) return;
 
         switch (newState)
         {
             case MonsterState.SitsInAHole:
             {
+                if(_lastCoroutine != null)
+                    StopCoroutine(_lastCoroutine);
                 _navMeshAgent.gameObject.SetActive(false);
             }break;
             case MonsterState.SoundCheck:
             {
-                _navMeshAgent.gameObject.SetActive(true);
-                _navMeshAgent.gameObject.transform.position = FindNearestHole(transform).transform.position;
+                if (!_navMeshAgent.gameObject.activeSelf)
+                {
+                    _navMeshAgent.gameObject.SetActive(true);
+                    _navMeshAgent.gameObject.transform.position = FindNearestHole(transform).transform.position;
+                }
                 _navMeshAgent.destination = transform;
                 _lastPointToCheck = transform;
-                StartCoroutine(WaitOnPoint(transform, MonsterState.BackToTheHole));
+                if(_lastCoroutine != null)
+                    StopCoroutine(_lastCoroutine);
+                _lastCoroutine = StartCoroutine(WaitOnPoint(transform, MonsterState.BackToTheHole));
             }break;
             case MonsterState.BackToTheHole:
             {
                 Vector3 nearestHole = FindNearestHole(_navMeshAgent.transform.position).transform.position;
                 _navMeshAgent.destination = nearestHole;
-                StartCoroutine(WaitOnPoint(nearestHole, MonsterState.SitsInAHole));
+                if(_lastCoroutine != null)
+                    StopCoroutine(_lastCoroutine);
+                _lastCoroutine = StartCoroutine(WaitOnPoint(nearestHole, MonsterState.SitsInAHole));
+            }break;
+            case MonsterState.Hunting:
+            {
+                if(_lastCoroutine != null)
+                    StopCoroutine(_lastCoroutine);
+                _lastCoroutine = StartCoroutine(Haunting());
             }break;
         }
         
@@ -53,6 +70,18 @@ public class MonsterController : MonoBehaviour
         Debug.Log(CurrentState);
         
         OnGameStateChanged?.Invoke(CurrentState);
+    }
+
+
+    private IEnumerator Haunting()
+    {
+        while (Vector3.Distance(_navMeshAgent.transform.position, _gameManager.Player.transform.position) > 1f)
+        {
+            _navMeshAgent.destination = _gameManager.Player.transform.position;
+            yield return null; 
+        }
+        yield return new WaitForSeconds(timeWaitOnPoint);
+        ChangeState(MonsterState.BackToTheHole);
     }
 
     private IEnumerator WaitOnPoint(Vector3 pointPosition, MonsterState monsterState)
@@ -83,5 +112,6 @@ public enum MonsterState
 {
     SitsInAHole,
     SoundCheck,
-    BackToTheHole
+    BackToTheHole,
+    Hunting
 }
