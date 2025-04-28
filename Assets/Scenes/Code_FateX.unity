@@ -20197,18 +20197,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 554933196000911863, guid: 02d1c9710321daa4b89ab15a8b7519d5, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2052901682625749004, guid: 02d1c9710321daa4b89ab15a8b7519d5, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2052901682625749004, guid: 02d1c9710321daa4b89ab15a8b7519d5, type: 3}
-      propertyPath: m_Shadows.m_Type
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3766693126558918416, guid: 02d1c9710321daa4b89ab15a8b7519d5, type: 3}
       propertyPath: m_Name
       value: Point Light
@@ -20234,6 +20222,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 945058078210391299, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
+      propertyPath: _damageableObject
+      value: 
+      objectReference: {fileID: 8292554565932343662}
+    - target: {fileID: 945058078210391299, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 945058078210391299, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
+    - target: {fileID: 945058078210391299, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
+      propertyPath: 'serializationData.ReferencedUnityObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8292554565932343662}
     - target: {fileID: 1967439014984929366, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
       propertyPath: m_LocalPosition.x
       value: -992.62415
@@ -20354,11 +20354,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9129046708949884645, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129046708949884645, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
+--- !u!114 &8292554565932343662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5605976495514113200, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
+  m_PrefabInstance: {fileID: 8292554565932343661}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ebaa72fcd9150642b2688fe2a4d9d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

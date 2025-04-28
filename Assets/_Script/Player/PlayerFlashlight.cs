@@ -1,20 +1,34 @@
 using System;
 using _Script.Player;
+using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 using UnityEngine;
 using Zenject;
 
-public class PlayerFlashlight : MonoBehaviour
+public class PlayerFlashlight : SerializedMonoBehaviour
 {
     [Inject] private MonsterEars _monsterEars;
     
     [Header("References")]
     [SerializeField] private PlayerController _playerController;
     [SerializeField] private GameObject flashLightGameObject;
-    [SerializeField] private PlayerHealth _playerHealth;
+    [OdinSerialize] private IDamageable _playerHealth;
 
     [Header("Settings")]
     [SerializeField] private float FlashLightMaxCapacity = 50;
+    
+    [BoxGroup("FlashLightCurrentCapacity")]
+    [HideLabel]
+    [ProgressBar("Min", "Max",r: 255, g: 255, b: 0, Height = 30)]
     [ReadOnly][SerializeField] private float flashLightCurrentCapacity;
+    
+    [BoxGroup("CurrentHealthPoint")]
+    private float Min = 0;
+
+    [BoxGroup("CurrentHealthPoint")]
+    private float Max => FlashLightMaxCapacity;
+    
+    
     [SerializeField] private float rateOfDecrease = 1;
     [SerializeField] private float damageToPlayer = 10;
     [SerializeField] private float chargeRecovery = 20;
