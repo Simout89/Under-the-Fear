@@ -62,3 +62,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+.idea/.idea.Under the Fear/.idea/
+
+Assets/Plugins/Zenject/Source/Zenject.csproj.meta
+Assets/.DS_Store
+Assets/Plugins/.DS_Store
+Assets/Plugins/Zenject/.DS_Store
+Assets/Plugins/Zenject/package.json.meta
