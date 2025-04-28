@@ -4,9 +4,11 @@ using Zenject;
 
 public class CameraShake : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private PlayerController _playerController;
     private IInput _input => _playerController.input;
     [SerializeField] private Transform cam;
+    [Header("Settings")]
     [SerializeField] private float Speed = 14f;
     [SerializeField] private float Amount = 0.05f;
 

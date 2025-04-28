@@ -93,6 +93,7 @@ public class MonsterController : MonoBehaviour
         yield return new WaitForSeconds(timeWaitOnPoint);
         ChangeState(monsterState);
     }
+    
     private Hole FindNearestHole(Vector3 soundPosition)
     {
         Hole nearestHole = holes[0];

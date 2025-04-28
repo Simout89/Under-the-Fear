@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Zenject;
 
@@ -6,7 +7,7 @@ namespace _Script.Player
     [RequireComponent(typeof(CharacterController))]
     public class PlayerController : MonoBehaviour
     {
-        [Inject] public MonsterEars monsterEars;
+        [Inject] private MonsterEars monsterEars;
         [Inject] private GameStateManager _gameStateManager;
 
         public bool Move => _gameStateManager.PlayerMove;
@@ -30,7 +31,7 @@ namespace _Script.Player
         {
             _characterController = GetComponent<CharacterController>();
         }
-    
+
         private void Update()
         {
             if (!Move) return;
@@ -44,7 +45,7 @@ namespace _Script.Player
             if (input.OnSprint()) // TODO: доделать
             {
                 _additionalVelocity = sprintSpeedMovement;
-                monsterEars.Ears(transform.position, 1);
+                monsterEars.Ears(transform.position, 4);
             }
             else
                 _additionalVelocity = 0f;

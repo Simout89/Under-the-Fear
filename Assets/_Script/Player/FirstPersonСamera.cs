@@ -20,6 +20,7 @@ namespace _Script.Player
         [Inject] private SettingsManager _settingsManager;
         private float Sensitivity => _settingsManager.SettingsConfig.MouseSensitivity;
 
+        [Header("Settings")]
         [SerializeField] private float _sensitivityMultiplayer = 1f;
 
         private float _xRotation;
