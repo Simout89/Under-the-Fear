@@ -10,6 +10,7 @@ public class GameStateManager : MonoBehaviour
     public event Action<GameState> OnGameStateChanged;
     
     private GameState _currentState = GameState.MainMenu;
+    private GameState _previousState;
     public GameState CurrentState => _currentState;
 
     private void Awake()
@@ -48,6 +49,8 @@ public class GameStateManager : MonoBehaviour
                 PlayerMove = false;
                 break;
         }
+
+        _previousState = _currentState;
         
         _currentState = newState;
         

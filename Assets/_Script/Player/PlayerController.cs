@@ -7,7 +7,7 @@ namespace _Script.Player
     [RequireComponent(typeof(CharacterController))]
     public class PlayerController : MonoBehaviour
     {
-        [Inject] private MonsterEars monsterEars;
+        [Inject] private MonsterEars _monsterEars;
         [Inject] private GameStateManager _gameStateManager;
 
         public bool Move => _gameStateManager.PlayerMove;
@@ -45,7 +45,7 @@ namespace _Script.Player
             if (input.OnSprint()) // TODO: доделать
             {
                 _additionalVelocity = sprintSpeedMovement;
-                monsterEars.Ears(transform.position, 4);
+                _monsterEars.Ears(transform.position, 4);
             }
             else
                 _additionalVelocity = 0f;
