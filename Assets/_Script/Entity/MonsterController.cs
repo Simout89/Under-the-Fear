@@ -10,7 +10,7 @@ public class MonsterController : MonoBehaviour
 {
     [SerializeField] private float timeWaitOnPoint;
     [SerializeField] private List<Hole> holes;
-    [SerializeField] private NavMeshAgent _navMeshAgent;
+    [SerializeField] public NavMeshAgent _navMeshAgent;
     private Vector3 _lastPointToCheck;
     private Coroutine _lastCoroutine;
     private Hole _lastHole;
