@@ -9,8 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4195655123556376136}
-  - component: {fileID: 9171775037185250598}
   - component: {fileID: 3333914407353804963}
+  - component: {fileID: 2420433370223239619}
+  - component: {fileID: 2313009709898678845}
+  - component: {fileID: 1287640250486182013}
   m_Layer: 6
   m_Name: Eyes
   m_TagString: Untagged
@@ -26,16 +28,83 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2784870130778496572}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.7071079}
-  m_LocalPosition: {x: -0.01, y: 0, z: 2.7}
-  m_LocalScale: {x: 4.26733, y: 4.26733, z: 4.26733}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: -0.70710576, y: 0.0000001937151, z: -0.0000021532178, w: 0.7071079}
+  m_LocalPosition: {x: -0.01, y: -0.519, z: 2.457}
+  m_LocalScale: {x: 108.02929, y: 108.02929, z: 108.02929}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8312312356137705140}
   m_Father: {fileID: 8479888982165672392}
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!65 &9171775037185250598
-BoxCollider:
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &3333914407353804963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2784870130778496572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462e40346b1b5b344bae002d8e3b08ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monsterController: {fileID: 1562841341025118732}
+  _monsterAi: {fileID: 4286052008529111919}
+--- !u!33 &2420433370223239619
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2784870130778496572}
+  m_Mesh: {fileID: -2124705421725058983, guid: b762a25ccb88c844789c18d2da98bf1b, type: 3}
+--- !u!23 &2313009709898678845
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2784870130778496572}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 87ee9db709319c14e8f98c76bd3f050a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1287640250486182013
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -52,22 +121,10 @@ BoxCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3333914407353804963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2784870130778496572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 462e40346b1b5b344bae002d8e3b08ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _monsterController: {fileID: 1562841341025118732}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2124705421725058983, guid: b762a25ccb88c844789c18d2da98bf1b, type: 3}
 --- !u!1 &2921272097536803339
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,6 +136,7 @@ GameObject:
   - component: {fileID: 7407904672096898781}
   - component: {fileID: 1562841341025118732}
   - component: {fileID: 5445192565950588480}
+  - component: {fileID: 4286052008529111919}
   m_Layer: 0
   m_Name: MonsterController
   m_TagString: Untagged
@@ -133,6 +191,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundCheckStrength: 3
+  _monsterController: {fileID: 1562841341025118732}
+  _monsterAi: {fileID: 4286052008529111919}
+--- !u!114 &4286052008529111919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2921272097536803339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adbbd871bec7c3141b6716f404f31ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _modelAsset: {fileID: 5022602860645237092, guid: fe7a6db28127cab419a39deab770bbee, type: 3}
   _monsterController: {fileID: 1562841341025118732}
 --- !u!1 &4865666125542819018
 GameObject:
