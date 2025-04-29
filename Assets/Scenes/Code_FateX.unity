@@ -284,37 +284,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &47530312
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 47530313}
-  m_Layer: 6
-  m_Name: RayCast
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &47530313
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47530312}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.02, z: 0.514}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 464785227}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &59098296
 Mesh:
   m_ObjectHideFlags: 0
@@ -11776,11 +11745,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!4 &464785227 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8479888982165672392, guid: 49e90e5fb2e1b3b4b91a98a4f7015a49, type: 3}
-  m_PrefabInstance: {fileID: 5087977489723786476}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &509751568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19580,6 +19544,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1504961836}
+    - target: {fileID: 2720430333116526431, guid: 49e90e5fb2e1b3b4b91a98a4f7015a49, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3382
+      objectReference: {fileID: 0}
     - target: {fileID: 2921272097536803339, guid: 49e90e5fb2e1b3b4b91a98a4f7015a49, type: 3}
       propertyPath: m_Name
       value: MonsterController
@@ -19588,10 +19556,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1504961836}
-    - target: {fileID: 3333914407353804963, guid: 49e90e5fb2e1b3b4b91a98a4f7015a49, type: 3}
-      propertyPath: rayCast
-      value: 
-      objectReference: {fileID: 47530313}
     - target: {fileID: 7254486198599471825, guid: 49e90e5fb2e1b3b4b91a98a4f7015a49, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -19639,10 +19603,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7139742024094780715, guid: 49e90e5fb2e1b3b4b91a98a4f7015a49, type: 3}
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 8479888982165672392, guid: 49e90e5fb2e1b3b4b91a98a4f7015a49, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 47530313}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49e90e5fb2e1b3b4b91a98a4f7015a49, type: 3}
 --- !u!1001 &7011891513732580979
