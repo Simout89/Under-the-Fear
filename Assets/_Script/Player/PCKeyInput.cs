@@ -8,18 +8,26 @@ public class PCKeyInput : ScriptableObject, IInput
     [SerializeField] private InputActionAsset _inputActionAsset;
     public event Action FlashLightPressed;
     public event Action BiteFlashLightPressed;
+    public event Action InteractPressed;
 
     private void OnEnable()
     {
         _inputActionAsset.FindAction("FlashLight").performed += OnFlashLightActionPerformed;
         _inputActionAsset.FindAction("BiteOffFlashLight").performed += OnBiteOffFlashLightPerformed;
+        _inputActionAsset.FindAction("Interact").performed += OnInteractPressedPerformed;
     }
     private void OnDisable()
     {
         _inputActionAsset.FindAction("FlashLight").performed -= OnFlashLightActionPerformed;
         _inputActionAsset.FindAction("BiteOffFlashLight").performed -= OnBiteOffFlashLightPerformed;
+        _inputActionAsset.FindAction("Interact").performed -= OnInteractPressedPerformed;
     }
-    
+
+    private void OnInteractPressedPerformed(InputAction.CallbackContext obj)
+    {
+        InteractPressed?.Invoke();
+    }
+
     public Vector2 GetMovementInput()
     {
         return _inputActionAsset.FindAction("Move").ReadValue<Vector2>();
@@ -60,4 +68,5 @@ public interface IInput
     public bool OnSprint();
     public event Action FlashLightPressed;
     public event Action BiteFlashLightPressed;
+    public event Action InteractPressed;
 }

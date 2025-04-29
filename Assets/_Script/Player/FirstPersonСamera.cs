@@ -16,6 +16,7 @@ namespace _Script.Player
         private bool Move => playerController.Move;
         [SerializeField] private Transform cameraPivot;
         [SerializeField] private Transform cameraPlayer;
+        public Transform CameraPlayer => cameraPlayer;
 
         [Inject] private SettingsManager _settingsManager;
         private float Sensitivity => _settingsManager.SettingsConfig.MouseSensitivity;
