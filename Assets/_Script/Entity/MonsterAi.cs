@@ -1,0 +1,46 @@
+using System;
+using UnityEngine;
+using Unity.Barracuda;
+
+
+public class MonsterAi : MonoBehaviour
+{
+    [SerializeField] private NNModel _modelAsset;
+    [SerializeField] private MonsterController _monsterController;
+    private Model model;
+    private IWorker _worker;
+
+    private void Awake()
+    {
+        model = ModelLoader.Load(_modelAsset);
+        _worker = WorkerFactory.CreateWorker(WorkerFactory.Type.Auto, model);
+    }
+
+    public void Sink(float a, float b, float c, Vector3 vector3 = new Vector3())
+    {
+        float[] inputData = new float[3] {a,b, c};
+        
+        Tensor inputTensor = new Tensor(1, 3, inputData);  // создаем тензор
+        _worker.Execute(inputTensor);  // выполняем нейросеть
+        Tensor outputTensor = _worker.PeekOutput();  // получаем результат
+
+        // Выбираем действие (выход модели)
+        int action = outputTensor.ArgMax()[0];  // выбираем максимальное значение
+        Debug.Log($"Range: {a}, Sound: {b}, Player: {c}");
+        Debug.Log($"Решение: {action}");  // выводим результат
+
+        if (action != 0)
+        {
+            _monsterController.ChangeState((MonsterState)action, vector3);
+        }
+
+        // Освобождаем память
+        inputTensor.Dispose();
+        outputTensor.Dispose();
+    }
+    
+    void OnDestroy()
+    {
+        _worker.Dispose();  // освобождаем ресурсы
+    }
+}
