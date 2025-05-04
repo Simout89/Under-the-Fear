@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1456691145002179986}
   - component: {fileID: 8660856307532027200}
   - component: {fileID: 5180207553863534108}
-  - component: {fileID: 1305563232210581621}
   m_Layer: 0
   m_Name: mpipe1
   m_TagString: Untagged
@@ -109,24 +108,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0011535771, y: 0.0010673251, z: 0.0039999997}
   m_Center: {x: 0.0000011822581, y: 0, z: -0}
---- !u!65 &1305563232210581621
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973451821185352198}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0011325693, y: 0.0005852964, z: 0.0023002154}
-  m_Center: {x: 0.0010890822, y: 0, z: 0.0008498868}
