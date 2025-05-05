@@ -18918,17 +18918,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7021964600717622131, guid: ad0442a7cc625f54e9edecfb0a221e86, type: 3}
   m_PrefabInstance: {fileID: 1153259725}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2052813767 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8097702662859543425, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
-  m_PrefabInstance: {fileID: 8292554565932343661}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ad4633187d646989e2898b9a0a9f013, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2071929833
 GameObject:
   m_ObjectHideFlags: 0
@@ -20187,22 +20176,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 2948353751794122834, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 3002515305514020192, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 3524076040134374751, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
-      propertyPath: _monoInstallers.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524076040134374751, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
-      propertyPath: '_monoInstallers.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2052813767}
     - target: {fileID: 3628791018553357880, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
       propertyPath: m_Layer
       value: 6
