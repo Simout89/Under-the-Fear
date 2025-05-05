@@ -1,4 +1,5 @@
 using System;
+using _Script.Utils;
 using UnityEngine;
 using Zenject;
 
@@ -19,11 +20,13 @@ namespace _Script.Player
 
         [Header("Settings")]
         [SerializeField] private float speedMovement = 5;
-        [SerializeField] private float sprintSpeedMovement = 5;
         [SerializeField] private float gravity = 9.8f;
+
+        public event Action OnSprintStarted;
+        public event Action OnSprintStopped;
         
         private float _verticalVelocity;
-        private float _additionalVelocity;
+        [HideInInspector] public float _additionalVelocity;
         private CharacterController _characterController;
         public CharacterController CharacterController => _characterController;
 
@@ -44,12 +47,12 @@ namespace _Script.Player
 
             if (input.OnSprint()) // TODO: доделать
             {
-                _additionalVelocity = sprintSpeedMovement;
-                _monsterEars.Ears(transform.position, 4);
+                OnSprintStarted?.Invoke();
             }
             else
-                _additionalVelocity = 0f;
-
+            {
+                OnSprintStopped?.Invoke();
+            }
             Vector3 localMovement = (characterRotation * movementInput);
             _characterController.Move((localMovement * ((speedMovement + _additionalVelocity) * Time.deltaTime)));
         }
