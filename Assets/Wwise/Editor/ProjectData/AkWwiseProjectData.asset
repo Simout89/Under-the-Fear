@@ -66,7 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b665060d0916d41bbdd601f2e444322
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584551249648178451
+=======
+    m_lastTime: -8584551359040382164
+>>>>>>> origin/Code_fateX
     List:
     - name: Lvl1
       guid: 05b22336d9e65e4cb95346a1ef2ceb95
@@ -94,7 +98,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: eb9cd630b7c18842bc284b0021107ef2
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584551247886761822
+=======
+    m_lastTime: -8584551359040696823
+>>>>>>> origin/Code_fateX
     List:
     - name: Play_Music
       guid: 734f9c66a52fc644897780ffa57744e2
