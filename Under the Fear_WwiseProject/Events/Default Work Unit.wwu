@@ -3,7 +3,17 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{30D69CEB-C1B7-4288-BC28-4B0021107EF2}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Music" ID="{669C4F73-2FA5-44C6-8977-80FFA57744E2}"/>
+				<Event Name="Play_Music" ID="{669C4F73-2FA5-44C6-8977-80FFA57744E2}">
+					<ChildrenList>
+						<Action Name="" ID="{7F58CEDE-D7D2-4BC6-9673-4C2549128BAE}" ShortID="980326720">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicLoop" ID="{88ACD382-7F88-423E-A0BC-2831EE86B059}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

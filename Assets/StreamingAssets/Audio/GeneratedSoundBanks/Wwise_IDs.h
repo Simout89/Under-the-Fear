@@ -11,6 +11,37 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID PLAY_FOOTSTEP = 1602358412U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_TIRED_BREATH = 1817535745U;
+    } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace SURFACE
+        {
+            static const AkUniqueID GROUP = 1834394558U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CONCRETE = 841620460U;
+                static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID GRAVIY = 2252896817U;
+                static const AkUniqueID METAL = 2473969246U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace SURFACE
+
+    } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID FOOTSTEP_VOLUME = 511984960U;
+        static const AkUniqueID MUSICINTENSITY = 1301299809U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
