@@ -12,7 +12,7 @@ public class PlayerFlashlight : SerializedMonoBehaviour
     [Header("References")]
     [SerializeField] private PlayerController _playerController;
     [SerializeField] private GameObject flashLightGameObject;
-    [OdinSerialize] private IDamageable _playerHealth;
+    [OdinSerialize] private PlayerHealth _playerHealth;
 
     [Header("Settings")]
     [SerializeField] private float FlashLightMaxCapacity = 50;
