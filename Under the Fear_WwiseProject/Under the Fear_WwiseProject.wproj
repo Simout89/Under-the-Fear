@@ -21,15 +21,16 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="GenerateSoundBankXML" Type="bool" Value="False" /><Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" /><Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True" /><Property Name="GenerateSoundBankJSON" Type="bool" Value="True" /><Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True" /><Property Name="SoundBankGeneratePrintPath" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="../../Under the Fear/Assets/StreamingAssets/Audio/GeneratedSoundBanks" />
+				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" />
+				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="..\Assets\StreamingAssets\Audio\GeneratedSoundBanks" />
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">..\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</Value>
+						<Value Platform="Mac">..\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
@@ -58,6 +59,10 @@
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2024.1.4|Build=8780|VersionName=v2024.1.4|Config=Release" />
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioFileSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>
@@ -9559,6 +9564,195 @@
 						<Property Name="WetDryMix" Type="Real32">
 							<ValueList>
 								<Value>100</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+					<PropertyList>
+						<Property Name="AlgoTypeSelect" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="CenterLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ChannelConfigOverride" Type="int64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DryLevel" Type="Real32">
+							<ValueList>
+								<Value>-96.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FrontLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FrontRearDelay" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FullPrecisionMedia" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="HardwareAcceleration" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRChannelSelect" Type="int32">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionSmooth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionSmoothMax" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionStart" Type="Real64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionStop" Type="Real64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionThreshold" Type="Real32">
+							<ValueList>
+								<Value>-75</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRGraphicEQAutomate" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLPFAutomate" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLPFSlope" Type="int32">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLRMix" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLevelAutomate" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRStretch" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InputCenterLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InputLFELevel" Type="Real32">
+							<ValueList>
+								<Value>-96.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InputStereoWidth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InputThreshold" Type="Real32">
+							<ValueList>
+								<Value>-60</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LFELevel" Type="Real32">
+							<ValueList>
+								<Value>-96.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PreDelay" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RearLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineBlockSize" Type="int32">
+							<ValueList>
+								<Value>1024</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineSampleRateDefault" Type="int32">
+							<ValueList>
+								<Value>48000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineSampleRateMac" Type="int32">
+							<ValueList>
+								<Value>48000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineSampleRateiOS" Type="int32">
+							<ValueList>
+								<Value>48000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="StereoWidth" Type="Real32">
+							<ValueList>
+								<Value>180</Value>
+							</ValueList>
+						</Property>
+						<Property Name="WetLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
