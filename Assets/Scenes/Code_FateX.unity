@@ -20452,6 +20452,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10763b1235e83fd46956832cf00c1dd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerFlashlight: {fileID: 8292554565932343668}
+  flashLightEnable:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  flashLightDisable:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  flashLightBite:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!114 &8292554565932343668 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 945058078210391299, guid: a5ceb6abb532d5f4b8b5f78be9658099, type: 3}
+  m_PrefabInstance: {fileID: 8292554565932343661}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8292554565932343663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0daae36d09e14554cabac4be315c0325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
