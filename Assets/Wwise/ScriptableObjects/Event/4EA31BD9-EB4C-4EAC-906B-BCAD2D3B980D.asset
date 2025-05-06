@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c35810219dac7b439dd27f5913dfd64, type: 3}
+  m_Name: 4EA31BD9-EB4C-4EAC-906B-BCAD2D3B980D
+  m_EditorClassIdentifier: 
+  objectName: Play_Footstep
+  id: 1602358412
+  guid: 4EA31BD9-EB4C-4EAC-906B-BCAD2D3B980D
+  IsInUserDefinedSoundBank: 1
