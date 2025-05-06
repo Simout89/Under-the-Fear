@@ -66,7 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b665060d0916d41bbdd601f2e444322
     GuidInternal: 
+<<<<<<< HEAD
+    m_lastTime: -8584551249648178451
+=======
     m_lastTime: -8584551359040382164
+>>>>>>> origin/Code_fateX
     List:
     - name: Lvl1
       guid: 05b22336d9e65e4cb95346a1ef2ceb95
@@ -94,7 +98,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: eb9cd630b7c18842bc284b0021107ef2
     GuidInternal: 
+<<<<<<< HEAD
+    m_lastTime: -8584551247886761822
+=======
     m_lastTime: -8584551359040696823
+>>>>>>> origin/Code_fateX
     List:
     - name: Play_Music
       guid: 734f9c66a52fc644897780ffa57744e2
@@ -111,8 +119,55 @@ MonoBehaviour:
         guid: 734f9c66a52fc644897780ffa57744e2
       Path: Events\Default Work Unit\Play_Music
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\Player.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Player
+      ObjectType: 12
+      guid: f88c72517d10c24ca8c1136ded1d69c1
+    ParentPath: Events\Player
+    guid: f88c72517d10c24ca8c1136ded1d69c1
+    GuidInternal: 
+    m_lastTime: -8584551268192071013
+    List:
+    - name: Play_Footstep
+      guid: d91ba34e4cebac4e906bbcad2d3b980d
+      id: 1602358412
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: Play_Footstep
+        ObjectType: 3
+        guid: d91ba34e4cebac4e906bbcad2d3b980d
+      Path: Events\Player\Play_Footstep
+      maxAttenuation: 0
+      maxDuration: 0.45360452
+      minDuration: 0.3099327
+    - name: Play_Tired_Breath
+      guid: cc130660ab517b4a8af10c9c8e137fe9
+      id: 1817535745
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: Play_Tired_Breath
+        ObjectType: 3
+        guid: cc130660ab517b4a8af10c9c8e137fe9
+      Path: Events\Player\Play_Tired_Breath
+      maxAttenuation: 0
+      maxDuration: 5.2533236
+      minDuration: 4.2302127
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -125,8 +180,36 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: aaf4683f9d579f4b9eefcf7c5f970957
     GuidInternal: 
-    m_lastTime: -8584551424452645834
-    List: []
+    m_lastTime: -8584551263516751215
+    List:
+    - name: Footstep_Volume
+      guid: af27b8c7ce8ad843a13b0c90b0afd16a
+      id: 511984960
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: aaf4683f9d579f4b9eefcf7c5f970957
+      - ElementName: Footstep_Volume
+        ObjectType: 13
+        guid: af27b8c7ce8ad843a13b0c90b0afd16a
+      Path: Game Parameters\Default Work Unit\Footstep_Volume
+    - name: MusicIntensity
+      guid: 6d2abc3d3599294f8da3b809d4dc4579
+      id: 1301299809
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: aaf4683f9d579f4b9eefcf7c5f970957
+      - ElementName: MusicIntensity
+        ObjectType: 13
+        guid: 6d2abc3d3599294f8da3b809d4dc4579
+      Path: Game Parameters\Default Work Unit\MusicIntensity
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -153,8 +236,106 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 28be07a64f8f3a44b90b9a989d77194a
     GuidInternal: 
-    m_lastTime: -8584551424452555825
-    List: []
+    m_lastTime: -8584551279644437854
+    List:
+    - name: Surface
+      guid: 008896f3cb113541934e4dcf65b0ddf0
+      id: 1834394558
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 28be07a64f8f3a44b90b9a989d77194a
+      - ElementName: Surface
+        ObjectType: 11
+        guid: 008896f3cb113541934e4dcf65b0ddf0
+      Path: Switches\Default Work Unit\Surface
+      values:
+      - name: Concrete
+        guid: 5703af146dfc0a44a1393eb26ada5cf7
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 28be07a64f8f3a44b90b9a989d77194a
+        - ElementName: Surface
+          ObjectType: 11
+          guid: 008896f3cb113541934e4dcf65b0ddf0
+        - ElementName: Concrete
+          ObjectType: 10
+          guid: 5703af146dfc0a44a1393eb26ada5cf7
+      - name: Dirt
+        guid: 0cb61e7499f0a44f9f409de283b5f906
+        id: 2195636714
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 28be07a64f8f3a44b90b9a989d77194a
+        - ElementName: Surface
+          ObjectType: 11
+          guid: 008896f3cb113541934e4dcf65b0ddf0
+        - ElementName: Dirt
+          ObjectType: 10
+          guid: 0cb61e7499f0a44f9f409de283b5f906
+      - name: Graviy
+        guid: 32fc0e0e7023844bae386f0100fffa98
+        id: 2252896817
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 28be07a64f8f3a44b90b9a989d77194a
+        - ElementName: Surface
+          ObjectType: 11
+          guid: 008896f3cb113541934e4dcf65b0ddf0
+        - ElementName: Graviy
+          ObjectType: 10
+          guid: 32fc0e0e7023844bae386f0100fffa98
+      - name: Metal
+        guid: 58c6ab37f16cd34e9ca562252b198c35
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 28be07a64f8f3a44b90b9a989d77194a
+        - ElementName: Surface
+          ObjectType: 11
+          guid: 008896f3cb113541934e4dcf65b0ddf0
+        - ElementName: Metal
+          ObjectType: 10
+          guid: 58c6ab37f16cd34e9ca562252b198c35
+      - name: Wood
+        guid: eb52945845dd0348b1d6c000a38f3deb
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 28be07a64f8f3a44b90b9a989d77194a
+        - ElementName: Surface
+          ObjectType: 11
+          guid: 008896f3cb113541934e4dcf65b0ddf0
+        - ElementName: Wood
+          ObjectType: 10
+          guid: eb52945845dd0348b1d6c000a38f3deb
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +351,7 @@ MonoBehaviour:
     m_lastTime: -8584551424452555825
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0500000008000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

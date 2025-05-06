@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Player" ID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footstep" ID="{4EA31BD9-EB4C-4EAC-906B-BCAD2D3B980D}">
+					<ChildrenList>
+						<Action Name="" ID="{89D3B1FC-A698-4401-A8F1-1C76EB3AF1C8}" ShortID="737729077">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{A7F816D9-8F14-4101-AAB3-256C0761DD7B}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tired_Breath" ID="{600613CC-51AB-4A7B-8AF1-0C9C8E137FE9}">
+					<ChildrenList>
+						<Action Name="" ID="{B09DF168-46FC-429B-B5D6-647D848802CF}" ShortID="767385466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tired_Breath" ID="{7BA6DAF1-194F-495E-AE98-17E0BDFB3CF3}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
