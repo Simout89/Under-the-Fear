@@ -20516,7 +20516,7 @@ MonoBehaviour:
   footStepEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1ad8b6ed72b8c7c44811cb540c071f05, type: 2}
   flashLightEnableEvent:
     idInternal: 0
     valueGuidInternal: 
