@@ -9,6 +9,97 @@
 							<ObjectRef Name="System" ID="{DACF312B-7A0A-4D6D-92DD-8CFFF02EF65B}" WorkUnitID="{BCD6886A-83F2-4909-BB90-E5FC1E3F2E93}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Cave_Rev" ID="{53BA2B3A-3575-45BD-A544-E04D99E48AB8}"/>
+						<AuxBus Name="Big_Hall_Rev" ID="{4827715D-324E-4E5A-8A9C-DE645FEDA69F}"/>
+						<AuxBus Name="Small_Room_Rev" ID="{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}"/>
+						<AuxBus Name="Coridor_Rev" ID="{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}"/>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{6048B61E-DE13-4BD7-A3CF-1449CF249A5F}" ShortID="906750621">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Volume_FX_Player_Settings" ID="{5794A9E2-955F-4062-9141-3B4B26921385}" WorkUnitID="{3F68F4AA-579D-4B9F-9EEF-CF7C5F970957}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{71A80BAF-ABB6-4287-A662-14CFB1B735AB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+				<Bus Name="Music Bus" ID="{256032F8-FB80-4A11-9F8E-BE4348EEB4C1}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{DACF312B-7A0A-4D6D-92DD-8CFFF02EF65B}" WorkUnitID="{BCD6886A-83F2-4909-BB90-E5FC1E3F2E93}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{2681CDD4-31CC-4D36-8EA6-02931C442A63}" ShortID="887552621">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Volume_Music_Player_Settings" ID="{13EF99E1-3DF3-4EA0-96AE-908E72927194}" WorkUnitID="{3F68F4AA-579D-4B9F-9EEF-CF7C5F970957}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{977A178F-E162-401B-84D2-3DA93E261C78}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

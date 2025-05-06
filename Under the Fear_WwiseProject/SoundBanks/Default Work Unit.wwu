@@ -7,15 +7,21 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Graviy" ID="{18D799FA-E68F-40D5-B065-5824D731225A}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{A7F816D9-8F14-4101-AAB3-256C0761DD7B}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{30D69CEB-C1B7-4288-BC28-4B0021107EF2}" WorkUnitID="{30D69CEB-C1B7-4288-BC28-4B0021107EF2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Small_Room_Rev" ID="{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Concrete" ID="{B4BE701C-DEE7-432F-91B4-A87E0460CDF1}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music" ID="{669C4F73-2FA5-44C6-8977-80FFA57744E2}" WorkUnitID="{30D69CEB-C1B7-4288-BC28-4B0021107EF2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cave_Rev" ID="{53BA2B3A-3575-45BD-A544-E04D99E48AB8}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Wood" ID="{F45892A4-24EE-4721-BB7D-0DDFD722F327}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Tired_Breath" ID="{7BA6DAF1-194F-495E-AE98-17E0BDFB3CF3}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music Bus" ID="{256032F8-FB80-4A11-9F8E-BE4348EEB4C1}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Tired_Breath" ID="{600613CC-51AB-4A7B-8AF1-0C9C8E137FE9}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Coridor_Rev" ID="{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dirt" ID="{E75AED3D-E0B6-4C44-9EDF-8C7B03325B7B}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainLocationTheme" ID="{E93DA408-B8EC-4C53-AF90-B846BD0AB76C}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player" ID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Big_Hall_Rev" ID="{4827715D-324E-4E5A-8A9C-DE645FEDA69F}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footstep" ID="{4EA31BD9-EB4C-4EAC-906B-BCAD2D3B980D}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Metal" ID="{908985F0-681B-4EC1-996D-4D7D673AD9AB}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
