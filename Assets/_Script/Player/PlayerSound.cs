@@ -60,6 +60,7 @@ public class PlayerSound : MonoBehaviour
     private void PlayFootStepSound()
     {
         Debug.Log("Звук Шагов ");
+        ChangeSurface();
         footStepEvent.Post(gameObject);
     }
 
@@ -73,6 +74,11 @@ public class PlayerSound : MonoBehaviour
         {
             stepSoundInvoker.Tick();
         }
+    }
+
+    private void ChangeSurface()
+    {
+        AkUnitySoundEngine.SetSwitch("Surface", "Dirt", gameObject);
     }
 }
 
