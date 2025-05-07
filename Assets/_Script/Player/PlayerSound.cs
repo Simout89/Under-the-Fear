@@ -1,4 +1,5 @@
 using System;
+using _Script.Player;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -8,11 +9,16 @@ public class PlayerSound : MonoBehaviour
     [SerializeField] private PlayerFlashlight _playerFlashlight;
 
     [SerializeField] private CharacterController _characterController;
+    [SerializeField] private PlayerController _playerController;
 
     [Header("Player Settings")]
     [SerializeField] private float footstepInterval = 1f;
+    [SerializeField] private float sprintMultiplayer = 0.5f;
     [SerializeField] private float minStepSpeed = 1f;
-    
+    [SerializeField] private int normalVolume = 30;
+    [SerializeField] private int sprintVolume = 70;
+    [SerializeField] private int crouchVolume = 10;
+
     [Header("Player Events")]
     [SerializeField] private AK.Wwise.Event footStepEvent;
 
@@ -69,7 +75,18 @@ public class PlayerSound : MonoBehaviour
         var horizontalVelocity = _characterController.velocity;
         horizontalVelocity = new Vector3(horizontalVelocity.x, 0, horizontalVelocity.z);
         float horizontalSpeed = horizontalVelocity.magnitude;
-
+        
+        if (horizontalSpeed < _playerController.SpeedMovement + 0.1)
+        {
+            stepSoundInvoker.SetInterval(footstepInterval);
+            AkSoundEngine.SetRTPCValue("Footstep_Volume", normalVolume, gameObject);
+        }
+        else
+        {
+            stepSoundInvoker.SetInterval(footstepInterval * sprintMultiplayer);
+            AkSoundEngine.SetRTPCValue("Footstep_Volume", sprintVolume, gameObject);
+        }
+        
         if (horizontalSpeed >= minStepSpeed)
         {
             stepSoundInvoker.Tick();
@@ -78,7 +95,14 @@ public class PlayerSound : MonoBehaviour
 
     private void ChangeSurface()
     {
-        AkUnitySoundEngine.SetSwitch("Surface", "Dirt", gameObject);
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, 20f, ~0 ,QueryTriggerInteraction.Ignore))
+        {
+            if(!hit.collider.CompareTag("Untagged"))
+                AkUnitySoundEngine.SetSwitch("Surface", hit.collider.tag, gameObject);
+            else
+                AkUnitySoundEngine.SetSwitch("Surface", "Concrete", gameObject);
+        }
     }
 }
 
@@ -114,6 +138,5 @@ public class TimedInvoker
     public void SetInterval(float newInterval)
     {
         interval = newInterval;
-        ResetTimer();
     }
 }

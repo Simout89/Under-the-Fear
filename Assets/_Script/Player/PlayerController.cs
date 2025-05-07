@@ -20,6 +20,7 @@ namespace _Script.Player
 
         [Header("Settings")]
         [SerializeField] private float speedMovement = 5;
+        public float SpeedMovement => speedMovement;
         [SerializeField] private float gravity = 9.8f;
 
         public event Action OnSprintStarted;

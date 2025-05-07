@@ -456,6 +456,7 @@ GameObject:
   - component: {fileID: 7862835054041936590}
   - component: {fileID: 8653086253165790727}
   - component: {fileID: 4227876910346472339}
+  - component: {fileID: 2928628567803701230}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -650,6 +651,38 @@ MonoBehaviour:
   firstPersonCamera: {fileID: 5430039749584579751}
   _playerController: {fileID: 660254043337861534}
   maxDistance: 2.5
+--- !u!114 &2928628567803701230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2948353751794122834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10763b1235e83fd46956832cf00c1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerFlashlight: {fileID: 945058078210391299}
+  _characterController: {fileID: 5241130754308064883}
+  footstepInterval: 0.5
+  minStepSpeed: 1
+  footStepEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 78d3686774f16f84594666794346233d, type: 2}
+  flashLightEnableEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  flashLightDisableEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  flashLightBiteEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &3002515305514020192
 GameObject:
   m_ObjectHideFlags: 0
