@@ -148,7 +148,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b665060d0916d41bbdd601f2e444322
     GuidInternal: 
-    m_lastTime: -8584549568154620447
+    m_lastTime: -8584549561944233764
     List:
     - name: Lvl1
       guid: 05b22336d9e65e4cb95346a1ef2ceb95
@@ -206,7 +206,7 @@ MonoBehaviour:
     ParentPath: Events\Monster
     guid: c0466b79d383d84f82cbbf065324d897
     GuidInternal: 
-    m_lastTime: -8584549568702207321
+    m_lastTime: -8584549561947618013
     List:
     - name: Play_Low_Roar
       guid: 4bc577fcbab67b479810789903ce7310
@@ -270,7 +270,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: efa17e970f8f564c9c28e8e57906fbec
     GuidInternal: 
-    m_lastTime: -8584549568229104398
+    m_lastTime: -8584549561947612807
     List:
     - name: CassetePlayer
       guid: ec6966511b9b4248acfb491426367985
@@ -344,8 +344,8 @@ MonoBehaviour:
         guid: 4f4c637eaa6d9a479dadd6e0d0256e8b
       Path: Events\Objects\Generators\Play_Gen1
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Gen2
       guid: cc2d605c335e6b45a1b9737e5523fc22
       id: 703779142
@@ -364,8 +364,8 @@ MonoBehaviour:
         guid: cc2d605c335e6b45a1b9737e5523fc22
       Path: Events\Objects\Generators\Play_Gen2
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Mechanical_Sound
       guid: dbc085208a00b74390c177394e0b5bd0
       id: 2652031523
@@ -451,7 +451,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: f88c72517d10c24ca8c1136ded1d69c1
     GuidInternal: 
-    m_lastTime: -8584549591841674713
+    m_lastTime: -8584549561947606115
     List:
     - name: FlashLight
       guid: b125de57d17cfc449a8ff35065c1cb09
@@ -771,7 +771,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584551424452555825
     List: []
-  ExpandedFileSystemItemIds: 01000000050000000600000008000000
+  ExpandedFileSystemItemIds: 010000000200000003000000050000000600000008000000090000000a0000001300000014000000
   ExpandedWaapiItemIds: 01000000050000000600000008000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
