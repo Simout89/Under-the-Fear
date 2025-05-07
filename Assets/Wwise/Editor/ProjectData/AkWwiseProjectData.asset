@@ -38,8 +38,59 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: d0fc1eb916d4d2438bac39237f48ec7c
     GuidInternal: 
-    m_lastTime: -8584551424452635838
+    m_lastTime: -8584549767227163609
     List:
+    - name: Big_Hall_Rev
+      guid: 5d7127484e325a4e8a9cde645feda69f
+      id: 1319739747
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0fc1eb916d4d2438bac39237f48ec7c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Big_Hall_Rev
+        ObjectType: 1
+        guid: 5d7127484e325a4e8a9cde645feda69f
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Big_Hall_Rev
+    - name: Cave_Rev
+      guid: 3a2bba537535bd45a544e04d99e48ab8
+      id: 1445918944
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0fc1eb916d4d2438bac39237f48ec7c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Cave_Rev
+        ObjectType: 1
+        guid: 3a2bba537535bd45a544e04d99e48ab8
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave_Rev
+    - name: Coridor_Rev
+      guid: 89481b46a6c2d04b9b408bc65bd8926e
+      id: 1389012769
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0fc1eb916d4d2438bac39237f48ec7c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Coridor_Rev
+        ObjectType: 1
+        guid: 89481b46a6c2d04b9b408bc65bd8926e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Coridor_Rev
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +105,37 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music Bus
+      guid: f832602580fb114a9f8ebe4348eeb4c1
+      id: 3127962312
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0fc1eb916d4d2438bac39237f48ec7c
+      - ElementName: Music Bus
+        ObjectType: 2
+        guid: f832602580fb114a9f8ebe4348eeb4c1
+      Path: Master-Mixer Hierarchy\Default Work Unit\Music Bus
+    - name: Small_Room_Rev
+      guid: 98771a75c7f0e6428c603edc9da810aa
+      id: 2663941762
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0fc1eb916d4d2438bac39237f48ec7c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Small_Room_Rev
+        ObjectType: 1
+        guid: 98771a75c7f0e6428c603edc9da810aa
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Small_Room_Rev
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +148,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b665060d0916d41bbdd601f2e444322
     GuidInternal: 
-    m_lastTime: -8584551249648178451
+    m_lastTime: -8584549767227118520
     List:
     - name: Lvl1
       guid: 05b22336d9e65e4cb95346a1ef2ceb95
@@ -94,7 +176,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: eb9cd630b7c18842bc284b0021107ef2
     GuidInternal: 
-    m_lastTime: -8584551247886761822
+    m_lastTime: -8584550812478261469
     List:
     - name: Play_Music
       guid: 734f9c66a52fc644897780ffa57744e2
@@ -124,7 +206,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: f88c72517d10c24ca8c1136ded1d69c1
     GuidInternal: 
-    m_lastTime: -8584551268192071013
+    m_lastTime: -8584550812478206373
     List:
     - name: Play_Footstep
       guid: d91ba34e4cebac4e906bbcad2d3b980d
@@ -172,7 +254,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: aaf4683f9d579f4b9eefcf7c5f970957
     GuidInternal: 
-    m_lastTime: -8584551263516751215
+    m_lastTime: -8584549727620736243
     List:
     - name: Footstep_Volume
       guid: af27b8c7ce8ad843a13b0c90b0afd16a
@@ -202,6 +284,34 @@ MonoBehaviour:
         ObjectType: 13
         guid: 6d2abc3d3599294f8da3b809d4dc4579
       Path: Game Parameters\Default Work Unit\MusicIntensity
+    - name: Volume_FX_Player_Settings
+      guid: e2a994575f95624091413b4b26921385
+      id: 2436629268
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: aaf4683f9d579f4b9eefcf7c5f970957
+      - ElementName: Volume_FX_Player_Settings
+        ObjectType: 13
+        guid: e2a994575f95624091413b4b26921385
+      Path: Game Parameters\Default Work Unit\Volume_FX_Player_Settings
+    - name: Volume_Music_Player_Settings
+      guid: e199ef13f33da04e96ae908e72927194
+      id: 1274705203
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: aaf4683f9d579f4b9eefcf7c5f970957
+      - ElementName: Volume_Music_Player_Settings
+        ObjectType: 13
+        guid: e199ef13f33da04e96ae908e72927194
+      Path: Game Parameters\Default Work Unit\Volume_Music_Player_Settings
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -228,7 +338,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 28be07a64f8f3a44b90b9a989d77194a
     GuidInternal: 
-    m_lastTime: -8584551279644437854
+    m_lastTime: -8584550812472185909
     List:
     - name: Surface
       guid: 008896f3cb113541934e4dcf65b0ddf0

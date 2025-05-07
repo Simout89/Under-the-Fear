@@ -70,6 +70,12 @@ public class PlayerSound : MonoBehaviour
         horizontalVelocity = new Vector3(horizontalVelocity.x, 0, horizontalVelocity.z);
         float horizontalSpeed = horizontalVelocity.magnitude;
 
+        AkSoundEngine.SetRTPCValue("Footstep_Volume", Mathf.Clamp(horizontalSpeed * 5, 10, 100), gameObject);
+        
+        Debug.Log(horizontalSpeed);
+        
+        stepSoundInvoker.SetInterval(Mathf.Lerp(footstepInterval, footstepInterval * 0.8f, (horizontalSpeed - 5) / 5));
+        
         if (horizontalSpeed >= minStepSpeed)
         {
             stepSoundInvoker.Tick();
@@ -78,7 +84,14 @@ public class PlayerSound : MonoBehaviour
 
     private void ChangeSurface()
     {
-        AkUnitySoundEngine.SetSwitch("Surface", "Dirt", gameObject);
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, 20f, ~0 ,QueryTriggerInteraction.Ignore))
+        {
+            if(!hit.collider.CompareTag("Untagged"))
+                AkUnitySoundEngine.SetSwitch("Surface", hit.collider.tag, gameObject);
+            else
+                AkUnitySoundEngine.SetSwitch("Surface", "Concrete", gameObject);
+        }
     }
 }
 
@@ -114,6 +127,5 @@ public class TimedInvoker
     public void SetInterval(float newInterval)
     {
         interval = newInterval;
-        ResetTimer();
     }
 }
