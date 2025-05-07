@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Objects" ID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Mechanical_Sound" ID="{2085C0DB-008A-43B7-90C1-77394E0B5BD0}">
+					<ChildrenList>
+						<Action Name="" ID="{A3FAF6B6-4BC7-40FA-B31E-7547372D753B}" ShortID="762384384">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mechanical_Sounds" ID="{8F8CB47E-9367-4B38-8753-2B6AB43DFE9F}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Scary_Metalic_Sound" ID="{BDE313CC-35FD-472E-B82B-E84ACBAD2B9E}">
+					<ChildrenList>
+						<Action Name="" ID="{45E6629C-09C2-4035-AD42-F4CCD0CD17BA}" ShortID="869412799">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scary_Metal_Sounds" ID="{7F4F9080-1A5F-4B6B-8C10-9DF929A4174C}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="CassetePlayer" ID="{516669EC-9B1B-4842-ACFB-491426367985}" ShortID="162050930">
+					<ChildrenList>
+						<Event Name="Play_Casseteplayer_Button" ID="{4ED10047-0937-446E-8F3A-AF6F963A69A1}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Generators" ID="{0F9F99F6-994A-4F35-AC30-E152B7B2007B}" ShortID="454678591">
+					<ChildrenList>
+						<Event Name="Play_Water_Machine_Max" ID="{3481BD2E-94C4-497C-961E-BABB76687C96}"/>
+						<Event Name="Play_Water_Machine" ID="{A08CC13F-77D7-4987-934D-B290944B7186}">
+							<ChildrenList>
+								<Action Name="" ID="{1EC6B763-A13D-43CC-B3C4-B1C6B0E15520}" ShortID="180069056">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Machine" ID="{621083B2-AEA2-43E2-94BB-3073767A9548}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Gen1" ID="{7E634C4F-6DAA-479A-9DAD-D6E0D0256E8B}">
+							<ChildrenList>
+								<Action Name="" ID="{B2AD120B-989E-4AA5-BE30-6AC53092FC45}" ShortID="799883065">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Generator1" ID="{0C4F4415-2B8E-4CD3-B2FB-4AB507A6ACC0}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Gen2" ID="{5C602DCC-5E33-456B-A1B9-737E5523FC22}">
+							<ChildrenList>
+								<Action Name="" ID="{FACEE07E-F7D0-48E9-8EF8-88C070728743}" ShortID="473382533">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Generator2" ID="{A57EBCDF-02B0-4968-ABCD-747EBEA85944}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

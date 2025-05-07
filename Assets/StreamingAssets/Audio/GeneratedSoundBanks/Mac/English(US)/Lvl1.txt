@@ -1,7 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
+	703779141	Play_Gen1			\Objects\Generators\Play_Gen1	
+	703779142	Play_Gen2			\Objects\Generators\Play_Gen2	
+	1015499099	Play_Player_Charge_FlashLigh			\Player\Play_Player_Charge_FlashLigh	
+	1470796794	Play_Flashlight_Enable			\Player\FlashLight\Play_Flashlight_Enable	
 	1602358412	Play_Footstep			\Player\Play_Footstep	
+	1652482609	Play_Flashlight_Disable			\Player\FlashLight\Play_Flashlight_Disable	
 	1817535745	Play_Tired_Breath			\Player\Play_Tired_Breath	
+	2055319774	Play_Casseteplayer_Button			\Objects\CassetePlayer\Play_Casseteplayer_Button	
+	2270754086	Play_Scary_Metalic_Sound			\Objects\Play_Scary_Metalic_Sound	
+	2470536401	Play_scream			\Monster\Play_scream	
+	2652031523	Play_Mechanical_Sound			\Objects\Play_Mechanical_Sound	
+	2770252186	Play_Roar			\Monster\Play_Roar	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3039676177	Play_Water_Machine			\Objects\Generators\Play_Water_Machine	
+	3687303446	Play_Water_Machine_Max			\Objects\Generators\Play_Water_Machine_Max	
+	4157024899	Play_Low_Roar			\Monster\Play_Low_Roar	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1834394558	Surface			\Default Work Unit\Surface	
@@ -31,53 +44,128 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	346573888	Parametric EQ (Custom)	Wwise Parametric EQ			
+	1431209347	One_Tap_One_Second	Wwise Delay			
+	1431265797	Monsterize	Wwise Pitch Shifter			
+	2513915904	Hall_Large	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6780303	scary_metalic_sounds-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\6F\{6F04D70A-8C02-8ACD-CB49-264D9CF6F575}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds-007		220596
+	12260851	scary_metalic_sounds2-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\EF\{EF0D54AA-23D0-C899-D138-969BCB0B62EB}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds2-006		352896
+	15024983	Flash_Light_Button-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\65\{65C3D58A-3C7C-0450-0668-AFCD25DF3A29}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\FlashLight_Button\Flash_Light_Button-003		109884
+	22102117	Flash_Light_Button-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\10\{10405A81-7992-3086-0E31-2B95BA4AD209}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\FlashLight_Button\Flash_Light_Button-001		109884
+	23535613	Monster_Low_Roar-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\5C\{5C627D23-AAD1-49B1-800B-078B3CEFEEFC}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Low_Roars\Monster_Low_Roar-003		380156
+	26503657	Flashlight_Working-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\90\{906D7B3B-83EC-5626-1730-AD27B9AFD4EF}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\FlashLight_Working\Flashlight_Working-002		249132
 	49553878	steps_wood-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\62\{627091A8-6F5B-B5DF-DDE5-4CF366772F9C}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-004		70360
 	54319032	steps graviy-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\C9\{C9933FF2-4AE7-B91F-9C10-1779E1CC49FA}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-007		70360
+	57940822	scary_metalic_sounds2-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\1E\{1E62E578-CF77-2DF1-1C7A-B8304D3F0D21}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds2-004		352896
+	58117125	Monster_Low_Roar-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\61\{61CC66BA-9A66-CAE2-3EFF-C064FD0EB7F1}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Low_Roars\Monster_Low_Roar-008		120804
+	66777494	Monster_Scream-009	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\2E\{2EA1C534-6826-B188-AAAC-C9B6C4EC6FFC}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Screams\Monster_Scream-009		305268
+	70937534	mechanical_sounds-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\0E\{0E001868-9581-8D4D-F5BA-3E2035486CE7}.wem		\Actor-Mixer Hierarchy\Objects\Mechanical_Sounds\mechanical_sounds-004		249132
 	84763226	steps_metal-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\B9\{B996BE13-7017-E066-6456-CB405C9C819B}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-003		62356
 	93299536	steps_metal-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\71\{715E248C-3C43-1855-03A4-9E6312BCDA92}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-002		62356
+	111602548	Flashlight_Working-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\43\{435FE924-C230-8B55-0425-390B78EEA019}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\FlashLight_Working\Flashlight_Working-001		249132
+	113652104	scary_metalic_sounds2-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\0C\{0CBCA74B-3546-CE53-B952-0888D446DC79}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds2-005		352896
+	114707880	Monster_Scream-010	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\D1\{D17D43C6-F958-1D3E-A9C4-F715E638A314}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Screams\Monster_Scream-010		192372
 	129859288	steps_concrete-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\DD\{DDE5B0B3-A036-E869-FCA1-9E16E2DB2B7D}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-005		70360
 	133870229	steps graviy-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\C7\{C7EDC562-B8DD-BFBB-55C1-4229B0C34548}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-003		70360
 	145025157	steps_concrete-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\F9\{F9D05CD4-6F8E-E02B-C34A-76DE8DAC4B1F}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-008		70360
+	146292517	scary_metalic_sounds2-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\AB\{ABE22188-96ED-FD04-E5F8-21EBEF3AB45A}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds2-002		352896
+	151700618	mechanical_sounds-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\82\{823B9856-452B-D37A-8562-061044E50163}.wem		\Actor-Mixer Hierarchy\Objects\Mechanical_Sounds\mechanical_sounds-005		249132
 	155516009	steps graviy-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\C4\{C4C55BB3-BEB0-C567-9C2A-3B6F75B8A867}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-005		70360
+	156904797	Player_Charge_FlashLight_5	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\CA\{CA0C7177-0CCE-7D02-9EFA-1F76CE587FAB}.wem		\Actor-Mixer Hierarchy\Player\Player_Charge_FlashLight\Player_Charge_FlashLight_5		142132
+	164993520	scary_metalic_sounds-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\E3\{E3F824F9-6342-3065-9525-45ADB9682F8D}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds-005		220596
 	175387463	steps dirt-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\6C\{6CACE3CB-4E39-296C-0437-5F2569591FF0}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-002		70360
+	182120608	Moster_Roar-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\17\{178E7273-A7D6-1245-1C5B-1B9D95F09B9B}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-006		809460
 	207877389	steps dirt-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\DC\{DC3466BA-F373-1433-A86C-E300E12DBA74}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-005		70360
 	220146183	steps dirt-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\C6\{C60B5266-B0B3-0434-4C4E-55352250907A}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-004		70360
 	225717939	steps_concrete-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\F9\{F9FE4EA1-F3DE-48FD-0E46-C30C82C35CFA}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-004		70360
 	236807813	steps_metal-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\EB\{EB8B59B4-9895-8D35-66E6-628AD055C325}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-006		62356
 	246035079	steps graviy-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\82\{82D0434C-E404-69CD-C291-3C818F6ECDA6}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-008		70360
+	252325740	Monster_Scream-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\42\{42C64DEF-1262-CBB5-9F32-18241DC951D9}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Screams\Monster_Scream-005		501072
 	255435978	steps graviy-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\37\{37F7025F-D3C5-A7DE-F7C6-A5CC9B714A03}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-002		70360
+	263100774	Generator1	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\CA\{CAC1877A-1F42-D9FF-8A54-428E9BA8A18F}.wem		\Actor-Mixer Hierarchy\Objects\Generators\Generator1\Generator1		6225978
+	263858481	Player_Charge_FlashLight_4	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\46\{46E3AC91-149C-8C43-75A6-263F20284493}.wem		\Actor-Mixer Hierarchy\Player\Player_Charge_FlashLight\Player_Charge_FlashLight_4		102778
+	267253672	Player_Charge_FlashLight_2	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\60\{60500FFD-0351-472C-DE88-741985823F23}.wem		\Actor-Mixer Hierarchy\Player\Player_Charge_FlashLight\Player_Charge_FlashLight_2		161138
+	274233643	Monster_Low_Roar-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\E8\{E84F1D29-68E5-46BC-2630-B2EF93E028D1}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Low_Roars\Monster_Low_Roar-002		248820
+	293132885	Moster_Roar-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\DD\{DD27A430-FD59-569D-E4CD-9506292590A9}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-003		560424
 	298097394	steps_metal-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\F9\{F9CB6EF2-780F-F577-02CF-36192BDDBB00}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-004		62356
+	302548363	Player_Charge_FlashLight_1	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\37\{374514E3-E98F-E48D-F425-85471D41AD04}.wem		\Actor-Mixer Hierarchy\Player\Player_Charge_FlashLight\Player_Charge_FlashLight_1		199888
 	316510197	steps graviy-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\90\{904EC545-E02A-2B48-7FB3-8F1DF3523B55}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-001		70360
+	321137695	Monster_Low_Roar-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\FA\{FA712CDB-B6E8-EC35-E94F-15109991AF5E}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Low_Roars\Monster_Low_Roar-001		248820
 	322618041	steps_metal-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\3D\{3DDC857F-28BA-B91B-16A8-E33AD633C0D6}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-007		62356
+	329990255	Monster_Scream-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\53\{53595A80-11E2-C7D1-CA43-343C2F594A6B}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Screams\Monster_Scream-001		278808
 	330326931	steps_wood-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\7B\{7B83F312-91D1-DADE-57EA-5F8F3837438A}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-002		70360
+	336976926	Moster_Roar-013	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\8B\{8B97C5A0-C759-50E9-A6A1-6517B4B37E27}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-013		933980
+	338530985	scary_metalic_sounds-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\D0\{D0B82CF0-C375-DD07-10DD-9B727D60B412}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds-004		220596
+	363342431	mechanical_sounds-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\7C\{7C24178E-0D82-5570-455E-2D4FF9E7803A}.wem		\Actor-Mixer Hierarchy\Objects\Mechanical_Sounds\mechanical_sounds-003		249132
+	388864205	Monster_Scream-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\1C\{1C5E7BA7-A95F-3AF5-A25F-D2A631F2638B}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Screams\Monster_Scream-004		312324
 	396211263	steps dirt-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\7B\{7B202168-157E-7C75-33A0-79F203A52265}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-003		70360
+	406906768	Moster_Roar-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\34\{341662BD-2AE2-2638-81CD-E076AB7CBB93}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-007		809460
+	416759040	Player_Charge_FlashLight_6	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\79\{79ED99F2-459C-480F-48DE-56478B535388}.wem		\Actor-Mixer Hierarchy\Player\Player_Charge_FlashLight\Player_Charge_FlashLight_6		80230
 	429420402	steps_wood-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\EB\{EBB1603A-11B6-D3F0-20A4-2DF993243EDD}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-003		70360
+	441424529	Moster_Roar-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\41\{4143A4A8-241C-844F-C9D2-DFD4573336DE}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-005		871720
 	441616478	steps_metal-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\4D\{4DB7F0DC-F2C3-863F-1BFD-A4F1F6FCBC71}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-001		62356
+	443815583	Monster_Low_Roar-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\D8\{D85E532D-61CD-8EC2-102A-8120167EFC39}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Low_Roars\Monster_Low_Roar-005		402292
 	446866061	steps_concrete-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\3F\{3F17552C-8E66-CA0D-5AF8-EBF69EC902D0}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-006		70360
 	454500081	steps_metal-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\5C\{5CC625B6-88A2-D08F-2F75-ABAF4C17951B}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-005		62356
 	457166274	2nd_lvl_of_danger	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\05\{05F98C96-BACC-506A-F8C6-9CF5730C1B5F}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\MainLocationTheme\2nd_lvl_of_danger		5210680
 	460606241	3rd_lvl_of_danger	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\B6\{B638270D-FAA0-1C4C-065E-BE2C097FA646}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\MainLocationTheme\3rd_lvl_of_danger		5210680
+	473864003	mechanical_sounds-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\AF\{AFC63848-F743-E057-8728-E0E2B3A0D4AC}.wem		\Actor-Mixer Hierarchy\Objects\Mechanical_Sounds\mechanical_sounds-002		249132
 	480708831	tiredBreath-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\FA\{FA34F720-25A4-E36C-E65D-A33D95F7CB97}.wem		\Actor-Mixer Hierarchy\Player\Tired_Breath\tiredBreath-003		634872
+	497161099	Monster_Low_Roar-009	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\F3\{F3644AB5-7B92-892C-43FC-48BD8D87A906}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Low_Roars\Monster_Low_Roar-009		327020
+	544659601	scary_metalic_sounds2-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\99\{99C2AFF3-F4E7-0EBB-3D0D-B509303D1765}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds2-003		352896
 	547127967	steps_concrete-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\9F\{9F3ECC04-F26E-6AB6-F6D0-065F15093198}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-002		70360
+	553450973	Player_Charge_FlashLight_3	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\05\{05E74462-3955-6888-443B-ED8E416F5EE9}.wem		\Actor-Mixer Hierarchy\Player\Player_Charge_FlashLight\Player_Charge_FlashLight_3		124166
+	566785962	Monster_Scream-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\D2\{D2E498C5-0D2D-DA9F-C9ED-A76BD80CD5CA}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Screams\Monster_Scream-007		411108
+	567426523	scary_metalic_sounds2-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\20\{207AC67C-D76C-A796-801B-AC9A5E9AD0C8}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds2-007		352896
+	583090368	Flash_Light_Button-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\65\{656B68E8-2CDC-5EF7-CD60-E2858CA76BA5}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\FlashLight_Button\Flash_Light_Button-002		109884
+	589012224	scary_metalic_sounds-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\5E\{5EF80E7A-A98E-4EDB-CFA2-765053DDF669}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds-003		220596
+	589164636	Monster_Low_Roar-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\17\{176E739C-D3A9-658F-E51E-1953DE13C92D}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Low_Roars\Monster_Low_Roar-007		229604
 	613170136	steps_wood-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\51\{5196CE70-E946-02E0-57F8-ABC3B998F18B}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-007		70360
+	636477786	Moster_Roar-009	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\09\{0972D586-DE88-F581-F74A-01A4C48E362A}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-009		373648
+	689492451	Moster_Roar-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\A7\{A7C08386-D84D-9614-2D3D-805C50175307}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-001		373648
 	709955711	steps_concrete-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\71\{7174709D-9224-A19A-259E-C24C92D85680}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-007		70360
+	724250734	Moster_Roar-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\7A\{7A1492CC-0B1E-A9E3-C59A-30B6D79D5A10}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-002		560424
+	727500311	Water_Machine_Working-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\9E\{9E455F7E-F1C7-2C49-B318-9EB2D7E037F4}.wem		\Actor-Mixer Hierarchy\Objects\Generators\Water_Machine\Water_Machine_Working-002		933978
+	743206116	Monster_Low_Roar-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\43\{435DF4EA-B52B-3CCB-2829-00A8581AFC8D}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Low_Roars\Monster_Low_Roar-006		127128
 	747566545	tiredBreath-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\35\{35D5456A-8281-4FD5-9668-C0D8D60DF6B3}.wem		\Actor-Mixer Hierarchy\Player\Tired_Breath\tiredBreath-002		634872
 	748998996	4th_lvl_of_danger	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\B9\{B9D26428-FC58-D4EF-36D4-F0A6930B3E2A}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\MainLocationTheme\4th_lvl_of_danger		5210680
+	757942447	Moster_Roar-010	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\F7\{F7D63F37-577C-7A8C-E65A-9C637FC050B8}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-010		311392
+	768722201	scary_metalic_sounds2-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\98\{9856ADD6-605C-96B3-D545-235699632D64}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds2-008		352896
 	775936140	steps_wood-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\ED\{ED8C447D-147C-1152-501F-295224BF0D18}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-006		70360
+	782243920	scary_metalic_sounds-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\3A\{3A4C484E-3C7C-4F61-300B-11015EFBFC13}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds-001		220596
+	788798463	Water_Machine_Working-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\68\{68514E55-0ACB-0D70-FC23-DEA1DBCEA770}.wem		\Actor-Mixer Hierarchy\Objects\Generators\Water_Machine\Water_Machine_Working-003		560426
+	800174277	scary_metalic_sounds-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\35\{35B94563-A406-29EF-3E8A-B5BD174D97D1}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds-008		220596
 	805234062	steps_concrete-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\88\{88A59984-18D3-30B3-F7D7-901E09980EBD}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-001		70360
 	806367845	steps_wood-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\7F\{7F071FEF-9558-A9B5-37E2-A78530213E5F}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-001		70360
 	820851187	steps dirt-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\8D\{8D4951C6-B294-1655-6C45-30285B844DF7}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-001		70360
 	833371092	steps dirt-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\B7\{B7D2A76C-6FC9-D5F4-CA97-210596F24EFD}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-006		70360
+	836688216	Water_Machine_Working-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\D5\{D5FD62EB-F165-CDD1-721E-A47B7B7BCA11}.wem		\Actor-Mixer Hierarchy\Objects\Generators\Water_Machine\Water_Machine_Working-001		933978
+	845887655	Monster_Scream-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\87\{87071E39-363E-9D43-7948-170FE2191602}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Screams\Monster_Scream-002		372300
 	867544689	steps graviy-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\50\{505FD360-61D0-688E-441F-52DED7CD05F3}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-006		70360
+	874582946	Moster_Roar-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\5B\{5B4E2C31-C70C-5B3A-711B-8001C22E8FF2}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-008		747200
+	879057900	Generator2	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\EE\{EE1EA0A4-FE8F-08E0-2110-4FCCF1DAF3E8}.wem		\Actor-Mixer Hierarchy\Objects\Generators\Generator2\Generator2		5416614
 	887660369	steps dirt-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\AC\{ACF81772-4DF4-7640-65E5-D259415597D8}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-008		70360
 	891878516	steps_wood-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\A0\{A08FC273-FC3A-36FC-D5FF-CDBAF2764299}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-005		70360
+	908947801	Monster_Low_Roar-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\2E\{2E7E6524-96ED-F110-5A1B-FBD5A69902A2}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Low_Roars\Monster_Low_Roar-004		380156
+	910320564	mechanical_sounds-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\76\{7699CF6F-91FA-AF77-CF7F-B73E55539590}.wem		\Actor-Mixer Hierarchy\Objects\Mechanical_Sounds\mechanical_sounds-007		249132
+	914321906	Monster_Scream-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\5D\{5D87D99C-243B-5439-9BD7-4D97EF74FD10}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Screams\Monster_Scream-008		305268
 	924388660	steps graviy-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\DA\{DAE313F2-A878-B37E-FB71-6A18BC2181BC}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-004		70360
+	925804279	Monster_Scream-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\53\{5382E54A-3CA6-558F-CE69-FA38E8019C02}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Screams\Monster_Scream-003		178260
+	929041556	Moster_Roar-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\EA\{EA8B0ACD-1C61-2C67-5EEA-ED79E07E0580}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-004		435908
+	932183992	mechanical_sounds-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\56\{56C2107C-347B-EA52-48FC-73F6E49D73A9}.wem		\Actor-Mixer Hierarchy\Objects\Mechanical_Sounds\mechanical_sounds-001		249132
+	936094868	mechanical_sounds-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\0C\{0CAD4263-F827-616D-7226-D5FB2008A64D}.wem		\Actor-Mixer Hierarchy\Objects\Mechanical_Sounds\mechanical_sounds-006		249132
 	940208027	steps_wood-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\F6\{F604F32E-6F5D-E76E-EA5D-D0BD0144B914}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-008		70360
 	990220910	1st_lvl_of_danger	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\30\{30655033-B4E4-23C3-F146-6D1ED84DE93F}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\MainLocationTheme\1st_lvl_of_danger		5210680
+	1006693240	Water_Machine_Working_Max_Power	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\4F\{4FE996E2-BBE7-4E8D-98E6-2B44559F57E0}.wem		\Actor-Mixer Hierarchy\Objects\Generators\Water_Machine_Working_Max_Power\Water_Machine_Working_Max_Power		7035344
 	1022717573	tiredBreath-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\1E\{1E676B04-25CF-D91C-4D1D-BB9FB100957B}.wem		\Actor-Mixer Hierarchy\Player\Tired_Breath\tiredBreath-001		634872
 	1026530356	steps dirt-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\38\{38466C52-6429-249C-899F-852DFCDE67AA}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-007		70360
 	1034532681	steps_concrete-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\34\{34A59C9A-1B03-7AC0-908A-6F0EBDE39D94}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-003		70360
+	1036377518	scary_metalic_sounds-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\42\{42BDDA14-E184-B42D-D6C1-D487808E3DE9}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds-002		220596
 	1041275516	tiredBreath	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\98\{98EC993C-4CAF-99BC-E76C-FF68AAA8533E}.wem		\Actor-Mixer Hierarchy\Player\Tired_Breath\tiredBreath		634872
+	1050284411	Monster_Scream-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\6F\{6FDFA2A3-5A43-0030-EA00-1C34B25216A4}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Screams\Monster_Scream-006		243528
+	1062904363	Moster_Roar-012	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\C1\{C15F59A0-B0A7-98F5-214C-BB5EA05B131F}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-012		311392
+	1063015613	scary_metalic_sounds-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\B6\{B6979F1F-A9FC-FF6A-B9EC-D1323CDA1380}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds-006		220596
+	1068077496	scary_metalic_sounds2-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\A9\{A913755F-4AE8-F6FF-EE1E-2E7C78CDAB2F}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds2-001		352896
+	1070060634	Moster_Roar-011	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\0F\{0F941F92-711F-2FDD-4D68-A7314F50E7BA}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-011		311392
 

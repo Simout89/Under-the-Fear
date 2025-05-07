@@ -25,6 +25,60 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="FlashLight" ID="{57DE25B1-7CD1-44FC-9A8F-F35065C1CB09}" ShortID="451718788">
+					<ChildrenList>
+						<Event Name="Play_Flashlight_Enable" ID="{71515D7D-B527-4387-AEFA-041A7A41ECB6}">
+							<ChildrenList>
+								<Action Name="" ID="{5AE30281-9412-4035-A86C-BDB5FD24936B}" ShortID="73711034">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FlashLight_Button" ID="{D60F7BE1-CC10-438B-A0F8-113AA10058EA}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9B4C8BE0-9B50-4E3B-89A1-12747BF6D303}" ShortID="193219864">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FlashLight_Working" ID="{EFA7451D-FA8A-4DFC-9CED-9762076FD676}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Flashlight_Disable" ID="{88303FB5-2DF7-49A8-804E-5808E960DEF4}">
+							<ChildrenList>
+								<Action Name="" ID="{7CEE15CC-E2CC-4F55-B9E1-833D1AA2DCB3}" ShortID="366906204">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FlashLight_Button" ID="{D60F7BE1-CC10-438B-A0F8-113AA10058EA}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{35080B7E-F5DB-4D55-B3CE-B22005268861}" ShortID="208444015">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FlashLight_Working" ID="{EFA7451D-FA8A-4DFC-9CED-9762076FD676}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Player_Charge_FlashLigh" ID="{A253EB1F-5F10-4548-B7D5-587CBB14C396}">
+					<ChildrenList>
+						<Action Name="" ID="{FE12C630-DE7B-4A82-B2C6-90677263ABBF}" ShortID="446689221">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Charge_FlashLight" ID="{EB701E26-A0F0-458A-9986-7EA16A705208}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

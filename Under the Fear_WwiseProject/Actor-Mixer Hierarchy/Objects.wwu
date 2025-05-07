@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Objects" ID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Scary_Metal_Sounds" ID="{7F4F9080-1A5F-4B6B-8C10-9DF929A4174C}" ShortID="342185915">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E61D67CC-114E-4941-BD4E-CA7675266FDF}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-375"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="36"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{808C73EF-3C40-460B-B0BD-53EA3A31B717}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="scary_metalic_sounds2-001" ID="{03787FF0-B6A1-4050-852F-FA072DBCCF09}" ShortID="35349292">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B4ED6331-E3A0-4AA1-BCF1-9F74D9A13C3C}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds2-001" ID="{73DD261C-69FE-4AFE-8B48-E11395CD3ADD}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds2-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1068077496"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds2-001" ID="{73DD261C-69FE-4AFE-8B48-E11395CD3ADD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds2-002" ID="{C0DF69A6-583F-431B-AFE6-37FCEF5598DB}" ShortID="534889150">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds2-002" ID="{679A9F95-26BE-426F-A38C-5395F44B1F32}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds2-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="146292517"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds2-002" ID="{679A9F95-26BE-426F-A38C-5395F44B1F32}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds2-003" ID="{33A4B56B-672A-4DC4-BC3F-758861300468}" ShortID="998986109">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds2-003" ID="{1CB16327-7D95-4B62-A97A-C86DC43545DC}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds2-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="544659601"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds2-003" ID="{1CB16327-7D95-4B62-A97A-C86DC43545DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds2-004" ID="{3D51C397-4B64-4C70-BD16-911A924B863F}" ShortID="986602772">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds2-004" ID="{9FB2CA23-7C04-4D52-8DF1-F993E267C691}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds2-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="57940822"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds2-004" ID="{9FB2CA23-7C04-4D52-8DF1-F993E267C691}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds2-005" ID="{92FA04D4-2281-4186-B5AE-3CDD478D2C56}" ShortID="921022246">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds2-005" ID="{5AF4F45B-1BF7-43F2-86CB-E35468A31157}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds2-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="113652104"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds2-005" ID="{5AF4F45B-1BF7-43F2-86CB-E35468A31157}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds2-006" ID="{F442B168-50A4-4136-82F3-05ED049A5E9D}" ShortID="872419992">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds2-006" ID="{F6B4926D-BEB2-41B7-BC9C-C91A53F317B2}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds2-006.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="12260851"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds2-006" ID="{F6B4926D-BEB2-41B7-BC9C-C91A53F317B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds2-007" ID="{37F46CB8-CF42-4F2B-B89B-28A91C80B967}" ShortID="392092704">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds2-007" ID="{E4CA7C73-EF99-451A-8E3B-CAB7068D3FE4}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds2-007.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="567426523"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds2-007" ID="{E4CA7C73-EF99-451A-8E3B-CAB7068D3FE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds2-008" ID="{69576270-1F77-47E3-B198-B17803A0A830}" ShortID="132248953">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds2-008" ID="{8322655E-5C2F-4E79-B81E-59B7C9DF6D12}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds2-008.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="768722201"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds2-008" ID="{8322655E-5C2F-4E79-B81E-59B7C9DF6D12}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds-001" ID="{A122AF99-5B14-4F0E-A9E6-203259E7FE2C}" ShortID="1021260691">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds-001" ID="{57B0DBA0-6D55-40FD-8979-AEA1A5F0BD0B}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="782243920"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds-001" ID="{57B0DBA0-6D55-40FD-8979-AEA1A5F0BD0B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds-002" ID="{1602D773-2D9E-4718-854C-917B84691CC0}" ShortID="817005608">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds-002" ID="{8E5DAFEA-5E61-44EA-B63A-E8878BB6779D}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1036377518"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds-002" ID="{8E5DAFEA-5E61-44EA-B63A-E8878BB6779D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds-003" ID="{6053F913-10D5-4368-8659-187EABFE50FB}" ShortID="473187979">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds-003" ID="{843348BB-1740-427C-93D7-C4DD2668859B}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="589012224"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds-003" ID="{843348BB-1740-427C-93D7-C4DD2668859B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds-004" ID="{576FA58A-A636-4697-8C7E-B33E29D76725}" ShortID="537909336">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds-004" ID="{A68D89E3-62CC-4D36-8FE7-7A65284DC19E}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="338530985"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds-004" ID="{A68D89E3-62CC-4D36-8FE7-7A65284DC19E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds-005" ID="{2AA75C40-9CA1-4F6B-95C1-03F3725AF59A}" ShortID="996993859">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds-005" ID="{7A76FBBE-3FB3-4DF9-BAC5-185BCAAC29F9}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="164993520"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds-005" ID="{7A76FBBE-3FB3-4DF9-BAC5-185BCAAC29F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds-006" ID="{6C2066E3-BD5B-4E5C-9C90-96B48415842D}" ShortID="386424022">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds-006" ID="{0D97B83F-A0B4-4F4E-A55E-E91D94132935}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds-006.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1063015613"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds-006" ID="{0D97B83F-A0B4-4F4E-A55E-E91D94132935}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds-007" ID="{ECE1F3FE-21AA-4E41-903E-FB21C2A7F05E}" ShortID="394349419">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds-007" ID="{2BF94480-C821-471A-A6D6-BA60ED8E85CF}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds-007.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="6780303"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds-007" ID="{2BF94480-C821-471A-A6D6-BA60ED8E85CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="scary_metalic_sounds-008" ID="{C9759046-11C0-4032-AB26-C0BB93D5723A}" ShortID="71570717">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scary_metalic_sounds-008" ID="{1C083C26-FF8E-4DB0-BAF4-4C351E35D702}">
+									<Language>SFX</Language>
+									<AudioFile>scary_metalic_sounds-008.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="800174277"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scary_metalic_sounds-008" ID="{1C083C26-FF8E-4DB0-BAF4-4C351E35D702}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{C955972E-4F46-4375-8B63-289A5D312BED}" ShortID="840585853">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+												<ObjectRef Name="Monsterize" ID="{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{4BD9B227-CE91-4AB6-9F8A-2951426DFA97}" ShortID="544671156">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+												<ObjectRef Name="One_Tap_One_Second" ID="{5B5883FA-85A1-45CA-8A52-9DBBCF3B0A03}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{541D61C7-DC8C-4A35-9050-106478409C05}" ShortID="608273731">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Mechanical_Sounds" ID="{8F8CB47E-9367-4B38-8753-2B6AB43DFE9F}" ShortID="1070793683">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-200</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6C4CA012-C282-4D2F-97EF-2B0F06DCA12A}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-550"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A9800E07-E1C5-49FD-A8A7-7A18D9EA4C6A}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="mechanical_sounds-001" ID="{B2E09C38-3748-4080-803A-DB1BC49ED631}" ShortID="816355753">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C999278D-B294-4B4A-BB73-2F1672A8E5E1}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mechanical_sounds-001" ID="{0EEB05B5-563C-45E8-B954-41DD6C018812}">
+									<Language>SFX</Language>
+									<AudioFile>mechanical_sounds-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="932183992"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mechanical_sounds-001" ID="{0EEB05B5-563C-45E8-B954-41DD6C018812}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mechanical_sounds-002" ID="{B7E147B8-CBA3-496F-9F67-1C599220054E}" ShortID="186513577">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C7A78DFB-0C2F-42F8-AAB3-BCC0DDF235BF}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mechanical_sounds-002" ID="{D72EA1D7-DF70-4D87-AEA0-D743034B178B}">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="2.13486976869747"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>mechanical_sounds-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="473864003"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mechanical_sounds-002" ID="{D72EA1D7-DF70-4D87-AEA0-D743034B178B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mechanical_sounds-003" ID="{6DA8DB05-0C50-4CC1-8CAE-46C85EE8BBA9}" ShortID="788661105">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5587E9E0-7529-4C87-AB27-5A8586892AD6}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mechanical_sounds-003" ID="{513EFB3E-4A4C-479C-9E8F-83839F6C9341}">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="2.1042623177522"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>mechanical_sounds-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="363342431"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mechanical_sounds-003" ID="{513EFB3E-4A4C-479C-9E8F-83839F6C9341}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mechanical_sounds-004" ID="{3AFF0F43-6AA0-420E-ADAC-1EB5786199CB}" ShortID="683095903">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mechanical_sounds-004" ID="{D81356FB-9427-4D0B-AF5F-DD596B027AC9}">
+									<Language>SFX</Language>
+									<AudioFile>mechanical_sounds-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="70937534"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mechanical_sounds-004" ID="{D81356FB-9427-4D0B-AF5F-DD596B027AC9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mechanical_sounds-005" ID="{C0BAFF56-51E3-48DE-9842-097213410755}" ShortID="894098626">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{106BD13C-919F-4323-8899-02B18ECB4108}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mechanical_sounds-005" ID="{38B49E17-0D3E-4D22-9567-58D759F395ED}">
+									<Language>SFX</Language>
+									<AudioFile>mechanical_sounds-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="151700618"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mechanical_sounds-005" ID="{38B49E17-0D3E-4D22-9567-58D759F395ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mechanical_sounds-006" ID="{9794B2E9-B3ED-4048-8389-45566D735FE9}" ShortID="863782363">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E37887C7-B0EE-4E2F-B4B2-98F0FA6D9378}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mechanical_sounds-006" ID="{33A85FC1-85D4-497D-92AD-59F9B2D47493}">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="1.03300153466784"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>mechanical_sounds-006.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="936094868"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mechanical_sounds-006" ID="{33A85FC1-85D4-497D-92AD-59F9B2D47493}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mechanical_sounds-007" ID="{AF5B014B-8FC4-46A8-A5C0-66A84E2622F0}" ShortID="465464938">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C3F2EB58-9AE5-4D09-A84A-49EE4F4B1562}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mechanical_sounds-007" ID="{14B5FA5B-E7E8-46F4-97F2-F5EF1FC8D59D}">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="1.64770117448529"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>mechanical_sounds-007.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="910320564"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mechanical_sounds-007" ID="{14B5FA5B-E7E8-46F4-97F2-F5EF1FC8D59D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Folder Name="CassetePlayer" ID="{10FE0788-64D1-4B0C-956F-E1BF2A4040DE}" ShortID="273026701">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Casseteplayer_button" ID="{22DC210B-825F-42E7-AF7C-B1BB91DDBF2A}" ShortID="524556459">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A9A25165-C0BE-4551-83CA-8FD8EFD0B4EF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-175"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7B09504D-86F7-4C09-85F8-7498AE8C251C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="casseteplayer_button" ID="{0F15D95C-A83F-4E67-80BB-0485E0247BE8}" ShortID="221900049">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FA68ADE2-0F1A-43FB-B3A2-6E1FF3727806}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="250"/>
+															<Property Name="Min" Type="Real64" Value="-250"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="casseteplayer_button" ID="{8378DF87-6F96-41A1-9E7E-19FE1152B342}">
+											<Language>SFX</Language>
+											<AudioFile>casseteplayer_button.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="181228194"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="casseteplayer_button" ID="{8378DF87-6F96-41A1-9E7E-19FE1152B342}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="casseteplayer_button" ID="{0F15D95C-A83F-4E67-80BB-0485E0247BE8}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Generators" ID="{36627367-989E-41DF-AF71-3793D5115DA4}" ShortID="258300662">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Generator1" ID="{0C4F4415-2B8E-4CD3-B2FB-4AB507A6ACC0}" ShortID="335089103">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AD1A0C76-4A32-4DB2-AA05-41318FC34D08}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Generator1" ID="{F52FECC5-EB4F-48FF-8F8B-1E12279D6DA4}" ShortID="441992791">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7F8EB54C-C2F2-428D-8F7D-05556976BCB0}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator1" ID="{FB965718-D339-4F49-AD46-2C8F121C301F}">
+											<Language>SFX</Language>
+											<AudioFile>Generator1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="263100774"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator1" ID="{FB965718-D339-4F49-AD46-2C8F121C301F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Generator1" ID="{F52FECC5-EB4F-48FF-8F8B-1E12279D6DA4}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Generator1" ID="{F52FECC5-EB4F-48FF-8F8B-1E12279D6DA4}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Generator2" ID="{A57EBCDF-02B0-4968-ABCD-747EBEA85944}" ShortID="982528851">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{90372814-182D-4241-9964-ACD37FD073A4}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Generator2" ID="{84AB77F7-AF92-44E9-9D0B-0F0B0A1291E8}" ShortID="208573779">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D76C6EF5-8D59-48F7-9661-3C376FFDAC4F}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Generator2" ID="{07E53EDB-8D86-4627-8B0C-84A4F05EEEA7}">
+											<Language>SFX</Language>
+											<AudioFile>Generator2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="879057900"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Generator2" ID="{07E53EDB-8D86-4627-8B0C-84A4F05EEEA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Generator2" ID="{84AB77F7-AF92-44E9-9D0B-0F0B0A1291E8}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Generator2" ID="{84AB77F7-AF92-44E9-9D0B-0F0B0A1291E8}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Water_Machine_Working_Max_Power" ID="{F5E9EF31-CC48-4002-A8C9-F13CF037BDFE}" ShortID="616902297">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3CADCCB5-6719-43E7-89C4-9E471C06709B}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Water_Machine_Working_Max_Power" ID="{4E367D43-5DF3-4D02-A38D-B93FB096E898}" ShortID="435454447">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{013A8F5E-116B-44CB-BDC0-EC962F3F12F4}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water_Machine_Working_Max_Power" ID="{17C8DB88-4A9F-487A-B68A-627EBDE3B137}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.9367130282987"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.792603331637366"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Water_Machine_Working_Max_Power.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1006693240"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water_Machine_Working_Max_Power" ID="{17C8DB88-4A9F-487A-B68A-627EBDE3B137}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Water_Machine_Working_Max_Power" ID="{4E367D43-5DF3-4D02-A38D-B93FB096E898}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Water_Machine" ID="{621083B2-AEA2-43E2-94BB-3073767A9548}" ShortID="440971740">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{697DF3A4-E592-47A3-B938-B578FF4D1D00}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Water_Machine_Working-001" ID="{1EA8E147-B916-4804-8974-D9D1CA21D933}" ShortID="792654718">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water_Machine_Working-001" ID="{F1398988-5610-42CE-AE8D-2C5FB2203689}">
+											<Language>SFX</Language>
+											<AudioFile>Water_Machine_Working-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="836688216"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water_Machine_Working-001" ID="{F1398988-5610-42CE-AE8D-2C5FB2203689}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Water_Machine_Working-002" ID="{EF6B38F6-EE39-48DC-8E5E-AE5303EB32D6}" ShortID="708243501">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water_Machine_Working-002" ID="{F19EA50A-1371-41B7-864C-87E08608E62E}">
+											<Language>SFX</Language>
+											<AudioFile>Water_Machine_Working-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="727500311"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water_Machine_Working-002" ID="{F19EA50A-1371-41B7-864C-87E08608E62E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Water_Machine_Working-003" ID="{22390E02-6B6A-49AD-B2FC-5164ADFD1CEC}" ShortID="693480544">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water_Machine_Working-003" ID="{DBD6D56D-4298-4E9B-8F95-477AE4DFF6CC}">
+											<Language>SFX</Language>
+											<AudioFile>Water_Machine_Working-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="788798463"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water_Machine_Working-003" ID="{DBD6D56D-4298-4E9B-8F95-477AE4DFF6CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

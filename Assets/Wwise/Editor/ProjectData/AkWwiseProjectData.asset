@@ -148,7 +148,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b665060d0916d41bbdd601f2e444322
     GuidInternal: 
-    m_lastTime: -8584549767227118520
+    m_lastTime: -8584549568154620447
     List:
     - name: Lvl1
       guid: 05b22336d9e65e4cb95346a1ef2ceb95
@@ -195,6 +195,251 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+  - PhysicalPath: Events\Monster.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Monster
+      ObjectType: 12
+      guid: c0466b79d383d84f82cbbf065324d897
+    ParentPath: Events\Monster
+    guid: c0466b79d383d84f82cbbf065324d897
+    GuidInternal: 
+    m_lastTime: -8584549568702207321
+    List:
+    - name: Play_Low_Roar
+      guid: 4bc577fcbab67b479810789903ce7310
+      id: 4157024899
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Monster
+        ObjectType: 12
+        guid: c0466b79d383d84f82cbbf065324d897
+      - ElementName: Play_Low_Roar
+        ObjectType: 3
+        guid: 4bc577fcbab67b479810789903ce7310
+      Path: Events\Monster\Play_Low_Roar
+      maxAttenuation: 0
+      maxDuration: 2.2800226
+      minDuration: 0.6842857
+    - name: Play_Roar
+      guid: 2041729ce443874b92be85825d3e6bdd
+      id: 2770252186
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Monster
+        ObjectType: 12
+        guid: c0466b79d383d84f82cbbf065324d897
+      - ElementName: Play_Roar
+        ObjectType: 3
+        guid: 2041729ce443874b92be85825d3e6bdd
+      Path: Events\Monster\Play_Roar
+      maxAttenuation: 0
+      maxDuration: 7.932228
+      minDuration: 1.7647165
+    - name: Play_scream
+      guid: cea2873250780a4eb6d60762e6932fd2
+      id: 2470536401
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Monster
+        ObjectType: 12
+        guid: c0466b79d383d84f82cbbf065324d897
+      - ElementName: Play_scream
+        ObjectType: 3
+        guid: cea2873250780a4eb6d60762e6932fd2
+      Path: Events\Monster\Play_scream
+      maxAttenuation: 0
+      maxDuration: 2.84
+      minDuration: 1.01
+  - PhysicalPath: Events\Objects.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Objects
+      ObjectType: 12
+      guid: efa17e970f8f564c9c28e8e57906fbec
+    ParentPath: Events\Objects
+    guid: efa17e970f8f564c9c28e8e57906fbec
+    GuidInternal: 
+    m_lastTime: -8584549568229104398
+    List:
+    - name: CassetePlayer
+      guid: ec6966511b9b4248acfb491426367985
+      id: 2557922542
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: CassetePlayer
+        ObjectType: 4
+        guid: ec6966511b9b4248acfb491426367985
+      Path: Events\Objects\CassetePlayer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Generators
+      guid: f6999f0f4a99354fac30e152b7b2007b
+      id: 3229091103
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Generators
+        ObjectType: 4
+        guid: f6999f0f4a99354fac30e152b7b2007b
+      Path: Events\Objects\Generators
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Casseteplayer_Button
+      guid: 4700d14e37096e448f3aaf6f963a69a1
+      id: 2055319774
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: CassetePlayer
+        ObjectType: 4
+        guid: ec6966511b9b4248acfb491426367985
+      - ElementName: Play_Casseteplayer_Button
+        ObjectType: 3
+        guid: 4700d14e37096e448f3aaf6f963a69a1
+      Path: Events\Objects\CassetePlayer\Play_Casseteplayer_Button
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Gen1
+      guid: 4f4c637eaa6d9a479dadd6e0d0256e8b
+      id: 703779141
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Generators
+        ObjectType: 4
+        guid: f6999f0f4a99354fac30e152b7b2007b
+      - ElementName: Play_Gen1
+        ObjectType: 3
+        guid: 4f4c637eaa6d9a479dadd6e0d0256e8b
+      Path: Events\Objects\Generators\Play_Gen1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Gen2
+      guid: cc2d605c335e6b45a1b9737e5523fc22
+      id: 703779142
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Generators
+        ObjectType: 4
+        guid: f6999f0f4a99354fac30e152b7b2007b
+      - ElementName: Play_Gen2
+        ObjectType: 3
+        guid: cc2d605c335e6b45a1b9737e5523fc22
+      Path: Events\Objects\Generators\Play_Gen2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Mechanical_Sound
+      guid: dbc085208a00b74390c177394e0b5bd0
+      id: 2652031523
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Play_Mechanical_Sound
+        ObjectType: 3
+        guid: dbc085208a00b74390c177394e0b5bd0
+      Path: Events\Objects\Play_Mechanical_Sound
+      maxAttenuation: 0
+      maxDuration: 4.35449
+      minDuration: 2.8235373
+    - name: Play_Scary_Metalic_Sound
+      guid: cc13e3bdfd352e47b82be84acbad2b9e
+      id: 2270754086
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Play_Scary_Metalic_Sound
+        ObjectType: 3
+        guid: cc13e3bdfd352e47b82be84acbad2b9e
+      Path: Events\Objects\Play_Scary_Metalic_Sound
+      maxAttenuation: 0
+      maxDuration: 4.967431
+      minDuration: 2.5
+    - name: Play_Water_Machine
+      guid: 3fc18ca0d7778749934db290944b7186
+      id: 3039676177
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Generators
+        ObjectType: 4
+        guid: f6999f0f4a99354fac30e152b7b2007b
+      - ElementName: Play_Water_Machine
+        ObjectType: 3
+        guid: 3fc18ca0d7778749934db290944b7186
+      Path: Events\Objects\Generators\Play_Water_Machine
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Water_Machine_Max
+      guid: 2ebd8134c4947c49961ebabb76687c96
+      id: 3687303446
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Generators
+        ObjectType: 4
+        guid: f6999f0f4a99354fac30e152b7b2007b
+      - ElementName: Play_Water_Machine_Max
+        ObjectType: 3
+        guid: 2ebd8134c4947c49961ebabb76687c96
+      Path: Events\Objects\Generators\Play_Water_Machine_Max
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Events
@@ -206,8 +451,65 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: f88c72517d10c24ca8c1136ded1d69c1
     GuidInternal: 
-    m_lastTime: -8584550812478206373
+    m_lastTime: -8584549591841674713
     List:
+    - name: FlashLight
+      guid: b125de57d17cfc449a8ff35065c1cb09
+      id: 1167979795
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: FlashLight
+        ObjectType: 4
+        guid: b125de57d17cfc449a8ff35065c1cb09
+      Path: Events\Player\FlashLight
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Flashlight_Disable
+      guid: b53f3088f72da849804e5808e960def4
+      id: 1652482609
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: FlashLight
+        ObjectType: 4
+        guid: b125de57d17cfc449a8ff35065c1cb09
+      - ElementName: Play_Flashlight_Disable
+        ObjectType: 3
+        guid: b53f3088f72da849804e5808e960def4
+      Path: Events\Player\FlashLight\Play_Flashlight_Disable
+      maxAttenuation: 0
+      maxDuration: 0.9325178
+      minDuration: 0.6885833
+    - name: Play_Flashlight_Enable
+      guid: 7d5d517127b58743aefa041a7a41ecb6
+      id: 1470796794
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: FlashLight
+        ObjectType: 4
+        guid: b125de57d17cfc449a8ff35065c1cb09
+      - ElementName: Play_Flashlight_Enable
+        ObjectType: 3
+        guid: 7d5d517127b58743aefa041a7a41ecb6
+      Path: Events\Player\FlashLight\Play_Flashlight_Enable
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Footstep
       guid: d91ba34e4cebac4e906bbcad2d3b980d
       id: 1602358412
@@ -225,6 +527,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.45360452
       minDuration: 0.3099327
+    - name: Play_Player_Charge_FlashLigh
+      guid: 1feb53a2105f4845b7d5587cbb14c396
+      id: 1015499099
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: Play_Player_Charge_FlashLigh
+        ObjectType: 3
+        guid: 1feb53a2105f4845b7d5587cbb14c396
+      Path: Events\Player\Play_Player_Charge_FlashLigh
+      maxAttenuation: 0
+      maxDuration: 2.2652154
+      minDuration: 0.9085488
     - name: Play_Tired_Breath
       guid: cc130660ab517b4a8af10c9c8e137fe9
       id: 1817535745
@@ -254,7 +573,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: aaf4683f9d579f4b9eefcf7c5f970957
     GuidInternal: 
-    m_lastTime: -8584549727620736243
+    m_lastTime: -8584549687692403015
     List:
     - name: Footstep_Volume
       guid: af27b8c7ce8ad843a13b0c90b0afd16a

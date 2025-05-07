@@ -13,9 +13,22 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_CASSETEPLAYER_BUTTON = 2055319774U;
+        static const AkUniqueID PLAY_FLASHLIGHT_DISABLE = 1652482609U;
+        static const AkUniqueID PLAY_FLASHLIGHT_ENABLE = 1470796794U;
         static const AkUniqueID PLAY_FOOTSTEP = 1602358412U;
+        static const AkUniqueID PLAY_GEN1 = 703779141U;
+        static const AkUniqueID PLAY_GEN2 = 703779142U;
+        static const AkUniqueID PLAY_LOW_ROAR = 4157024899U;
+        static const AkUniqueID PLAY_MECHANICAL_SOUND = 2652031523U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_PLAYER_CHARGE_FLASHLIGH = 1015499099U;
+        static const AkUniqueID PLAY_ROAR = 2770252186U;
+        static const AkUniqueID PLAY_SCARY_METALIC_SOUND = 2270754086U;
+        static const AkUniqueID PLAY_SCREAM = 2470536401U;
         static const AkUniqueID PLAY_TIRED_BREATH = 1817535745U;
+        static const AkUniqueID PLAY_WATER_MACHINE = 3039676177U;
+        static const AkUniqueID PLAY_WATER_MACHINE_MAX = 3687303446U;
     } // namespace EVENTS
 
     namespace SWITCHES
