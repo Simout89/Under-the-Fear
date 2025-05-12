@@ -665,8 +665,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerFlashlight: {fileID: 945058078210391299}
   _characterController: {fileID: 5241130754308064883}
-  footstepInterval: 0.5
+  _playerController: {fileID: 660254043337861534}
+  footstepInterval: 0.6
+  sprintMultiplayer: 0.5
   minStepSpeed: 1
+  normalVolume: 30
+  sprintVolume: 70
+  crouchVolume: 10
   footStepEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -674,15 +679,15 @@ MonoBehaviour:
   flashLightEnableEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d966df24377388c4794c09ad84da4f66, type: 2}
   flashLightDisableEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: f45d064c89416a647b73445a147a2542, type: 2}
   flashLightBiteEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e205ed6cbbf828b42a52a805f1acd480, type: 2}
 --- !u!1 &3002515305514020192
 GameObject:
   m_ObjectHideFlags: 0
