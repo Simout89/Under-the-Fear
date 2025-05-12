@@ -50,7 +50,7 @@ public class MonsterController : MonoBehaviour
             }break;
             case MonsterState.SoundCheck:
             {
-                if (!_navMeshAgent.gameObject.activeSelf)
+                if (!_navMeshAgent.gameObject.activeSelf) // Вылазит из дыры
                 {
                     _navMeshAgent.gameObject.SetActive(true);
                     _navMeshAgent.gameObject.transform.position = FindNearestHole(transform).transform.position;
