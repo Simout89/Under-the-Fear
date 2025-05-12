@@ -17,7 +17,7 @@ public class PlayerSound : MonoBehaviour
     [SerializeField] private float minStepSpeed = 1f;
     [SerializeField] private int normalVolume = 30;
     [SerializeField] private int sprintVolume = 70;
-    [SerializeField] private int crouchVolume = 10;
+    [SerializeField] private int sneakVolume = 10;
 
     [Header("Player Events")]
     [SerializeField] private AK.Wwise.Event footStepEvent;
