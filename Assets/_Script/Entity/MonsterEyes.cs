@@ -14,7 +14,7 @@ public class MonsterEyes : MonoBehaviour
     private bool raySeePlayer = false;
     private void OnTriggerStay(Collider other)
     {
-        if(other.CompareTag("Player") && raySeePlayer)
+        if(other.CompareTag("Player") && raySeePlayer && _monsterController.CurrentState != MonsterState.Hunting)
         {
             _monsterAi.Sink(-1,-1,1);
         }
