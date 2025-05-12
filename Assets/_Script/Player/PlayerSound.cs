@@ -14,6 +14,7 @@ public class PlayerSound : MonoBehaviour
     [Header("Player Settings")]
     [SerializeField] private float footstepInterval = 1f;
     [SerializeField] private float sprintMultiplayer = 0.5f;
+    [SerializeField] private float sneakMultiplayer = 0.5f;
     [SerializeField] private float minStepSpeed = 1f;
     [SerializeField] private int normalVolume = 30;
     [SerializeField] private int sprintVolume = 70;
@@ -76,15 +77,20 @@ public class PlayerSound : MonoBehaviour
         horizontalVelocity = new Vector3(horizontalVelocity.x, 0, horizontalVelocity.z);
         float horizontalSpeed = horizontalVelocity.magnitude;
         
-        if (horizontalSpeed < _playerController.SpeedMovement + 0.1)
+        if (horizontalSpeed < _playerController.SpeedMovement - _playerController.SneakSpeedMovement + 0.1)
         {
-            stepSoundInvoker.SetInterval(footstepInterval);
-            AkSoundEngine.SetRTPCValue("Footstep_Volume", normalVolume, gameObject);
+            stepSoundInvoker.SetInterval(footstepInterval * sneakMultiplayer);
+            AkSoundEngine.SetRTPCValue("Footstep_Volume", sneakVolume, gameObject);
         }
-        else
+        else if(horizontalSpeed > _playerController.SpeedMovement + 0.1)
         {
             stepSoundInvoker.SetInterval(footstepInterval * sprintMultiplayer);
             AkSoundEngine.SetRTPCValue("Footstep_Volume", sprintVolume, gameObject);
+        }
+        else
+        {
+            stepSoundInvoker.SetInterval(footstepInterval);
+            AkSoundEngine.SetRTPCValue("Footstep_Volume", normalVolume, gameObject);
         }
         
         if (horizontalSpeed >= minStepSpeed)

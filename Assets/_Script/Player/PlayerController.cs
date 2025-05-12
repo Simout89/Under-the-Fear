@@ -24,6 +24,7 @@ namespace _Script.Player
         [SerializeField] private float gravity = 9.8f;
         [SerializeField] private float sneakHeight = 1f;
         [SerializeField] private float sneakSpeed = 1f;
+        public float SneakSpeedMovement => sneakSpeed;
         private float sneakSpeedMovement = 0f;
         private float originHeight;
 
