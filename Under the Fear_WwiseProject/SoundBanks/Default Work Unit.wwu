@@ -6,6 +6,7 @@
 				<SoundBank Name="Lvl1" ID="{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Water_Machine_Working_Max_Power" ID="{F5E9EF31-CC48-4002-A8C9-F13CF037BDFE}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Is_Drinking" ID="{AC4450C6-A069-4011-8B24-277E2FFD1C22}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Graviy" ID="{18D799FA-E68F-40D5-B065-5824D731225A}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{A7F816D9-8F14-4101-AAB3-256C0761DD7B}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
@@ -16,11 +17,13 @@
 						<ObjectRef Name="Play_Flashlight_Enable" ID="{71515D7D-B527-4387-AEFA-041A7A41ECB6}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mechanical_Sound" ID="{2085C0DB-008A-43B7-90C1-77394E0B5BD0}" WorkUnitID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Water_Machine" ID="{621083B2-AEA2-43E2-94BB-3073767A9548}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Drinking" ID="{8AD9F9BE-30CA-4422-BCD3-6D54288B7BA6}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music" ID="{669C4F73-2FA5-44C6-8977-80FFA57744E2}" WorkUnitID="{30D69CEB-C1B7-4288-BC28-4B0021107EF2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FlashLight" ID="{57DE25B1-7CD1-44FC-9A8F-F35065C1CB09}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Charge_FlashLigh" ID="{A253EB1F-5F10-4548-B7D5-587CBB14C396}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Gen2" ID="{5C602DCC-5E33-456B-A1B9-737E5523FC22}" WorkUnitID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cave_Rev" ID="{53BA2B3A-3575-45BD-A544-E04D99E48AB8}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gear" ID="{E410921D-2749-45F5-977E-A33D4330859E}" WorkUnitID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Wood" ID="{F45892A4-24EE-4721-BB7D-0DDFD722F327}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Scary_Metalic_Sound" ID="{BDE313CC-35FD-472E-B82B-E84ACBAD2B9E}" WorkUnitID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Gen1" ID="{7E634C4F-6DAA-479A-9DAD-D6E0D0256E8B}" WorkUnitID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" Origin="Manual" Filter="7"/>
@@ -32,6 +35,7 @@
 						<ObjectRef Name="Music Bus" ID="{256032F8-FB80-4A11-9F8E-BE4348EEB4C1}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Tired_Breath" ID="{600613CC-51AB-4A7B-8AF1-0C9C8E137FE9}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Mechanical_Sounds" ID="{8F8CB47E-9367-4B38-8753-2B6AB43DFE9F}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Drink" ID="{FBBABB87-7C95-4B3A-A0F1-327C20654ADB}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Monster_Roars" ID="{8852F265-5B08-4B62-86DA-2BE705743725}" WorkUnitID="{D56AEBE0-3649-480B-8ED0-0E48D9B56E22}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Scary_Metal_Sounds" ID="{7F4F9080-1A5F-4B6B-8C10-9DF929A4174C}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Roar" ID="{9C724120-43E4-4B87-92BE-85825D3E6BDD}" WorkUnitID="{796B46C0-83D3-4FD8-82CB-BF065324D897}" Origin="Manual" Filter="7"/>
@@ -41,6 +45,8 @@
 						<ObjectRef Name="MainLocationTheme" ID="{E93DA408-B8EC-4C53-AF90-B846BD0AB76C}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Objects" ID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" WorkUnitID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player" ID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stop_Drink" ID="{C80DA40D-326C-4D9D-8167-74DFCC03AC0C}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gear" ID="{5CECC0BA-39DB-4E0C-8B94-FD1CA7AC06A6}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Big_Hall_Rev" ID="{4827715D-324E-4E5A-8A9C-DE645FEDA69F}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footstep" ID="{4EA31BD9-EB4C-4EAC-906B-BCAD2D3B980D}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Flashlight" ID="{2EC6523B-6A74-4EB3-A166-47C52BF1B049}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>

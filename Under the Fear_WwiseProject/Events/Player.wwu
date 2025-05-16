@@ -79,6 +79,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Drinking" ID="{0861F3EE-318E-41D9-B223-09F7D81E6861}" ShortID="1004704218">
+					<ChildrenList>
+						<Event Name="Play_Drinking" ID="{8AD9F9BE-30CA-4422-BCD3-6D54288B7BA6}">
+							<ChildrenList>
+								<Action Name="" ID="{21959645-7151-468B-8672-A702CB408C32}" ShortID="279725239">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Is_Drinking" ID="{AC4450C6-A069-4011-8B24-277E2FFD1C22}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Stop_Drink" ID="{C80DA40D-326C-4D9D-8167-74DFCC03AC0C}">
+							<ChildrenList>
+								<Action Name="" ID="{8C28BC02-A8D9-4E3D-8773-D2CA86FA50A1}" ShortID="833718524">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Is_Drinking" ID="{AC4450C6-A069-4011-8B24-277E2FFD1C22}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{78238508-28A9-47E9-8955-BEEC450FBBBC}" ShortID="609698030">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_Drink" ID="{FBBABB87-7C95-4B3A-A0F1-327C20654ADB}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
