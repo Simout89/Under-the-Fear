@@ -1640,6 +1640,11 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1651,6 +1656,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Random_Drink" ID="{5D2A96D6-D80D-4156-896F-C40915169753}" ShortID="803592698">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
@@ -1850,6 +1862,11 @@
 						<RandomSequenceContainer Name="Stop_Drink" ID="{FBBABB87-7C95-4B3A-A0F1-327C20654ADB}" ShortID="394736947">
 							<PropertyList>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
