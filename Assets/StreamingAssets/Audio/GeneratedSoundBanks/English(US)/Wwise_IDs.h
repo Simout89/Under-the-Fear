@@ -14,9 +14,12 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_CASSETEPLAYER_BUTTON = 2055319774U;
+        static const AkUniqueID PLAY_DRINKING = 2006984080U;
         static const AkUniqueID PLAY_FLASHLIGHT_DISABLE = 1652482609U;
         static const AkUniqueID PLAY_FLASHLIGHT_ENABLE = 1470796794U;
         static const AkUniqueID PLAY_FOOTSTEP = 1602358412U;
+        static const AkUniqueID PLAY_GEAR_DROP = 3106012101U;
+        static const AkUniqueID PLAY_GEAR_PICKUP = 1253718314U;
         static const AkUniqueID PLAY_GEN1 = 703779141U;
         static const AkUniqueID PLAY_GEN2 = 703779142U;
         static const AkUniqueID PLAY_LOW_ROAR = 4157024899U;
@@ -26,6 +29,7 @@ namespace AK
         static const AkUniqueID PLAY_ROAR = 2770252186U;
         static const AkUniqueID PLAY_SCARY_METALIC_SOUND = 2270754086U;
         static const AkUniqueID PLAY_SCREAM = 2470536401U;
+        static const AkUniqueID PLAY_STOP_DRINK = 3276893109U;
         static const AkUniqueID PLAY_TIRED_BREATH = 1817535745U;
         static const AkUniqueID PLAY_WATER_MACHINE = 3039676177U;
         static const AkUniqueID PLAY_WATER_MACHINE_MAX = 3687303446U;

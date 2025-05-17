@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{01A1BA66-B018-3957-07AD-50B4A4607018}",
+    "Hash": "{E1BC74F6-AB17-EDBE-DE55-F0E63D87C8FE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -112,6 +112,14 @@
       "CachePath": "0E/{0E001868-9581-8D4D-F5BA-3E2035486CE7}.wem"
      },
      {
+      "Id": "74614735",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear_off-001.wav",
+      "CachePath": "A5/{A52FEB09-A1F7-E570-5F75-F2F6EBDA426C}.wem"
+     },
+     {
       "Id": "84763226",
       "Language": "SFX",
       "Streaming": "false",
@@ -126,6 +134,22 @@
       "Location": "Memory",
       "ShortName": "steps_metal-002.wav",
       "CachePath": "71/{715E248C-3C43-1855-03A4-9E6312BCDA92}.wem"
+     },
+     {
+      "Id": "108067363",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drinkingwater5.wav",
+      "CachePath": "ED/{ED7B9850-03E2-DEB3-148B-0F4DC5C90F4C}.wem"
+     },
+     {
+      "Id": "109863866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drinkingwater3.wav",
+      "CachePath": "0B/{0BE7971D-9054-2E96-DF10-B376CFAE6318}.wem"
      },
      {
       "Id": "111602548",
@@ -232,12 +256,36 @@
       "CachePath": "17/{178E7273-A7D6-1245-1C5B-1B9D95F09B9B}.wem"
      },
      {
+      "Id": "189332235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "breathafterdrink6.wav",
+      "CachePath": "D1/{D1AF5550-E65F-3648-C476-A2CB15B17941}.wem"
+     },
+     {
+      "Id": "191072230",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear_take-001.wav",
+      "CachePath": "52/{52EBE6AD-282E-7BFB-7D44-9531BC2456EE}.wem"
+     },
+     {
       "Id": "207877389",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "steps dirt-005.wav",
       "CachePath": "DC/{DC3466BA-F373-1433-A86C-E300E12DBA74}.wem"
+     },
+     {
+      "Id": "211548258",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear_take-006.wav",
+      "CachePath": "21/{2104B90E-7584-6F7E-24C3-6F1C35BF6670}.wem"
      },
      {
       "Id": "220146183",
@@ -320,6 +368,14 @@
       "CachePath": "E8/{E84F1D29-68E5-46BC-2630-B2EF93E028D1}.wem"
      },
      {
+      "Id": "276145719",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drinkingwater8.wav",
+      "CachePath": "DC/{DC5DDA03-EF97-A1F5-A324-88C44B8EE346}.wem"
+     },
+     {
       "Id": "293132885",
       "Language": "SFX",
       "Streaming": "false",
@@ -400,6 +456,22 @@
       "CachePath": "D0/{D0B82CF0-C375-DD07-10DD-9B727D60B412}.wem"
      },
      {
+      "Id": "345189712",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear_take-004.wav",
+      "CachePath": "47/{472D99AD-4788-1A62-3231-DF126F9F8DF4}.wem"
+     },
+     {
+      "Id": "358761658",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "breathafterdrink2.wav",
+      "CachePath": "59/{59383FBE-23FD-4103-E78A-A72990927E53}.wem"
+     },
+     {
       "Id": "363342431",
       "Language": "SFX",
       "Streaming": "false",
@@ -448,6 +520,14 @@
       "CachePath": "EB/{EBB1603A-11B6-D3F0-20A4-2DF993243EDD}.wem"
      },
      {
+      "Id": "435771678",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear_take-005.wav",
+      "CachePath": "96/{96296CA2-C67E-7EA6-2043-E7D571A5E2E3}.wem"
+     },
+     {
       "Id": "441424529",
       "Language": "SFX",
       "Streaming": "false",
@@ -480,12 +560,28 @@
       "CachePath": "3F/{3F17552C-8E66-CA0D-5AF8-EBF69EC902D0}.wem"
      },
      {
+      "Id": "449530763",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "breathafterdrink7.wav",
+      "CachePath": "72/{7296A476-3DF8-B003-61E9-339947C961AA}.wem"
+     },
+     {
       "Id": "454500081",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "steps_metal-005.wav",
       "CachePath": "5C/{5CC625B6-88A2-D08F-2F75-ABAF4C17951B}.wem"
+     },
+     {
+      "Id": "457107375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drinkingwater4.wav",
+      "CachePath": "6D/{6DF958D8-8B3D-8EDE-0BD7-41B815E21EAD}.wem"
      },
      {
       "Id": "457166274",
@@ -528,6 +624,14 @@
       "CachePath": "F3/{F3644AB5-7B92-892C-43FC-48BD8D87A906}.wem"
      },
      {
+      "Id": "507787744",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear_take-003.wav",
+      "CachePath": "EF/{EF549728-070E-51EE-92A4-3DC7AF440F6A}.wem"
+     },
+     {
       "Id": "544659601",
       "Language": "SFX",
       "Streaming": "false",
@@ -550,6 +654,22 @@
       "Location": "Memory",
       "ShortName": "Player_Charge_FlashLight_3.wav",
       "CachePath": "05/{05E74462-3955-6888-443B-ED8E416F5EE9}.wem"
+     },
+     {
+      "Id": "559173372",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drinkingwater2.wav",
+      "CachePath": "F5/{F506AA2D-B9D2-CFF9-9E93-9222E111EB3B}.wem"
+     },
+     {
+      "Id": "561636133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear_off-002.wav",
+      "CachePath": "F8/{F82B9974-8E46-D28B-BC4F-56365180D48A}.wem"
      },
      {
       "Id": "566785962",
@@ -608,6 +728,14 @@
       "CachePath": "09/{0972D586-DE88-F581-F74A-01A4C48E362A}.wem"
      },
      {
+      "Id": "651772946",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "breathafterdrink8.wav",
+      "CachePath": "87/{87A96480-2ACC-F20F-9FE2-776498F28373}.wem"
+     },
+     {
       "Id": "689492451",
       "Language": "SFX",
       "Streaming": "false",
@@ -638,6 +766,22 @@
       "Location": "Memory",
       "ShortName": "Water_Machine_Working-002.wav",
       "CachePath": "9E/{9E455F7E-F1C7-2C49-B318-9EB2D7E037F4}.wem"
+     },
+     {
+      "Id": "737750761",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "breathafterdrink4.wav",
+      "CachePath": "C8/{C8FD74B8-97A0-72E0-3A99-1ED456A543C2}.wem"
+     },
+     {
+      "Id": "741782758",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear_off-004.wav",
+      "CachePath": "C7/{C76E691D-8196-BF5B-79C9-7FAA6F9279F0}.wem"
      },
      {
       "Id": "743206116",
@@ -728,6 +872,14 @@
       "CachePath": "7F/{7F071FEF-9558-A9B5-37E2-A78530213E5F}.wem"
      },
      {
+      "Id": "809878436",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear_take-002.wav",
+      "CachePath": "EB/{EB768FB6-3996-4E38-1A4F-32DF2E7C9214}.wem"
+     },
+     {
       "Id": "820851187",
       "Language": "SFX",
       "Streaming": "false",
@@ -800,6 +952,14 @@
       "CachePath": "A0/{A08FC273-FC3A-36FC-D5FF-CDBAF2764299}.wem"
      },
      {
+      "Id": "905712540",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "breathafterdrink5.wav",
+      "CachePath": "80/{803C59EF-3D57-415B-AFEE-14ECFC25BAB1}.wem"
+     },
+     {
       "Id": "908947801",
       "Language": "SFX",
       "Streaming": "false",
@@ -814,6 +974,22 @@
       "Location": "Memory",
       "ShortName": "mechanical_sounds-007.wav",
       "CachePath": "76/{7699CF6F-91FA-AF77-CF7F-B73E55539590}.wem"
+     },
+     {
+      "Id": "911826227",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drinkingwater1.wav",
+      "CachePath": "29/{296D6C5F-6894-5D43-7612-FF5013DC5820}.wem"
+     },
+     {
+      "Id": "914261374",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drinkingwater7.wav",
+      "CachePath": "8B/{8B1B96C5-9263-8A8B-BAF1-3169E6526569}.wem"
      },
      {
       "Id": "914321906",
@@ -864,6 +1040,14 @@
       "CachePath": "0C/{0CAD4263-F827-616D-7226-D5FB2008A64D}.wem"
      },
      {
+      "Id": "937173175",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drinkingwater6.wav",
+      "CachePath": "B5/{B59B999F-5EFC-7BAB-C214-36B66EB92EC5}.wem"
+     },
+     {
       "Id": "940208027",
       "Language": "SFX",
       "Streaming": "false",
@@ -885,7 +1069,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Water_Machine_Working_Max_Power.wav",
-      "CachePath": "4F/{4FE996E2-BBE7-4E8D-98E6-2B44559F57E0}.wem"
+      "CachePath": "20/{203366D1-C8C6-051F-D767-AE9CFB6D2197}.wem"
      },
      {
       "Id": "1022717573",
@@ -928,6 +1112,14 @@
       "CachePath": "98/{98EC993C-4CAF-99BC-E76C-FF68AAA8533E}.wem"
      },
      {
+      "Id": "1042154948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear_off-003.wav",
+      "CachePath": "DB/{DBCED8EE-1BA7-5289-7D65-0B6F1F6D94F6}.wem"
+     },
+     {
       "Id": "1050284411",
       "Language": "SFX",
       "Streaming": "false",
@@ -958,6 +1150,14 @@
       "Location": "Memory",
       "ShortName": "scary_metalic_sounds2-001.wav",
       "CachePath": "A9/{A913755F-4AE8-F6FF-EE1E-2E7C78CDAB2F}.wem"
+     },
+     {
+      "Id": "1070034540",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "breathafterdrink3.wav",
+      "CachePath": "F2/{F21B7563-B25F-B76A-6981-BFDF31ADCECC}.wem"
      },
      {
       "Id": "1070060634",
@@ -1016,6 +1216,39 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "2006984080",
+      "Name": "Play_Drinking",
+      "ObjectPath": "\\Events\\Player\\Drinking\\Play_Drinking",
+      "GUID": "{8AD9F9BE-30CA-4422-BCD3-6D54288B7BA6}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "108067363"
+       },
+       {
+        "Id": "109863866"
+       },
+       {
+        "Id": "276145719"
+       },
+       {
+        "Id": "457107375"
+       },
+       {
+        "Id": "559173372"
+       },
+       {
+        "Id": "911826227"
+       },
+       {
+        "Id": "914261374"
+       },
+       {
+        "Id": "937173175"
+       }
+      ]
      },
      {
       "Id": "1652482609",
@@ -1243,6 +1476,58 @@
           "Id": "940208027"
          }
         ]
+       }
+      ]
+     },
+     {
+      "Id": "3106012101",
+      "Name": "Play_Gear_Drop",
+      "ObjectPath": "\\Events\\Objects\\Gear\\Play_Gear_Drop",
+      "GUID": "{89BEC0D1-2542-4C8E-AD96-0DE6A149D7AC}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8419049",
+      "DurationMax": "2.8419049",
+      "MediaRefs": [
+       {
+        "Id": "74614735"
+       },
+       {
+        "Id": "561636133"
+       },
+       {
+        "Id": "741782758"
+       },
+       {
+        "Id": "1042154948"
+       }
+      ]
+     },
+     {
+      "Id": "1253718314",
+      "Name": "Play_Gear_PickUp",
+      "ObjectPath": "\\Events\\Objects\\Gear\\Play_Gear_PickUp",
+      "GUID": "{0FD44CF7-9F59-4BBD-8AE4-28F4A6D3309E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.99911565",
+      "DurationMax": "0.99911565",
+      "MediaRefs": [
+       {
+        "Id": "191072230"
+       },
+       {
+        "Id": "211548258"
+       },
+       {
+        "Id": "345189712"
+       },
+       {
+        "Id": "435771678"
+       },
+       {
+        "Id": "507787744"
+       },
+       {
+        "Id": "809878436"
        }
       ]
      },
@@ -1554,6 +1839,62 @@
       ]
      },
      {
+      "Id": "3276893109",
+      "Name": "Play_Stop_Drink",
+      "ObjectPath": "\\Events\\Player\\Drinking\\Play_Stop_Drink",
+      "GUID": "{C80DA40D-326C-4D9D-8167-74DFCC03AC0C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0588208",
+      "DurationMax": "2.4705896",
+      "MediaRefs": [
+       {
+        "Id": "108067363"
+       },
+       {
+        "Id": "109863866"
+       },
+       {
+        "Id": "189332235"
+       },
+       {
+        "Id": "276145719"
+       },
+       {
+        "Id": "358761658"
+       },
+       {
+        "Id": "449530763"
+       },
+       {
+        "Id": "457107375"
+       },
+       {
+        "Id": "559173372"
+       },
+       {
+        "Id": "651772946"
+       },
+       {
+        "Id": "737750761"
+       },
+       {
+        "Id": "905712540"
+       },
+       {
+        "Id": "911826227"
+       },
+       {
+        "Id": "914261374"
+       },
+       {
+        "Id": "937173175"
+       },
+       {
+        "Id": "1070034540"
+       }
+      ]
+     },
+     {
       "Id": "1817535745",
       "Name": "Play_Tired_Breath",
       "ObjectPath": "\\Events\\Player\\Play_Tired_Breath",
@@ -1720,6 +2061,6 @@
     ]
    }
   ],
-  "FileHash": "{13E755BA-E391-E837-F8C7-F83E4AF7EE7A}"
+  "FileHash": "{E9B92C2C-05F0-BAB5-BB6C-4EE91097700A}"
  }
 }

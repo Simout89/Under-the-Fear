@@ -68,6 +68,32 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Gear" ID="{E410921D-2749-45F5-977E-A33D4330859E}" ShortID="521768300">
+					<ChildrenList>
+						<Event Name="Play_Gear_PickUp" ID="{0FD44CF7-9F59-4BBD-8AE4-28F4A6D3309E}">
+							<ChildrenList>
+								<Action Name="" ID="{E767C8DA-A090-435E-A211-886C9921F91A}" ShortID="66892051">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GearPickup" ID="{7B6656BD-F4B7-4C4B-A730-BB368E9BB766}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Gear_Drop" ID="{89BEC0D1-2542-4C8E-AD96-0DE6A149D7AC}">
+							<ChildrenList>
+								<Action Name="" ID="{9214CBD1-A058-4E4F-9B47-F0BAE8E77663}" ShortID="933807631">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GearDrop" ID="{112851F9-F1CB-4663-BBF3-0350182AD3F4}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
