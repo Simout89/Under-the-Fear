@@ -51,6 +51,8 @@ public class PlayerInteractor : MonoBehaviour
                 var heightOffset = Vector3.Scale(box.size, holdGameObject.transform.lossyScale).y / 2f;
                 holdGameObject.transform.position = hit.point + new Vector3(0, heightOffset, 0);
             }
+            
+            holdGameObject.GetComponent<IPickupable>().PlayThrowSound();
         
             holdGameObject = null;
         }
@@ -69,6 +71,8 @@ public class PlayerInteractor : MonoBehaviour
             pickupable.transform.localPosition = Vector3.zero;
 
             holdGameObject = pickupable;
+            
+            pickupable.GetComponent<IPickupable>().PlayPickupSound();
         }
         
         if (storable != null)

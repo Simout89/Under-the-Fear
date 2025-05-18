@@ -148,7 +148,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b665060d0916d41bbdd601f2e444322
     GuidInternal: 
-    m_lastTime: -8584546272153132209
+    m_lastTime: -8584541414805507597
     List:
     - name: Lvl1
       guid: 05b22336d9e65e4cb95346a1ef2ceb95
@@ -270,7 +270,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: efa17e970f8f564c9c28e8e57906fbec
     GuidInternal: 
-    m_lastTime: -8584546272165514707
+    m_lastTime: -8584541414807257547
     List:
     - name: CassetePlayer
       guid: ec6966511b9b4248acfb491426367985
@@ -286,6 +286,23 @@ MonoBehaviour:
         ObjectType: 4
         guid: ec6966511b9b4248acfb491426367985
       Path: Events\Objects\CassetePlayer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Gear
+      guid: 1d9210e44927f545977ea33d4330859e
+      id: 1172844112
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Gear
+        ObjectType: 4
+        guid: 1d9210e44927f545977ea33d4330859e
+      Path: Events\Objects\Gear
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -326,6 +343,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Gear_Drop
+      guid: d1c0be8942258e4cad960de6a149d7ac
+      id: 3106012101
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Gear
+        ObjectType: 4
+        guid: 1d9210e44927f545977ea33d4330859e
+      - ElementName: Play_Gear_Drop
+        ObjectType: 3
+        guid: d1c0be8942258e4cad960de6a149d7ac
+      Path: Events\Objects\Gear\Play_Gear_Drop
+      maxAttenuation: 0
+      maxDuration: 2.8419049
+      minDuration: 2.8419049
+    - name: Play_Gear_PickUp
+      guid: f74cd40f599fbd4b8ae428f4a6d3309e
+      id: 1253718314
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Gear
+        ObjectType: 4
+        guid: 1d9210e44927f545977ea33d4330859e
+      - ElementName: Play_Gear_PickUp
+        ObjectType: 3
+        guid: f74cd40f599fbd4b8ae428f4a6d3309e
+      Path: Events\Objects\Gear\Play_Gear_PickUp
+      maxAttenuation: 0
+      maxDuration: 0.99911565
+      minDuration: 0.99911565
     - name: Play_Gen1
       guid: 4f4c637eaa6d9a479dadd6e0d0256e8b
       id: 703779141
@@ -451,8 +508,25 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: f88c72517d10c24ca8c1136ded1d69c1
     GuidInternal: 
-    m_lastTime: -8584546272165509428
+    m_lastTime: -8584541414807197577
     List:
+    - name: Drinking
+      guid: eef361088e31d941b22309f7d81e6861
+      id: 967083335
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: Drinking
+        ObjectType: 4
+        guid: eef361088e31d941b22309f7d81e6861
+      Path: Events\Player\Drinking
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: FlashLight
       guid: b125de57d17cfc449a8ff35065c1cb09
       id: 1167979795
@@ -470,6 +544,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Drinking
+      guid: bef9d98aca302244bcd36d54288b7ba6
+      id: 2006984080
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: Drinking
+        ObjectType: 4
+        guid: eef361088e31d941b22309f7d81e6861
+      - ElementName: Play_Drinking
+        ObjectType: 3
+        guid: bef9d98aca302244bcd36d54288b7ba6
+      Path: Events\Player\Drinking\Play_Drinking
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Flashlight_Disable
       guid: b53f3088f72da849804e5808e960def4
       id: 1652482609
@@ -544,6 +638,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.2652154
       minDuration: 0.9085488
+    - name: Play_Stop_Drink
+      guid: 0da40dc86c329d4d816774dfcc03ac0c
+      id: 3276893109
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: Drinking
+        ObjectType: 4
+        guid: eef361088e31d941b22309f7d81e6861
+      - ElementName: Play_Stop_Drink
+        ObjectType: 3
+        guid: 0da40dc86c329d4d816774dfcc03ac0c
+      Path: Events\Player\Drinking\Play_Stop_Drink
+      maxAttenuation: 0
+      maxDuration: 2.4705896
+      minDuration: 1.0588208
     - name: Play_Tired_Breath
       guid: cc130660ab517b4a8af10c9c8e137fe9
       id: 1817535745
@@ -771,7 +885,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584546272152918981
     List: []
-  ExpandedFileSystemItemIds: 010000000200000003000000050000000600000008000000090000000a0000001300000014000000
+  ExpandedFileSystemItemIds: 010000000200000003000000050000000600000008000000090000000a0000000b0000001300000014000000160000001700000018000000
   ExpandedWaapiItemIds: 01000000050000000600000008000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
