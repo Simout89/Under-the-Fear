@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Player" ID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footstep" ID="{4EA31BD9-EB4C-4EAC-906B-BCAD2D3B980D}">
+					<ChildrenList>
+						<Action Name="" ID="{89D3B1FC-A698-4401-A8F1-1C76EB3AF1C8}" ShortID="737729077">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{A7F816D9-8F14-4101-AAB3-256C0761DD7B}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tired_Breath" ID="{600613CC-51AB-4A7B-8AF1-0C9C8E137FE9}">
+					<ChildrenList>
+						<Action Name="" ID="{B09DF168-46FC-429B-B5D6-647D848802CF}" ShortID="767385466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tired_Breath" ID="{7BA6DAF1-194F-495E-AE98-17E0BDFB3CF3}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="FlashLight" ID="{57DE25B1-7CD1-44FC-9A8F-F35065C1CB09}" ShortID="451718788">
+					<ChildrenList>
+						<Event Name="Play_Flashlight_Enable" ID="{71515D7D-B527-4387-AEFA-041A7A41ECB6}">
+							<ChildrenList>
+								<Action Name="" ID="{5AE30281-9412-4035-A86C-BDB5FD24936B}" ShortID="73711034">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FlashLight_Button" ID="{D60F7BE1-CC10-438B-A0F8-113AA10058EA}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9B4C8BE0-9B50-4E3B-89A1-12747BF6D303}" ShortID="193219864">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FlashLight_Working" ID="{EFA7451D-FA8A-4DFC-9CED-9762076FD676}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Flashlight_Disable" ID="{88303FB5-2DF7-49A8-804E-5808E960DEF4}">
+							<ChildrenList>
+								<Action Name="" ID="{7CEE15CC-E2CC-4F55-B9E1-833D1AA2DCB3}" ShortID="366906204">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FlashLight_Button" ID="{D60F7BE1-CC10-438B-A0F8-113AA10058EA}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{35080B7E-F5DB-4D55-B3CE-B22005268861}" ShortID="208444015">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FlashLight_Working" ID="{EFA7451D-FA8A-4DFC-9CED-9762076FD676}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Player_Charge_FlashLigh" ID="{A253EB1F-5F10-4548-B7D5-587CBB14C396}">
+					<ChildrenList>
+						<Action Name="" ID="{FE12C630-DE7B-4A82-B2C6-90677263ABBF}" ShortID="446689221">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Charge_FlashLight" ID="{EB701E26-A0F0-458A-9986-7EA16A705208}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Drinking" ID="{0861F3EE-318E-41D9-B223-09F7D81E6861}" ShortID="1004704218">
+					<ChildrenList>
+						<Event Name="Play_Drinking" ID="{8AD9F9BE-30CA-4422-BCD3-6D54288B7BA6}">
+							<ChildrenList>
+								<Action Name="" ID="{21959645-7151-468B-8672-A702CB408C32}" ShortID="279725239">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Is_Drinking" ID="{AC4450C6-A069-4011-8B24-277E2FFD1C22}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Stop_Drink" ID="{C80DA40D-326C-4D9D-8167-74DFCC03AC0C}">
+							<ChildrenList>
+								<Action Name="" ID="{8C28BC02-A8D9-4E3D-8773-D2CA86FA50A1}" ShortID="833718524">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Is_Drinking" ID="{AC4450C6-A069-4011-8B24-277E2FFD1C22}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{78238508-28A9-47E9-8955-BEEC450FBBBC}" ShortID="609698030">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_Drink" ID="{FBBABB87-7C95-4B3A-A0F1-327C20654ADB}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

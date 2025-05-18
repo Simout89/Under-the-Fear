@@ -20,27 +20,24 @@ public class MonsterAi : MonoBehaviour
     {
         float[] inputData = new float[3] {a,b, c};
         
-        Tensor inputTensor = new Tensor(1, 3, inputData);  // создаем тензор
-        _worker.Execute(inputTensor);  // выполняем нейросеть
-        Tensor outputTensor = _worker.PeekOutput();  // получаем результат
+        Tensor inputTensor = new Tensor(1, 3, inputData);
+        _worker.Execute(inputTensor);
+        Tensor outputTensor = _worker.PeekOutput();
 
-        // Выбираем действие (выход модели)
-        int action = outputTensor.ArgMax()[0];  // выбираем максимальное значение
+        int action = outputTensor.ArgMax()[0];
         Debug.Log($"Range: {a}, Sound: {b}, Player: {c}");
-        Debug.Log($"Решение: {action}");  // выводим результат
-
+        Debug.Log($"Решение: {action}");
         if (action != 0)
         {
             _monsterController.ChangeState((MonsterState)action, vector3);
         }
 
-        // Освобождаем память
         inputTensor.Dispose();
         outputTensor.Dispose();
     }
     
     void OnDestroy()
     {
-        _worker.Dispose();  // освобождаем ресурсы
+        _worker.Dispose();
     }
 }

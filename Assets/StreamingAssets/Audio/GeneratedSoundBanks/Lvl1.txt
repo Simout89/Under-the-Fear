@@ -1,0 +1,71 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1602358412	Play_Footstep			\Player\Play_Footstep	
+	1817535745	Play_Tired_Breath			\Player\Play_Tired_Breath	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1834394558	Surface			\Default Work Unit\Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Surface			
+	2058049674	Wood	Surface			
+	2195636714	Dirt	Surface			
+	2252896817	Graviy	Surface			
+	2473969246	Metal	Surface			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	511984960	Footstep_Volume			\Default Work Unit\Footstep_Volume	
+	1301299809	MusicIntensity			\Default Work Unit\MusicIntensity	
+
+Effect plug-ins	ID	Name	Type				Notes
+	346573888	Parametric EQ (Custom)	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	49553878	steps_wood-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\62\{627091A8-6F5B-B5DF-DDE5-4CF366772F9C}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-004		70360
+	54319032	steps graviy-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\C9\{C9933FF2-4AE7-B91F-9C10-1779E1CC49FA}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-007		70360
+	84763226	steps_metal-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\B9\{B996BE13-7017-E066-6456-CB405C9C819B}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-003		62356
+	93299536	steps_metal-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\71\{715E248C-3C43-1855-03A4-9E6312BCDA92}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-002		62356
+	129859288	steps_concrete-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\DD\{DDE5B0B3-A036-E869-FCA1-9E16E2DB2B7D}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-005		70360
+	133870229	steps graviy-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\C7\{C7EDC562-B8DD-BFBB-55C1-4229B0C34548}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-003		70360
+	145025157	steps_concrete-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\F9\{F9D05CD4-6F8E-E02B-C34A-76DE8DAC4B1F}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-008		70360
+	155516009	steps graviy-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\C4\{C4C55BB3-BEB0-C567-9C2A-3B6F75B8A867}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-005		70360
+	175387463	steps dirt-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\6C\{6CACE3CB-4E39-296C-0437-5F2569591FF0}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-002		70360
+	207877389	steps dirt-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\DC\{DC3466BA-F373-1433-A86C-E300E12DBA74}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-005		70360
+	220146183	steps dirt-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\C6\{C60B5266-B0B3-0434-4C4E-55352250907A}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-004		70360
+	225717939	steps_concrete-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\F9\{F9FE4EA1-F3DE-48FD-0E46-C30C82C35CFA}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-004		70360
+	236807813	steps_metal-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\EB\{EB8B59B4-9895-8D35-66E6-628AD055C325}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-006		62356
+	246035079	steps graviy-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\82\{82D0434C-E404-69CD-C291-3C818F6ECDA6}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-008		70360
+	255435978	steps graviy-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\37\{37F7025F-D3C5-A7DE-F7C6-A5CC9B714A03}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-002		70360
+	298097394	steps_metal-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\F9\{F9CB6EF2-780F-F577-02CF-36192BDDBB00}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-004		62356
+	316510197	steps graviy-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\90\{904EC545-E02A-2B48-7FB3-8F1DF3523B55}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-001		70360
+	322618041	steps_metal-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\3D\{3DDC857F-28BA-B91B-16A8-E33AD633C0D6}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-007		62356
+	330326931	steps_wood-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\7B\{7B83F312-91D1-DADE-57EA-5F8F3837438A}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-002		70360
+	396211263	steps dirt-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\7B\{7B202168-157E-7C75-33A0-79F203A52265}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-003		70360
+	429420402	steps_wood-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\EB\{EBB1603A-11B6-D3F0-20A4-2DF993243EDD}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-003		70360
+	441616478	steps_metal-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\4D\{4DB7F0DC-F2C3-863F-1BFD-A4F1F6FCBC71}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-001		62356
+	446866061	steps_concrete-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\3F\{3F17552C-8E66-CA0D-5AF8-EBF69EC902D0}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-006		70360
+	454500081	steps_metal-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\5C\{5CC625B6-88A2-D08F-2F75-ABAF4C17951B}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-005		62356
+	457166274	2nd_lvl_of_danger	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\05\{05F98C96-BACC-506A-F8C6-9CF5730C1B5F}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\MainLocationTheme\2nd_lvl_of_danger		5210680
+	460606241	3rd_lvl_of_danger	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\B6\{B638270D-FAA0-1C4C-065E-BE2C097FA646}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\MainLocationTheme\3rd_lvl_of_danger		5210680
+	480708831	tiredBreath-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\FA\{FA34F720-25A4-E36C-E65D-A33D95F7CB97}.wem		\Actor-Mixer Hierarchy\Player\Tired_Breath\tiredBreath-003		634872
+	547127967	steps_concrete-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\9F\{9F3ECC04-F26E-6AB6-F6D0-065F15093198}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-002		70360
+	613170136	steps_wood-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\51\{5196CE70-E946-02E0-57F8-ABC3B998F18B}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-007		70360
+	709955711	steps_concrete-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\71\{7174709D-9224-A19A-259E-C24C92D85680}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-007		70360
+	747566545	tiredBreath-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\35\{35D5456A-8281-4FD5-9668-C0D8D60DF6B3}.wem		\Actor-Mixer Hierarchy\Player\Tired_Breath\tiredBreath-002		634872
+	748998996	4th_lvl_of_danger	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\B9\{B9D26428-FC58-D4EF-36D4-F0A6930B3E2A}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\MainLocationTheme\4th_lvl_of_danger		5210680
+	775936140	steps_wood-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\ED\{ED8C447D-147C-1152-501F-295224BF0D18}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-006		70360
+	805234062	steps_concrete-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\88\{88A59984-18D3-30B3-F7D7-901E09980EBD}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-001		70360
+	806367845	steps_wood-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\7F\{7F071FEF-9558-A9B5-37E2-A78530213E5F}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-001		70360
+	820851187	steps dirt-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\8D\{8D4951C6-B294-1655-6C45-30285B844DF7}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-001		70360
+	833371092	steps dirt-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\B7\{B7D2A76C-6FC9-D5F4-CA97-210596F24EFD}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-006		70360
+	867544689	steps graviy-006	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\50\{505FD360-61D0-688E-441F-52DED7CD05F3}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-006		70360
+	887660369	steps dirt-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\AC\{ACF81772-4DF4-7640-65E5-D259415597D8}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-008		70360
+	891878516	steps_wood-005	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\A0\{A08FC273-FC3A-36FC-D5FF-CDBAF2764299}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-005		70360
+	924388660	steps graviy-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\DA\{DAE313F2-A878-B37E-FB71-6A18BC2181BC}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Graviy\steps graviy-004		70360
+	940208027	steps_wood-008	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\F6\{F604F32E-6F5D-E76E-EA5D-D0BD0144B914}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Wood\steps_wood-008		70360
+	990220910	1st_lvl_of_danger	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\30\{30655033-B4E4-23C3-F146-6D1ED84DE93F}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicLoop\MainLocationTheme\1st_lvl_of_danger		5210680
+	1022717573	tiredBreath-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\1E\{1E676B04-25CF-D91C-4D1D-BB9FB100957B}.wem		\Actor-Mixer Hierarchy\Player\Tired_Breath\tiredBreath-001		634872
+	1026530356	steps dirt-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\38\{38466C52-6429-249C-899F-852DFCDE67AA}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-007		70360
+	1034532681	steps_concrete-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\34\{34A59C9A-1B03-7AC0-908A-6F0EBDE39D94}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Concrete\steps_concrete-003		70360
+	1041275516	tiredBreath	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\98\{98EC993C-4CAF-99BC-E76C-FF68AAA8533E}.wem		\Actor-Mixer Hierarchy\Player\Tired_Breath\tiredBreath		634872
+

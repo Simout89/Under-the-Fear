@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Hole : MonoBehaviour
+public class Hole: MonoBehaviour
 {
     
 }

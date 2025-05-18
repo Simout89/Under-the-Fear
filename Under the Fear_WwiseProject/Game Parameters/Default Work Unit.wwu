@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3F68F4AA-579D-4B9F-9EEF-CF7C5F970957}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{3F68F4AA-579D-4B9F-9EEF-CF7C5F970957}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="MusicIntensity" ID="{3DBC2A6D-9935-4F29-8DA3-B809D4DC4579}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="9"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Footstep_Volume" ID="{C7B827AF-8ACE-43D8-A13B-0C90B0AFD16A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Volume_Music_Player_Settings" ID="{13EF99E1-3DF3-4EA0-96AE-908E72927194}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="80"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Volume_FX_Player_Settings" ID="{5794A9E2-955F-4062-9141-3B4B26921385}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

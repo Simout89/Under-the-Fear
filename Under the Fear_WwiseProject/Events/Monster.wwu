@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{796B46C0-83D3-4FD8-82CB-BF065324D897}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Monster" ID="{796B46C0-83D3-4FD8-82CB-BF065324D897}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Roar" ID="{9C724120-43E4-4B87-92BE-85825D3E6BDD}">
+					<ChildrenList>
+						<Action Name="" ID="{738134BA-9C22-40D0-8800-D88FE012308A}" ShortID="444605459">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Monster_Roars" ID="{8852F265-5B08-4B62-86DA-2BE705743725}" WorkUnitID="{D56AEBE0-3649-480B-8ED0-0E48D9B56E22}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_scream" ID="{3287A2CE-7850-4E0A-B6D6-0762E6932FD2}">
+					<ChildrenList>
+						<Action Name="" ID="{A5043F25-5E72-49AA-A329-0147DD1D0975}" ShortID="622920892">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Monster_Screams" ID="{B4D5507A-07CB-4BE0-A31B-23492F3AF7BA}" WorkUnitID="{D56AEBE0-3649-480B-8ED0-0E48D9B56E22}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Low_Roar" ID="{FC77C54B-B6BA-477B-9810-789903CE7310}">
+					<ChildrenList>
+						<Action Name="" ID="{948C2D40-A545-44EB-AA41-4309CAB583E2}" ShortID="798287588">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Monster_Low_Roars" ID="{11FEBDC0-6C95-4926-A3F6-2F5C24B796DB}" WorkUnitID="{D56AEBE0-3649-480B-8ED0-0E48D9B56E22}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

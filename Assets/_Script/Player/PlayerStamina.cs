@@ -1,4 +1,5 @@
 using System;
+using _Script.Puzzle;
 using _Script.Utils;
 using Sirenix.OdinInspector;
 using UnityEngine;

@@ -7,12 +7,17 @@ using Zenject;
 
 public class PlayerFlashlight : SerializedMonoBehaviour
 {
+    public event Action OnFlashLightEnable;
+    public event Action OnFlashLightDisable;
+    public event Action OnFlashLightBite;
+    
+    
     [Inject] private MonsterEars _monsterEars;
     
     [Header("References")]
     [SerializeField] private PlayerController _playerController;
     [SerializeField] private GameObject flashLightGameObject;
-    [OdinSerialize] private IDamageable _playerHealth;
+    [OdinSerialize] private PlayerHealth _playerHealth;
 
     [Header("Settings")]
     [SerializeField] private float FlashLightMaxCapacity = 50;
@@ -77,6 +82,7 @@ public class PlayerFlashlight : SerializedMonoBehaviour
         }
         _monsterEars.Ears(transform.position, 3);
         Debug.Log("Откусил фонарик");
+        OnFlashLightBite?.Invoke();
     }
 
     private void FlashLightEnable()
@@ -84,6 +90,7 @@ public class PlayerFlashlight : SerializedMonoBehaviour
         isFlashLightEnable = true;
         flashLightGameObject.SetActive(true);
         _monsterEars.Ears(transform.position, 1);
+        OnFlashLightEnable?.Invoke();
     }
     
     private void FlashLightDisable()
@@ -91,6 +98,7 @@ public class PlayerFlashlight : SerializedMonoBehaviour
         isFlashLightEnable = false;
         flashLightGameObject.SetActive(false);
         _monsterEars.Ears(transform.position, 1);
+        OnFlashLightDisable?.Invoke();
     }
 
     private void Update()
