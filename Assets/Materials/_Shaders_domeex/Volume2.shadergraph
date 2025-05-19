@@ -386,8 +386,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 539.0000610351563,
-            "y": -425.0000305175781
+            "x": 527.0000610351563,
+            "y": 26.00000762939453
         },
         "m_Blocks": [
             {
@@ -403,8 +403,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 531.0000610351563,
-            "y": 276.0000305175781
+            "x": 527.0000610351563,
+            "y": 249.00001525878907
         },
         "m_Blocks": [
             {
@@ -423,7 +423,7 @@
         "preventRotation": false
     },
     "m_Path": "Shader Graphs",
-    "m_GraphPrecision": 1,
+    "m_GraphPrecision": 0,
     "m_PreviewMode": 2,
     "m_OutputNode": {
         "m_Id": ""
@@ -1132,13 +1132,13 @@
     },
     "m_AllowMaterialOverride": false,
     "m_SurfaceType": 1,
-    "m_ZTestMode": 4,
-    "m_ZWriteControl": 0,
+    "m_ZTestMode": 8,
+    "m_ZWriteControl": 2,
     "m_AlphaMode": 0,
     "m_RenderFace": 2,
     "m_AlphaClip": false,
-    "m_CastShadows": true,
-    "m_ReceiveShadows": true,
+    "m_CastShadows": false,
+    "m_ReceiveShadows": false,
     "m_DisableTint": false,
     "m_AdditionalMotionVectorMode": 0,
     "m_AlembicMotionVectors": false,
@@ -1368,10 +1368,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 533.0,
-            "y": 215.00003051757813,
-            "width": 105.0,
-            "height": 34.0
+            "x": 332.0000305175781,
+            "y": 215.0,
+            "width": 105.00003051757813,
+            "height": 34.00001525878906
         }
     },
     "m_Slots": [
@@ -1497,10 +1497,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -228.99996948242188,
-            "y": 72.99998474121094,
+            "x": -207.0,
+            "y": 42.00001525878906,
             "width": 145.0,
-            "height": 129.00001525878907
+            "height": 128.99998474121095
         }
     },
     "m_Slots": [
@@ -1652,10 +1652,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -48.99997329711914,
-            "y": 72.99998474121094,
-            "width": 120.00003051757813,
-            "height": 149.0
+            "x": -27.000001907348634,
+            "y": 42.00001525878906,
+            "width": 120.0000228881836,
+            "height": 148.99998474121095
         }
     },
     "m_Slots": [
