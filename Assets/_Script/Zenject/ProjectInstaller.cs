@@ -1,3 +1,4 @@
+using _Script.Puzzle;
 using _Script.Settings;
 using UnityEngine;
 using Zenject;
@@ -11,6 +12,10 @@ public class ProjectInstaller : MonoInstaller
             .AsSingle()
             .NonLazy();
         Container.BindInterfacesAndSelfTo<SettingsManager>()
+            .FromNewComponentOnNewGameObject()
+            .AsSingle()
+            .NonLazy();
+        Container.BindInterfacesAndSelfTo<PuzzleManager>()
             .FromNewComponentOnNewGameObject()
             .AsSingle()
             .NonLazy();
