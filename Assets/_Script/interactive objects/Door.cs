@@ -7,7 +7,7 @@ public class Door : MonoBehaviour
 {
     [Inject] private PuzzleManager _puzzleManager;
     [Header("Settings")]
-    [SerializeField] private float _openYRotation;
+    [SerializeField] private Vector3 _openRotation;
     [SerializeField] private int puzzleId;
 
     [Header("References")]
@@ -24,9 +24,9 @@ public class Door : MonoBehaviour
 
     private void HandlePuzzleSolved(int obj)
     {
-        var rotation = transform.rotation.eulerAngles;
+        var rotation = transform.localRotation.eulerAngles;
         
         if(puzzleId == obj)
-            doorPivot.rotation = Quaternion.Euler(rotation.x, _openYRotation, rotation.z);
+            doorPivot.localRotation = Quaternion.Euler(rotation.x + _openRotation.x, rotation.y + _openRotation.y, rotation.z + _openRotation.z);
     }
 }
