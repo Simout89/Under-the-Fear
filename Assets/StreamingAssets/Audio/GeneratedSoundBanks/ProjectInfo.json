@@ -12,14 +12,14 @@
     "GUID": "{5AC91372-5A7C-46FE-AD12-0D670EFFA0DD}",
     "BasePlatform": "Mac",
     "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
-    "Path": "."
+    "Path": "Mac"
    },
    {
     "Name": "Windows",
     "GUID": "{9E8F7DD8-9F4E-4075-81EE-12D12854AD6B}",
     "BasePlatform": "Windows",
     "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
-    "Path": "."
+    "Path": "Windows"
    }
   ],
   "Languages": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{AD794DB4-7D47-841C-AC8D-F076F13152C5}"
+  "FileHash": "{93635576-0C35-1598-C567-268025847FEF}"
  }
 }

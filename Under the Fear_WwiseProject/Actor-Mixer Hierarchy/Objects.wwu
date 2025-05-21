@@ -1263,6 +1263,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="gear_off-001" ID="{E15F97C8-31CA-457C-B200-ECC45523CB40}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0256721307914755"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.55451802509587"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>gear_off-001.wav</AudioFile>
 											<MediaIDList>
@@ -1285,6 +1290,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="gear_off-002" ID="{651B1427-8633-41C3-A9CD-B27A3C7BB9A9}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0333737700289181"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.883121299226756"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.880554086147608"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>gear_off-002.wav</AudioFile>
 											<MediaIDList>
@@ -1307,6 +1318,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="gear_off-003" ID="{866A2490-06D2-4E37-B716-89A1D5B067A6}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0385081961872131"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.839478676881247"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>gear_off-003.wav</AudioFile>
 											<MediaIDList>
@@ -1329,6 +1345,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="gear_off-004" ID="{57E35256-BA2A-4198-9CC8-A1B07E4DCBEE}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0385081961872131"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.45817702895581"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>gear_off-004.wav</AudioFile>
 											<MediaIDList>
