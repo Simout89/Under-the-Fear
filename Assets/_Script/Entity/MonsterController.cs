@@ -8,9 +8,16 @@ using Zenject;
 
 public class MonsterController : MonoBehaviour
 {
+    [Header("Settings")]
     [SerializeField] private float timeWaitOnPoint;
+    [SerializeField] private float waitBeforeHaunting;
+    [SerializeField] private float hauntingSpeedMovement;
+    private float originSpeed;
+    [Header("References")]
     [SerializeField] private List<Hole> holes;
     [SerializeField] public NavMeshAgent _navMeshAgent;
+    [Header("Sounds")]
+    [SerializeField] private AK.Wwise.Event beforeHauntingSound;
     private Vector3 _lastPointToCheck;
     private Coroutine _lastCoroutine;
     private Hole _lastHole;
@@ -22,7 +29,12 @@ public class MonsterController : MonoBehaviour
     [Inject] private GameManager _gameManager;
 
     // TODO: сделать имитацию слуха
-    
+
+    private void Awake()
+    {
+        originSpeed = _navMeshAgent.speed;
+    }
+
     public void ChangeState(MonsterState newState, Vector3 transform = new Vector3())
     {
         if(newState != MonsterState.SoundCheck && CurrentState == MonsterState.SoundCheck)
@@ -38,7 +50,7 @@ public class MonsterController : MonoBehaviour
             }break;
             case MonsterState.SoundCheck:
             {
-                if (!_navMeshAgent.gameObject.activeSelf)
+                if (!_navMeshAgent.gameObject.activeSelf) // Вылазит из дыры
                 {
                     _navMeshAgent.gameObject.SetActive(true);
                     _navMeshAgent.gameObject.transform.position = FindNearestHole(transform).transform.position;
@@ -75,12 +87,18 @@ public class MonsterController : MonoBehaviour
 
     private IEnumerator Haunting()
     {
+        _navMeshAgent.isStopped = true;
+        beforeHauntingSound.Post(gameObject);
+        yield return new WaitForSeconds(waitBeforeHaunting);
+        _navMeshAgent.isStopped = false;
+        _navMeshAgent.speed = hauntingSpeedMovement;
         while (Vector3.Distance(_navMeshAgent.transform.position, _gameManager.Player.transform.position) > 1f)
         {
             _navMeshAgent.destination = _gameManager.Player.transform.position;
             yield return null; 
         }
         yield return new WaitForSeconds(timeWaitOnPoint);
+        _navMeshAgent.speed = originSpeed;
         ChangeState(MonsterState.BackToTheHole);
     }
 

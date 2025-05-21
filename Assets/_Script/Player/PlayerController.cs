@@ -22,6 +22,11 @@ namespace _Script.Player
         [SerializeField] private float speedMovement = 5;
         public float SpeedMovement => speedMovement;
         [SerializeField] private float gravity = 9.8f;
+        [SerializeField] private float sneakHeight = 1f;
+        [SerializeField] private float sneakSpeed = 1f;
+        public float SneakSpeedMovement => sneakSpeed;
+        private float sneakSpeedMovement = 0f;
+        private float originHeight;
 
         public event Action OnSprintStarted;
         public event Action OnSprintStopped;
@@ -34,6 +39,7 @@ namespace _Script.Player
         private void Awake()
         {
             _characterController = GetComponent<CharacterController>();
+            originHeight = _characterController.height;
         }
 
         private void Update()
@@ -46,16 +52,31 @@ namespace _Script.Player
             float yRotation = cameraTarget.rotation.eulerAngles.y;
             Quaternion characterRotation = Quaternion.Euler(0f, yRotation, 0f);
 
-            if (input.OnSprint()) // TODO: доделать
+            if (input.OnSneak())
             {
-                OnSprintStarted?.Invoke();
+                _characterController.height = sneakHeight;
+
+                sneakSpeedMovement = sneakSpeed;
+                
+                OnSprintStopped?.Invoke();
             }
             else
             {
-                OnSprintStopped?.Invoke();
+                _characterController.height = originHeight;
+                
+                sneakSpeedMovement = 0;
+                
+                if (input.OnSprint())
+                {
+                    OnSprintStarted?.Invoke();
+                }
+                else
+                {
+                    OnSprintStopped?.Invoke();
+                }
             }
             Vector3 localMovement = (characterRotation * movementInput);
-            _characterController.Move((localMovement * ((speedMovement + _additionalVelocity) * Time.deltaTime)));
+            _characterController.Move((localMovement * ((speedMovement + _additionalVelocity - sneakSpeedMovement) * Time.deltaTime)));
         }
 
         private float VerticalForceCalculator()

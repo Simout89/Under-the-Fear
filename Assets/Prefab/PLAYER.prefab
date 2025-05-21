@@ -522,6 +522,8 @@ MonoBehaviour:
   cameraTarget: {fileID: 4591072750138713192}
   speedMovement: 5
   gravity: 9.8
+  sneakHeight: 1
+  sneakSpeed: 1
   _additionalVelocity: 0
 --- !u!114 &5430039749584579751
 MonoBehaviour:
@@ -649,6 +651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstPersonCamera: {fileID: 5430039749584579751}
+  holdPoint: {fileID: 4121854514547453098}
   _playerController: {fileID: 660254043337861534}
   maxDistance: 2.5
 --- !u!114 &2928628567803701230
@@ -665,8 +668,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerFlashlight: {fileID: 945058078210391299}
   _characterController: {fileID: 5241130754308064883}
-  footstepInterval: 0.5
+  _playerController: {fileID: 660254043337861534}
+  footstepInterval: 0.6
+  sprintMultiplayer: 0.5
+  sneakMultiplayer: 0.5
   minStepSpeed: 1
+  normalVolume: 30
+  sprintVolume: 70
+  sneakVolume: 10
   footStepEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -674,15 +683,15 @@ MonoBehaviour:
   flashLightEnableEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d966df24377388c4794c09ad84da4f66, type: 2}
   flashLightDisableEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: f45d064c89416a647b73445a147a2542, type: 2}
   flashLightBiteEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e205ed6cbbf828b42a52a805f1acd480, type: 2}
 --- !u!1 &3002515305514020192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,6 +1229,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4369095280521021487}
+  - {fileID: 4121854514547453098}
   m_Father: {fileID: 2010987406752099851}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7240452574461085104
@@ -1940,6 +1950,37 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+--- !u!1 &8402859269114563218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4121854514547453098}
+  m_Layer: 0
+  m_Name: HoldPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4121854514547453098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8402859269114563218}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.617}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1788888854592093944}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8443264339066583775
 GameObject:
   m_ObjectHideFlags: 0

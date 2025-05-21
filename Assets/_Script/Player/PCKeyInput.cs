@@ -9,18 +9,31 @@ public class PCKeyInput : ScriptableObject, IInput
     public event Action FlashLightPressed;
     public event Action BiteFlashLightPressed;
     public event Action InteractPressed;
+    public event Action ThrowPressed;
 
     private void OnEnable()
     {
         _inputActionAsset.FindAction("FlashLight").performed += OnFlashLightActionPerformed;
         _inputActionAsset.FindAction("BiteOffFlashLight").performed += OnBiteOffFlashLightPerformed;
         _inputActionAsset.FindAction("Interact").performed += OnInteractPressedPerformed;
+        _inputActionAsset.FindAction("Throw").performed += OnThrowPressedPerformed;
     }
     private void OnDisable()
     {
         _inputActionAsset.FindAction("FlashLight").performed -= OnFlashLightActionPerformed;
         _inputActionAsset.FindAction("BiteOffFlashLight").performed -= OnBiteOffFlashLightPerformed;
         _inputActionAsset.FindAction("Interact").performed -= OnInteractPressedPerformed;
+        _inputActionAsset.FindAction("Throw").performed -= OnThrowPressedPerformed;
+    }
+
+    private void OnThrowPressedPerformed(InputAction.CallbackContext obj)
+    {
+        ThrowPressed?.Invoke();
+    }
+
+    public bool OnSneak()
+    {
+        return _inputActionAsset.FindAction("Sneak").IsPressed();
     }
 
     private void OnInteractPressedPerformed(InputAction.CallbackContext obj)
@@ -66,7 +79,9 @@ public interface IInput
     public Vector2 GetLookInput();
     public bool OnJump();
     public bool OnSprint();
+    public bool OnSneak();
     public event Action FlashLightPressed;
     public event Action BiteFlashLightPressed;
     public event Action InteractPressed;
+    public event Action ThrowPressed;
 }

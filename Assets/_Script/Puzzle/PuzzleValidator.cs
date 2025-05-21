@@ -7,7 +7,7 @@ using Random = UnityEngine.Random;
 
 namespace _Script.Puzzle
 {
-    public class PuzzleValidator : SerializedMonoBehaviour, IPuzzleStatus
+    public class PuzzleValidator : PuzzleBase, IClickable
     {
         [OdinSerialize] private ISwitchable[] _switchables;
         [SerializeField] private bool[] trueState;
@@ -27,35 +27,21 @@ namespace _Script.Puzzle
             }
         }
 
-        private void OnEnable()
-        {
-            for (int i = 0; i < _switchables.Length; i++)
-            {
-                _switchables[i].OnSwitchState += HandleSwitchState;
-            }
-        }
-        private void OnDisable()
-        {
-            for (int i = 0; i < _switchables.Length; i++)
-            {
-                _switchables[i].OnSwitchState -= HandleSwitchState;
-            }
-        }
-        private void HandleSwitchState(bool obj)
+        public void Click()
         {
             for (int i = 0; i < _switchables.Length; i++)
             {
                 if(_switchables[i].Status != trueState[i])
+                {
+                    IsSolved = false;
                     return;
+                }
             }
             Debug.Log("Головоломка решена");
+
+            IsSolved = true;
+            
+            OnPuzzleSolved();
         }
-
-        public bool Status { get; private set; }
-    }
-
-    public interface IPuzzleStatus
-    {
-        public bool Status { get; }
     }
 }
