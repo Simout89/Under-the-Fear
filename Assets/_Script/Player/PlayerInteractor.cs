@@ -17,6 +17,7 @@ public class PlayerInteractor : MonoBehaviour
     [Header("Settings")] [SerializeField] private float maxDistance;
 
     private IClickable clickable;
+    private GameObject clickableGameObject; 
     private IStorable storable;
     private GameObject pickupable;
     private GameObject holdGameObject;
@@ -31,12 +32,26 @@ public class PlayerInteractor : MonoBehaviour
     {
         _input.InteractPressed += HandleInteractPressed;
         _input.ThrowPressed += HandleThrowPressed;
+        _input.InteractReleased += HandleReleased;
     }
 
     private void OnDisable()
     {
         _input.InteractPressed -= HandleInteractPressed;
         _input.ThrowPressed -= HandleThrowPressed;
+        _input.InteractReleased -= HandleReleased;
+
+    }
+
+    private void HandleReleased()
+    {
+        if (clickableGameObject != null)
+        {
+            if (clickableGameObject.TryGetComponent(out IReleasable releasable))
+            {
+                releasable.OnRelease();
+            }
+        }
     }
 
     private void HandleThrowPressed()
@@ -81,6 +96,8 @@ public class PlayerInteractor : MonoBehaviour
             {
                 holdGameObject.transform.parent = storable.HoldingPoint.transform;
                 holdGameObject.transform.localPosition = new Vector3();
+                
+                holdGameObject.GetComponent<IPickupable>().PlayPickupSound();
 
                 if (holdGameObject.TryGetComponent(out Collider collider))
                 {
@@ -89,10 +106,13 @@ public class PlayerInteractor : MonoBehaviour
             
                 storable.HoldingItem = holdGameObject;
                 
+                
                 holdGameObject = null;
             }else if (holdGameObject == null && storable.HoldingItem != null)
             {
                 holdGameObject = storable.HoldingItem;
+                
+                holdGameObject.GetComponent<IPickupable>().PlayPickupSound();
                 
                 holdGameObject.transform.parent = holdPoint.transform;
                 holdGameObject.transform.localPosition = Vector3.zero;
@@ -113,12 +133,18 @@ public class PlayerInteractor : MonoBehaviour
         if (Physics.Raycast(ray, out RaycastHit hit, maxDistance, ~6, QueryTriggerInteraction.Ignore )) {
             if (hit.collider.TryGetComponent(out IClickable clickable))
             {
+                clickableGameObject = hit.collider.gameObject;
                 this.clickable = clickable;
                 _uiManager.ShowPoint();
             }
             else
             {
+                if (hit.collider.TryGetComponent(out IReleasable releasable))
+                {
+                    releasable.OnRelease();
+                }
                 this.clickable = null;
+                clickableGameObject = null;
                 _uiManager.HidePoint();
             }
 
@@ -142,9 +168,14 @@ public class PlayerInteractor : MonoBehaviour
         }
         else
         {
+            if (clickableGameObject&& clickableGameObject.TryGetComponent(out IReleasable releasable))
+            {
+                releasable.OnRelease();
+            }
             this.clickable = null;
             this.pickupable = null;
             this.storable = null;
+            clickableGameObject = null;
             _uiManager.HidePoint();
         }
     }

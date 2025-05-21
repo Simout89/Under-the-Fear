@@ -1,7 +1,8 @@
+using System;
 using UnityEngine;
 using Zenject;
 
-public class HealStream : MonoBehaviour, IClickable
+public class HealStream : MonoBehaviour, IClickable, IReleasable
 {
     [Header("Settings")]
     [SerializeField] private bool isFullHeal;
@@ -10,33 +11,38 @@ public class HealStream : MonoBehaviour, IClickable
     [Inject] private PlayerHealth _playerHealth;
     [SerializeField] private AK.Wwise.Event startDrinking;
     [SerializeField] private AK.Wwise.Event stopDrinking;
+
+    private bool drinking = false;
     public void Click()
     {
-        if (isFullHeal)
-        {
-            if (_playerHealth.CurrentHealthPoint >= _playerHealth.MaxHealthPoint)
-            {
-                stopDrinking.Post(Camera.main.gameObject);
+        drinking = true;
+        startDrinking.Post(Camera.main.gameObject);
+    }
 
-            }
-            else
-            {
-                startDrinking.Post(Camera.main.gameObject);
-                _playerHealth.AddHealth(healAmount);
+    public void OnRelease()
+    {
+        if(!drinking)
+            return;
+        stopDrinking.Post(Camera.main.gameObject);
 
-            }
-        }
-        else
+        drinking = false;
+    }
+
+    public void FixedUpdate()
+    {
+        if(!drinking)
+            return;
+        
+        _playerHealth.AddHealth(5 * Time.deltaTime);
+
+        if (_playerHealth.CurrentHealthPoint >= _playerHealth.MaxHealthPoint)
         {
-            if (_playerHealth.CurrentHealthPoint >= _playerHealth.MaxHealthPoint / 50)
-            {
-                stopDrinking.Post(Camera.main.gameObject);
-            }
-            else
-            {
-                startDrinking.Post(Camera.main.gameObject);
-                _playerHealth.AddHealth(healAmount);
-            }
+            OnRelease();
         }
     }
+}
+
+public interface IReleasable
+{
+    void OnRelease();
 }

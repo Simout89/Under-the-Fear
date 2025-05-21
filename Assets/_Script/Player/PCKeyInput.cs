@@ -9,6 +9,7 @@ public class PCKeyInput : ScriptableObject, IInput
     public event Action FlashLightPressed;
     public event Action BiteFlashLightPressed;
     public event Action InteractPressed;
+    public event Action InteractReleased;
     public event Action ThrowPressed;
 
     private void OnEnable()
@@ -16,6 +17,7 @@ public class PCKeyInput : ScriptableObject, IInput
         _inputActionAsset.FindAction("FlashLight").performed += OnFlashLightActionPerformed;
         _inputActionAsset.FindAction("BiteOffFlashLight").performed += OnBiteOffFlashLightPerformed;
         _inputActionAsset.FindAction("Interact").performed += OnInteractPressedPerformed;
+        _inputActionAsset.FindAction("Interact").canceled += OnInteractPressedReleased;
         _inputActionAsset.FindAction("Throw").performed += OnThrowPressedPerformed;
     }
     private void OnDisable()
@@ -23,7 +25,13 @@ public class PCKeyInput : ScriptableObject, IInput
         _inputActionAsset.FindAction("FlashLight").performed -= OnFlashLightActionPerformed;
         _inputActionAsset.FindAction("BiteOffFlashLight").performed -= OnBiteOffFlashLightPerformed;
         _inputActionAsset.FindAction("Interact").performed -= OnInteractPressedPerformed;
+        _inputActionAsset.FindAction("Interact").canceled -= OnInteractPressedReleased;
         _inputActionAsset.FindAction("Throw").performed -= OnThrowPressedPerformed;
+    }
+
+    private void OnInteractPressedReleased(InputAction.CallbackContext obj)
+    {
+        InteractReleased?.Invoke();
     }
 
     private void OnThrowPressedPerformed(InputAction.CallbackContext obj)
@@ -83,5 +91,6 @@ public interface IInput
     public event Action FlashLightPressed;
     public event Action BiteFlashLightPressed;
     public event Action InteractPressed;
+    public event Action InteractReleased;
     public event Action ThrowPressed;
 }
