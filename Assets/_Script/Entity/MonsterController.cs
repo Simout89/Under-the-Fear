@@ -53,7 +53,14 @@ public class MonsterController : MonoBehaviour
                 if (!_navMeshAgent.gameObject.activeSelf) // Вылазит из дыры
                 {
                     _navMeshAgent.gameObject.SetActive(true);
-                    _navMeshAgent.gameObject.transform.position = FindNearestHole(transform).transform.position;
+
+                    var nearestHole = FindNearestHole(transform);
+                    
+                    Vector3 direction = nearestHole.transform.forward;
+                    
+                    _navMeshAgent.Warp(nearestHole.transform.position + direction*-2);
+
+                    _navMeshAgent.gameObject.transform.localRotation = Quaternion.LookRotation(-direction);
                 }
                 _navMeshAgent.destination = transform;
                 _lastPointToCheck = transform;

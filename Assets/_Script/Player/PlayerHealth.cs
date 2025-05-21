@@ -9,22 +9,24 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     [SerializeField] private PlayerController _playerController;
     private IInput _input => _playerController.input;
     [Header("Settings")]
-    [SerializeField] private float MaxHealthPoint = 50;
+    [SerializeField] private float maxHealthPoint = 50;
+    [HideInInspector] public float MaxHealthPoint => maxHealthPoint;
     
     [BoxGroup("CurrentHealthPoint")]
     [HideLabel]
     [ProgressBar("Min", "Max",r: 0, g: 100, b: 0, Height = 30)]
-    [SerializeField][ReadOnly] private float currentHealthPoint;
+    [SerializeField] private float currentHealthPoint;
+    [HideInInspector] public float CurrentHealthPoint => currentHealthPoint;
 
     [BoxGroup("CurrentHealthPoint")]
     private float Min = 0;
 
     [BoxGroup("CurrentHealthPoint")]
-    private float Max => MaxHealthPoint;
+    private float Max => maxHealthPoint;
 
     private void Awake()
     {
-        currentHealthPoint = MaxHealthPoint;
+        currentHealthPoint = maxHealthPoint;
     }
 
     public void TakeDamage(float damageCount)
@@ -34,6 +36,11 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         {
             Debug.Log("Ты умер");   
         }
+    }
+    
+    public void AddHealth(float heathCount)
+    {
+        currentHealthPoint = Math.Clamp(currentHealthPoint + heathCount, 0, maxHealthPoint);
     }
 }
 

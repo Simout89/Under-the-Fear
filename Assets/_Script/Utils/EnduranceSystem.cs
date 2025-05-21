@@ -19,6 +19,16 @@ namespace _Script.Utils
 
             CurrentEndurance = maxValue;
         }
+        
+        public EnduranceSystem(float pMaxValue, float pMinValue, float pRateOfDecrease, float pRateOfIncrease, float pStartValue)
+        {
+            maxValue = pMaxValue;
+            minValue = pMinValue;
+            rateOfDecrease = pRateOfDecrease;
+            rateOfIncrease = pRateOfIncrease;
+
+            CurrentEndurance = pStartValue;
+        }
 
         public void AddEndurance()
         {

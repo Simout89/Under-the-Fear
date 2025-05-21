@@ -10,6 +10,7 @@ namespace _Script.Zenject
             Container.BindInterfacesAndSelfTo<GameManager>().FromComponentsInHierarchy().AsSingle();
             Container.BindInterfacesAndSelfTo<MonsterEars>().FromComponentsInHierarchy().AsSingle();
             Container.BindInterfacesAndSelfTo<UiManager>().FromComponentsInHierarchy().AsSingle();
+            Container.BindInterfacesAndSelfTo<PlayerHealth>().FromComponentsInHierarchy().AsSingle();
         }
     }
 }

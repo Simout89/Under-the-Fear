@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 1dceb37f7f7b7345864a0536d9521fe2
     GuidInternal: 
-    m_lastTime: -8584540116742220251
+    m_lastTime: -8584540202063670104
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,11 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: d0fc1eb916d4d2438bac39237f48ec7c
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8584538114695899648
-=======
-    m_lastTime: -8584540116756233976
->>>>>>> origin/LVL_Domeex
+    m_lastTime: -8584537975158219736
     List:
     - name: Big_Hall_Rev
       guid: 5d7127484e325a4e8a9cde645feda69f
@@ -152,11 +148,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b665060d0916d41bbdd601f2e444322
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8584542397522516797
-=======
-    m_lastTime: -8584540116742254974
->>>>>>> origin/LVL_Domeex
+    m_lastTime: -8584540202063712297
     List:
     - name: Lvl1
       guid: 05b22336d9e65e4cb95346a1ef2ceb95
@@ -184,7 +176,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: eb9cd630b7c18842bc284b0021107ef2
     GuidInternal: 
-    m_lastTime: -8584540116756394012
+    m_lastTime: -8584540202070935447
     List:
     - name: Play_Music
       guid: 734f9c66a52fc644897780ffa57744e2
@@ -214,7 +206,7 @@ MonoBehaviour:
     ParentPath: Events\Monster
     guid: c0466b79d383d84f82cbbf065324d897
     GuidInternal: 
-    m_lastTime: -8584540116756384011
+    m_lastTime: -8584540202070930185
     List:
     - name: Play_Low_Roar
       guid: 4bc577fcbab67b479810789903ce7310
@@ -278,11 +270,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: efa17e970f8f564c9c28e8e57906fbec
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8584542397522666848
-=======
-    m_lastTime: -8584540116756384011
->>>>>>> origin/LVL_Domeex
+    m_lastTime: -8584540202070924952
     List:
     - name: CassetePlayer
       guid: ec6966511b9b4248acfb491426367985
@@ -373,13 +361,8 @@ MonoBehaviour:
         guid: d1c0be8942258e4cad960de6a149d7ac
       Path: Events\Objects\Gear\Play_Gear_Drop
       maxAttenuation: 0
-<<<<<<< HEAD
       maxDuration: 2.2873867
       minDuration: 1.3837278
-=======
-      maxDuration: 2.8419049
-      minDuration: 2.8419049
->>>>>>> origin/LVL_Domeex
     - name: Play_Gear_PickUp
       guid: f74cd40f599fbd4b8ae428f4a6d3309e
       id: 1253718314
@@ -525,11 +508,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: f88c72517d10c24ca8c1136ded1d69c1
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8584542397523046579
-=======
-    m_lastTime: -8584540116756304002
->>>>>>> origin/LVL_Domeex
+    m_lastTime: -8584540202070919721
     List:
     - name: Drinking
       guid: eef361088e31d941b22309f7d81e6861
@@ -708,11 +687,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: aaf4683f9d579f4b9eefcf7c5f970957
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8584538114695509674
-=======
-    m_lastTime: -8584540116756304002
->>>>>>> origin/LVL_Domeex
+    m_lastTime: -8584537975158293677
     List:
     - name: All_Volume_Player_Settings
       guid: b05949cb7f93f44ea6cea29c5ec5a47d
@@ -796,7 +771,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 9c9dffaadd33354abf9dcbedd38c54b4
     GuidInternal: 
-    m_lastTime: -8584540116742244314
+    m_lastTime: -8584540202063701709
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -810,7 +785,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 28be07a64f8f3a44b90b9a989d77194a
     GuidInternal: 
-    m_lastTime: -8584540116742244314
+    m_lastTime: -8584540202063696500
     List:
     - name: Surface
       guid: 008896f3cb113541934e4dcf65b0ddf0
@@ -922,10 +897,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 67ae3638b26a27449630b4c2b8ececad
     GuidInternal: 
-    m_lastTime: -8584540116742244314
+    m_lastTime: -8584540202063691292
     List: []
-  ExpandedFileSystemItemIds: 010000000200000003000000050000000600000008000000090000000a0000000b0000001300000014000000160000001700000018000000
-  ExpandedWaapiItemIds: 01000000050000000600000008000000
+  ExpandedFileSystemItemIds: 020000000300000005000000090000000a0000000b0000001600000017000000180000002d000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 1

@@ -11,12 +11,12 @@ public class Collectible : MonoBehaviour, IClickable, IPickupable
 
     public void PlayThrowSound()
     {
-        throwSound.Post(gameObject);
+        throwSound.Post(Camera.main.gameObject);
     }
 
     public void PlayPickupSound()
     {
-        pickupSound.Post(gameObject);
+            pickupSound.Post(Camera.main.gameObject);
     }
 }
 
