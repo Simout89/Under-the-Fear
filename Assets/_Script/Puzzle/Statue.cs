@@ -13,6 +13,11 @@ public class Statue : MonoBehaviour, IClickable
     private bool _isRotate = false;
     private void Awake()
     {
+        Restart();
+    }
+
+    private void Restart()
+    {
         Random rnd = new Random();
         transform.rotation = Quaternion.Euler(0, rnd.Next(0,4) * 90, 0);
     }

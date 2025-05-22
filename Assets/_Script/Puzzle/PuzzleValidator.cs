@@ -39,13 +39,11 @@ namespace _Script.Puzzle
             {
                 if(_switchables[i].Status != trueState[i])
                 {
-                    IsSolved = false;
+                    Fail();
                     return;
                 }
             }
             Debug.Log("Головоломка решена");
-
-            IsSolved = true;
             
             OnPuzzleSolved();
         }

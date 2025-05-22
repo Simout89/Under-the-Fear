@@ -12,11 +12,13 @@ public class GearPuzzleController : PuzzleBase, IClickable
             if(gearPuzzleSocket.ItemSocket.HoldingItem == null || gearPuzzleSocket.ItemSocket.HoldingItem.name != gearPuzzleSocket.Name)
             {
                 Debug.Log("Не Решено");
+                Fail();
                 return;
             }
         }
         
         Debug.Log("Решено");
+        OnPuzzleSolved();
     }
 
     public void Click()
