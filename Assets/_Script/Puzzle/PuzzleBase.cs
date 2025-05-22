@@ -46,6 +46,8 @@ public abstract class PuzzleBase : SerializedMonoBehaviour, IPuzzleStatus
 
     protected void Fail()
     {
+        if(IsSolved)
+            return;
         if(!_canPlaySiren)
             return;
         StartCoroutine(PlaySiren());
