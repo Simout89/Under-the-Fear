@@ -5,6 +5,11 @@ using Random = System.Random;
 
 public class Statue : MonoBehaviour, IClickable
 {
+    [Header("Settings")]
+    [SerializeField] private float rotateDuration = 2f;
+    [Header("Sound")]
+    [SerializeField] private AK.Wwise.Event startRotation;
+    [SerializeField] private AK.Wwise.Event endRotation;
     private bool _isRotate = false;
     private void Awake()
     {
@@ -16,11 +21,16 @@ public class Statue : MonoBehaviour, IClickable
     {
         if(_isRotate) return;
 
+        startRotation.Post(gameObject);
+
         _isRotate = true;
         
         var rotation = transform.rotation.eulerAngles;
         
-        transform.DORotate(new Vector3(0, rotation.y + 90, 0), 1f).OnComplete(() => _isRotate = false);
+        transform.DORotate(new Vector3(0, rotation.y + 90, 0), rotateDuration).SetEase(Ease.Linear).OnComplete(() => {
+            _isRotate = false;
+            endRotation.Post(gameObject);
+        });
     }
 
     public int GetRotation()

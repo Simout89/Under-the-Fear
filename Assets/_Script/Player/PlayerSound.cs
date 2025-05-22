@@ -66,7 +66,6 @@ public class PlayerSound : MonoBehaviour
 
     private void PlayFootStepSound()
     {
-        Debug.Log("Звук Шагов ");
         ChangeSurface();
         footStepEvent.Post(gameObject);
     }

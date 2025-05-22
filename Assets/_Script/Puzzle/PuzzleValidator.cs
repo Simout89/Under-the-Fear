@@ -14,7 +14,13 @@ namespace _Script.Puzzle
 
         private void Awake()
         {
+            Restart();
+        }
+
+        public override void Restart()
+        {
             ChangeTrueState();
+            _puzzleSolution.Restart(trueState);
         }
 
         private void ChangeTrueState()

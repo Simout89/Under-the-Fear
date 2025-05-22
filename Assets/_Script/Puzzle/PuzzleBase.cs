@@ -6,6 +6,8 @@ using Zenject;
 
 public abstract class PuzzleBase : SerializedMonoBehaviour, IPuzzleStatus
 {
+    [SerializeField] protected PuzzleSolutionBase _puzzleSolution;
+    
     [Inject] private PuzzleManager _puzzleManager;
     
     [SerializeField] private int PuzzleId;
@@ -13,6 +15,11 @@ public abstract class PuzzleBase : SerializedMonoBehaviour, IPuzzleStatus
     protected bool IsSolved = false;
     
     public event Action PuzzleSolved;
+    
+    public virtual void Restart()
+    {
+        _puzzleSolution.Restart();
+    }
 
     protected void OnPuzzleSolved()
     {
