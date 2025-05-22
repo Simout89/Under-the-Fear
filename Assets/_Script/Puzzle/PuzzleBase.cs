@@ -8,6 +8,7 @@ using Zenject;
 public abstract class PuzzleBase : SerializedMonoBehaviour, IPuzzleStatus
 {
     [Inject] private PuzzleManager _puzzleManager;
+    [Inject] private MonsterEars _monsterEars;
     [Header("Settings")]
     [SerializeField] private int PuzzleId;
     [SerializeField] private float sirenDuration;
@@ -53,6 +54,8 @@ public abstract class PuzzleBase : SerializedMonoBehaviour, IPuzzleStatus
     private IEnumerator PlaySiren()
     {
         _canPlaySiren = false;
+        
+        _monsterEars.Ears(transform.position, 5);
         
         failSound.Post(gameObject);
         failSoundStart.Post(gameObject);

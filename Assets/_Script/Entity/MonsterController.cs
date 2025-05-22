@@ -18,6 +18,7 @@ public class MonsterController : MonoBehaviour
     [SerializeField] public NavMeshAgent _navMeshAgent;
     [Header("Sounds")]
     [SerializeField] private AK.Wwise.Event beforeHauntingSound;
+    [SerializeField] private AK.Wwise.Event screamSound;
     private Vector3 _lastPointToCheck;
     private Coroutine _lastCoroutine;
     private Hole _lastHole;
@@ -61,6 +62,8 @@ public class MonsterController : MonoBehaviour
                     _navMeshAgent.Warp(nearestHole.transform.position + direction*-2);
 
                     _navMeshAgent.gameObject.transform.localRotation = Quaternion.LookRotation(-direction);
+                    
+                    screamSound.Post(_navMeshAgent.gameObject);
                 }
                 _navMeshAgent.destination = transform;
                 _lastPointToCheck = transform;
@@ -95,7 +98,7 @@ public class MonsterController : MonoBehaviour
     private IEnumerator Haunting()
     {
         _navMeshAgent.isStopped = true;
-        beforeHauntingSound.Post(gameObject);
+        beforeHauntingSound.Post(_navMeshAgent.gameObject);
         yield return new WaitForSeconds(waitBeforeHaunting);
         _navMeshAgent.isStopped = false;
         _navMeshAgent.speed = hauntingSpeedMovement;
