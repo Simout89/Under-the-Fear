@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{DDEC4AA5-86FE-8630-65E7-F5142E801F61}",
+    "Hash": "{EDA21565-BC1D-5720-E840-59A38C63BC59}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -106,6 +106,34 @@
       "GUID": "{5794A9E2-955F-4062-9141-3B4B26921385}"
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "2441027675",
+      "Name": "Language",
+      "ObjectPath": "\\States\\Default Work Unit\\Language",
+      "GUID": "{59593480-FFF0-4741-B129-96E89A7BD6EC}",
+      "States": [
+       {
+        "Id": "529726535",
+        "Name": "Eng",
+        "ObjectPath": "\\States\\Default Work Unit\\Language\\Eng",
+        "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}"
+       },
+       {
+        "Id": "712161717",
+        "Name": "Rus",
+        "ObjectPath": "\\States\\Default Work Unit\\Language\\Rus",
+        "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Language\\None",
+        "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "1834394558",
@@ -148,6 +176,6 @@
     ]
    }
   ],
-  "FileHash": "{4AC210C2-7722-D117-986C-2326785F23D8}"
+  "FileHash": "{A1E7DABE-0825-0342-E5F0-67C05B8DA23C}"
  }
 }

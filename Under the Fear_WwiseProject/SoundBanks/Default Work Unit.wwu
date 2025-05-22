@@ -15,12 +15,16 @@
 						<ObjectRef Name="Small_Room_Rev" ID="{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Concrete" ID="{B4BE701C-DEE7-432F-91B4-A87E0460CDF1}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Flashlight_Enable" ID="{71515D7D-B527-4387-AEFA-041A7A41ECB6}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FlashLight_Button" ID="{D60F7BE1-CC10-438B-A0F8-113AA10058EA}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Mechanical_Sound" ID="{2085C0DB-008A-43B7-90C1-77394E0B5BD0}" WorkUnitID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Water_Machine" ID="{621083B2-AEA2-43E2-94BB-3073767A9548}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drinking" ID="{8AD9F9BE-30CA-4422-BCD3-6D54288B7BA6}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wrong_Gear_Combination" ID="{BFF1A00B-D7E1-449F-A697-D9B058512AD9}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music" ID="{669C4F73-2FA5-44C6-8977-80FFA57744E2}" WorkUnitID="{30D69CEB-C1B7-4288-BC28-4B0021107EF2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FlashLight" ID="{57DE25B1-7CD1-44FC-9A8F-F35065C1CB09}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MovingStone" ID="{40258D5C-E829-44FC-91D9-969E674EFB51}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Charge_FlashLigh" ID="{A253EB1F-5F10-4548-B7D5-587CBB14C396}" WorkUnitID="{51728CF8-107D-4CC2-A8C1-136DED1D69C1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Objects" ID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Gen2" ID="{5C602DCC-5E33-456B-A1B9-737E5523FC22}" WorkUnitID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cave_Rev" ID="{53BA2B3A-3575-45BD-A544-E04D99E48AB8}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gear" ID="{E410921D-2749-45F5-977E-A33D4330859E}" WorkUnitID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" Origin="Manual" Filter="7"/>
@@ -53,6 +57,8 @@
 						<ObjectRef Name="Metal" ID="{908985F0-681B-4EC1-996D-4D7D673AD9AB}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Generators" ID="{0F9F99F6-994A-4F35-AC30-E152B7B2007B}" WorkUnitID="{977EA1EF-8F0F-4C56-9C28-E8E57906FBEC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Monster" ID="{796B46C0-83D3-4FD8-82CB-BF065324D897}" WorkUnitID="{796B46C0-83D3-4FD8-82CB-BF065324D897}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Siren" ID="{0ABCB6B7-65F6-4FDA-BF9E-C4F7B411A8E5}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ENG" ID="{8B8A8EE9-D4E0-4FF0-A8EF-0BE7007BC25F}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

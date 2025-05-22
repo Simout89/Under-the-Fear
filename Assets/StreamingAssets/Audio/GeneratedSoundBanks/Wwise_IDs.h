@@ -18,22 +18,60 @@ namespace AK
         static const AkUniqueID PLAY_FLASHLIGHT_DISABLE = 1652482609U;
         static const AkUniqueID PLAY_FLASHLIGHT_ENABLE = 1470796794U;
         static const AkUniqueID PLAY_FOOTSTEP = 1602358412U;
+        static const AkUniqueID PLAY_GAZ = 2287442812U;
         static const AkUniqueID PLAY_GEAR_DROP = 3106012101U;
         static const AkUniqueID PLAY_GEAR_PICKUP = 1253718314U;
         static const AkUniqueID PLAY_GEN1 = 703779141U;
         static const AkUniqueID PLAY_GEN2 = 703779142U;
+        static const AkUniqueID PLAY_KAPLI = 1170362071U;
+        static const AkUniqueID PLAY_LITTLE_FIRE = 1908881673U;
         static const AkUniqueID PLAY_LOW_ROAR = 4157024899U;
         static const AkUniqueID PLAY_MECHANICAL_SOUND = 2652031523U;
+        static const AkUniqueID PLAY_MOVE_STONE = 2184129563U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_NUMBER_01 = 1582615549U;
+        static const AkUniqueID PLAY_NUMBER_02 = 1582615550U;
+        static const AkUniqueID PLAY_NUMBER_03 = 1582615551U;
+        static const AkUniqueID PLAY_NUMBER_04 = 1582615544U;
+        static const AkUniqueID PLAY_NUMBER_05 = 1582615545U;
+        static const AkUniqueID PLAY_NUMBER_06 = 1582615546U;
+        static const AkUniqueID PLAY_NUMBER_07 = 1582615547U;
+        static const AkUniqueID PLAY_NUMBER_08 = 1582615540U;
+        static const AkUniqueID PLAY_NUMBER_09 = 1582615541U;
+        static const AkUniqueID PLAY_ONE_KAPLYA = 2998979435U;
         static const AkUniqueID PLAY_PLAYER_CHARGE_FLASHLIGH = 1015499099U;
         static const AkUniqueID PLAY_ROAR = 2770252186U;
         static const AkUniqueID PLAY_SCARY_METALIC_SOUND = 2270754086U;
         static const AkUniqueID PLAY_SCREAM = 2470536401U;
+        static const AkUniqueID PLAY_SIREN = 1185108097U;
         static const AkUniqueID PLAY_STOP_DRINK = 3276893109U;
         static const AkUniqueID PLAY_TIRED_BREATH = 1817535745U;
         static const AkUniqueID PLAY_WATER_MACHINE = 3039676177U;
         static const AkUniqueID PLAY_WATER_MACHINE_MAX = 3687303446U;
+        static const AkUniqueID PLAY_WHITELAMP = 1638297339U;
+        static const AkUniqueID PLAY_WRONG_GEAR_COMBINATION = 3637805037U;
+        static const AkUniqueID PLAY_YELLOWLAMP = 2132701112U;
+        static const AkUniqueID STOP_MOVE_STONE = 595172737U;
+        static const AkUniqueID STOP_SIREN = 574068527U;
+        static const AkUniqueID STOP_WHITELAMP = 2584819961U;
+        static const AkUniqueID STOP_YELLOWLAMP = 3345224838U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace LANGUAGE
+        {
+            static const AkUniqueID GROUP = 2441027675U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ENG = 529726535U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID RUS = 712161717U;
+            } // namespace STATE
+        } // namespace LANGUAGE
+
+    } // namespace STATES
 
     namespace SWITCHES
     {

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AAFF9D9C-33DD-4A35-BF9D-CBEDD38C54B4}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{AAFF9D9C-33DD-4A35-BF9D-CBEDD38C54B4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AAFF9D9C-33DD-4A35-BF9D-CBEDD38C54B4}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Language" ID="{59593480-FFF0-4741-B129-96E89A7BD6EC}">
+					<ChildrenList>
+						<State Name="None" ID="{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"/>
+						<State Name="Rus" ID="{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"/>
+						<State Name="Eng" ID="{71299E93-13A1-4209-8736-CCB93FCEA29E}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

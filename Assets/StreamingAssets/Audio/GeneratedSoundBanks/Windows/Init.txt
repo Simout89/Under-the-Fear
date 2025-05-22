@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2441027675	Language			\Default Work Unit\Language	
+
+State	ID	Name	State Group			Notes
+	529726535	Eng	Language			
+	712161717	Rus	Language			
+	748895195	None	Language			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	545571051	All_Volume_Player_Settings			\Default Work Unit\All_Volume_Player_Settings	
 	1274705203	Volume_Music_Player_Settings			\Default Work Unit\Volume_Music_Player_Settings	

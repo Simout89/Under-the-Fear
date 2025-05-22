@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{62EBBF0A-BBEE-AF54-0905-C17B73BC5979}",
+    "Hash": "{4BCA8BF6-1B98-32D0-1420-889A675B368C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -64,6 +64,22 @@
       "CachePath": "90/{906D7B3B-83EC-5626-1730-AD27B9AFD4EF}.wem"
      },
      {
+      "Id": "29854107",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hot watter max2.wav",
+      "CachePath": "8E/{8E8FC71E-C3EF-4AC1-FC32-6D0D1D73935D}.wem"
+     },
+     {
+      "Id": "40981142",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "rusnumber1.wav",
+      "CachePath": "37/{379B28BC-6BDB-0177-193C-26E84B76C696}.wem"
+     },
+     {
       "Id": "49553878",
       "Language": "SFX",
       "Streaming": "false",
@@ -112,12 +128,28 @@
       "CachePath": "0E/{0E001868-9581-8D4D-F5BA-3E2035486CE7}.wem"
      },
      {
+      "Id": "71642605",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "kapli-003.wav",
+      "CachePath": "B7/{B7AAA9D4-5CE5-A966-1399-B95D814CCF54}.wem"
+     },
+     {
       "Id": "74614735",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "gear_off-001.wav",
-      "CachePath": "7B/{7B152B1C-A2D5-14F0-3A54-8194562E06B1}.wem"
+      "CachePath": "0D/{0D115FE2-BC05-F389-EAAC-F4258D1C4F60}.wem"
+     },
+     {
+      "Id": "80718749",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "short_high_voltage-003.wav",
+      "CachePath": "CB/{CBA00E0F-306E-67BB-A841-01840B66B95A}.wem"
      },
      {
       "Id": "84763226",
@@ -134,6 +166,14 @@
       "Location": "Memory",
       "ShortName": "steps_metal-002.wav",
       "CachePath": "71/{715E248C-3C43-1855-03A4-9E6312BCDA92}.wem"
+     },
+     {
+      "Id": "101829206",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "firelight little-003.wav",
+      "CachePath": "1F/{1FD3FA92-144B-2CB1-9ADE-054EAED9639C}.wem"
      },
      {
       "Id": "108067363",
@@ -176,12 +216,28 @@
       "CachePath": "D1/{D17D43C6-F958-1D3E-A9C4-F715E638A314}.wem"
      },
      {
+      "Id": "126346157",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear wrong1.wav",
+      "CachePath": "5F/{5FAD7709-6C31-CF46-B805-932267D9A203}.wem"
+     },
+     {
       "Id": "129859288",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "steps_concrete-005.wav",
       "CachePath": "DD/{DDE5B0B3-A036-E869-FCA1-9E16E2DB2B7D}.wem"
+     },
+     {
+      "Id": "132467461",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "eng_numbers-008.wav",
+      "CachePath": "D6/{D62CEA0F-C26E-B0ED-94F1-2EF6D1D91F78}.wem"
      },
      {
       "Id": "133870229",
@@ -216,6 +272,14 @@
       "CachePath": "82/{823B9856-452B-D37A-8562-061044E50163}.wem"
      },
      {
+      "Id": "152245934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "eng_numbers-006.wav",
+      "CachePath": "98/{98942F14-0305-0264-4498-792D6CA44B7B}.wem"
+     },
+     {
       "Id": "155516009",
       "Language": "SFX",
       "Streaming": "false",
@@ -240,12 +304,36 @@
       "CachePath": "E3/{E3F824F9-6342-3065-9525-45ADB9682F8D}.wem"
      },
      {
+      "Id": "166830043",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gaz-001.wav",
+      "CachePath": "48/{48F85CF2-5CF1-4C56-93AF-83B6F0966AE8}.wem"
+     },
+     {
+      "Id": "168566831",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "short_high_voltage-001.wav",
+      "CachePath": "26/{26909877-B2C9-D020-1791-78977709257E}.wem"
+     },
+     {
       "Id": "175387463",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "steps dirt-002.wav",
       "CachePath": "6C/{6CACE3CB-4E39-296C-0437-5F2569591FF0}.wem"
+     },
+     {
+      "Id": "181228194",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "casseteplayer_button.wav",
+      "CachePath": "1D/{1D6F4E29-ACFD-21EE-F8EF-2CFE1C738E12}.wem"
      },
      {
       "Id": "182120608",
@@ -262,6 +350,14 @@
       "Location": "Memory",
       "ShortName": "breathafterdrink6.wav",
       "CachePath": "D1/{D1AF5550-E65F-3648-C476-A2CB15B17941}.wem"
+     },
+     {
+      "Id": "190870679",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "eng_numbers-007.wav",
+      "CachePath": "12/{126246B4-BF74-950F-48CB-C21959A7AC9B}.wem"
      },
      {
       "Id": "191072230",
@@ -296,6 +392,14 @@
       "CachePath": "C6/{C60B5266-B0B3-0434-4C4E-55352250907A}.wem"
      },
      {
+      "Id": "222761765",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "kaplya-003.wav",
+      "CachePath": "DA/{DA14ABDC-6712-46C7-97F0-B2F7893C5BF2}.wem"
+     },
+     {
       "Id": "225717939",
       "Language": "SFX",
       "Streaming": "false",
@@ -310,6 +414,14 @@
       "Location": "Memory",
       "ShortName": "steps_metal-006.wav",
       "CachePath": "EB/{EB8B59B4-9895-8D35-66E6-628AD055C325}.wem"
+     },
+     {
+      "Id": "242089658",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "firelight little-004.wav",
+      "CachePath": "4F/{4F14E12C-DB40-645B-10A8-B51F58C5CAD7}.wem"
      },
      {
       "Id": "246035079",
@@ -376,6 +488,22 @@
       "CachePath": "DC/{DC5DDA03-EF97-A1F5-A324-88C44B8EE346}.wem"
      },
      {
+      "Id": "283715340",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "eng_numbers-009.wav",
+      "CachePath": "39/{39B0365C-2801-B0BA-47D0-604D9C2A3229}.wem"
+     },
+     {
+      "Id": "287208522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "kapli-004.wav",
+      "CachePath": "29/{29510F64-7AF7-C2C7-66CA-CC789C4E6381}.wem"
+     },
+     {
       "Id": "293132885",
       "Language": "SFX",
       "Streaming": "false",
@@ -392,12 +520,28 @@
       "CachePath": "F9/{F9CB6EF2-780F-F577-02CF-36192BDDBB00}.wem"
      },
      {
+      "Id": "300731801",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "eng_numbers-005.wav",
+      "CachePath": "B1/{B10F6A77-AE63-A102-ACF4-912BA2C5666A}.wem"
+     },
+     {
       "Id": "302548363",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_Charge_FlashLight_1.wav",
       "CachePath": "37/{374514E3-E98F-E48D-F425-85471D41AD04}.wem"
+     },
+     {
+      "Id": "307012645",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear wrong4.wav",
+      "CachePath": "98/{9867F1EF-3303-84F9-9964-E5450B1311D9}.wem"
      },
      {
       "Id": "316510197",
@@ -480,6 +624,14 @@
       "CachePath": "7C/{7C24178E-0D82-5570-455E-2D4FF9E7803A}.wem"
      },
      {
+      "Id": "367181196",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "rusnumber4.wav",
+      "CachePath": "B5/{B5CC3CFA-C446-D9F2-3590-6B2948CDCAE4}.wem"
+     },
+     {
       "Id": "388864205",
       "Language": "SFX",
       "Streaming": "false",
@@ -504,12 +656,36 @@
       "CachePath": "34/{341662BD-2AE2-2638-81CD-E076AB7CBB93}.wem"
      },
      {
+      "Id": "416492495",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "eng_numbers-004.wav",
+      "CachePath": "AE/{AEF9A51F-6493-7EB7-375E-B0D06067925F}.wem"
+     },
+     {
       "Id": "416759040",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player_Charge_FlashLight_6.wav",
       "CachePath": "79/{79ED99F2-459C-480F-48DE-56478B535388}.wem"
+     },
+     {
+      "Id": "421727055",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "moving_stone3.wav",
+      "CachePath": "C6/{C67E93FC-4729-6D1F-F3E9-47B34A4345CB}.wem"
+     },
+     {
+      "Id": "426644446",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "firelight little-002.wav",
+      "CachePath": "06/{06BD6864-94E1-C7A5-FA23-B3C06111758B}.wem"
      },
      {
       "Id": "429420402",
@@ -550,6 +726,14 @@
       "Location": "Memory",
       "ShortName": "Monster_Low_Roar-005.wav",
       "CachePath": "D8/{D85E532D-61CD-8EC2-102A-8120167EFC39}.wem"
+     },
+     {
+      "Id": "446062803",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "yellow lamp lil-002.wav",
+      "CachePath": "54/{54DA110D-26B6-0506-FD03-1EC479CA1F2F}.wem"
      },
      {
       "Id": "446866061",
@@ -600,6 +784,22 @@
       "CachePath": "B6/{B638270D-FAA0-1C4C-065E-BE2C097FA646}.wem"
      },
      {
+      "Id": "465769317",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "kaplya-004.wav",
+      "CachePath": "1F/{1FE37054-AD2C-7397-0F30-9402C78439B4}.wem"
+     },
+     {
+      "Id": "469026013",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "moving_stone.wav",
+      "CachePath": "66/{6631A0E9-25A4-4B99-1CEC-5FF6FFA2DF07}.wem"
+     },
+     {
       "Id": "473864003",
       "Language": "SFX",
       "Streaming": "false",
@@ -616,12 +816,28 @@
       "CachePath": "FA/{FA34F720-25A4-E36C-E65D-A33D95F7CB97}.wem"
      },
      {
+      "Id": "484629952",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gaz-002.wav",
+      "CachePath": "4F/{4F8B8C9A-1557-0B84-74D7-2849C0576776}.wem"
+     },
+     {
       "Id": "497161099",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Monster_Low_Roar-009.wav",
       "CachePath": "F3/{F3644AB5-7B92-892C-43FC-48BD8D87A906}.wem"
+     },
+     {
+      "Id": "505590202",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "eng_numbers-001.wav",
+      "CachePath": "BE/{BEC0BBD0-6944-B88A-7C9F-4C36F0D8CF5F}.wem"
      },
      {
       "Id": "507787744",
@@ -632,6 +848,14 @@
       "CachePath": "EF/{EF549728-070E-51EE-92A4-3DC7AF440F6A}.wem"
      },
      {
+      "Id": "525150545",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "eng_numbers-002.wav",
+      "CachePath": "59/{5952CEA5-7130-CC0F-6DBD-93D9114BD984}.wem"
+     },
+     {
       "Id": "544659601",
       "Language": "SFX",
       "Streaming": "false",
@@ -640,12 +864,28 @@
       "CachePath": "99/{99C2AFF3-F4E7-0EBB-3D0D-B509303D1765}.wem"
      },
      {
+      "Id": "545230593",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "rusnumber5.wav",
+      "CachePath": "70/{701AAF53-65AF-CBA8-156C-2A0717FCA774}.wem"
+     },
+     {
       "Id": "547127967",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "steps_concrete-002.wav",
       "CachePath": "9F/{9F3ECC04-F26E-6AB6-F6D0-065F15093198}.wem"
+     },
+     {
+      "Id": "552417957",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "rusnumber7.wav",
+      "CachePath": "E4/{E4C00A5A-64B6-0E32-1FE7-122C0AF9178C}.wem"
      },
      {
       "Id": "553450973",
@@ -669,7 +909,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "gear_off-002.wav",
-      "CachePath": "4B/{4B71C0C2-4123-C45A-BB2E-104B571789A3}.wem"
+      "CachePath": "29/{29A8A14D-6174-3EF2-39CF-399158D62076}.wem"
+     },
+     {
+      "Id": "564491412",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "moving_stone2.wav",
+      "CachePath": "FB/{FBD87019-B360-74AE-7792-2BBF00B48172}.wem"
      },
      {
       "Id": "566785962",
@@ -686,6 +934,30 @@
       "Location": "Memory",
       "ShortName": "scary_metalic_sounds2-007.wav",
       "CachePath": "20/{207AC67C-D76C-A796-801B-AC9A5E9AD0C8}.wem"
+     },
+     {
+      "Id": "576655838",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "electic lamp1-003.wav",
+      "CachePath": "D8/{D85E06F1-C532-4AA3-82B7-157F6EFAFB79}.wem"
+     },
+     {
+      "Id": "578056349",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "rusnumber9.wav",
+      "CachePath": "0B/{0B5775E1-A94F-0B36-FD35-19F86CC6A2A0}.wem"
+     },
+     {
+      "Id": "581655123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "stone_stop.wav",
+      "CachePath": "84/{8497856C-8529-368D-7934-AE3339E05793}.wem"
      },
      {
       "Id": "583090368",
@@ -720,6 +992,14 @@
       "CachePath": "51/{5196CE70-E946-02E0-57F8-ABC3B998F18B}.wem"
      },
      {
+      "Id": "633788129",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "short_high_voltage-004.wav",
+      "CachePath": "63/{63809CB7-58A3-FD1B-6C9D-364FDE795671}.wem"
+     },
+     {
       "Id": "636477786",
       "Language": "SFX",
       "Streaming": "false",
@@ -728,12 +1008,44 @@
       "CachePath": "09/{0972D586-DE88-F581-F74A-01A4C48E362A}.wem"
      },
      {
+      "Id": "638463490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "electic lamp1-002.wav",
+      "CachePath": "02/{02ECB347-36B0-0877-A33C-8C4809C9BB60}.wem"
+     },
+     {
       "Id": "651772946",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "breathafterdrink8.wav",
       "CachePath": "87/{87A96480-2ACC-F20F-9FE2-776498F28373}.wem"
+     },
+     {
+      "Id": "661065338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "siren.wav",
+      "CachePath": "7C/{7CB8D675-0CA8-572A-708B-B0DB9B38B3EC}.wem"
+     },
+     {
+      "Id": "665262124",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "eng_numbers-003.wav",
+      "CachePath": "65/{65D320C2-7E2B-6546-4D26-F8921160463E}.wem"
+     },
+     {
+      "Id": "677871912",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "short_high_voltage-002.wav",
+      "CachePath": "72/{72F2361B-2961-FB48-492C-CEDC42B55526}.wem"
      },
      {
       "Id": "689492451",
@@ -752,6 +1064,14 @@
       "CachePath": "71/{7174709D-9224-A19A-259E-C24C92D85680}.wem"
      },
      {
+      "Id": "719565595",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "kapli-002.wav",
+      "CachePath": "65/{654F4376-9116-0172-A6C4-32BB92A38982}.wem"
+     },
+     {
       "Id": "724250734",
       "Language": "SFX",
       "Streaming": "false",
@@ -768,6 +1088,14 @@
       "CachePath": "9E/{9E455F7E-F1C7-2C49-B318-9EB2D7E037F4}.wem"
      },
      {
+      "Id": "728889097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "yellow lamp lil-003.wav",
+      "CachePath": "9B/{9B0FD919-D540-71D8-C277-BCB8C8AF7EE0}.wem"
+     },
+     {
       "Id": "737750761",
       "Language": "SFX",
       "Streaming": "false",
@@ -781,7 +1109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "gear_off-004.wav",
-      "CachePath": "14/{145709C3-BD5D-2FB3-F309-2E0706EC2F82}.wem"
+      "CachePath": "27/{27D77A33-CF14-63E1-7B7B-FFE59BAC2E74}.wem"
      },
      {
       "Id": "743206116",
@@ -824,6 +1152,14 @@
       "CachePath": "98/{9856ADD6-605C-96B3-D545-235699632D64}.wem"
      },
      {
+      "Id": "775109627",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gaz-003.wav",
+      "CachePath": "B6/{B6DBF07B-DCD8-6E4C-D01B-2471596391B3}.wem"
+     },
+     {
       "Id": "775936140",
       "Language": "SFX",
       "Streaming": "false",
@@ -846,6 +1182,14 @@
       "Location": "Memory",
       "ShortName": "Water_Machine_Working-003.wav",
       "CachePath": "68/{68514E55-0ACB-0D70-FC23-DEA1DBCEA770}.wem"
+     },
+     {
+      "Id": "796522633",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear wrong3.wav",
+      "CachePath": "AF/{AFBECAC6-4F16-EE2F-D9EE-4D8CD65A15AD}.wem"
      },
      {
       "Id": "800174277",
@@ -888,6 +1232,14 @@
       "CachePath": "8D/{8D4951C6-B294-1655-6C45-30285B844DF7}.wem"
      },
      {
+      "Id": "822022960",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "kaplya-001.wav",
+      "CachePath": "81/{810C6DD9-F1C0-5716-E549-17BE9D7EBAB7}.wem"
+     },
+     {
       "Id": "833371092",
       "Language": "SFX",
       "Streaming": "false",
@@ -910,6 +1262,14 @@
       "Location": "Memory",
       "ShortName": "Monster_Scream-002.wav",
       "CachePath": "87/{87071E39-363E-9D43-7948-170FE2191602}.wem"
+     },
+     {
+      "Id": "854293411",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gear wrong2.wav",
+      "CachePath": "C2/{C2E21A0A-FB52-6764-6DE5-0CA44CCA9A5E}.wem"
      },
      {
       "Id": "867544689",
@@ -942,6 +1302,14 @@
       "Location": "Memory",
       "ShortName": "steps dirt-008.wav",
       "CachePath": "AC/{ACF81772-4DF4-7640-65E5-D259415597D8}.wem"
+     },
+     {
+      "Id": "891834840",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "rusnumber2.wav",
+      "CachePath": "66/{66FA2D8E-F3D5-8462-26DD-F33A4397BCA6}.wem"
      },
      {
       "Id": "891878516",
@@ -1008,6 +1376,14 @@
       "CachePath": "DA/{DAE313F2-A878-B37E-FB71-6A18BC2181BC}.wem"
      },
      {
+      "Id": "925021924",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "turnofflowbattery.wav",
+      "CachePath": "79/{795F0DA4-D0A4-F48A-D3DC-30FD76CB6088}.wem"
+     },
+     {
       "Id": "925804279",
       "Language": "SFX",
       "Streaming": "false",
@@ -1056,6 +1432,30 @@
       "CachePath": "F6/{F604F32E-6F5D-E76E-EA5D-D0BD0144B914}.wem"
      },
      {
+      "Id": "949010222",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "rusnumber8.wav",
+      "CachePath": "6E/{6E6FD602-6D4A-C010-B390-9F79ABE0B1A5}.wem"
+     },
+     {
+      "Id": "976552225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hot watter max.wav",
+      "CachePath": "F7/{F746076E-BCA4-147E-A310-7F68A000EA6A}.wem"
+     },
+     {
+      "Id": "985085816",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "rusnumber6.wav",
+      "CachePath": "BE/{BEEF2EEF-FEA0-29D4-C4B4-C3B24ECAB20E}.wem"
+     },
+     {
       "Id": "990220910",
       "Language": "SFX",
       "Streaming": "false",
@@ -1070,6 +1470,22 @@
       "Location": "Memory",
       "ShortName": "Water_Machine_Working_Max_Power.wav",
       "CachePath": "20/{203366D1-C8C6-051F-D767-AE9CFB6D2197}.wem"
+     },
+     {
+      "Id": "1019297811",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "kaplya-002.wav",
+      "CachePath": "67/{672D576A-3FD9-3C8C-0EA6-363EC731AF5F}.wem"
+     },
+     {
+      "Id": "1020294371",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hot watter max high.wav",
+      "CachePath": "8B/{8BDD7E79-E8A0-A4A2-12B3-28170FBF8BFC}.wem"
      },
      {
       "Id": "1022717573",
@@ -1117,7 +1533,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "gear_off-003.wav",
-      "CachePath": "6E/{6ECF5B7D-FE34-96A0-320C-29F218A07F22}.wem"
+      "CachePath": "98/{987ABC34-EA9E-48B7-EB4D-97708A89A940}.wem"
      },
      {
       "Id": "1050284411",
@@ -1142,6 +1558,14 @@
       "Location": "Memory",
       "ShortName": "scary_metalic_sounds-006.wav",
       "CachePath": "B6/{B6979F1F-A9FC-FF6A-B9EC-D1323CDA1380}.wem"
+     },
+     {
+      "Id": "1066046137",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "kapli-001.wav",
+      "CachePath": "6B/{6B22C063-1BC4-EB75-2280-202772E73CFD}.wem"
      },
      {
       "Id": "1068077496",
@@ -1256,7 +1680,7 @@
       "ObjectPath": "\\Events\\Player\\FlashLight\\Play_Flashlight_Disable",
       "GUID": "{88303FB5-2DF7-49A8-804E-5808E960DEF4}",
       "DurationType": "OneShot",
-      "DurationMin": "0.6885833",
+      "DurationMin": "0.49845806",
       "DurationMax": "0.9325178",
       "MediaRefs": [
        {
@@ -1269,10 +1693,25 @@
         "Id": "26503657"
        },
        {
+        "Id": "80718749"
+       },
+       {
         "Id": "111602548"
        },
        {
+        "Id": "168566831"
+       },
+       {
         "Id": "583090368"
+       },
+       {
+        "Id": "633788129"
+       },
+       {
+        "Id": "677871912"
+       },
+       {
+        "Id": "925021924"
        }
       ]
      },
@@ -1293,10 +1732,22 @@
         "Id": "26503657"
        },
        {
+        "Id": "80718749"
+       },
+       {
         "Id": "111602548"
        },
        {
+        "Id": "168566831"
+       },
+       {
         "Id": "583090368"
+       },
+       {
+        "Id": "633788129"
+       },
+       {
+        "Id": "677871912"
        }
       ]
      },
@@ -1480,9 +1931,27 @@
       ]
      },
      {
+      "Id": "2287442812",
+      "Name": "Play_Gaz",
+      "ObjectPath": "\\Events\\Objects\\Play_Gaz",
+      "GUID": "{3C9872E0-20FE-4F1F-B7DD-320A01CDD282}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "166830043"
+       },
+       {
+        "Id": "484629952"
+       },
+       {
+        "Id": "775109627"
+       }
+      ]
+     },
+     {
       "Id": "3106012101",
       "Name": "Play_Gear_Drop",
-      "ObjectPath": "\\Events\\Objects\\Gear\\Play_Gear_Drop",
+      "ObjectPath": "\\Events\\Objects\\GearQuest\\Gear\\Play_Gear_Drop",
       "GUID": "{89BEC0D1-2542-4C8E-AD96-0DE6A149D7AC}",
       "DurationType": "OneShot",
       "DurationMin": "1.3837278",
@@ -1505,7 +1974,7 @@
      {
       "Id": "1253718314",
       "Name": "Play_Gear_PickUp",
-      "ObjectPath": "\\Events\\Objects\\Gear\\Play_Gear_PickUp",
+      "ObjectPath": "\\Events\\Objects\\GearQuest\\Gear\\Play_Gear_PickUp",
       "GUID": "{0FD44CF7-9F59-4BBD-8AE4-28F4A6D3309E}",
       "DurationType": "OneShot",
       "DurationMin": "0.99911565",
@@ -1552,6 +2021,45 @@
       "MediaRefs": [
        {
         "Id": "879057900"
+       }
+      ]
+     },
+     {
+      "Id": "1170362071",
+      "Name": "Play_Kapli",
+      "ObjectPath": "\\Events\\Objects\\Play_Kapli",
+      "GUID": "{017BF8C1-7936-4855-B436-C04FF827CCD9}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "71642605"
+       },
+       {
+        "Id": "287208522"
+       },
+       {
+        "Id": "719565595"
+       },
+       {
+        "Id": "1066046137"
+       }
+      ]
+     },
+     {
+      "Id": "1908881673",
+      "Name": "Play_Little_Fire",
+      "ObjectPath": "\\Events\\Objects\\Lighting\\Play_Little_Fire",
+      "GUID": "{812310FB-74B7-4789-9D11-C5811C409819}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "101829206"
+       },
+       {
+        "Id": "242089658"
+       },
+       {
+        "Id": "426644446"
        }
       ]
      },
@@ -1626,6 +2134,24 @@
       ]
      },
      {
+      "Id": "2184129563",
+      "Name": "Play_Move_Stone",
+      "ObjectPath": "\\Events\\Objects\\StatueQuests\\Play_Move_Stone",
+      "GUID": "{46FE7E4F-0B1D-4B87-8667-F88088C711E9}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "421727055"
+       },
+       {
+        "Id": "469026013"
+       },
+       {
+        "Id": "564491412"
+       }
+      ]
+     },
+     {
       "Id": "2932040671",
       "Name": "Play_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
@@ -1643,6 +2169,848 @@
        },
        {
         "Id": "990220910"
+       }
+      ]
+     },
+     {
+      "Id": "1582615549",
+      "Name": "Play_number_01",
+      "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_01",
+      "GUID": "{211A4E23-131D-4342-A9F5-252F4501337D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.73192745",
+      "DurationMax": "1.0497279",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "505590202"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "505590202"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "40981142"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "505590202"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "505590202"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "40981142"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1582615550",
+      "Name": "Play_number_02",
+      "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_02",
+      "GUID": "{5ED3F506-C89A-4304-B8E8-278C87104232}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8726757",
+      "DurationMax": "1.0497279",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "525150545"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "525150545"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "891834840"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "525150545"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "525150545"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "891834840"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1582615551",
+      "Name": "Play_number_03",
+      "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_03",
+      "GUID": "{7ADCBD7E-6D51-459C-A789-28E969813910}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0497279",
+      "DurationMax": "1.0497279",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "665262124"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "665262124"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "665262124"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "665262124"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "665262124"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "665262124"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1582615544",
+      "Name": "Play_number_04",
+      "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_04",
+      "GUID": "{B28C3B4C-C3EF-490D-A799-B85EA448D00C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9792063",
+      "DurationMax": "1.0497279",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "416492495"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "416492495"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "367181196"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "416492495"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "416492495"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "367181196"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1582615545",
+      "Name": "Play_number_05",
+      "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_05",
+      "GUID": "{25E62060-3D52-459C-9DA5-F4F22B34E516}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.92",
+      "DurationMax": "1.0497279",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "300731801"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "300731801"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "545230593"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "300731801"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "300731801"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "545230593"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1582615546",
+      "Name": "Play_number_06",
+      "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_06",
+      "GUID": "{AB71CF21-3796-4741-A36C-279F907BB00B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0497279",
+      "DurationMax": "1.23",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "152245934"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "152245934"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "985085816"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "152245934"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "152245934"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "985085816"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1582615547",
+      "Name": "Play_number_07",
+      "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_07",
+      "GUID": "{4C80913B-47E8-42B4-91F0-5E2280921C91}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.97120184",
+      "DurationMax": "1.0497279",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "190870679"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "190870679"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "552417957"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "190870679"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "190870679"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "552417957"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1582615540",
+      "Name": "Play_number_08",
+      "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_08",
+      "GUID": "{66860A34-EC25-462E-B08B-CB8AAA19A977}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0497279",
+      "DurationMax": "1.05",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "132467461"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "132467461"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "949010222"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "132467461"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "132467461"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "949010222"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1582615541",
+      "Name": "Play_number_09",
+      "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_09",
+      "GUID": "{49B3C7DF-7C5A-40B4-AF66-DA0D90AAC8FD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0497279",
+      "DurationMax": "1.07",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "283715340"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "283715340"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "578056349"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "748895195",
+         "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "283715340"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "529726535",
+         "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "283715340"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2441027675",
+         "Id": "712161717",
+         "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "578056349"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2998979435",
+      "Name": "Play_One_Kaplya",
+      "ObjectPath": "\\Events\\Objects\\Kapli_Quest\\Play_One_Kaplya",
+      "GUID": "{9A40B453-D34B-46BA-80D5-B8B92773EDB9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5937445",
+      "DurationMax": "0.6959622",
+      "MediaRefs": [
+       {
+        "Id": "222761765"
+       },
+       {
+        "Id": "465769317"
+       },
+       {
+        "Id": "822022960"
+       },
+       {
+        "Id": "1019297811"
        }
       ]
      },
@@ -1839,6 +3207,18 @@
       ]
      },
      {
+      "Id": "1185108097",
+      "Name": "Play_Siren",
+      "ObjectPath": "\\Events\\Objects\\Play_Siren",
+      "GUID": "{3ECCF73C-6BDC-4C0F-9754-E7D1FDA4FD7E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "661065338"
+       }
+      ]
+     },
+     {
       "Id": "3276893109",
       "Name": "Play_Stop_Drink",
       "ObjectPath": "\\Events\\Player\\Drinking\\Play_Stop_Drink",
@@ -1951,6 +3331,133 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "1638297339",
+      "Name": "Play_WhiteLamp",
+      "ObjectPath": "\\Events\\Objects\\Lighting\\Play_WhiteLamp",
+      "GUID": "{16CFD58C-602C-4508-B361-7450EB3D8E80}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "576655838"
+       },
+       {
+        "Id": "638463490"
+       }
+      ]
+     },
+     {
+      "Id": "3637805037",
+      "Name": "Play_Wrong_Gear_Combination",
+      "ObjectPath": "\\Events\\Objects\\GearQuest\\Play_Wrong_Gear_Combination",
+      "GUID": "{AE4E2D47-3D01-4557-822B-B53D518D23E8}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6926076",
+      "DurationMax": "4.035374",
+      "MediaRefs": [
+       {
+        "Id": "126346157"
+       },
+       {
+        "Id": "307012645"
+       },
+       {
+        "Id": "796522633"
+       },
+       {
+        "Id": "854293411"
+       }
+      ]
+     },
+     {
+      "Id": "2132701112",
+      "Name": "Play_YellowLamp",
+      "ObjectPath": "\\Events\\Objects\\Lighting\\Play_YellowLamp",
+      "GUID": "{D86A8B87-D65C-46DD-9040-B4E0864C396B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "446062803"
+       },
+       {
+        "Id": "728889097"
+       }
+      ]
+     },
+     {
+      "Id": "595172737",
+      "Name": "Stop_Move_Stone",
+      "ObjectPath": "\\Events\\Objects\\StatueQuests\\Stop_Move_Stone",
+      "GUID": "{4F093A07-A256-43E9-B017-E824F565E641}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.59710795",
+      "DurationMax": "0.59710795",
+      "MediaRefs": [
+       {
+        "Id": "421727055"
+       },
+       {
+        "Id": "469026013"
+       },
+       {
+        "Id": "564491412"
+       },
+       {
+        "Id": "581655123"
+       }
+      ]
+     },
+     {
+      "Id": "574068527",
+      "Name": "Stop_Siren",
+      "ObjectPath": "\\Events\\Objects\\Stop_Siren",
+      "GUID": "{ABDC6767-6D6A-4496-9C2F-2901AFA9C9F8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "661065338"
+       }
+      ]
+     },
+     {
+      "Id": "2584819961",
+      "Name": "Stop_WhiteLamp",
+      "ObjectPath": "\\Events\\Objects\\Lighting\\Stop_WhiteLamp",
+      "GUID": "{6B983A8F-4EDD-400A-B1A1-92B5E7B482CE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "576655838"
+       },
+       {
+        "Id": "638463490"
+       }
+      ]
+     },
+     {
+      "Id": "3345224838",
+      "Name": "Stop_YellowLamp",
+      "ObjectPath": "\\Events\\Objects\\Lighting\\Stop_YellowLamp",
+      "GUID": "{92E954B5-FCCA-483A-82BB-E9A6BB361D1E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "446062803"
+       },
+       {
+        "Id": "728889097"
+       }
+      ]
      }
     ],
     "Busses": [
@@ -2025,6 +3532,34 @@
       "GUID": "{5794A9E2-955F-4062-9141-3B4B26921385}"
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "2441027675",
+      "Name": "Language",
+      "ObjectPath": "\\States\\Default Work Unit\\Language",
+      "GUID": "{59593480-FFF0-4741-B129-96E89A7BD6EC}",
+      "States": [
+       {
+        "Id": "529726535",
+        "Name": "Eng",
+        "ObjectPath": "\\States\\Default Work Unit\\Language\\Eng",
+        "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}"
+       },
+       {
+        "Id": "712161717",
+        "Name": "Rus",
+        "ObjectPath": "\\States\\Default Work Unit\\Language\\Rus",
+        "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Language\\None",
+        "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "1834394558",
@@ -2067,6 +3602,6 @@
     ]
    }
   ],
-  "FileHash": "{E0F9AFA9-FDF8-646C-BC31-2F0C1AF42654}"
+  "FileHash": "{6604D16F-FDF0-517D-0F33-8CF4667AD69E}"
  }
 }

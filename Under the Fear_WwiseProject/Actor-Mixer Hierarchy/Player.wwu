@@ -1353,6 +1353,113 @@
 										<ActiveSource Name="Flash_Light_Button-003" ID="{7B44F78D-6DA5-4D4C-8E4E-EFE8DC0C1ED0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Short_high_voltage" ID="{A0FC5C80-FCE5-42F7-B9B6-17A1196504AE}" ShortID="859024656">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="short_high_voltage-001" ID="{03A9EDC6-915A-439F-A4FB-8469A779BD21}" ShortID="218356910">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="short_high_voltage-001" ID="{AFE4F888-A574-4E2D-80DE-F82C2DDC72AB}">
+													<Language>SFX</Language>
+													<AudioFile>short_high_voltage-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="168566831"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="short_high_voltage-001" ID="{AFE4F888-A574-4E2D-80DE-F82C2DDC72AB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="short_high_voltage-002" ID="{3D1E5F73-6A95-4426-B728-0473824B40B0}" ShortID="830489306">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="short_high_voltage-002" ID="{21978B3A-413C-4F47-A1A6-941BD8E2492C}">
+													<Language>SFX</Language>
+													<AudioFile>short_high_voltage-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="677871912"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="short_high_voltage-002" ID="{21978B3A-413C-4F47-A1A6-941BD8E2492C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="short_high_voltage-003" ID="{4613B50D-629E-4649-AFF8-7CDD335B60A7}" ShortID="985508255">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="short_high_voltage-003" ID="{328B62A8-291E-4F6C-AB7A-7FB8A469B83B}">
+													<Language>SFX</Language>
+													<AudioFile>short_high_voltage-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="80718749"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="short_high_voltage-003" ID="{328B62A8-291E-4F6C-AB7A-7FB8A469B83B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="short_high_voltage-004" ID="{B8D42603-4AD4-4570-B0E1-EA87BF155062}" ShortID="240828997">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="short_high_voltage-004" ID="{AA3CEF98-DE8C-4FD2-AD06-81730C2BD42A}">
+													<Language>SFX</Language>
+													<AudioFile>short_high_voltage-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="633788129"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="short_high_voltage-004" ID="{AA3CEF98-DE8C-4FD2-AD06-81730C2BD42A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="FlashLight_Working" ID="{EFA7451D-FA8A-4DFC-9CED-9762076FD676}" ShortID="815843282">
@@ -1470,6 +1577,50 @@
 									</Reference>
 								</ObjectList>
 							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="LowBattery" ID="{45B891C5-DC72-4381-A4B1-E6A41BC1AB53}" ShortID="877040996">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="turnofflowbattery" ID="{1A6E4D06-57B9-4E9E-9704-CC67B1A7F807}" ShortID="741429430">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D128E61-5A18-4742-B1E9-476B5BC279ED}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="turnofflowbattery" ID="{7F930A35-EA47-4CAC-B0A3-1409A9EEBCFB}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>4.8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>turnofflowbattery.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="925021924"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="turnofflowbattery" ID="{7F930A35-EA47-4CAC-B0A3-1409A9EEBCFB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>

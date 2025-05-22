@@ -68,25 +68,311 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Gear" ID="{E410921D-2749-45F5-977E-A33D4330859E}" ShortID="521768300">
+				<Folder Name="NumbersQuest" ID="{2055C407-6D6C-4CC4-998B-F9D590E8E393}" ShortID="447431436">
 					<ChildrenList>
-						<Event Name="Play_Gear_PickUp" ID="{0FD44CF7-9F59-4BBD-8AE4-28F4A6D3309E}">
+						<Folder Name="ENG" ID="{72342D2F-819A-4693-97B4-D1041DA3060A}" ShortID="1036543029">
 							<ChildrenList>
-								<Action Name="" ID="{E767C8DA-A090-435E-A211-886C9921F91A}" ShortID="66892051">
+								<Event Name="Play_number_01" ID="{211A4E23-131D-4342-A9F5-252F4501337D}">
+									<ChildrenList>
+										<Action Name="" ID="{667992DC-6B16-4AE9-9323-69F42FAF85B1}" ShortID="683904344">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="num1" ID="{93327172-47BF-445B-B1E6-31AD7648902D}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_number_02" ID="{5ED3F506-C89A-4304-B8E8-278C87104232}">
+									<ChildrenList>
+										<Action Name="" ID="{5F2DB68A-C9CE-42A8-B364-0690DACB82E6}" ShortID="504341074">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="num2" ID="{0E3542A2-B822-4D1C-AC98-8C36EB3D0570}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_number_03" ID="{7ADCBD7E-6D51-459C-A789-28E969813910}">
+									<ChildrenList>
+										<Action Name="" ID="{A42593EF-145A-4E3D-92BC-BE269D6A1E95}" ShortID="119657462">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="num3" ID="{9CEC55D1-2741-458C-BB27-39EBC4BDF41C}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_number_04" ID="{B28C3B4C-C3EF-490D-A799-B85EA448D00C}">
+									<ChildrenList>
+										<Action Name="" ID="{B3C0E42F-924D-4A9B-B9BB-157F5C3260C3}" ShortID="193760243">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="num4" ID="{62F9F3EF-114C-4008-B1A0-5BBA6EEB9081}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_number_05" ID="{25E62060-3D52-459C-9DA5-F4F22B34E516}">
+									<ChildrenList>
+										<Action Name="" ID="{9BB297A2-C298-461F-8F0E-F865C05A1948}" ShortID="826359789">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="num5" ID="{C823FD2D-A574-4AAC-A8D5-6ADCCC79B7FB}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_number_06" ID="{AB71CF21-3796-4741-A36C-279F907BB00B}">
+									<ChildrenList>
+										<Action Name="" ID="{8788F3B1-D1F0-45ED-97DE-446E3D773A96}" ShortID="327702062">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="num6" ID="{772C4B2D-F419-4252-B371-1D12ACF28D6E}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_number_07" ID="{4C80913B-47E8-42B4-91F0-5E2280921C91}">
+									<ChildrenList>
+										<Action Name="" ID="{BE3BF7D3-E964-4DDD-BDF6-21C9E83C6290}" ShortID="682342550">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="num7" ID="{1286B8CC-4969-4E55-9D36-137340AC11F7}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_number_08" ID="{66860A34-EC25-462E-B08B-CB8AAA19A977}">
+									<ChildrenList>
+										<Action Name="" ID="{BE6994AA-6A62-4144-B432-895F08A5E3B3}" ShortID="369916116">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="num8" ID="{368C0944-4A2F-46B3-8D7D-FA915709D490}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_number_09" ID="{49B3C7DF-7C5A-40B4-AF66-DA0D90AAC8FD}">
+									<ChildrenList>
+										<Action Name="" ID="{C5C18B2B-3F75-421E-AE79-A6649C719AFB}" ShortID="407923925">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="num9" ID="{04E0679A-B4BE-4F76-B9A8-FE97143928E9}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="GearQuest" ID="{B748E8B5-BDC9-46C0-B05A-103AE1F8A210}" ShortID="983634686">
+					<ChildrenList>
+						<Folder Name="Gear" ID="{E410921D-2749-45F5-977E-A33D4330859E}" ShortID="521768300">
+							<ChildrenList>
+								<Event Name="Play_Gear_PickUp" ID="{0FD44CF7-9F59-4BBD-8AE4-28F4A6D3309E}">
+									<ChildrenList>
+										<Action Name="" ID="{E767C8DA-A090-435E-A211-886C9921F91A}" ShortID="66892051">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="GearPickup" ID="{7B6656BD-F4B7-4C4B-A730-BB368E9BB766}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Gear_Drop" ID="{89BEC0D1-2542-4C8E-AD96-0DE6A149D7AC}">
+									<ChildrenList>
+										<Action Name="" ID="{9214CBD1-A058-4E4F-9B47-F0BAE8E77663}" ShortID="933807631">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="GearDrop" ID="{112851F9-F1CB-4663-BBF3-0350182AD3F4}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Play_Wrong_Gear_Combination" ID="{AE4E2D47-3D01-4557-822B-B53D518D23E8}">
+							<ChildrenList>
+								<Action Name="" ID="{333BF6BA-72D4-405B-9560-CE0AD86341C6}" ShortID="32800058">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="GearPickup" ID="{7B6656BD-F4B7-4C4B-A730-BB368E9BB766}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+											<ObjectRef Name="Wrong_Gear_Combination" ID="{BFF1A00B-D7E1-449F-A697-D9B058512AD9}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Gear_Drop" ID="{89BEC0D1-2542-4C8E-AD96-0DE6A149D7AC}">
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lighting" ID="{F3163724-9745-45B6-93F2-604F34976EC1}" ShortID="875383093">
+					<ChildrenList>
+						<Event Name="Play_WhiteLamp" ID="{16CFD58C-602C-4508-B361-7450EB3D8E80}">
 							<ChildrenList>
-								<Action Name="" ID="{9214CBD1-A058-4E4F-9B47-F0BAE8E77663}" ShortID="933807631">
+								<Action Name="" ID="{9E88143B-EBA3-4E77-B15D-9C266771879F}" ShortID="96334248">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="GearDrop" ID="{112851F9-F1CB-4663-BBF3-0350182AD3F4}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+											<ObjectRef Name="WhiteLamp" ID="{57B484D6-70D0-4467-8FB3-2A12B203C36B}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_WhiteLamp" ID="{6B983A8F-4EDD-400A-B1A1-92B5E7B482CE}">
+							<ChildrenList>
+								<Action Name="" ID="{90083B56-9A4A-4DC0-8686-517BC3AB7510}" ShortID="855439096">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WhiteLamp" ID="{57B484D6-70D0-4467-8FB3-2A12B203C36B}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_YellowLamp" ID="{D86A8B87-D65C-46DD-9040-B4E0864C396B}">
+							<ChildrenList>
+								<Action Name="" ID="{DB427471-D989-44E5-82D7-4E1878B2F6B5}" ShortID="70046633">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="YellowLamp" ID="{7FF9DDB3-19E7-498F-8511-223C5949CCCE}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_YellowLamp" ID="{92E954B5-FCCA-483A-82BB-E9A6BB361D1E}">
+							<ChildrenList>
+								<Action Name="" ID="{69B01F34-84CA-4CDB-9855-3BBAB893B43B}" ShortID="712627380">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="YellowLamp" ID="{7FF9DDB3-19E7-498F-8511-223C5949CCCE}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Little_Fire" ID="{812310FB-74B7-4789-9D11-C5811C409819}">
+							<ChildrenList>
+								<Action Name="" ID="{CA0A9B2C-C90F-42F1-A0DB-463102394B8A}" ShortID="193767945">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Little_Fire" ID="{B2ED1DF7-9EA3-4A54-855C-B165BA61E758}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Gaz" ID="{3C9872E0-20FE-4F1F-B7DD-320A01CDD282}">
+					<ChildrenList>
+						<Action Name="" ID="{C10A450E-CC7A-4935-A686-D9280BC496B1}" ShortID="257462729">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gaz" ID="{CCD0B40B-93F1-4F61-A656-90E4FA659D34}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="StatueQuests" ID="{0AF0BC79-3C74-4E7B-A574-23E9BE3DCB28}" ShortID="198611625">
+					<ChildrenList>
+						<Event Name="Play_Move_Stone" ID="{46FE7E4F-0B1D-4B87-8667-F88088C711E9}">
+							<ChildrenList>
+								<Action Name="" ID="{D5779177-CCBD-49F5-9D6C-B2C2F876481E}" ShortID="771622317">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MovingStone" ID="{40258D5C-E829-44FC-91D9-969E674EFB51}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Move_Stone" ID="{4F093A07-A256-43E9-B017-E824F565E641}">
+							<ChildrenList>
+								<Action Name="" ID="{A1622394-4CA8-4607-9004-32703883079C}" ShortID="332715030">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MovingStone" ID="{40258D5C-E829-44FC-91D9-969E674EFB51}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E48E995E-74B5-4FAC-A5B8-09ECE85A0D36}" ShortID="1039513177">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="StoneStop" ID="{BB477707-9290-4B66-89B4-83BAEF0DE61F}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Siren" ID="{3ECCF73C-6BDC-4C0F-9754-E7D1FDA4FD7E}">
+					<ChildrenList>
+						<Action Name="" ID="{39C11EFA-96F2-48AF-8499-C5AF4574BF29}" ShortID="442901616">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Siren" ID="{0ABCB6B7-65F6-4FDA-BF9E-C4F7B411A8E5}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Siren" ID="{ABDC6767-6D6A-4496-9C2F-2901AFA9C9F8}">
+					<ChildrenList>
+						<Action Name="" ID="{8DBA32B1-5083-40A6-A934-0733BD4695FA}" ShortID="18242720">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Siren" ID="{0ABCB6B7-65F6-4FDA-BF9E-C4F7B411A8E5}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Kapli" ID="{017BF8C1-7936-4855-B436-C04FF827CCD9}">
+					<ChildrenList>
+						<Action Name="" ID="{91194B1A-6BBF-41C0-8B24-353350691BE0}" ShortID="805163557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kapli" ID="{1D4875D0-A141-4283-A828-6766B32BED5B}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Kapli_Quest" ID="{6E111260-D508-4EA0-A374-BF9C571D0ED1}" ShortID="1058168464">
+					<ChildrenList>
+						<Event Name="Play_One_Kaplya" ID="{9A40B453-D34B-46BA-80D5-B8B92773EDB9}">
+							<ChildrenList>
+								<Action Name="" ID="{F91BE9D7-C1D0-4384-AC4C-6B2AEBC5020A}" ShortID="535397537">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="One_Kaplya" ID="{584D5637-7781-42E4-B95F-CFC3DFBA81F4}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
