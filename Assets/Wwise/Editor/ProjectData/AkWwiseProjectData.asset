@@ -148,7 +148,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b665060d0916d41bbdd601f2e444322
     GuidInternal: 
-    m_lastTime: -8584536848765359282
+    m_lastTime: -8584535930076788343
     List:
     - name: Lvl1
       guid: 05b22336d9e65e4cb95346a1ef2ceb95
@@ -206,7 +206,7 @@ MonoBehaviour:
     ParentPath: Events\Monster
     guid: c0466b79d383d84f82cbbf065324d897
     GuidInternal: 
-    m_lastTime: -8584536849176710689
+    m_lastTime: -8584535930078086182
     List:
     - name: Play_Low_Roar
       guid: 4bc577fcbab67b479810789903ce7310
@@ -225,6 +225,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.2800226
       minDuration: 0.6842857
+    - name: Play_Monster_Step
+      guid: 1959e3c62c7260468244333fe4e1c60a
+      id: 1429678133
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Monster
+        ObjectType: 12
+        guid: c0466b79d383d84f82cbbf065324d897
+      - ElementName: Play_Monster_Step
+        ObjectType: 3
+        guid: 1959e3c62c7260468244333fe4e1c60a
+      Path: Events\Monster\Play_Monster_Step
+      maxAttenuation: 0
+      maxDuration: 0.81578946
+      minDuration: 0.81578946
     - name: Play_Roar
       guid: 2041729ce443874b92be85825d3e6bdd
       id: 2770252186
@@ -240,8 +257,8 @@ MonoBehaviour:
         guid: 2041729ce443874b92be85825d3e6bdd
       Path: Events\Monster\Play_Roar
       maxAttenuation: 0
-      maxDuration: 7.932228
-      minDuration: 1.7647165
+      maxDuration: 7.403404
+      minDuration: 2.1176417
     - name: Play_scream
       guid: cea2873250780a4eb6d60762e6932fd2
       id: 2470536401
@@ -270,7 +287,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: efa17e970f8f564c9c28e8e57906fbec
     GuidInternal: 
-    m_lastTime: -8584536848767844294
+    m_lastTime: -8584535930078030884
     List:
     - name: CassetePlayer
       guid: ec6966511b9b4248acfb491426367985
@@ -414,6 +431,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Button
+      guid: e8981adc3f99644ea38824ea0b793cb5
+      id: 2099555730
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: RichagQuest
+        ObjectType: 4
+        guid: 740ecf96132ab648aa13da2612f96dde
+      - ElementName: Play_Button
+        ObjectType: 3
+        guid: e8981adc3f99644ea38824ea0b793cb5
+      Path: Events\Objects\RichagQuest\Play_Button
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Casseteplayer_Button
       guid: 4700d14e37096e448f3aaf6f963a69a1
       id: 2055319774
@@ -434,6 +471,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Floor_Button
+      guid: b2d0267f0530754aa7e1dfb62a06799c
+      id: 3474005947
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: StatueQuests
+        ObjectType: 4
+        guid: 79bcf00a743c7b4ea57423e9be3dcb28
+      - ElementName: Play_Floor_Button
+        ObjectType: 3
+        guid: b2d0267f0530754aa7e1dfb62a06799c
+      Path: Events\Objects\StatueQuests\Play_Floor_Button
+      maxAttenuation: 0
+      maxDuration: 0.32621315
+      minDuration: 0.32621315
     - name: Play_Gaz
       guid: e072983cfe201f4fb7dd320a01cdd282
       id: 2287442812
@@ -838,6 +895,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.6959622
       minDuration: 0.5937445
+    - name: Play_Quest_Done
+      guid: fcfaf071078b594e86b3ed111571cb24
+      id: 2119603875
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: RichagQuest
+        ObjectType: 4
+        guid: 740ecf96132ab648aa13da2612f96dde
+      - ElementName: Play_Quest_Done
+        ObjectType: 3
+        guid: fcfaf071078b594e86b3ed111571cb24
+      Path: Events\Objects\RichagQuest\Play_Quest_Done
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Richag
+      guid: d173a92748e70f4fa0e45f2d96b358aa
+      id: 2815540712
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: RichagQuest
+        ObjectType: 4
+        guid: 740ecf96132ab648aa13da2612f96dde
+      - ElementName: Play_Richag
+        ObjectType: 3
+        guid: d173a92748e70f4fa0e45f2d96b358aa
+      Path: Events\Objects\RichagQuest\Play_Richag
+      maxAttenuation: 0
+      maxDuration: 1.2517687
+      minDuration: 0.7722676
     - name: Play_Scary_Metalic_Sound
       guid: cc13e3bdfd352e47b82be84acbad2b9e
       id: 2270754086
@@ -972,6 +1069,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: RichagQuest
+      guid: 740ecf96132ab648aa13da2612f96dde
+      id: 411021047
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: RichagQuest
+        ObjectType: 4
+        guid: 740ecf96132ab648aa13da2612f96dde
+      Path: Events\Objects\RichagQuest
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: StatueQuests
       guid: 79bcf00a743c7b4ea57423e9be3dcb28
       id: 3150131116
@@ -1534,7 +1648,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584536849157106625
     List: []
-  ExpandedFileSystemItemIds: 01000000020000000300000005000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001b00000032000000330000003400000055000000
+  ExpandedFileSystemItemIds: 01000000020000000300000005000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001b00000032000000330000003400000038000000390000003a00000055000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

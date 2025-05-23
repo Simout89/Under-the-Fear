@@ -6,6 +6,7 @@ namespace _Script.interactive_objects
 {
     public class PressurePlate: MonoBehaviour
     {
+        [SerializeField] private AK.Wwise.Event sound;
         [SerializeField] private Material onMaterial;
         [SerializeField] private Material offMaterial;
         public event Action onStay;
@@ -36,6 +37,7 @@ namespace _Script.interactive_objects
         {
             _meshRenderer.material = onMaterial;
             _canTrigger = false;
+            sound.Post(gameObject);
         }
     }
 }
