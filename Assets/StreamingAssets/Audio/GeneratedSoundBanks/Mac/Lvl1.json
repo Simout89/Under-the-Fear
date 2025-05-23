@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{3F09FAD8-E4E4-DFBE-44D3-58C1FEE195E0}",
+    "Hash": "{F859CD5E-C3ED-BE37-0929-ACCDB3C1441B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -3038,7 +3038,7 @@
       "Name": "Play_Quest_Done",
       "ObjectPath": "\\Events\\Objects\\RichagQuest\\Play_Quest_Done",
       "GUID": "{71F0FAFC-8B07-4E59-86B3-ED111571CB24}",
-      "MaxAttenuation": "65",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3617,6 +3617,6 @@
     ]
    }
   ],
-  "FileHash": "{04DAF018-EC1C-950E-43F3-F8DB4509E56A}"
+  "FileHash": "{5107167B-636B-2F3A-16C8-693FFBB2557A}"
  }
 }
