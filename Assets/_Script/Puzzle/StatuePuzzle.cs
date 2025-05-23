@@ -11,6 +11,7 @@ public class StatuePuzzle : PuzzleBase, IClickable
             if(statue.Statue.GetRotation() != statue.RightY)
             {
                 Debug.Log("Не решено");
+                Fail();
                 return;
             }
         }

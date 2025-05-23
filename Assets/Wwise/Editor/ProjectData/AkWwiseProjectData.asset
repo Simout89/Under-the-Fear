@@ -222,7 +222,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4bc577fcbab67b479810789903ce7310
       Path: Events\Monster\Play_Low_Roar
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 2.2800226
       minDuration: 0.6842857
     - name: Play_Monster_Step
@@ -239,7 +239,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1959e3c62c7260468244333fe4e1c60a
       Path: Events\Monster\Play_Monster_Step
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0.81578946
       minDuration: 0.81578946
     - name: Play_Roar
@@ -256,7 +256,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2041729ce443874b92be85825d3e6bdd
       Path: Events\Monster\Play_Roar
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 7.403404
       minDuration: 2.1176417
     - name: Play_scream
@@ -273,7 +273,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: cea2873250780a4eb6d60762e6932fd2
       Path: Events\Monster\Play_scream
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 2.84
       minDuration: 1.01
   - PhysicalPath: Events\Objects.wwu
@@ -488,7 +488,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: b2d0267f0530754aa7e1dfb62a06799c
       Path: Events\Objects\StatueQuests\Play_Floor_Button
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0.32621315
       minDuration: 0.32621315
     - name: Play_Gaz
@@ -505,7 +505,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e072983cfe201f4fb7dd320a01cdd282
       Path: Events\Objects\Play_Gaz
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
     - name: Play_Gear_Drop
@@ -528,7 +528,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d1c0be8942258e4cad960de6a149d7ac
       Path: Events\Objects\GearQuest\Gear\Play_Gear_Drop
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 2.2873867
       minDuration: 1.3837278
     - name: Play_Gear_PickUp
@@ -551,7 +551,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f74cd40f599fbd4b8ae428f4a6d3309e
       Path: Events\Objects\GearQuest\Gear\Play_Gear_PickUp
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0.99911565
       minDuration: 0.99911565
     - name: Play_Gen1
@@ -571,7 +571,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4f4c637eaa6d9a479dadd6e0d0256e8b
       Path: Events\Objects\Generators\Play_Gen1
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
     - name: Play_Gen2
@@ -591,7 +591,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: cc2d605c335e6b45a1b9737e5523fc22
       Path: Events\Objects\Generators\Play_Gen2
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
     - name: Play_Kapli
@@ -608,7 +608,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c1f87b0136795548b436c04ff827ccd9
       Path: Events\Objects\Play_Kapli
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
     - name: Play_Little_Fire
@@ -628,7 +628,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: fb102381b77489479d11c5811c409819
       Path: Events\Objects\Lighting\Play_Little_Fire
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
     - name: Play_Mechanical_Sound
@@ -645,7 +645,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: dbc085208a00b74390c177394e0b5bd0
       Path: Events\Objects\Play_Mechanical_Sound
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 4.35449
       minDuration: 2.8235373
     - name: Play_Move_Stone
@@ -665,7 +665,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4f7efe461d0b874b8667f88088c711e9
       Path: Events\Objects\StatueQuests\Play_Move_Stone
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
     - name: Play_number_01
@@ -688,7 +688,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 234e1a211d134243a9f5252f4501337d
       Path: Events\Objects\NumbersQuest\ENG\Play_number_01
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 1.0497279
       minDuration: 0.73192745
     - name: Play_number_02
@@ -711,7 +711,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 06f5d35e9ac80443b8e8278c87104232
       Path: Events\Objects\NumbersQuest\ENG\Play_number_02
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 1.0497279
       minDuration: 0.8726757
     - name: Play_number_03
@@ -734,7 +734,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7ebddc7a516d9c45a78928e969813910
       Path: Events\Objects\NumbersQuest\ENG\Play_number_03
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 1.0497279
       minDuration: 1.0497279
     - name: Play_number_04
@@ -757,7 +757,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4c3b8cb2efc30d49a799b85ea448d00c
       Path: Events\Objects\NumbersQuest\ENG\Play_number_04
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 1.0497279
       minDuration: 0.9792063
     - name: Play_number_05
@@ -780,7 +780,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6020e625523d9c459da5f4f22b34e516
       Path: Events\Objects\NumbersQuest\ENG\Play_number_05
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 1.0497279
       minDuration: 0.92
     - name: Play_number_06
@@ -803,7 +803,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 21cf71ab96374147a36c279f907bb00b
       Path: Events\Objects\NumbersQuest\ENG\Play_number_06
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 1.23
       minDuration: 1.0497279
     - name: Play_number_07
@@ -826,7 +826,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3b91804ce847b44291f05e2280921c91
       Path: Events\Objects\NumbersQuest\ENG\Play_number_07
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 1.0497279
       minDuration: 0.97120184
     - name: Play_number_08
@@ -849,7 +849,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 340a866625ec2e46b08bcb8aaa19a977
       Path: Events\Objects\NumbersQuest\ENG\Play_number_08
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 1.05
       minDuration: 1.0497279
     - name: Play_number_09
@@ -872,7 +872,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: dfc7b3495a7cb440af66da0d90aac8fd
       Path: Events\Objects\NumbersQuest\ENG\Play_number_09
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 1.07
       minDuration: 1.0497279
     - name: Play_One_Kaplya
@@ -892,7 +892,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 53b4409a4bd3ba4680d5b8b92773edb9
       Path: Events\Objects\Kapli_Quest\Play_One_Kaplya
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0.6959622
       minDuration: 0.5937445
     - name: Play_Quest_Done
@@ -912,7 +912,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: fcfaf071078b594e86b3ed111571cb24
       Path: Events\Objects\RichagQuest\Play_Quest_Done
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
     - name: Play_Richag
@@ -932,7 +932,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d173a92748e70f4fa0e45f2d96b358aa
       Path: Events\Objects\RichagQuest\Play_Richag
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 1.2517687
       minDuration: 0.7722676
     - name: Play_Scary_Metalic_Sound
@@ -949,7 +949,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: cc13e3bdfd352e47b82be84acbad2b9e
       Path: Events\Objects\Play_Scary_Metalic_Sound
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 4.967431
       minDuration: 2.5
     - name: Play_Siren
@@ -966,7 +966,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3cf7cc3edc6b0f4c9754e7d1fda4fd7e
       Path: Events\Objects\Play_Siren
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
     - name: Play_Water_Machine
@@ -986,7 +986,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3fc18ca0d7778749934db290944b7186
       Path: Events\Objects\Generators\Play_Water_Machine
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
     - name: Play_Water_Machine_Max
@@ -1026,7 +1026,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8cd5cf162c600845b3617450eb3d8e80
       Path: Events\Objects\Lighting\Play_WhiteLamp
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
     - name: Play_Wrong_Gear_Combination
@@ -1046,7 +1046,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 472d4eae013d5745822bb53d518d23e8
       Path: Events\Objects\GearQuest\Play_Wrong_Gear_Combination
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 4.035374
       minDuration: 2.6926076
     - name: Play_YellowLamp
@@ -1066,7 +1066,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 878b6ad85cd6dd469040b4e0864c396b
       Path: Events\Objects\Lighting\Play_YellowLamp
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
     - name: RichagQuest
@@ -1120,7 +1120,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 073a094f56a2e943b017e824f565e641
       Path: Events\Objects\StatueQuests\Stop_Move_Stone
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0.59710795
       minDuration: 0.59710795
     - name: Stop_Siren
@@ -1301,7 +1301,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d91ba34e4cebac4e906bbcad2d3b980d
       Path: Events\Player\Play_Footstep
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0.45360452
       minDuration: 0.3099327
     - name: Play_Player_Charge_FlashLigh
