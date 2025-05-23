@@ -21,7 +21,6 @@ public class GamePauseController : MonoBehaviour
 
     private void HandleEscPressed()
     {
-        Debug.Log(13124);
         if (_gameStateManager.CurrentState == GameState.Play)
         {
             _gameStateManager.ChangeState(GameState.Menu);
