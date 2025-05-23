@@ -5,13 +5,14 @@ using Zenject;
 
 public class ProjectInstaller : MonoInstaller
 {
+    [SerializeField] private SceneLoaderManager _sceneLoaderManager;
     public override void InstallBindings()
     {
-        Container.BindInterfacesAndSelfTo<GameStateManager>()
+        Container.BindInterfacesAndSelfTo<PlayerSettings>()
             .FromNewComponentOnNewGameObject()
             .AsSingle()
             .NonLazy();
-        Container.BindInterfacesAndSelfTo<SettingsManager>()
+        Container.BindInterfacesAndSelfTo<GameStateManager>()
             .FromNewComponentOnNewGameObject()
             .AsSingle()
             .NonLazy();
@@ -19,5 +20,8 @@ public class ProjectInstaller : MonoInstaller
             .FromNewComponentOnNewGameObject()
             .AsSingle()
             .NonLazy();
+        
+        SceneLoaderManager sceneLoaderManager = Container.InstantiatePrefabForComponent<SceneLoaderManager>(_sceneLoaderManager);
+        Container.Bind<SceneLoaderManager>().FromInstance(sceneLoaderManager).AsSingle().NonLazy();
     }
 }

@@ -7,6 +7,7 @@ public class PCKeyInput : ScriptableObject, IInput
 {
     [SerializeField] private InputActionAsset _inputActionAsset;
     public event Action FlashLightPressed;
+    public event Action EscPressed;
     public event Action BiteFlashLightPressed;
     public event Action InteractPressed;
     public event Action InteractReleased;
@@ -19,6 +20,7 @@ public class PCKeyInput : ScriptableObject, IInput
         _inputActionAsset.FindAction("Interact").performed += OnInteractPressedPerformed;
         _inputActionAsset.FindAction("Interact").canceled += OnInteractPressedReleased;
         _inputActionAsset.FindAction("Throw").performed += OnThrowPressedPerformed;
+        _inputActionAsset.FindAction("Esc").performed += OnEscPressedPerformed;
     }
     private void OnDisable()
     {
@@ -27,6 +29,12 @@ public class PCKeyInput : ScriptableObject, IInput
         _inputActionAsset.FindAction("Interact").performed -= OnInteractPressedPerformed;
         _inputActionAsset.FindAction("Interact").canceled -= OnInteractPressedReleased;
         _inputActionAsset.FindAction("Throw").performed -= OnThrowPressedPerformed;
+        _inputActionAsset.FindAction("Esc").performed -= OnEscPressedPerformed;
+    }
+
+    private void OnEscPressedPerformed(InputAction.CallbackContext obj)
+    {
+        EscPressed?.Invoke();
     }
 
     private void OnInteractPressedReleased(InputAction.CallbackContext obj)
@@ -89,6 +97,7 @@ public interface IInput
     public bool OnSprint();
     public bool OnSneak();
     public event Action FlashLightPressed;
+    public event Action EscPressed;
     public event Action BiteFlashLightPressed;
     public event Action InteractPressed;
     public event Action InteractReleased;

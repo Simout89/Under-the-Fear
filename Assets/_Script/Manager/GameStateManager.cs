@@ -15,7 +15,7 @@ public class GameStateManager : MonoBehaviour
 
     private void Awake()
     {
-        if(SceneManager.GetActiveScene().buildIndex == 5)
+        if(SceneManager.GetActiveScene().buildIndex == 0)
             ChangeState(GameState.MainMenu);
         else
             ChangeState(GameState.Play);

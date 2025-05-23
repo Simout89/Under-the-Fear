@@ -18,7 +18,7 @@ namespace _Script.Player
         [SerializeField] private Transform cameraPlayer;
         public Transform CameraPlayer => cameraPlayer;
 
-        [Inject] private SettingsManager _settingsManager;
+        [Inject] private PlayerSettings _settingsManager;
         private float Sensitivity => _settingsManager.SettingsConfig.MouseSensitivity;
 
         [Header("Settings")]
