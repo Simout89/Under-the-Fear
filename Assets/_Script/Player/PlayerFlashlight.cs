@@ -1,5 +1,6 @@
 using System;
 using _Script.Player;
+using _Script.Utils;
 using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEngine;
@@ -18,6 +19,8 @@ public class PlayerFlashlight : SerializedMonoBehaviour
     [SerializeField] private PlayerController _playerController;
     [SerializeField] private GameObject flashLightGameObject;
     [OdinSerialize] private PlayerHealth _playerHealth;
+    [SerializeField] private EnduranceSlider _enduranceSlider;
+    private EnduranceSystem _enduranceSystem;
 
     [Header("Settings")]
     [SerializeField] private float FlashLightMaxCapacity = 50;
@@ -56,6 +59,8 @@ public class PlayerFlashlight : SerializedMonoBehaviour
     private void Awake()
     {
         flashLightCurrentCapacity = FlashLightMaxCapacity;
+        _enduranceSystem = new EnduranceSystem(FlashLightMaxCapacity, 0, flashLightCurrentCapacity);
+        _enduranceSlider.Initialization(_enduranceSystem);
     }
 
     private void HandleFlashLight()
@@ -75,10 +80,12 @@ public class PlayerFlashlight : SerializedMonoBehaviour
         if (flashLightCurrentCapacity + chargeRecovery > FlashLightMaxCapacity)
         {
             flashLightCurrentCapacity = FlashLightMaxCapacity;
+            _enduranceSystem.SetValue(flashLightCurrentCapacity);
         }
         else
         {
             flashLightCurrentCapacity += chargeRecovery;
+            _enduranceSystem.SetValue(flashLightCurrentCapacity);
         }
         _monsterEars.Ears(transform.position, 3);
         Debug.Log("Откусил фонарик");
@@ -107,6 +114,8 @@ public class PlayerFlashlight : SerializedMonoBehaviour
             return;
 
         flashLightCurrentCapacity -= rateOfDecrease * Time.deltaTime;
+        _enduranceSystem.SetValue(flashLightCurrentCapacity);
+
         
         if(flashLightCurrentCapacity <= 0)
             FlashLightDisable();

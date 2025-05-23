@@ -37,6 +37,8 @@ namespace _Script.Puzzle.Solution
                     }
                 }
             }
+            _leverPuzzleHintUnit[2].LiarSign.SetActive(false);
+            _leverPuzzleHintUnit[2].Lamp.SetActive(true);
         }
     }
 

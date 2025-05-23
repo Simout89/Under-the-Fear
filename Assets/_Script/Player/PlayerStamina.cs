@@ -10,7 +10,9 @@ namespace _Script.Player
     public class PlayerStamina: MonoBehaviour
     {
         [Inject] private MonsterEars _monsterEars;
+        [Header("References")]
         [SerializeField] private PlayerController _playerController;
+        [SerializeField] private EnduranceSlider staminaSlider;
         
         private EnduranceSystem sprintStamina;
         private EnduranceSystem auditoryAlert;
@@ -110,6 +112,7 @@ namespace _Script.Player
         {
             sprintStamina = new EnduranceSystem(maxValue, minValue, rateOfDecrease, rateOfIncrease);
             auditoryAlert = new EnduranceSystem(maxValueAuditoryAlert, minValueAuditoryAlert, rateOfDecreaseAuditoryAlert, rateOfIncreaseAuditoryAlert, 0);
+            staminaSlider.Initialization(sprintStamina);
         }
     }
 }

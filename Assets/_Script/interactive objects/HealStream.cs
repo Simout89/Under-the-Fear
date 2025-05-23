@@ -32,12 +32,25 @@ public class HealStream : MonoBehaviour, IClickable, IReleasable
     {
         if(!drinking)
             return;
-        
-        _playerHealth.AddHealth(5 * Time.deltaTime);
 
-        if (_playerHealth.CurrentHealthPoint >= _playerHealth.MaxHealthPoint)
+        if (isFullHeal)
         {
-            OnRelease();
+            _playerHealth.AddHealth(5 * Time.deltaTime);
+
+            if (_playerHealth.CurrentHealthPoint >= _playerHealth.MaxHealthPoint)
+            {
+                OnRelease();
+            }
+        }
+        else
+        {
+            if (_playerHealth.CurrentHealthPoint + 5 * Time.deltaTime >= _playerHealth.MaxHealthPoint / 2)
+            {
+                OnRelease();
+                return;
+            }
+            
+            _playerHealth.AddHealth(5 * Time.deltaTime);
         }
     }
 }
