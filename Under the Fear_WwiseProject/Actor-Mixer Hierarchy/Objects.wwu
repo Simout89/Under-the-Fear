@@ -3470,6 +3470,7 @@
 						<RandomSequenceContainer Name="Working_Richag_Mech" ID="{EC70940B-71CA-4080-9BCC-621682AF2A38}" ShortID="862764264">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.25"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 							</PropertyList>
 							<ReferenceList>
