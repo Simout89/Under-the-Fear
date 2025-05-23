@@ -31,6 +31,18 @@ namespace _Script.Puzzle
             {
                 trueState[i] = Random.Range(0, 2) == 0;
             }
+
+            int enableCount = 0;
+            foreach (var VARIABLE in trueState)
+            {
+                if (VARIABLE)
+                    enableCount++;
+            }
+
+            if (enableCount < 2)
+            {
+                trueState[Random.Range(0, 6)] = true;
+            }
         }
 
         public void Click()
