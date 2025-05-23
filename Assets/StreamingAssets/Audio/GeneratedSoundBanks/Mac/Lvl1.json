@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{5EB8BCDC-DDAA-A6E4-6D85-942903709429}",
+    "Hash": "{9B95D2FD-3644-A0B7-4601-37684F1449C5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -1710,6 +1710,7 @@
       "Name": "Play_Floor_Button",
       "ObjectPath": "\\Events\\Objects\\StatueQuests\\Play_Floor_Button",
       "GUID": "{7F26D0B2-3005-4A75-A7E1-DFB62A06799C}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.32621315",
       "DurationMax": "0.32621315",
@@ -1724,6 +1725,7 @@
       "Name": "Play_Footstep",
       "ObjectPath": "\\Events\\Player\\Play_Footstep",
       "GUID": "{4EA31BD9-EB4C-4EAC-906B-BCAD2D3B980D}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.3099327",
       "DurationMax": "0.45360452",
@@ -1858,6 +1860,7 @@
       "Name": "Play_Gaz",
       "ObjectPath": "\\Events\\Objects\\Play_Gaz",
       "GUID": "{3C9872E0-20FE-4F1F-B7DD-320A01CDD282}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1876,6 +1879,7 @@
       "Name": "Play_Gear_Drop",
       "ObjectPath": "\\Events\\Objects\\GearQuest\\Gear\\Play_Gear_Drop",
       "GUID": "{89BEC0D1-2542-4C8E-AD96-0DE6A149D7AC}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "1.3837278",
       "DurationMax": "2.2873867",
@@ -1899,6 +1903,7 @@
       "Name": "Play_Gear_PickUp",
       "ObjectPath": "\\Events\\Objects\\GearQuest\\Gear\\Play_Gear_PickUp",
       "GUID": "{0FD44CF7-9F59-4BBD-8AE4-28F4A6D3309E}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.99911565",
       "DurationMax": "0.99911565",
@@ -1928,6 +1933,7 @@
       "Name": "Play_Gen1",
       "ObjectPath": "\\Events\\Objects\\Generators\\Play_Gen1",
       "GUID": "{7E634C4F-6DAA-479A-9DAD-D6E0D0256E8B}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1940,6 +1946,7 @@
       "Name": "Play_Gen2",
       "ObjectPath": "\\Events\\Objects\\Generators\\Play_Gen2",
       "GUID": "{5C602DCC-5E33-456B-A1B9-737E5523FC22}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1952,6 +1959,7 @@
       "Name": "Play_Kapli",
       "ObjectPath": "\\Events\\Objects\\Play_Kapli",
       "GUID": "{017BF8C1-7936-4855-B436-C04FF827CCD9}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1973,6 +1981,7 @@
       "Name": "Play_Little_Fire",
       "ObjectPath": "\\Events\\Objects\\Lighting\\Play_Little_Fire",
       "GUID": "{812310FB-74B7-4789-9D11-C5811C409819}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1991,6 +2000,7 @@
       "Name": "Play_Low_Roar",
       "ObjectPath": "\\Events\\Monster\\Play_Low_Roar",
       "GUID": "{FC77C54B-B6BA-477B-9810-789903CE7310}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.6842857",
       "DurationMax": "2.2800226",
@@ -2029,6 +2039,7 @@
       "Name": "Play_Mechanical_Sound",
       "ObjectPath": "\\Events\\Objects\\Play_Mechanical_Sound",
       "GUID": "{2085C0DB-008A-43B7-90C1-77394E0B5BD0}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "2.8235373",
       "DurationMax": "4.35449",
@@ -2061,6 +2072,7 @@
       "Name": "Play_Monster_Step",
       "ObjectPath": "\\Events\\Monster\\Play_Monster_Step",
       "GUID": "{C6E35919-722C-4660-8244-333FE4E1C60A}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.81578946",
       "DurationMax": "0.81578946",
@@ -2105,6 +2117,7 @@
       "Name": "Play_Move_Stone",
       "ObjectPath": "\\Events\\Objects\\StatueQuests\\Play_Move_Stone",
       "GUID": "{46FE7E4F-0B1D-4B87-8667-F88088C711E9}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -2144,6 +2157,7 @@
       "Name": "Play_number_01",
       "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_01",
       "GUID": "{211A4E23-131D-4342-A9F5-252F4501337D}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.73192745",
       "DurationMax": "1.0497279",
@@ -2235,6 +2249,7 @@
       "Name": "Play_number_02",
       "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_02",
       "GUID": "{5ED3F506-C89A-4304-B8E8-278C87104232}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.8726757",
       "DurationMax": "1.0497279",
@@ -2326,6 +2341,7 @@
       "Name": "Play_number_03",
       "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_03",
       "GUID": "{7ADCBD7E-6D51-459C-A789-28E969813910}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "1.0497279",
       "DurationMax": "1.0497279",
@@ -2417,6 +2433,7 @@
       "Name": "Play_number_04",
       "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_04",
       "GUID": "{B28C3B4C-C3EF-490D-A799-B85EA448D00C}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.9792063",
       "DurationMax": "1.0497279",
@@ -2508,6 +2525,7 @@
       "Name": "Play_number_05",
       "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_05",
       "GUID": "{25E62060-3D52-459C-9DA5-F4F22B34E516}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.92",
       "DurationMax": "1.0497279",
@@ -2599,6 +2617,7 @@
       "Name": "Play_number_06",
       "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_06",
       "GUID": "{AB71CF21-3796-4741-A36C-279F907BB00B}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "1.0497279",
       "DurationMax": "1.23",
@@ -2690,6 +2709,7 @@
       "Name": "Play_number_07",
       "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_07",
       "GUID": "{4C80913B-47E8-42B4-91F0-5E2280921C91}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.97120184",
       "DurationMax": "1.0497279",
@@ -2781,6 +2801,7 @@
       "Name": "Play_number_08",
       "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_08",
       "GUID": "{66860A34-EC25-462E-B08B-CB8AAA19A977}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "1.0497279",
       "DurationMax": "1.05",
@@ -2872,6 +2893,7 @@
       "Name": "Play_number_09",
       "ObjectPath": "\\Events\\Objects\\NumbersQuest\\ENG\\Play_number_09",
       "GUID": "{49B3C7DF-7C5A-40B4-AF66-DA0D90AAC8FD}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "1.0497279",
       "DurationMax": "1.07",
@@ -2963,6 +2985,7 @@
       "Name": "Play_One_Kaplya",
       "ObjectPath": "\\Events\\Objects\\Kapli_Quest\\Play_One_Kaplya",
       "GUID": "{9A40B453-D34B-46BA-80D5-B8B92773EDB9}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.5937445",
       "DurationMax": "0.6959622",
@@ -3015,6 +3038,7 @@
       "Name": "Play_Quest_Done",
       "ObjectPath": "\\Events\\Objects\\RichagQuest\\Play_Quest_Done",
       "GUID": "{71F0FAFC-8B07-4E59-86B3-ED111571CB24}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3030,6 +3054,7 @@
       "Name": "Play_Richag",
       "ObjectPath": "\\Events\\Objects\\RichagQuest\\Play_Richag",
       "GUID": "{27A973D1-E748-4F0F-A0E4-5F2D96B358AA}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.7722676",
       "DurationMax": "1.2517687",
@@ -3053,6 +3078,7 @@
       "Name": "Play_Roar",
       "ObjectPath": "\\Events\\Monster\\Play_Roar",
       "GUID": "{9C724120-43E4-4B87-92BE-85825D3E6BDD}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "2.1176417",
       "DurationMax": "7.403404",
@@ -3091,6 +3117,7 @@
       "Name": "Play_Scary_Metalic_Sound",
       "ObjectPath": "\\Events\\Objects\\Play_Scary_Metalic_Sound",
       "GUID": "{BDE313CC-35FD-472E-B82B-E84ACBAD2B9E}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "2.5",
       "DurationMax": "4.967431",
@@ -3163,6 +3190,7 @@
       "Name": "Play_scream",
       "ObjectPath": "\\Events\\Monster\\Play_scream",
       "GUID": "{3287A2CE-7850-4E0A-B6D6-0762E6932FD2}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "1.01",
       "DurationMax": "2.84",
@@ -3192,6 +3220,7 @@
       "Name": "Play_Siren",
       "ObjectPath": "\\Events\\Objects\\Play_Siren",
       "GUID": "{3ECCF73C-6BDC-4C0F-9754-E7D1FDA4FD7E}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3290,6 +3319,7 @@
       "Name": "Play_Water_Machine",
       "ObjectPath": "\\Events\\Objects\\Generators\\Play_Water_Machine",
       "GUID": "{A08CC13F-77D7-4987-934D-B290944B7186}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3318,6 +3348,7 @@
       "Name": "Play_WhiteLamp",
       "ObjectPath": "\\Events\\Objects\\Lighting\\Play_WhiteLamp",
       "GUID": "{16CFD58C-602C-4508-B361-7450EB3D8E80}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3333,6 +3364,7 @@
       "Name": "Play_Wrong_Gear_Combination",
       "ObjectPath": "\\Events\\Objects\\GearQuest\\Play_Wrong_Gear_Combination",
       "GUID": "{AE4E2D47-3D01-4557-822B-B53D518D23E8}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "2.6926076",
       "DurationMax": "4.035374",
@@ -3356,6 +3388,7 @@
       "Name": "Play_YellowLamp",
       "ObjectPath": "\\Events\\Objects\\Lighting\\Play_YellowLamp",
       "GUID": "{D86A8B87-D65C-46DD-9040-B4E0864C396B}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3371,6 +3404,7 @@
       "Name": "Stop_Move_Stone",
       "ObjectPath": "\\Events\\Objects\\StatueQuests\\Stop_Move_Stone",
       "GUID": "{4F093A07-A256-43E9-B017-E824F565E641}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.59710795",
       "DurationMax": "0.59710795",
@@ -3583,6 +3617,6 @@
     ]
    }
   ],
-  "FileHash": "{97589A09-1E65-98C5-2439-1410126C7FFF}"
+  "FileHash": "{792EC2DB-80A3-6F88-6ECD-A095CF969B42}"
  }
 }
