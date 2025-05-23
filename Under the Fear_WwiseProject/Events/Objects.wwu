@@ -327,6 +327,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Floor_Button" ID="{7F26D0B2-3005-4A75-A7E1-DFB62A06799C}">
+							<ChildrenList>
+								<Action Name="" ID="{A7660376-9C0E-4DCA-A85E-2518C3E9F05B}" ShortID="374870806">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Floor_Button" ID="{63B89EC6-56C4-4E5D-85A3-2A18C6E6CA25}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_Siren" ID="{3ECCF73C-6BDC-4C0F-9754-E7D1FDA4FD7E}">
@@ -345,6 +356,7 @@
 						<Action Name="" ID="{8DBA32B1-5083-40A6-A934-0733BD4695FA}" ShortID="18242720">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -373,6 +385,40 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="One_Kaplya" ID="{584D5637-7781-42E4-B95F-CFC3DFBA81F4}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="RichagQuest" ID="{96CF0E74-2A13-48B6-AA13-DA2612F96DDE}" ShortID="1000200217">
+					<ChildrenList>
+						<Event Name="Play_Richag" ID="{27A973D1-E748-4F0F-A0E4-5F2D96B358AA}">
+							<ChildrenList>
+								<Action Name="" ID="{0902F234-675B-4E0C-8171-CFDA7144B067}" ShortID="43281833">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Richag" ID="{1AD1860D-EEC3-4B24-B435-1329B0C68D90}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Button" ID="{DC1A98E8-993F-4E64-A388-24EA0B793CB5}"/>
+						<Event Name="Play_Quest_Done" ID="{71F0FAFC-8B07-4E59-86B3-ED111571CB24}">
+							<ChildrenList>
+								<Action Name="" ID="{DCDA5A8C-F6A9-4AAD-9069-2C3EF10014FB}" ShortID="441288328">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Working_Mech" ID="{5A08F904-7F66-4686-A53E-26CBDBFCBD55}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{56059D5B-BBD2-4B33-8968-7F67545D41AC}" ShortID="342926310">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Working_Mech2" ID="{5DC191AB-6353-4781-8710-F652C086E3FC}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

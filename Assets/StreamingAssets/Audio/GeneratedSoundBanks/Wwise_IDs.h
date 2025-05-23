@@ -13,10 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BUTTON = 2099555730U;
         static const AkUniqueID PLAY_CASSETEPLAYER_BUTTON = 2055319774U;
         static const AkUniqueID PLAY_DRINKING = 2006984080U;
         static const AkUniqueID PLAY_FLASHLIGHT_DISABLE = 1652482609U;
         static const AkUniqueID PLAY_FLASHLIGHT_ENABLE = 1470796794U;
+        static const AkUniqueID PLAY_FLOOR_BUTTON = 3474005947U;
         static const AkUniqueID PLAY_FOOTSTEP = 1602358412U;
         static const AkUniqueID PLAY_GAZ = 2287442812U;
         static const AkUniqueID PLAY_GEAR_DROP = 3106012101U;
@@ -27,6 +29,7 @@ namespace AK
         static const AkUniqueID PLAY_LITTLE_FIRE = 1908881673U;
         static const AkUniqueID PLAY_LOW_ROAR = 4157024899U;
         static const AkUniqueID PLAY_MECHANICAL_SOUND = 2652031523U;
+        static const AkUniqueID PLAY_MONSTER_STEP = 1429678133U;
         static const AkUniqueID PLAY_MOVE_STONE = 2184129563U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_NUMBER_01 = 1582615549U;
@@ -40,6 +43,8 @@ namespace AK
         static const AkUniqueID PLAY_NUMBER_09 = 1582615541U;
         static const AkUniqueID PLAY_ONE_KAPLYA = 2998979435U;
         static const AkUniqueID PLAY_PLAYER_CHARGE_FLASHLIGH = 1015499099U;
+        static const AkUniqueID PLAY_QUEST_DONE = 2119603875U;
+        static const AkUniqueID PLAY_RICHAG = 2815540712U;
         static const AkUniqueID PLAY_ROAR = 2770252186U;
         static const AkUniqueID PLAY_SCARY_METALIC_SOUND = 2270754086U;
         static const AkUniqueID PLAY_SCREAM = 2470536401U;

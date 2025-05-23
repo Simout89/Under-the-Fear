@@ -36,6 +36,24 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Monster_Step" ID="{C6E35919-722C-4660-8244-333FE4E1C60A}">
+					<ChildrenList>
+						<Action Name="" ID="{4F83D869-A739-4B8C-8A63-6BC6D05E8431}" ShortID="588789555">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal" ID="{908985F0-681B-4EC1-996D-4D7D673AD9AB}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6B725728-A37D-4E6F-ADED-7FFB5AF6CEC4}" ShortID="11666579">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Monster_Steps" ID="{098B7D99-62D2-4BED-B296-544568314E3E}" WorkUnitID="{D56AEBE0-3649-480B-8ED0-0E48D9B56E22}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
