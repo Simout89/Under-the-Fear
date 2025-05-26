@@ -33,7 +33,7 @@ namespace _Script.interactive_objects
 
         private void HandleButtonClick(int index)
         {
-            if(_canRotates[index] = false)
+            if(_canRotates[index] == false)
                 return;
             _canRotates[index] = false;
             var rotation = lockSegments[index].localRotation.eulerAngles;
