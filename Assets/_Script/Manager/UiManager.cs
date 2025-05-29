@@ -50,6 +50,7 @@ public class UiManager : MonoBehaviour
         if (obj == GameState.Menu)
         {
             playerMenu.SetActive(true);
+            mapMenu.SetActive(false);
         }else if (obj == GameState.Play)
         {
             playerMenu.SetActive(false);
