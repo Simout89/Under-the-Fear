@@ -7,6 +7,7 @@ namespace _Script.Puzzle
     public class PuzzleManager: MonoBehaviour
     {
         public event Action<int> OnPuzzleSolved;
+        public event Action AllPuzzleSolved;
         public bool[] SolvedPuzzles { get; private set; } = new bool[5];
 
         public void PuzzleSoled(int n)
@@ -16,6 +17,14 @@ namespace _Script.Puzzle
             Debug.Log($"PuzzleManager: головоломка {n} решена");
             
             OnPuzzleSolved?.Invoke(n);
+
+            foreach (var solvedPuzzle in SolvedPuzzles)
+            {
+                if(!solvedPuzzle)
+                    return;
+            }
+            
+            AllPuzzleSolved?.Invoke();
         }
     }
 }
