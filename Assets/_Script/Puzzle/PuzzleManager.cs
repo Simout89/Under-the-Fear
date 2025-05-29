@@ -10,6 +10,8 @@ namespace _Script.Puzzle
         public event Action AllPuzzleSolved;
         public bool[] SolvedPuzzles { get; private set; } = new bool[5];
 
+        public bool PuzzlesSolved { get; private set; }
+
         public void PuzzleSoled(int n)
         {
             SolvedPuzzles[n] = true;
@@ -18,13 +20,20 @@ namespace _Script.Puzzle
             
             OnPuzzleSolved?.Invoke(n);
 
-            foreach (var solvedPuzzle in SolvedPuzzles)
+            if (!PuzzlesSolved)
             {
-                if(!solvedPuzzle)
-                    return;
-            }
+                foreach (var solvedPuzzle in SolvedPuzzles)
+                {
+                    if(!solvedPuzzle)
+                        return;
+                }
             
-            AllPuzzleSolved?.Invoke();
+                AllPuzzleSolved?.Invoke();
+
+                PuzzlesSolved = true;
+            
+                Debug.Log($"Все головоломки решены");
+            }
         }
     }
 }

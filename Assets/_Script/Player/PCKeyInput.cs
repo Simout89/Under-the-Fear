@@ -12,6 +12,7 @@ public class PCKeyInput : ScriptableObject, IInput
     public event Action InteractPressed;
     public event Action InteractReleased;
     public event Action ThrowPressed;
+    public event Action TabPressed;
 
     private void OnEnable()
     {
@@ -21,6 +22,7 @@ public class PCKeyInput : ScriptableObject, IInput
         _inputActionAsset.FindAction("Interact").canceled += OnInteractPressedReleased;
         _inputActionAsset.FindAction("Throw").performed += OnThrowPressedPerformed;
         _inputActionAsset.FindAction("Esc").performed += OnEscPressedPerformed;
+        _inputActionAsset.FindAction("Tab").performed += OnTabPressedPerformed;
     }
     private void OnDisable()
     {
@@ -30,6 +32,13 @@ public class PCKeyInput : ScriptableObject, IInput
         _inputActionAsset.FindAction("Interact").canceled -= OnInteractPressedReleased;
         _inputActionAsset.FindAction("Throw").performed -= OnThrowPressedPerformed;
         _inputActionAsset.FindAction("Esc").performed -= OnEscPressedPerformed;
+        _inputActionAsset.FindAction("Tab").performed -= OnTabPressedPerformed;
+
+    }
+
+    private void OnTabPressedPerformed(InputAction.CallbackContext obj)
+    {
+        TabPressed?.Invoke();
     }
 
     private void OnEscPressedPerformed(InputAction.CallbackContext obj)
@@ -102,4 +111,5 @@ public interface IInput
     public event Action InteractPressed;
     public event Action InteractReleased;
     public event Action ThrowPressed;
+    public event Action TabPressed;
 }
