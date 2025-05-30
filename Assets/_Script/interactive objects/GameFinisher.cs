@@ -8,6 +8,7 @@ namespace _Script.interactive_objects
     public class GameFinisher: MonoBehaviour
     {
         [Inject] private PuzzleManager _puzzleManager;
+        [Inject] private SceneLoaderManager _sceneLoaderManager;
         [SerializeField] private ButtonTrigger _trigger;
 
         private void OnEnable()
@@ -25,6 +26,7 @@ namespace _Script.interactive_objects
             if (_puzzleManager.PuzzlesSolved)
             {
                 Debug.Log("Игра продейна");
+                _sceneLoaderManager.LoadScene(0);
             }
         }
     }

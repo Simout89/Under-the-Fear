@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using _Script.Player;
 using UnityEngine;
 
@@ -39,5 +40,6 @@ namespace _Script.interactive_objects
             _canTrigger = false;
             sound.Post(gameObject);
         }
+
     }
 }

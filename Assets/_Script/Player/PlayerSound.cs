@@ -106,7 +106,7 @@ public class PlayerSound : MonoBehaviour
             if(!hit.collider.CompareTag("Untagged"))
                 AkUnitySoundEngine.SetSwitch("Surface", hit.collider.tag, gameObject);
             else
-                AkUnitySoundEngine.SetSwitch("Surface", "Concrete", gameObject);
+                AkUnitySoundEngine.SetSwitch("Surface", "Metal", gameObject);
         }
     }
 }
