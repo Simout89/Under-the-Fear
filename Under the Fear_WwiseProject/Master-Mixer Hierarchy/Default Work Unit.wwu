@@ -10,10 +10,15 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="Cave_Rev" ID="{53BA2B3A-3575-45BD-A544-E04D99E48AB8}"/>
-						<AuxBus Name="Big_Hall_Rev" ID="{4827715D-324E-4E5A-8A9C-DE645FEDA69F}"/>
-						<AuxBus Name="Small_Room_Rev" ID="{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}"/>
-						<AuxBus Name="Coridor_Rev" ID="{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}"/>
+						<Bus Name="New Audio Bus" ID="{8D527DE6-64B1-42D2-9CED-CE2E9F9932DB}">
+							<ChildrenList>
+								<AuxBus Name="Cave_Rev" ID="{53BA2B3A-3575-45BD-A544-E04D99E48AB8}"/>
+								<AuxBus Name="Small_Room_Rev" ID="{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}"/>
+								<AuxBus Name="Big_Hall_Rev" ID="{4827715D-324E-4E5A-8A9C-DE645FEDA69F}"/>
+								<AuxBus Name="Coridor_Rev" ID="{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="New Audio Bus_02" ID="{E60171BF-758C-4499-BA0B-CAE25DBA8197}"/>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">
@@ -96,7 +101,32 @@
 							<ObjectRef Name="System" ID="{DACF312B-7A0A-4D6D-92DD-8CFFF02EF65B}" WorkUnitID="{BCD6886A-83F2-4909-BB90-E5FC1E3F2E93}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="New Audio Bus_01" ID="{04650CE3-6878-49CF-9F71-0210D7A7CB82}"/>
+					</ChildrenList>
 					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{67EBE682-B698-422E-9027-6567DD2A0526}" ShortID="665472030">
+										<ReferenceList/>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{54C11256-C850-427D-86FE-3B0EF4A82D4F}" ShortID="946626436">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Gain (Custom)" ID="{770C6FC8-8BF2-4B67-834C-14FDC4D7C6CE}" ShortID="225778262" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
 						<ObjectList Name="RTPC">
 							<Reference>
 								<Local>
