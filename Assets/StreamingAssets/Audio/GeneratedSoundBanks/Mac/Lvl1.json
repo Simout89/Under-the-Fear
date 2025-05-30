@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{F859CD5E-C3ED-BE37-0929-ACCDB3C1441B}",
+    "Hash": "{6B3B90BE-E8D2-BC5E-7363-D45FB2A17057}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -1539,6 +1539,14 @@
     "Plugins": {
      "Custom": [
       {
+       "Id": "225778262",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music Bus\\[Effect Slot [1]: (Gain)]\\Gain (Custom)",
+       "GUID": "{770C6FC8-8BF2-4B67-834C-14FDC4D7C6CE}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      },
+      {
        "Id": "346573888",
        "Name": "Parametric EQ (Custom)",
        "ObjectPath": "\\Actor-Mixer Hierarchy\\Player\\Tired_Breath\\[Effect Slot [0]: (Parametric EQ)]\\Parametric EQ (Custom)",
@@ -1580,10 +1588,15 @@
       "Name": "Play_Button",
       "ObjectPath": "\\Events\\Objects\\RichagQuest\\Play_Button",
       "GUID": "{DC1A98E8-993F-4E64-A388-24EA0B793CB5}",
-      "MaxAttenuation": "0",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.75",
+      "DurationMax": "0.75",
+      "MediaRefs": [
+       {
+        "Id": "669827478"
+       }
+      ]
      },
      {
       "Id": "2055319774",
@@ -1725,7 +1738,7 @@
       "Name": "Play_Footstep",
       "ObjectPath": "\\Events\\Player\\Play_Footstep",
       "GUID": "{4EA31BD9-EB4C-4EAC-906B-BCAD2D3B980D}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "25",
       "DurationType": "OneShot",
       "DurationMin": "0.3099327",
       "DurationMax": "0.45360452",
@@ -1933,7 +1946,7 @@
       "Name": "Play_Gen1",
       "ObjectPath": "\\Events\\Objects\\Generators\\Play_Gen1",
       "GUID": "{7E634C4F-6DAA-479A-9DAD-D6E0D0256E8B}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "30.000002",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1946,7 +1959,7 @@
       "Name": "Play_Gen2",
       "ObjectPath": "\\Events\\Objects\\Generators\\Play_Gen2",
       "GUID": "{5C602DCC-5E33-456B-A1B9-737E5523FC22}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1981,7 +1994,7 @@
       "Name": "Play_Little_Fire",
       "ObjectPath": "\\Events\\Objects\\Lighting\\Play_Little_Fire",
       "GUID": "{812310FB-74B7-4789-9D11-C5811C409819}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "30.000002",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -2072,7 +2085,7 @@
       "Name": "Play_Monster_Step",
       "ObjectPath": "\\Events\\Monster\\Play_Monster_Step",
       "GUID": "{C6E35919-722C-4660-8244-333FE4E1C60A}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "0.81578946",
       "DurationMax": "0.81578946",
@@ -3054,7 +3067,7 @@
       "Name": "Play_Richag",
       "ObjectPath": "\\Events\\Objects\\RichagQuest\\Play_Richag",
       "GUID": "{27A973D1-E748-4F0F-A0E4-5F2D96B358AA}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "30.000002",
       "DurationType": "OneShot",
       "DurationMin": "0.7722676",
       "DurationMax": "1.2517687",
@@ -3319,7 +3332,7 @@
       "Name": "Play_Water_Machine",
       "ObjectPath": "\\Events\\Objects\\Generators\\Play_Water_Machine",
       "GUID": "{A08CC13F-77D7-4987-934D-B290944B7186}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3348,7 +3361,7 @@
       "Name": "Play_WhiteLamp",
       "ObjectPath": "\\Events\\Objects\\Lighting\\Play_WhiteLamp",
       "GUID": "{16CFD58C-602C-4508-B361-7450EB3D8E80}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3388,7 +3401,7 @@
       "Name": "Play_YellowLamp",
       "ObjectPath": "\\Events\\Objects\\Lighting\\Play_YellowLamp",
       "GUID": "{D86A8B87-D65C-46DD-9040-B4E0864C396B}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3477,10 +3490,35 @@
     ],
     "Busses": [
      {
+      "Id": "2255513057",
+      "Name": "New Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus",
+      "GUID": "{8D527DE6-64B1-42D2-9CED-CE2E9F9932DB}"
+     },
+     {
+      "Id": "2799548653",
+      "Name": "New Audio Bus_01",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music Bus\\New Audio Bus_01",
+      "GUID": "{04650CE3-6878-49CF-9F71-0210D7A7CB82}"
+     },
+     {
+      "Id": "2799548654",
+      "Name": "New Audio Bus_02",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus_02",
+      "GUID": "{E60171BF-758C-4499-BA0B-CAE25DBA8197}"
+     },
+     {
       "Id": "3127962312",
       "Name": "Music Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music Bus",
-      "GUID": "{256032F8-FB80-4A11-9F8E-BE4348EEB4C1}"
+      "GUID": "{256032F8-FB80-4A11-9F8E-BE4348EEB4C1}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "225778262"
+        }
+       ]
+      }
      },
      {
       "Id": "3803692087",
@@ -3493,25 +3531,25 @@
      {
       "Id": "1319739747",
       "Name": "Big_Hall_Rev",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Big_Hall_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Big_Hall_Rev",
       "GUID": "{4827715D-324E-4E5A-8A9C-DE645FEDA69F}"
      },
      {
       "Id": "1389012769",
       "Name": "Coridor_Rev",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Coridor_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Coridor_Rev",
       "GUID": "{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}"
      },
      {
       "Id": "1445918944",
       "Name": "Cave_Rev",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Cave_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Cave_Rev",
       "GUID": "{53BA2B3A-3575-45BD-A544-E04D99E48AB8}"
      },
      {
       "Id": "2663941762",
       "Name": "Small_Room_Rev",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Small_Room_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Small_Room_Rev",
       "GUID": "{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}"
      }
     ],
@@ -3617,6 +3655,6 @@
     ]
    }
   ],
-  "FileHash": "{5107167B-636B-2F3A-16C8-693FFBB2557A}"
+  "FileHash": "{690D7669-C0ED-5A9E-BB3E-231A0B493BF7}"
  }
 }

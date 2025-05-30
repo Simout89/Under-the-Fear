@@ -405,7 +405,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Button" ID="{DC1A98E8-993F-4E64-A388-24EA0B793CB5}"/>
+						<Event Name="Play_Button" ID="{DC1A98E8-993F-4E64-A388-24EA0B793CB5}">
+							<ChildrenList>
+								<Action Name="" ID="{165A2341-E8D2-4D95-8AC8-C01FE1D3FF62}" ShortID="649222510">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button" ID="{656F318A-6A33-417A-9692-484EB5D65F6C}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Play_Quest_Done" ID="{71F0FAFC-8B07-4E59-86B3-ED111571CB24}">
 							<ChildrenList>
 								<Action Name="" ID="{DCDA5A8C-F6A9-4AAD-9069-2C3EF10014FB}" ShortID="441288328">
