@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: d0fc1eb916d4d2438bac39237f48ec7c
     GuidInternal: 
-    m_lastTime: -8584536848767823149
+    m_lastTime: -8584533469849939105
     List:
     - name: Big_Hall_Rev
       guid: 5d7127484e325a4e8a9cde645feda69f
@@ -148,7 +148,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b665060d0916d41bbdd601f2e444322
     GuidInternal: 
-    m_lastTime: -8584535930076788343
+    m_lastTime: -8584533469843518783
     List:
     - name: Lvl1
       guid: 05b22336d9e65e4cb95346a1ef2ceb95
@@ -206,7 +206,7 @@ MonoBehaviour:
     ParentPath: Events\Monster
     guid: c0466b79d383d84f82cbbf065324d897
     GuidInternal: 
-    m_lastTime: -8584535930078086182
+    m_lastTime: -8584533469849979118
     List:
     - name: Play_Low_Roar
       guid: 4bc577fcbab67b479810789903ce7310
@@ -287,7 +287,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: efa17e970f8f564c9c28e8e57906fbec
     GuidInternal: 
-    m_lastTime: -8584535930078030884
+    m_lastTime: -8584533469849979118
     List:
     - name: CassetePlayer
       guid: ec6966511b9b4248acfb491426367985
@@ -912,7 +912,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: fcfaf071078b594e86b3ed111571cb24
       Path: Events\Objects\RichagQuest\Play_Quest_Done
-      maxAttenuation: 100
+      maxAttenuation: 25
       maxDuration: 0
       minDuration: 0
     - name: Play_Richag
@@ -1191,7 +1191,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: f88c72517d10c24ca8c1136ded1d69c1
     GuidInternal: 
-    m_lastTime: -8584536848767839025
+    m_lastTime: -8584533469849949109
     List:
     - name: Drinking
       guid: eef361088e31d941b22309f7d81e6861
@@ -1370,7 +1370,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: aaf4683f9d579f4b9eefcf7c5f970957
     GuidInternal: 
-    m_lastTime: -8584536848767833745
+    m_lastTime: -8584533469849939105
     List:
     - name: All_Volume_Player_Settings
       guid: b05949cb7f93f44ea6cea29c5ec5a47d
@@ -1454,7 +1454,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 9c9dffaadd33354abf9dcbedd38c54b4
     GuidInternal: 
-    m_lastTime: -8584536848765348850
+    m_lastTime: -8584533469843518783
     List:
     - name: Language
       guid: 80345959f0ff4147b12996e89a7bd6ec
