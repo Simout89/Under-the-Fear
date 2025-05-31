@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{74E12807-CA0A-B582-2456-CB6069C46B4D}",
+    "Hash": "{F231C6D0-6553-5FB0-21EC-786F200FD976}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -139,6 +139,18 @@
       "Name": "Volume_FX_Player_Settings",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_FX_Player_Settings",
       "GUID": "{5794A9E2-955F-4062-9141-3B4B26921385}"
+     },
+     {
+      "Id": "3224646828",
+      "Name": "Madness",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Madness",
+      "GUID": "{5C3297B8-E2E8-4400-AD2A-683503B6AD53}"
+     },
+     {
+      "Id": "3677180323",
+      "Name": "Health",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Health",
+      "GUID": "{2691D2E9-6CE2-4A32-8D9F-B770E91E4A5D}"
      }
     ],
     "StateGroups": [
@@ -211,6 +223,6 @@
     ]
    }
   ],
-  "FileHash": "{A74FF2CB-A5D8-0752-9294-A135680FBB9B}"
+  "FileHash": "{7810213F-587F-1913-6264-6CEECF8B65F3}"
  }
 }
