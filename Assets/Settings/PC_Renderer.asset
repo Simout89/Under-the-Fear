@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-825179511049379006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adfb6b6f4c86fa14bbcf772206ddb381, type: 3}
+  m_Name: SimplePSXRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    pixelationAmount: 4
+    colorSteps: 8
+    brightness: 1.2
+    renderPassEvent: 600
+    psxMaterial: {fileID: 2100000, guid: 390388f68c4900c4490a627b32858db5, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
