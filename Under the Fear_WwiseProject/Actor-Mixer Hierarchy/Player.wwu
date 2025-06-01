@@ -147,6 +147,7 @@
 				<SwitchContainer Name="Footsteps" ID="{A7F816D9-8F14-4101-AAB3-256C0761DD7B}" ShortID="707736468">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.25"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>

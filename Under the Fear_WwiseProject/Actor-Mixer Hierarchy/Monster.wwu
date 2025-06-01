@@ -948,6 +948,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Monster_Steps" ID="{098B7D99-62D2-4BED-B296-544568314E3E}" ShortID="926238568">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.35"/>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
 								<Value>-780</Value>

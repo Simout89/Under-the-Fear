@@ -15,7 +15,12 @@ namespace AK
     {
         static const AkUniqueID PLAY_BUTTON = 2099555730U;
         static const AkUniqueID PLAY_CASSETEPLAYER_BUTTON = 2055319774U;
+        static const AkUniqueID PLAY_CAVE_MUSIC = 2787455125U;
+        static const AkUniqueID PLAY_DEATH_HP = 727616091U;
+        static const AkUniqueID PLAY_DEATH_MADNESS = 2886938738U;
+        static const AkUniqueID PLAY_DOOR_OPEN = 1660008929U;
         static const AkUniqueID PLAY_DRINKING = 2006984080U;
+        static const AkUniqueID PLAY_FINAL_SONG = 644281394U;
         static const AkUniqueID PLAY_FLASHLIGHT_DISABLE = 1652482609U;
         static const AkUniqueID PLAY_FLASHLIGHT_ENABLE = 1470796794U;
         static const AkUniqueID PLAY_FLOOR_BUTTON = 3474005947U;
@@ -25,9 +30,13 @@ namespace AK
         static const AkUniqueID PLAY_GEAR_PICKUP = 1253718314U;
         static const AkUniqueID PLAY_GEN1 = 703779141U;
         static const AkUniqueID PLAY_GEN2 = 703779142U;
+        static const AkUniqueID PLAY_HEART_BEATING = 2355669119U;
         static const AkUniqueID PLAY_KAPLI = 1170362071U;
         static const AkUniqueID PLAY_LITTLE_FIRE = 1908881673U;
         static const AkUniqueID PLAY_LOW_ROAR = 4157024899U;
+        static const AkUniqueID PLAY_LVL_STARTING = 2070755871U;
+        static const AkUniqueID PLAY_MADNESS_VOICES = 151464529U;
+        static const AkUniqueID PLAY_MAIN_MENU_MUSIC = 2895168921U;
         static const AkUniqueID PLAY_MECHANICAL_SOUND = 2652031523U;
         static const AkUniqueID PLAY_MONSTER_STEP = 1429678133U;
         static const AkUniqueID PLAY_MOVE_STONE = 2184129563U;
@@ -44,20 +53,34 @@ namespace AK
         static const AkUniqueID PLAY_ONE_KAPLYA = 2998979435U;
         static const AkUniqueID PLAY_PLAYER_CHARGE_FLASHLIGH = 1015499099U;
         static const AkUniqueID PLAY_QUEST_DONE = 2119603875U;
+        static const AkUniqueID PLAY_QUEST_KAPLYA_DONE = 719136048U;
+        static const AkUniqueID PLAY_QUEST_STATUE_DONE = 1052410998U;
         static const AkUniqueID PLAY_RICHAG = 2815540712U;
+        static const AkUniqueID PLAY_RICHAG_QUEST_MUSIC = 586710927U;
         static const AkUniqueID PLAY_ROAR = 2770252186U;
+        static const AkUniqueID PLAY_SAFE_DONE = 3591720668U;
+        static const AkUniqueID PLAY_SAFEZONE_MASSIVE_DOOR_CLOSE = 1726312562U;
+        static const AkUniqueID PLAY_SAFEZONE_MASSIVE_DOOR_OPEN = 3244122278U;
+        static const AkUniqueID PLAY_SAFEZONE_MUSIC = 2527041227U;
         static const AkUniqueID PLAY_SCARY_METALIC_SOUND = 2270754086U;
         static const AkUniqueID PLAY_SCREAM = 2470536401U;
         static const AkUniqueID PLAY_SIREN = 1185108097U;
+        static const AkUniqueID PLAY_STATUE_QUEST_MUSIC = 2517107665U;
+        static const AkUniqueID PLAY_STATUE_THEME = 2235504400U;
         static const AkUniqueID PLAY_STOP_DRINK = 3276893109U;
         static const AkUniqueID PLAY_TIRED_BREATH = 1817535745U;
+        static const AkUniqueID PLAY_USE_MECH = 1999651201U;
+        static const AkUniqueID PLAY_VENTIL = 3426924248U;
         static const AkUniqueID PLAY_WATER_MACHINE = 3039676177U;
         static const AkUniqueID PLAY_WATER_MACHINE_MAX = 3687303446U;
         static const AkUniqueID PLAY_WHITELAMP = 1638297339U;
         static const AkUniqueID PLAY_WRONG_GEAR_COMBINATION = 3637805037U;
         static const AkUniqueID PLAY_YELLOWLAMP = 2132701112U;
+        static const AkUniqueID STOP_MAIN_MENU_MUSIC = 2829915331U;
         static const AkUniqueID STOP_MOVE_STONE = 595172737U;
+        static const AkUniqueID STOP_MUSIC = 2837384057U;
         static const AkUniqueID STOP_SIREN = 574068527U;
+        static const AkUniqueID STOP_STATUE_QUEST_MUSIC = 3806907903U;
         static const AkUniqueID STOP_WHITELAMP = 2584819961U;
         static const AkUniqueID STOP_YELLOWLAMP = 3345224838U;
     } // namespace EVENTS
@@ -100,6 +123,8 @@ namespace AK
     {
         static const AkUniqueID ALL_VOLUME_PLAYER_SETTINGS = 545571051U;
         static const AkUniqueID FOOTSTEP_VOLUME = 511984960U;
+        static const AkUniqueID HEALTH = 3677180323U;
+        static const AkUniqueID MADNESS = 3224646828U;
         static const AkUniqueID MUSICINTENSITY = 1301299809U;
         static const AkUniqueID VOLUME_FX_PLAYER_SETTINGS = 2436629268U;
         static const AkUniqueID VOLUME_MUSIC_PLAYER_SETTINGS = 1274705203U;
@@ -115,6 +140,9 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC_BUS = 3127962312U;
+        static const AkUniqueID NEW_AUDIO_BUS = 2255513057U;
+        static const AkUniqueID NEW_AUDIO_BUS_01 = 2799548653U;
+        static const AkUniqueID NEW_AUDIO_BUS_02 = 2799548654U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES

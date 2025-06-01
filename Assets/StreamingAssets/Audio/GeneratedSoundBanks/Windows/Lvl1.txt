@@ -1,9 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
+	151464529	Play_Madness_Voices			\Player\Play_Madness_Voices	
 	574068527	Stop_Siren			\Objects\Stop_Siren	
+	586710927	Play_Richag_Quest_Music			\Default Work Unit\Play_Richag_Quest_Music	
 	595172737	Stop_Move_Stone			\Objects\StatueQuests\Stop_Move_Stone	
+	644281394	Play_Final_Song			\Default Work Unit\Play_Final_Song	
 	703779141	Play_Gen1			\Objects\Generators\Play_Gen1	
 	703779142	Play_Gen2			\Objects\Generators\Play_Gen2	
+	719136048	Play_Quest_Kaplya_Done			\Objects\Kapli_Quest\Play_Quest_Kaplya_Done	
+	727616091	Play_Death_HP			\Player\Play_Death_HP	
 	1015499099	Play_Player_Charge_FlashLigh			\Player\Play_Player_Charge_FlashLigh	
+	1052410998	Play_Quest_Statue_Done			\Objects\StatueQuests\Play_Quest_Statue_Done	
 	1170362071	Play_Kapli			\Objects\Play_Kapli	
 	1185108097	Play_Siren			\Objects\Play_Siren	
 	1253718314	Play_Gear_PickUp			\Objects\GearQuest\Gear\Play_Gear_PickUp	
@@ -21,30 +27,47 @@ Event	ID	Name			Wwise Object Path	Notes
 	1602358412	Play_Footstep			\Player\Play_Footstep	
 	1638297339	Play_WhiteLamp			\Objects\Lighting\Play_WhiteLamp	
 	1652482609	Play_Flashlight_Disable			\Player\FlashLight\Play_Flashlight_Disable	
+	1660008929	Play_Door_Open			\Objects\Play_Door_Open	
+	1726312562	Play_Safezone_Massive_Door_Close			\Objects\Play_Safezone_Massive_Door_Close	
 	1817535745	Play_Tired_Breath			\Player\Play_Tired_Breath	
 	1908881673	Play_Little_Fire			\Objects\Lighting\Play_Little_Fire	
+	1999651201	Play_Use_Mech			\Objects\SafeBoxQuest\Play_Use_Mech	
 	2006984080	Play_Drinking			\Player\Drinking\Play_Drinking	
 	2055319774	Play_Casseteplayer_Button			\Objects\CassetePlayer\Play_Casseteplayer_Button	
+	2070755871	Play_Lvl_Starting			\Objects\Play_Lvl_Starting	
 	2099555730	Play_Button			\Objects\RichagQuest\Play_Button	
 	2119603875	Play_Quest_Done			\Objects\RichagQuest\Play_Quest_Done	
 	2132701112	Play_YellowLamp			\Objects\Lighting\Play_YellowLamp	
 	2184129563	Play_Move_Stone			\Objects\StatueQuests\Play_Move_Stone	
+	2235504400	Play_Statue_Theme			\Default Work Unit\Play_Statue_Theme	
 	2270754086	Play_Scary_Metalic_Sound			\Objects\Play_Scary_Metalic_Sound	
 	2287442812	Play_Gaz			\Objects\Play_Gaz	
+	2355669119	Play_Heart_Beating			\Player\Play_Heart_Beating	
 	2470536401	Play_scream			\Monster\Play_scream	
+	2517107665	Play_Statue_Quest_Music			\Default Work Unit\Play_Statue_Quest_Music	
+	2527041227	Play_Safezone_Music			\Default Work Unit\Play_Safezone_Music	
 	2584819961	Stop_WhiteLamp			\Objects\Lighting\Stop_WhiteLamp	
 	2652031523	Play_Mechanical_Sound			\Objects\Play_Mechanical_Sound	
 	2770252186	Play_Roar			\Monster\Play_Roar	
+	2787455125	Play_Cave_Music			\Default Work Unit\Play_Cave_Music	
 	2815540712	Play_Richag			\Objects\RichagQuest\Play_Richag	
+	2829915331	Stop_Main_Menu_Music			\Default Work Unit\Stop_Main_Menu_Music	
+	2837384057	Stop_Music			\Default Work Unit\Stop_Music	
+	2886938738	Play_Death_Madness			\Player\Play_Death_Madness	
+	2895168921	Play_Main_Menu_Music			\Default Work Unit\Play_Main_Menu_Music	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	2998979435	Play_One_Kaplya			\Objects\Kapli_Quest\Play_One_Kaplya	
 	3039676177	Play_Water_Machine			\Objects\Generators\Play_Water_Machine	
 	3106012101	Play_Gear_Drop			\Objects\GearQuest\Gear\Play_Gear_Drop	
+	3244122278	Play_Safezone_Massive_Door_Open			\Objects\Play_Safezone_Massive_Door_Open	
 	3276893109	Play_Stop_Drink			\Player\Drinking\Play_Stop_Drink	
 	3345224838	Stop_YellowLamp			\Objects\Lighting\Stop_YellowLamp	
+	3426924248	Play_Ventil			\Objects\Generators\Play_Ventil	
 	3474005947	Play_Floor_Button			\Objects\StatueQuests\Play_Floor_Button	
+	3591720668	Play_Safe_Done			\Objects\SafeBoxQuest\Play_Safe_Done	
 	3637805037	Play_Wrong_Gear_Combination			\Objects\GearQuest\Play_Wrong_Gear_Combination	
 	3687303446	Play_Water_Machine_Max			\Objects\Generators\Play_Water_Machine_Max	
+	3806907903	Stop_Statue_Quest_Music			\Default Work Unit\Stop_Statue_Quest_Music	
 	4157024899	Play_Low_Roar			\Monster\Play_Low_Roar	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -73,16 +96,20 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2436629268	Volume_FX_Player_Settings			\Default Work Unit\Volume_FX_Player_Settings	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	2255513057	New Audio Bus			\Default Work Unit\Master Audio Bus\New Audio Bus	
+	2799548653	New Audio Bus_01			\Default Work Unit\Music Bus\New Audio Bus_01	
+	2799548654	New Audio Bus_02			\Default Work Unit\Master Audio Bus\New Audio Bus_02	
 	3127962312	Music Bus			\Default Work Unit\Music Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	1319739747	Big_Hall_Rev			\Default Work Unit\Master Audio Bus\Big_Hall_Rev	
-	1389012769	Coridor_Rev			\Default Work Unit\Master Audio Bus\Coridor_Rev	
-	1445918944	Cave_Rev			\Default Work Unit\Master Audio Bus\Cave_Rev	
-	2663941762	Small_Room_Rev			\Default Work Unit\Master Audio Bus\Small_Room_Rev	
+	1319739747	Big_Hall_Rev			\Default Work Unit\Master Audio Bus\New Audio Bus\Big_Hall_Rev	
+	1389012769	Coridor_Rev			\Default Work Unit\Master Audio Bus\New Audio Bus\Coridor_Rev	
+	1445918944	Cave_Rev			\Default Work Unit\Master Audio Bus\New Audio Bus\Cave_Rev	
+	2663941762	Small_Room_Rev			\Default Work Unit\Master Audio Bus\New Audio Bus\Small_Room_Rev	
 
 Effect plug-ins	ID	Name	Type				Notes
+	225778262	Gain (Custom)	Wwise Gain			
 	346573888	Parametric EQ (Custom)	Wwise Parametric EQ			
 	1431209347	One_Tap_One_Second	Wwise Delay			
 	1431265797	Monsterize	Wwise Pitch Shifter			

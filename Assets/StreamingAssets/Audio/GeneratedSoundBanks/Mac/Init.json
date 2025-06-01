@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{33C8BCAD-0DA4-9F2E-4F81-F9156E4E04E2}",
+    "Hash": "{F231C6D0-6553-5FB0-21EC-786F200FD976}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "225778262",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music Bus\\[Effect Slot [1]: (Gain)]\\Gain (Custom)",
+       "GUID": "{770C6FC8-8BF2-4B67-834C-14FDC4D7C6CE}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -36,10 +46,35 @@
     },
     "Busses": [
      {
+      "Id": "2255513057",
+      "Name": "New Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus",
+      "GUID": "{8D527DE6-64B1-42D2-9CED-CE2E9F9932DB}"
+     },
+     {
+      "Id": "2799548653",
+      "Name": "New Audio Bus_01",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music Bus\\New Audio Bus_01",
+      "GUID": "{04650CE3-6878-49CF-9F71-0210D7A7CB82}"
+     },
+     {
+      "Id": "2799548654",
+      "Name": "New Audio Bus_02",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus_02",
+      "GUID": "{E60171BF-758C-4499-BA0B-CAE25DBA8197}"
+     },
+     {
       "Id": "3127962312",
       "Name": "Music Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music Bus",
-      "GUID": "{256032F8-FB80-4A11-9F8E-BE4348EEB4C1}"
+      "GUID": "{256032F8-FB80-4A11-9F8E-BE4348EEB4C1}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "225778262"
+        }
+       ]
+      }
      },
      {
       "Id": "3803692087",
@@ -52,25 +87,25 @@
      {
       "Id": "1319739747",
       "Name": "Big_Hall_Rev",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Big_Hall_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Big_Hall_Rev",
       "GUID": "{4827715D-324E-4E5A-8A9C-DE645FEDA69F}"
      },
      {
       "Id": "1389012769",
       "Name": "Coridor_Rev",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Coridor_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Coridor_Rev",
       "GUID": "{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}"
      },
      {
       "Id": "1445918944",
       "Name": "Cave_Rev",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Cave_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Cave_Rev",
       "GUID": "{53BA2B3A-3575-45BD-A544-E04D99E48AB8}"
      },
      {
       "Id": "2663941762",
       "Name": "Small_Room_Rev",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Small_Room_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Small_Room_Rev",
       "GUID": "{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}"
      }
     ],
@@ -104,6 +139,18 @@
       "Name": "Volume_FX_Player_Settings",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_FX_Player_Settings",
       "GUID": "{5794A9E2-955F-4062-9141-3B4B26921385}"
+     },
+     {
+      "Id": "3224646828",
+      "Name": "Madness",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Madness",
+      "GUID": "{5C3297B8-E2E8-4400-AD2A-683503B6AD53}"
+     },
+     {
+      "Id": "3677180323",
+      "Name": "Health",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Health",
+      "GUID": "{2691D2E9-6CE2-4A32-8D9F-B770E91E4A5D}"
      }
     ],
     "StateGroups": [
@@ -176,6 +223,6 @@
     ]
    }
   ],
-  "FileHash": "{7BB45F93-38A9-1408-DEF7-8C8FCACD071F}"
+  "FileHash": "{7810213F-587F-1913-6264-6CEECF8B65F3}"
  }
 }

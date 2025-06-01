@@ -3,7 +3,7 @@
   "Platform": {
    "Name": "Mac",
    "BasePlatform": "Mac",
-   "Generator": "2024.1.4.8780"
+   "Generator": "2024.1.5.8803"
   },
   "RootPaths": {
    "ProjectRoot": "../../../../../Under the Fear_WwiseProject",
@@ -33,6 +33,6 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
-  "FileHash": "{2CB61C7E-A2ED-F666-7992-0529C32A6E09}"
+  "FileHash": "{E65056F2-689B-375B-4965-21AA68156BBF}"
  }
 }

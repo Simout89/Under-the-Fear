@@ -3,7 +3,7 @@
   "Project": {
    "Name": "Under the Fear_WwiseProject",
    "GUID": "{A422E703-C11A-4175-9127-07FB3D29C88C}",
-   "Generator": "2024.1.4.8780"
+   "Generator": "2024.1.5.8803"
   },
   "CacheRoot": "../../../../Under the Fear_WwiseProject/.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{93635576-0C35-1598-C567-268025847FEF}"
+  "FileHash": "{181B2B4D-CFDD-AFBC-BC77-72F33DE34932}"
  }
 }
