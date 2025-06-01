@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: d0fc1eb916d4d2438bac39237f48ec7c
     GuidInternal: 
-    m_lastTime: -8584534927087895037
+    m_lastTime: -8584529746075574888
     List:
     - name: Big_Hall_Rev
       guid: 5d7127484e325a4e8a9cde645feda69f
@@ -53,10 +53,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus
+        ObjectType: 2
+        guid: e67d528db164d2429cedce2e9f9932db
       - ElementName: Big_Hall_Rev
         ObjectType: 1
         guid: 5d7127484e325a4e8a9cde645feda69f
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Big_Hall_Rev
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus\Big_Hall_Rev
     - name: Cave_Rev
       guid: 3a2bba537535bd45a544e04d99e48ab8
       id: 1445918944
@@ -70,10 +73,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus
+        ObjectType: 2
+        guid: e67d528db164d2429cedce2e9f9932db
       - ElementName: Cave_Rev
         ObjectType: 1
         guid: 3a2bba537535bd45a544e04d99e48ab8
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave_Rev
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus\Cave_Rev
     - name: Coridor_Rev
       guid: 89481b46a6c2d04b9b408bc65bd8926e
       id: 1389012769
@@ -87,10 +93,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus
+        ObjectType: 2
+        guid: e67d528db164d2429cedce2e9f9932db
       - ElementName: Coridor_Rev
         ObjectType: 1
         guid: 89481b46a6c2d04b9b408bc65bd8926e
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Coridor_Rev
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus\Coridor_Rev
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -119,6 +128,57 @@ MonoBehaviour:
         ObjectType: 2
         guid: f832602580fb114a9f8ebe4348eeb4c1
       Path: Master-Mixer Hierarchy\Default Work Unit\Music Bus
+    - name: New Audio Bus
+      guid: e67d528db164d2429cedce2e9f9932db
+      id: 2255513057
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0fc1eb916d4d2438bac39237f48ec7c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus
+        ObjectType: 2
+        guid: e67d528db164d2429cedce2e9f9932db
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus
+    - name: New Audio Bus_01
+      guid: e30c65047868cf499f710210d7a7cb82
+      id: 2799548653
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0fc1eb916d4d2438bac39237f48ec7c
+      - ElementName: Music Bus
+        ObjectType: 2
+        guid: f832602580fb114a9f8ebe4348eeb4c1
+      - ElementName: New Audio Bus_01
+        ObjectType: 2
+        guid: e30c65047868cf499f710210d7a7cb82
+      Path: Master-Mixer Hierarchy\Default Work Unit\Music Bus\New Audio Bus_01
+    - name: New Audio Bus_02
+      guid: bf7101e68c759944ba0bcae25dba8197
+      id: 2799548654
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0fc1eb916d4d2438bac39237f48ec7c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus_02
+        ObjectType: 2
+        guid: bf7101e68c759944ba0bcae25dba8197
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus_02
     - name: Small_Room_Rev
       guid: 98771a75c7f0e6428c603edc9da810aa
       id: 2663941762
@@ -132,10 +192,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus
+        ObjectType: 2
+        guid: e67d528db164d2429cedce2e9f9932db
       - ElementName: Small_Room_Rev
         ObjectType: 1
         guid: 98771a75c7f0e6428c603edc9da810aa
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Small_Room_Rev
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus\Small_Room_Rev
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -239,7 +302,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1959e3c62c7260468244333fe4e1c60a
       Path: Events\Monster\Play_Monster_Step
-      maxAttenuation: 100
+      maxAttenuation: 50
       maxDuration: 0.81578946
       minDuration: 0.81578946
     - name: Play_Roar
@@ -287,7 +350,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: efa17e970f8f564c9c28e8e57906fbec
     GuidInternal: 
-    m_lastTime: -8584534927087910567
+    m_lastTime: -8584529746075625152
     List:
     - name: CassetePlayer
       guid: ec6966511b9b4248acfb491426367985
@@ -448,9 +511,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: e8981adc3f99644ea38824ea0b793cb5
       Path: Events\Objects\RichagQuest\Play_Button
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 100
+      maxDuration: 0.75
+      minDuration: 0.75
     - name: Play_Casseteplayer_Button
       guid: 4700d14e37096e448f3aaf6f963a69a1
       id: 2055319774
@@ -571,7 +634,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4f4c637eaa6d9a479dadd6e0d0256e8b
       Path: Events\Objects\Generators\Play_Gen1
-      maxAttenuation: 100
+      maxAttenuation: 30.000002
       maxDuration: 0
       minDuration: 0
     - name: Play_Gen2
@@ -591,7 +654,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: cc2d605c335e6b45a1b9737e5523fc22
       Path: Events\Objects\Generators\Play_Gen2
-      maxAttenuation: 100
+      maxAttenuation: 25
       maxDuration: 0
       minDuration: 0
     - name: Play_Kapli
@@ -628,7 +691,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: fb102381b77489479d11c5811c409819
       Path: Events\Objects\Lighting\Play_Little_Fire
-      maxAttenuation: 100
+      maxAttenuation: 30.000002
       maxDuration: 0
       minDuration: 0
     - name: Play_Mechanical_Sound
@@ -932,7 +995,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d173a92748e70f4fa0e45f2d96b358aa
       Path: Events\Objects\RichagQuest\Play_Richag
-      maxAttenuation: 100
+      maxAttenuation: 30.000002
       maxDuration: 1.2517687
       minDuration: 0.7722676
     - name: Play_Scary_Metalic_Sound
@@ -986,7 +1049,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3fc18ca0d7778749934db290944b7186
       Path: Events\Objects\Generators\Play_Water_Machine
-      maxAttenuation: 100
+      maxAttenuation: 25
       maxDuration: 0
       minDuration: 0
     - name: Play_Water_Machine_Max
@@ -1026,7 +1089,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8cd5cf162c600845b3617450eb3d8e80
       Path: Events\Objects\Lighting\Play_WhiteLamp
-      maxAttenuation: 100
+      maxAttenuation: 25
       maxDuration: 0
       minDuration: 0
     - name: Play_Wrong_Gear_Combination
@@ -1066,7 +1129,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 878b6ad85cd6dd469040b4e0864c396b
       Path: Events\Objects\Lighting\Play_YellowLamp
-      maxAttenuation: 100
+      maxAttenuation: 25
       maxDuration: 0
       minDuration: 0
     - name: RichagQuest
@@ -1301,7 +1364,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d91ba34e4cebac4e906bbcad2d3b980d
       Path: Events\Player\Play_Footstep
-      maxAttenuation: 100
+      maxAttenuation: 25
       maxDuration: 0.45360452
       minDuration: 0.3099327
     - name: Play_Player_Charge_FlashLigh
@@ -1648,7 +1711,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584536849157106625
     List: []
-  ExpandedFileSystemItemIds: 01000000020000000300000005000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000160000001b00000032000000330000003400000038000000390000003a00000055000000
+  ExpandedFileSystemItemIds: 01000000020000000300000005000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000160000001b00000032000000330000003400000038000000390000003a000000530000005400000055000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
