@@ -12,6 +12,7 @@ namespace _Script.Zenject
             Container.BindInterfacesAndSelfTo<UiManager>().FromComponentsInHierarchy().AsSingle();
             Container.BindInterfacesAndSelfTo<PlayerHealth>().FromComponentsInHierarchy().AsSingle(); 
             Container.BindInterfacesAndSelfTo<MonsterAi>().FromComponentsInHierarchy().AsSingle(); 
+            Container.BindInterfacesAndSelfTo<MonsterController>().FromComponentsInHierarchy().AsSingle(); 
         }
     }
 }
