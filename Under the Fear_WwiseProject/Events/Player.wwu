@@ -136,6 +136,10 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Madness_Voices" ID="{0D1D43A8-462F-4EFD-9C64-34635DE26548}"/>
+				<Event Name="Play_Heart_Beating" ID="{6600D435-BB51-4F9C-A608-351C57DECDB1}"/>
+				<Event Name="Play_Death_Madness" ID="{3E85F310-8FD8-453B-B92C-4E8F4BF817E7}"/>
+				<Event Name="Play_Death_HP" ID="{99F0DF33-A719-4957-8F34-46E355BEFAC5}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

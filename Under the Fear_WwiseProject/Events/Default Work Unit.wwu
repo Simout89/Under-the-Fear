@@ -14,6 +14,16 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Main_Menu_Music" ID="{C99A9207-B787-4B4A-B0C9-D33E7A0607E1}"/>
+				<Event Name="Stop_Music" ID="{B7589933-9134-42BB-BDF8-38F22FF2F6A4}"/>
+				<Event Name="Stop_Main_Menu_Music" ID="{F59DB6E0-039F-48FC-884A-2B0E40176DEE}"/>
+				<Event Name="Play_Safezone_Music" ID="{3439F478-F359-432A-B31F-5B129E6FBF91}"/>
+				<Event Name="Play_Final_Song" ID="{D508EB9E-30A3-44A7-9A76-10189816B51A}"/>
+				<Event Name="Play_Statue_Theme" ID="{3F119F43-42EA-4063-B3EF-B7C9BBCDE781}"/>
+				<Event Name="Stop_Statue_Quest_Music" ID="{54562E40-0436-49B9-99CE-5F118D199A7A}"/>
+				<Event Name="Play_Richag_Quest_Music" ID="{322E4275-05AF-4470-9FE1-D84D8AE497E7}"/>
+				<Event Name="Play_Statue_Quest_Music" ID="{21D9DF24-41EA-4381-AE3E-69D6340B8EA5}"/>
+				<Event Name="Play_Cave_Music" ID="{2DAD3E5C-D16E-44DE-B882-8AE2ED076157}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

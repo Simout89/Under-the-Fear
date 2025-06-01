@@ -66,6 +66,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Ventil" ID="{90371611-A822-42EC-A691-7514B19A6D67}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="NumbersQuest" ID="{2055C407-6D6C-4CC4-998B-F9D590E8E393}" ShortID="447431436">
@@ -338,6 +339,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Quest_Statue_Done" ID="{AA03771D-4368-4170-B756-04780C664557}"/>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_Siren" ID="{3ECCF73C-6BDC-4C0F-9754-E7D1FDA4FD7E}">
@@ -390,6 +392,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Quest_Kaplya_Done" ID="{20EB0004-FB7C-4029-953D-9D88FDBD6CFC}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="RichagQuest" ID="{96CF0E74-2A13-48B6-AA13-DA2612F96DDE}" ShortID="1000200217">
@@ -436,6 +439,16 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="SafeBoxQuest" ID="{9642659B-735D-479F-86C4-04B5770930D1}" ShortID="432941755">
+					<ChildrenList>
+						<Event Name="Play_Use_Mech" ID="{5AB5D434-36AC-42A9-B794-C19F1947776A}"/>
+						<Event Name="Play_Safe_Done" ID="{A2329B01-B054-4F1D-908A-2DEECCB1EAC9}"/>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Door_Open" ID="{FA38CEF9-0251-4DC7-A16B-4E00BAB081B7}"/>
+				<Event Name="Play_Safezone_Massive_Door_Open" ID="{C19D4BAF-B751-40E7-8E37-AF738ABE2788}"/>
+				<Event Name="Play_Safezone_Massive_Door_Close" ID="{15B819B6-01C7-470F-862F-00DBAF5E478E}"/>
+				<Event Name="Play_Lvl_Starting" ID="{13935C4C-E515-42AD-8482-29D44A4E71A9}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

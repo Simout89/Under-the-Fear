@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{6B3B90BE-E8D2-BC5E-7363-D45FB2A17057}",
+    "Hash": "{B6BCA24D-12CF-D1ED-A267-6CA8F7B68411}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -1609,6 +1609,46 @@
       "DurationMax": "0"
      },
      {
+      "Id": "2787455125",
+      "Name": "Play_Cave_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cave_Music",
+      "GUID": "{2DAD3E5C-D16E-44DE-B882-8AE2ED076157}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "727616091",
+      "Name": "Play_Death_HP",
+      "ObjectPath": "\\Events\\Player\\Play_Death_HP",
+      "GUID": "{99F0DF33-A719-4957-8F34-46E355BEFAC5}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2886938738",
+      "Name": "Play_Death_Madness",
+      "ObjectPath": "\\Events\\Player\\Play_Death_Madness",
+      "GUID": "{3E85F310-8FD8-453B-B92C-4E8F4BF817E7}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1660008929",
+      "Name": "Play_Door_Open",
+      "ObjectPath": "\\Events\\Objects\\Play_Door_Open",
+      "GUID": "{FA38CEF9-0251-4DC7-A16B-4E00BAB081B7}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2006984080",
       "Name": "Play_Drinking",
       "ObjectPath": "\\Events\\Player\\Drinking\\Play_Drinking",
@@ -1640,6 +1680,16 @@
         "Id": "937173175"
        }
       ]
+     },
+     {
+      "Id": "644281394",
+      "Name": "Play_Final_Song",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Final_Song",
+      "GUID": "{D508EB9E-30A3-44A7-9A76-10189816B51A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "1652482609",
@@ -1968,6 +2018,16 @@
       ]
      },
      {
+      "Id": "2355669119",
+      "Name": "Play_Heart_Beating",
+      "ObjectPath": "\\Events\\Player\\Play_Heart_Beating",
+      "GUID": "{6600D435-BB51-4F9C-A608-351C57DECDB1}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "1170362071",
       "Name": "Play_Kapli",
       "ObjectPath": "\\Events\\Objects\\Play_Kapli",
@@ -2046,6 +2106,36 @@
         "Id": "908947801"
        }
       ]
+     },
+     {
+      "Id": "2070755871",
+      "Name": "Play_Lvl_Starting",
+      "ObjectPath": "\\Events\\Objects\\Play_Lvl_Starting",
+      "GUID": "{13935C4C-E515-42AD-8482-29D44A4E71A9}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "151464529",
+      "Name": "Play_Madness_Voices",
+      "ObjectPath": "\\Events\\Player\\Play_Madness_Voices",
+      "GUID": "{0D1D43A8-462F-4EFD-9C64-34635DE26548}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2895168921",
+      "Name": "Play_Main_Menu_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Menu_Music",
+      "GUID": "{C99A9207-B787-4B4A-B0C9-D33E7A0607E1}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2652031523",
@@ -3063,6 +3153,26 @@
       ]
      },
      {
+      "Id": "719136048",
+      "Name": "Play_Quest_Kaplya_Done",
+      "ObjectPath": "\\Events\\Objects\\Kapli_Quest\\Play_Quest_Kaplya_Done",
+      "GUID": "{20EB0004-FB7C-4029-953D-9D88FDBD6CFC}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1052410998",
+      "Name": "Play_Quest_Statue_Done",
+      "ObjectPath": "\\Events\\Objects\\StatueQuests\\Play_Quest_Statue_Done",
+      "GUID": "{AA03771D-4368-4170-B756-04780C664557}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2815540712",
       "Name": "Play_Richag",
       "ObjectPath": "\\Events\\Objects\\RichagQuest\\Play_Richag",
@@ -3085,6 +3195,16 @@
         "Id": "924656778"
        }
       ]
+     },
+     {
+      "Id": "586710927",
+      "Name": "Play_Richag_Quest_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Richag_Quest_Music",
+      "GUID": "{322E4275-05AF-4470-9FE1-D84D8AE497E7}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2770252186",
@@ -3124,6 +3244,46 @@
         "Id": "929041556"
        }
       ]
+     },
+     {
+      "Id": "3591720668",
+      "Name": "Play_Safe_Done",
+      "ObjectPath": "\\Events\\Objects\\SafeBoxQuest\\Play_Safe_Done",
+      "GUID": "{A2329B01-B054-4F1D-908A-2DEECCB1EAC9}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1726312562",
+      "Name": "Play_Safezone_Massive_Door_Close",
+      "ObjectPath": "\\Events\\Objects\\Play_Safezone_Massive_Door_Close",
+      "GUID": "{15B819B6-01C7-470F-862F-00DBAF5E478E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3244122278",
+      "Name": "Play_Safezone_Massive_Door_Open",
+      "ObjectPath": "\\Events\\Objects\\Play_Safezone_Massive_Door_Open",
+      "GUID": "{C19D4BAF-B751-40E7-8E37-AF738ABE2788}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2527041227",
+      "Name": "Play_Safezone_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Safezone_Music",
+      "GUID": "{3439F478-F359-432A-B31F-5B129E6FBF91}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2270754086",
@@ -3242,6 +3402,26 @@
       ]
      },
      {
+      "Id": "2517107665",
+      "Name": "Play_Statue_Quest_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Statue_Quest_Music",
+      "GUID": "{21D9DF24-41EA-4381-AE3E-69D6340B8EA5}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2235504400",
+      "Name": "Play_Statue_Theme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Statue_Theme",
+      "GUID": "{3F119F43-42EA-4063-B3EF-B7C9BBCDE781}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "3276893109",
       "Name": "Play_Stop_Drink",
       "ObjectPath": "\\Events\\Player\\Drinking\\Play_Stop_Drink",
@@ -3326,6 +3506,26 @@
         }
        ]
       }
+     },
+     {
+      "Id": "1999651201",
+      "Name": "Play_Use_Mech",
+      "ObjectPath": "\\Events\\Objects\\SafeBoxQuest\\Play_Use_Mech",
+      "GUID": "{5AB5D434-36AC-42A9-B794-C19F1947776A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3426924248",
+      "Name": "Play_Ventil",
+      "ObjectPath": "\\Events\\Objects\\Generators\\Play_Ventil",
+      "GUID": "{90371611-A822-42EC-A691-7514B19A6D67}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "3039676177",
@@ -3413,6 +3613,16 @@
       ]
      },
      {
+      "Id": "2829915331",
+      "Name": "Stop_Main_Menu_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Main_Menu_Music",
+      "GUID": "{F59DB6E0-039F-48FC-884A-2B0E40176DEE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "595172737",
       "Name": "Stop_Move_Stone",
       "ObjectPath": "\\Events\\Objects\\StatueQuests\\Stop_Move_Stone",
@@ -3437,6 +3647,16 @@
       ]
      },
      {
+      "Id": "2837384057",
+      "Name": "Stop_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Music",
+      "GUID": "{B7589933-9134-42BB-BDF8-38F22FF2F6A4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "574068527",
       "Name": "Stop_Siren",
       "ObjectPath": "\\Events\\Objects\\Stop_Siren",
@@ -3450,6 +3670,16 @@
         "Id": "661065338"
        }
       ]
+     },
+     {
+      "Id": "3806907903",
+      "Name": "Stop_Statue_Quest_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Statue_Quest_Music",
+      "GUID": "{54562E40-0436-49B9-99CE-5F118D199A7A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2584819961",
@@ -3655,6 +3885,6 @@
     ]
    }
   ],
-  "FileHash": "{690D7669-C0ED-5A9E-BB3E-231A0B493BF7}"
+  "FileHash": "{6F4A50C2-44CE-009C-BFC5-A31EF1B60E64}"
  }
 }
