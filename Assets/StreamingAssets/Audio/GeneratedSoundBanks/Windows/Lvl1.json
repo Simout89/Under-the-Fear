@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{B6BCA24D-12CF-D1ED-A267-6CA8F7B68411}",
+    "Hash": "{F80D67F5-E365-F953-E7AB-EFFE6B9822B2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -2175,7 +2175,7 @@
       "Name": "Play_Monster_Step",
       "ObjectPath": "\\Events\\Monster\\Play_Monster_Step",
       "GUID": "{C6E35919-722C-4660-8244-333FE4E1C60A}",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "35",
       "DurationType": "OneShot",
       "DurationMin": "0.81578946",
       "DurationMax": "0.81578946",
@@ -3885,6 +3885,6 @@
     ]
    }
   ],
-  "FileHash": "{093EBAC3-881F-6550-576C-75EB2877C0D2}"
+  "FileHash": "{A693D141-C270-DB76-07D2-72140783B700}"
  }
 }
