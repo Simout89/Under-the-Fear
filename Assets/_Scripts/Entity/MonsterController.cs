@@ -63,7 +63,7 @@ public class MonsterController : MonoBehaviour
             }
             else
             {
-                lowRoar.Post(gameObject);
+                lowRoar.Post(FindNearestHole(_gameManager.Player.transform.position).gameObject);
             }
         }
     }
