@@ -5,6 +5,7 @@ using _Script.Manager;
 using UnityEngine;
 using UnityEngine.AI;
 using Zenject;
+using Random = UnityEngine.Random;
 
 public class MonsterController : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class MonsterController : MonoBehaviour
     [SerializeField] private float timeWaitOnPoint;
     [SerializeField] private float waitBeforeHaunting;
     [SerializeField] private float hauntingSpeedMovement;
+    [SerializeField] private float loseTargetDelay = 5f;
+    [SerializeField] private float randomSoundDelay = 60f;
+    [SerializeField] private int chanceRandomPlay = 3;
+    [SerializeField] private MonsterEyes _monsterEyes;
     private float originSpeed;
     [Header("References")]
     [SerializeField] private List<Hole> holes;
@@ -20,12 +25,16 @@ public class MonsterController : MonoBehaviour
     [SerializeField] private AK.Wwise.Event beforeHauntingSound;
     [SerializeField] private AK.Wwise.Event screamSound;
     [SerializeField] private AK.Wwise.Event step;
+    [SerializeField] private AK.Wwise.Event lowRoar;
     [Header("SoundsSettings")]
     private TimedInvoker stepSoundInvoker;
     [SerializeField] private float footstepInterval;
+    [SerializeField] private float runFootstepInterval;
+    private float _currentFootStepInterval;
     private Vector3 _lastPointToCheck;
     private Coroutine _lastCoroutine;
     private Hole _lastHole;
+    private TimedInvoker _randomVoicePlay;
     
     private MonsterState _currentState = MonsterState.SitsInAHole;
     public MonsterState CurrentState => _currentState;
@@ -33,12 +42,30 @@ public class MonsterController : MonoBehaviour
     
     [Inject] private GameManager _gameManager;
 
-    // TODO: сделать имитацию слуха
 
     private void Awake()
     {
         originSpeed = _navMeshAgent.speed;
-        stepSoundInvoker = new TimedInvoker(PlayStepSound, footstepInterval);
+
+        _currentFootStepInterval = footstepInterval;
+        stepSoundInvoker = new TimedInvoker(PlayStepSound, _currentFootStepInterval);
+
+        _randomVoicePlay = new TimedInvoker(HandleRandomVoicePlay, randomSoundDelay);
+    }
+
+    private void HandleRandomVoicePlay()
+    {
+        if (Random.Range(0, chanceRandomPlay) == 0)
+        {
+            if (_navMeshAgent.gameObject.activeSelf)
+            {
+                lowRoar.Post(_navMeshAgent.gameObject);
+            }
+            else
+            {
+                lowRoar.Post(gameObject);
+            }
+        }
     }
 
     private void PlayStepSound()
@@ -52,6 +79,8 @@ public class MonsterController : MonoBehaviour
         {
             stepSoundInvoker.Tick();
         }
+        
+        _randomVoicePlay.Tick();
     }
 
     public void ChangeState(MonsterState newState, Vector3 transform = new Vector3())
@@ -115,19 +144,45 @@ public class MonsterController : MonoBehaviour
 
     private IEnumerator Haunting()
     {
+        stepSoundInvoker.SetInterval(runFootstepInterval);
+        
         _navMeshAgent.isStopped = true;
         beforeHauntingSound.Post(_navMeshAgent.gameObject);
         yield return new WaitForSeconds(waitBeforeHaunting);
         _navMeshAgent.isStopped = false;
         _navMeshAgent.speed = hauntingSpeedMovement;
+   
+        float loseTargetDelay = 0f;
+   
         while (Vector3.Distance(_navMeshAgent.transform.position, _gameManager.Player.transform.position) > 1f)
         {
             _navMeshAgent.destination = _gameManager.Player.transform.position;
+       
+            if (_monsterEyes.SeePlayer)
+            {
+                loseTargetDelay = 0f;
+            }
+            else
+            {
+                loseTargetDelay += Time.deltaTime;
+           
+                if (loseTargetDelay >= this.loseTargetDelay)
+                {
+                    _navMeshAgent.speed = originSpeed;
+                    ChangeState(MonsterState.BackToTheHole);
+                    stepSoundInvoker.SetInterval(footstepInterval);
+                    yield break;
+                }
+            }
+       
             yield return null; 
         }
+   
+        stepSoundInvoker.SetInterval(footstepInterval);
         yield return new WaitForSeconds(timeWaitOnPoint);
         _navMeshAgent.speed = originSpeed;
         ChangeState(MonsterState.BackToTheHole);
+
     }
 
     private IEnumerator WaitOnPoint(Vector3 pointPosition, MonsterState monsterState)

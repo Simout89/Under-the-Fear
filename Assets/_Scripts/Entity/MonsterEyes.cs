@@ -12,11 +12,17 @@ public class MonsterEyes : MonoBehaviour
     [SerializeField] private MonsterAi _monsterAi;
     [SerializeField] private Transform rayCast;
     private bool raySeePlayer = false;
+    public bool SeePlayer { get; private set; }
     private void OnTriggerStay(Collider other)
     {
         if(other.CompareTag("Player") && raySeePlayer && _monsterController.CurrentState != MonsterState.Hunting)
         {
             _monsterAi.Sink(-1,-1,1);
+            SeePlayer = true;
+        }
+        else
+        {
+            SeePlayer = false;
         }
     }
 
