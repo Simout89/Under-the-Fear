@@ -49,11 +49,18 @@ public class PlayerFlashlight : SerializedMonoBehaviour
     {
         _input.FlashLightPressed += HandleFlashLight;
         _input.BiteFlashLightPressed += HandleBiteFlashLight;
+        _playerHealth.onPlayerDeath += HandlePlayerDeath;
     }
     private void OnDisable()
     {
         _input.FlashLightPressed -= HandleFlashLight;
         _input.BiteFlashLightPressed -= HandleBiteFlashLight;
+        _playerHealth.onPlayerDeath -= HandlePlayerDeath;
+    }
+
+    private void HandlePlayerDeath()
+    {
+        _enduranceSystem.SetValue(FlashLightMaxCapacity);
     }
 
     private void Awake()

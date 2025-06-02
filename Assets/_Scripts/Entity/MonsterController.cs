@@ -41,7 +41,7 @@ public class MonsterController : MonoBehaviour
     public event Action<MonsterState> OnGameStateChanged;
     
     [Inject] private GameManager _gameManager;
-
+    [Inject] private PlayerHealth _playerHealth;
 
     private void Awake()
     {
@@ -177,6 +177,8 @@ public class MonsterController : MonoBehaviour
        
             yield return null; 
         }
+        
+        _playerHealth.TakeDamage(99999);
    
         stepSoundInvoker.SetInterval(footstepInterval);
         yield return new WaitForSeconds(timeWaitOnPoint);

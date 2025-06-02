@@ -10,6 +10,7 @@ namespace _Script.Player
     public class PlayerStamina: MonoBehaviour
     {
         [Inject] private MonsterEars _monsterEars;
+        [Inject] private PlayerHealth _playerHealth;
         [Header("References")]
         [SerializeField] private PlayerController _playerController;
         [SerializeField] private EnduranceSlider staminaSlider;
@@ -56,12 +57,19 @@ namespace _Script.Player
         {
             _playerController.OnSprintStarted += HandleSprintStarted;
             _playerController.OnSprintStopped += HandleSprintStopped;
+            _playerHealth.onPlayerDeath += HandlePlayerDeath;
         }
 
         private void OnDisable()
         {
             _playerController.OnSprintStarted -= HandleSprintStarted;
             _playerController.OnSprintStopped -= HandleSprintStopped;
+            _playerHealth.onPlayerDeath -= HandlePlayerDeath;
+        }
+
+        private void HandlePlayerDeath()
+        {
+            sprintStamina.SetValue(maxValue);
         }
 
         private void HandleSprintStarted()

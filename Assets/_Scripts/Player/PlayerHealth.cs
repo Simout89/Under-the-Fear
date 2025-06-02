@@ -3,6 +3,7 @@ using _Script.Player;
 using _Script.Utils;
 using UnityEngine;
 using Sirenix.OdinInspector;
+using Zenject;
 
 public class PlayerHealth : MonoBehaviour, IDamageable
 {
@@ -27,6 +28,10 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     [BoxGroup("CurrentHealthPoint")]
     private float Max => maxHealthPoint;
 
+    [Inject] private SaveManager _saveManager;
+
+    public event Action onPlayerDeath;
+
     private void Awake()
     {
         _enduranceSystem = new EnduranceSystem(maxHealthPoint, 0, 0,0);
@@ -38,7 +43,13 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         _enduranceSystem.RemoveValue(damageCount);
         if (currentHealthPoint <= 0)
         {
-            Debug.Log("Ты умер");   
+            Debug.Log("Ты умер");  
+            
+            onPlayerDeath?.Invoke();
+            
+            _enduranceSystem.SetValue(maxHealthPoint);
+            
+            _saveManager.Load();
         }
     }
     
