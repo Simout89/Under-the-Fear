@@ -111,9 +111,13 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	225778262	Gain (Custom)	Wwise Gain			
 	346573888	Parametric EQ (Custom)	Wwise Parametric EQ			
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
 	1431209347	One_Tap_One_Second	Wwise Delay			
 	1431265797	Monsterize	Wwise Pitch Shifter			
 	2513915904	Hall_Large	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
+	3164629247	Holy	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6780303	scary_metalic_sounds-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\6F\{6F04D70A-8C02-8ACD-CB49-264D9CF6F575}.wem		\Actor-Mixer Hierarchy\Objects\Scary_Metal_Sounds\scary_metalic_sounds-007		220596

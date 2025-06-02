@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{F80D67F5-E365-F953-E7AB-EFFE6B9822B2}",
+    "Hash": "{7BBF7C22-7EAC-8FA4-7503-DC72876ADB51}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -1557,6 +1557,14 @@
      ],
      "ShareSets": [
       {
+       "Id": "1159390747",
+       "Name": "Room_Medium_Tiled",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_Tiled",
+       "GUID": "{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
        "Id": "1431209347",
        "Name": "One_Tap_One_Second",
        "ObjectPath": "\\Effects\\Factory Effects\\Delay\\One_Tap_One_Second",
@@ -1577,6 +1585,30 @@
        "Name": "Hall_Large",
        "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
        "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3164629247",
+       "Name": "Holy",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
+       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3442768367",
+       "Name": "Hall_Large_Dark",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_Dark",
+       "GUID": "{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -3762,25 +3794,53 @@
       "Id": "1319739747",
       "Name": "Big_Hall_Rev",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Big_Hall_Rev",
-      "GUID": "{4827715D-324E-4E5A-8A9C-DE645FEDA69F}"
+      "GUID": "{4827715D-324E-4E5A-8A9C-DE645FEDA69F}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3442768367"
+        }
+       ]
+      }
      },
      {
       "Id": "1389012769",
       "Name": "Coridor_Rev",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Coridor_Rev",
-      "GUID": "{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}"
+      "GUID": "{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1159390747"
+        }
+       ]
+      }
      },
      {
       "Id": "1445918944",
       "Name": "Cave_Rev",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Cave_Rev",
-      "GUID": "{53BA2B3A-3575-45BD-A544-E04D99E48AB8}"
+      "GUID": "{53BA2B3A-3575-45BD-A544-E04D99E48AB8}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3164629247"
+        }
+       ]
+      }
      },
      {
       "Id": "2663941762",
       "Name": "Small_Room_Rev",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Small_Room_Rev",
-      "GUID": "{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}"
+      "GUID": "{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
      }
     ],
     "GameParameters": [
@@ -3885,6 +3945,6 @@
     ]
    }
   ],
-  "FileHash": "{76E13845-B43F-0EE2-2C51-33C4C5DD200C}"
+  "FileHash": "{3D5F7F87-B91E-9E5B-E9CE-4689376FAD21}"
  }
 }

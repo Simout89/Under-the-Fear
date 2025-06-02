@@ -267,7 +267,7 @@
 							<ObjectRef Name="Concrete" ID="{14AF0357-FC6D-440A-A139-3EB26ADA5CF7}" WorkUnitID="{A607BE28-8F4F-443A-B90B-9A989D77194A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
+							<ObjectRef Name="New Audio Bus" ID="{8D527DE6-64B1-42D2-9CED-CE2E9F9932DB}" WorkUnitID="{B91EFCD0-D416-43D2-8BAC-39237F48EC7C}"/>
 						</Reference>
 						<Reference Name="SwitchGroupOrStateGroup">
 							<ObjectRef Name="Surface" ID="{F3968800-11CB-4135-934E-4DCF65B0DDF0}" WorkUnitID="{A607BE28-8F4F-443A-B90B-9A989D77194A}"/>
