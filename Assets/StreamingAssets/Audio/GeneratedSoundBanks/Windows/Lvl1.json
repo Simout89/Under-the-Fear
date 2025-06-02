@@ -10,27 +10,11 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{7BBF7C22-7EAC-8FA4-7503-DC72876ADB51}",
+    "Hash": "{72219EA9-27CE-BEE8-D645-BAD9F8AE88ED}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
     "Media": [
-     {
-      "Id": "6780303",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "scary_metalic_sounds-007.wav",
-      "CachePath": "6F/{6F04D70A-8C02-8ACD-CB49-264D9CF6F575}.wem"
-     },
-     {
-      "Id": "12260851",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "scary_metalic_sounds2-006.wav",
-      "CachePath": "EF/{EF0D54AA-23D0-C899-D138-969BCB0B62EB}.wem"
-     },
      {
       "Id": "15024983",
       "Language": "SFX",
@@ -88,14 +72,6 @@
       "CachePath": "62/{627091A8-6F5B-B5DF-DDE5-4CF366772F9C}.wem"
      },
      {
-      "Id": "57940822",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "scary_metalic_sounds2-004.wav",
-      "CachePath": "1E/{1E62E578-CF77-2DF1-1C7A-B8304D3F0D21}.wem"
-     },
-     {
       "Id": "58117125",
       "Language": "SFX",
       "Streaming": "false",
@@ -136,12 +112,28 @@
       "CachePath": "CB/{CBA00E0F-306E-67BB-A841-01840B66B95A}.wem"
      },
      {
+      "Id": "82318059",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Q2 cut.wav",
+      "CachePath": "FD/{FDF9ABE3-41A4-FC88-8790-E46F61F654CF}.wem"
+     },
+     {
       "Id": "84763226",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "steps_metal-003.wav",
       "CachePath": "B9/{B996BE13-7017-E066-6456-CB405C9C819B}.wem"
+     },
+     {
+      "Id": "88256846",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu_Music.wav",
+      "CachePath": "10/{10332B1A-EFFC-5F1E-E211-5E3FDE261547}.wem"
      },
      {
       "Id": "93299536",
@@ -160,14 +152,6 @@
       "CachePath": "2B/{2BA6C5A2-CDDA-5695-6434-98A50AE4EC35}.wem"
      },
      {
-      "Id": "108067363",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "drinkingwater5.wav",
-      "CachePath": "ED/{ED7B9850-03E2-DEB3-148B-0F4DC5C90F4C}.wem"
-     },
-     {
       "Id": "109863866",
       "Language": "SFX",
       "Streaming": "false",
@@ -182,14 +166,6 @@
       "Location": "Memory",
       "ShortName": "Flashlight_Working-001.wav",
       "CachePath": "43/{435FE924-C230-8B55-0425-390B78EEA019}.wem"
-     },
-     {
-      "Id": "113652104",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "scary_metalic_sounds2-005.wav",
-      "CachePath": "0C/{0CBCA74B-3546-CE53-B952-0888D446DC79}.wem"
      },
      {
       "Id": "126346157",
@@ -232,12 +208,28 @@
       "CachePath": "C7/{C7EDC562-B8DD-BFBB-55C1-4229B0C34548}.wem"
      },
      {
+      "Id": "134568556",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DangerThemeDeadEndMaster.wav",
+      "CachePath": "3D/{3DEA040E-9922-DB18-531A-66563840E747}.wem"
+     },
+     {
       "Id": "146292517",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "scary_metalic_sounds2-002.wav",
       "CachePath": "AB/{ABE22188-96ED-FD04-E5F8-21EBEF3AB45A}.wem"
+     },
+     {
+      "Id": "147818670",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ventil-001.wav",
+      "CachePath": "DD/{DDDC7259-9316-684D-7B41-76D52F17A891}.wem"
      },
      {
       "Id": "151700618",
@@ -288,14 +280,6 @@
       "CachePath": "0A/{0A57D78C-CB2F-C03C-C904-7646051161A4}.wem"
      },
      {
-      "Id": "164993520",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "scary_metalic_sounds-005.wav",
-      "CachePath": "E3/{E3F824F9-6342-3065-9525-45ADB9682F8D}.wem"
-     },
-     {
       "Id": "166830043",
       "Language": "SFX",
       "Streaming": "false",
@@ -320,6 +304,14 @@
       "CachePath": "6C/{6CACE3CB-4E39-296C-0437-5F2569591FF0}.wem"
      },
      {
+      "Id": "178357822",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Safe_opened.wav",
+      "CachePath": "DA/{DA862CC1-69C3-B2CD-FE33-E86F174B527A}.wem"
+     },
+     {
       "Id": "181228194",
       "Language": "SFX",
       "Streaming": "false",
@@ -334,14 +326,6 @@
       "Location": "Memory",
       "ShortName": "Moster_Roar-006.wav",
       "CachePath": "17/{178E7273-A7D6-1245-1C5B-1B9D95F09B9B}.wem"
-     },
-     {
-      "Id": "189332235",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "breathafterdrink6.wav",
-      "CachePath": "D1/{D1AF5550-E65F-3648-C476-A2CB15B17941}.wem"
      },
      {
       "Id": "190870679",
@@ -382,6 +366,14 @@
       "Location": "Memory",
       "ShortName": "gear_take-006.wav",
       "CachePath": "21/{2104B90E-7584-6F7E-24C3-6F1C35BF6670}.wem"
+     },
+     {
+      "Id": "219625918",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mad_voices1.wav",
+      "CachePath": "DE/{DEC3D4F8-4FC2-1280-2A80-84DBADC67D8C}.wem"
      },
      {
       "Id": "220146183",
@@ -464,14 +456,6 @@
       "CachePath": "E8/{E84F1D29-68E5-46BC-2630-B2EF93E028D1}.wem"
      },
      {
-      "Id": "276145719",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "drinkingwater8.wav",
-      "CachePath": "DC/{DC5DDA03-EF97-A1F5-A324-88C44B8EE346}.wem"
-     },
-     {
       "Id": "283715340",
       "Language": "SFX",
       "Streaming": "false",
@@ -552,6 +536,14 @@
       "CachePath": "FA/{FA712CDB-B6E8-EC35-E94F-15109991AF5E}.wem"
      },
      {
+      "Id": "329813184",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "the end song.wav",
+      "CachePath": "94/{94E27C0F-65CB-801C-51AA-82B8EF1B1F93}.wem"
+     },
+     {
       "Id": "329990255",
       "Language": "SFX",
       "Streaming": "false",
@@ -568,12 +560,12 @@
       "CachePath": "7B/{7B83F312-91D1-DADE-57EA-5F8F3837438A}.wem"
      },
      {
-      "Id": "338530985",
+      "Id": "342893002",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "scary_metalic_sounds-004.wav",
-      "CachePath": "D0/{D0B82CF0-C375-DD07-10DD-9B727D60B412}.wem"
+      "ShortName": "deathbyhpzatichka.wav",
+      "CachePath": "E6/{E6D3013B-ED69-7F0D-36EB-C568AEE09B44}.wem"
      },
      {
       "Id": "345189712",
@@ -608,6 +600,14 @@
       "CachePath": "B5/{B5CC3CFA-C446-D9F2-3590-6B2948CDCAE4}.wem"
      },
      {
+      "Id": "387037644",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SafeZone Demo.wav",
+      "CachePath": "A4/{A4D251BB-3C01-C01D-7FBB-F1C64B4F7DD6}.wem"
+     },
+     {
       "Id": "388864205",
       "Language": "SFX",
       "Streaming": "false",
@@ -630,6 +630,14 @@
       "Location": "Memory",
       "ShortName": "Moster_Roar-007.wav",
       "CachePath": "34/{341662BD-2AE2-2638-81CD-E076AB7CBB93}.wem"
+     },
+     {
+      "Id": "412446243",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "safeboxmech-001.wav",
+      "CachePath": "4D/{4D0DA4E3-121D-C1EB-CB73-DA27DEB16C69}.wem"
      },
      {
       "Id": "416492495",
@@ -712,14 +720,6 @@
       "CachePath": "54/{54DA110D-26B6-0506-FD03-1EC479CA1F2F}.wem"
      },
      {
-      "Id": "449530763",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "breathafterdrink7.wav",
-      "CachePath": "72/{7296A476-3DF8-B003-61E9-339947C961AA}.wem"
-     },
-     {
       "Id": "457107375",
       "Language": "SFX",
       "Streaming": "false",
@@ -733,7 +733,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "2nd_lvl_of_danger.wav",
-      "CachePath": "05/{05F98C96-BACC-506A-F8C6-9CF5730C1B5F}.wem"
+      "CachePath": "41/{4117C129-A99A-B924-0488-234FA23B56F9}.wem"
      },
      {
       "Id": "460606241",
@@ -741,7 +741,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "3rd_lvl_of_danger.wav",
-      "CachePath": "B6/{B638270D-FAA0-1C4C-065E-BE2C097FA646}.wem"
+      "CachePath": "F8/{F808F2E5-B068-37AF-094A-8A1E30C749C7}.wem"
      },
      {
       "Id": "465769317",
@@ -806,6 +806,14 @@
       "Location": "Memory",
       "ShortName": "Monster_Low_Roar-009.wav",
       "CachePath": "F3/{F3644AB5-7B92-892C-43FC-48BD8D87A906}.wem"
+     },
+     {
+      "Id": "497384638",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "safeboxmech-003.wav",
+      "CachePath": "D1/{D136786D-B34B-7C6E-97A8-AFAB0FFB64FB}.wem"
      },
      {
       "Id": "505590202",
@@ -880,6 +888,14 @@
       "CachePath": "F5/{F506AA2D-B9D2-CFF9-9E93-9222E111EB3B}.wem"
      },
      {
+      "Id": "560344320",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "first_quest.wav",
+      "CachePath": "08/{08729C6B-3CCE-CE6D-4C62-2453F3468DD9}.wem"
+     },
+     {
       "Id": "561636133",
       "Language": "SFX",
       "Streaming": "false",
@@ -952,6 +968,14 @@
       "CachePath": "17/{176E739C-D3A9-658F-E51E-1953DE13C92D}.wem"
      },
      {
+      "Id": "591923190",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mad_voices2.wav",
+      "CachePath": "3E/{3EA8136F-33BF-86BC-1BB3-793ECDC41771}.wem"
+     },
+     {
       "Id": "616558375",
       "Language": "SFX",
       "Streaming": "false",
@@ -984,14 +1008,6 @@
       "CachePath": "02/{02ECB347-36B0-0877-A33C-8C4809C9BB60}.wem"
      },
      {
-      "Id": "651772946",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "breathafterdrink8.wav",
-      "CachePath": "87/{87A96480-2ACC-F20F-9FE2-776498F28373}.wem"
-     },
-     {
       "Id": "661065338",
       "Language": "SFX",
       "Streaming": "false",
@@ -1022,6 +1038,14 @@
       "Location": "Memory",
       "ShortName": "short_high_voltage-002.wav",
       "CachePath": "72/{72F2361B-2961-FB48-492C-CEDC42B55526}.wem"
+     },
+     {
+      "Id": "687659212",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "maddeathzatichka.wav",
+      "CachePath": "34/{34C59AC3-5C6B-A12B-F7F5-43FD7B2D90AE}.wem"
      },
      {
       "Id": "689492451",
@@ -1072,6 +1096,14 @@
       "CachePath": "E5/{E5F10872-C81A-25F3-4DD4-258A025A0D9A}.wem"
      },
      {
+      "Id": "732902176",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ventil-003.wav",
+      "CachePath": "76/{7650ADEC-11AE-D00C-457D-D7ABD60F3772}.wem"
+     },
+     {
       "Id": "737750761",
       "Language": "SFX",
       "Streaming": "false",
@@ -1109,7 +1141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "4th_lvl_of_danger.wav",
-      "CachePath": "B9/{B9D26428-FC58-D4EF-36D4-F0A6930B3E2A}.wem"
+      "CachePath": "C1/{C142C091-C323-F942-679F-69929B3A9C97}.wem"
      },
      {
       "Id": "760835207",
@@ -1126,6 +1158,14 @@
       "Location": "Memory",
       "ShortName": "scary_metalic_sounds2-008.wav",
       "CachePath": "98/{9856ADD6-605C-96B3-D545-235699632D64}.wem"
+     },
+     {
+      "Id": "773067836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "safeboxmech-002.wav",
+      "CachePath": "7E/{7E447F49-7DB0-391A-C18D-11B583201688}.wem"
      },
      {
       "Id": "775109627",
@@ -1160,14 +1200,6 @@
       "CachePath": "AF/{AFBECAC6-4F16-EE2F-D9EE-4D8CD65A15AD}.wem"
      },
      {
-      "Id": "800174277",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "scary_metalic_sounds-008.wav",
-      "CachePath": "35/{35B94563-A406-29EF-3E8A-B5BD174D97D1}.wem"
-     },
-     {
       "Id": "805234062",
       "Language": "SFX",
       "Streaming": "false",
@@ -1200,6 +1232,14 @@
       "CachePath": "50/{50A3374E-4935-F57A-BC93-EF833D7B473C}.wem"
      },
      {
+      "Id": "819700840",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "safeboxmech-004.wav",
+      "CachePath": "BF/{BF90B507-2986-49BE-CEDB-E481F625C333}.wem"
+     },
+     {
       "Id": "820851187",
       "Language": "SFX",
       "Streaming": "false",
@@ -1214,6 +1254,14 @@
       "Location": "Memory",
       "ShortName": "kaplya-001.wav",
       "CachePath": "81/{810C6DD9-F1C0-5716-E549-17BE9D7EBAB7}.wem"
+     },
+     {
+      "Id": "836231739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "opened_door.wav",
+      "CachePath": "F7/{F7B1277E-E3AC-D551-F4A5-997F1A0B2EB0}.wem"
      },
      {
       "Id": "836688216",
@@ -1238,6 +1286,30 @@
       "Location": "Memory",
       "ShortName": "gear wrong2.wav",
       "CachePath": "C2/{C2E21A0A-FB52-6764-6DE5-0CA44CCA9A5E}.wem"
+     },
+     {
+      "Id": "855480609",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "close_door.wav",
+      "CachePath": "2A/{2A8A71B7-C757-6C29-9774-4E29A6E5F7A8}.wem"
+     },
+     {
+      "Id": "859299702",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DangerThemeMaster.wav",
+      "CachePath": "9D/{9D47003A-88D0-9D40-D482-60CE28143F39}.wem"
+     },
+     {
+      "Id": "863391706",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "move_statues_theme.wav",
+      "CachePath": "6E/{6EB5133B-12AC-FCFE-46DE-68BF68CE418D}.wem"
      },
      {
       "Id": "874582946",
@@ -1312,12 +1384,12 @@
       "CachePath": "29/{296D6C5F-6894-5D43-7612-FF5013DC5820}.wem"
      },
      {
-      "Id": "914261374",
+      "Id": "921603388",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "drinkingwater7.wav",
-      "CachePath": "8B/{8B1B96C5-9263-8A8B-BAF1-3169E6526569}.wem"
+      "ShortName": "heart.wav",
+      "CachePath": "7D/{7DED5C86-4D93-AC35-EF23-C47FDC3AB930}.wem"
      },
      {
       "Id": "924388660",
@@ -1376,12 +1448,12 @@
       "CachePath": "0C/{0CAD4263-F827-616D-7226-D5FB2008A64D}.wem"
      },
      {
-      "Id": "937173175",
+      "Id": "940256292",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "drinkingwater6.wav",
-      "CachePath": "B5/{B59B999F-5EFC-7BAB-C214-36B66EB92EC5}.wem"
+      "ShortName": "DangerThemeLiveEndMaster.wav",
+      "CachePath": "91/{9189713E-1918-1BEC-B8B9-0129947781CA}.wem"
      },
      {
       "Id": "949010222",
@@ -1413,7 +1485,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "1st_lvl_of_danger.wav",
-      "CachePath": "30/{30655033-B4E4-23C3-F146-6D1ED84DE93F}.wem"
+      "CachePath": "C1/{C1327A49-3F34-F52A-430B-32D7667AA1D6}.wem"
      },
      {
       "Id": "991651136",
@@ -1472,6 +1544,14 @@
       "CachePath": "42/{42BDDA14-E184-B42D-D6C1-D487808E3DE9}.wem"
      },
      {
+      "Id": "1040577894",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ventil-002.wav",
+      "CachePath": "31/{3145BEE0-88B6-938B-E4B2-047262B35DE2}.wem"
+     },
+     {
       "Id": "1041275516",
       "Language": "SFX",
       "Streaming": "false",
@@ -1502,14 +1582,6 @@
       "Location": "Memory",
       "ShortName": "Monster_Scream-006.wav",
       "CachePath": "6F/{6FDFA2A3-5A43-0030-EA00-1C34B25216A4}.wem"
-     },
-     {
-      "Id": "1063015613",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "scary_metalic_sounds-006.wav",
-      "CachePath": "B6/{B6979F1F-A9FC-FF6A-B9EC-D1323CDA1380}.wem"
      },
      {
       "Id": "1066046137",
@@ -1651,24 +1723,95 @@
       "DurationMax": "0"
      },
      {
+      "Id": "3623967269",
+      "Name": "Play_Closed_Door",
+      "ObjectPath": "\\Events\\Player\\Play_Closed_Door",
+      "GUID": "{54683A88-2B83-4AF1-8E86-164DE1D03AD3}",
+      "MaxAttenuation": "90",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "855480609"
+       }
+      ]
+     },
+     {
+      "Id": "1081356717",
+      "Name": "Play_Danger_Theme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Danger_Theme",
+      "GUID": "{61DA057D-EE59-4AED-BEF6-89E394C9CA7D}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3330148755",
+         "Id": "3813340491",
+         "GUID": "{881F9CE3-E7E5-47AB-B4B1-7850F07AF9FC}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "859299702"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3330148755",
+         "Id": "2408317961",
+         "GUID": "{CA2197E9-B17E-40C6-86BE-6C0A59C49317}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "940256292"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3330148755",
+         "Id": "1310435349",
+         "GUID": "{F78D8FE0-78A0-4370-9788-CD17475F66EF}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "134568556"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "727616091",
       "Name": "Play_Death_HP",
       "ObjectPath": "\\Events\\Player\\Play_Death_HP",
       "GUID": "{99F0DF33-A719-4957-8F34-46E355BEFAC5}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "3",
+      "DurationMax": "3",
+      "MediaRefs": [
+       {
+        "Id": "342893002"
+       }
+      ]
      },
      {
       "Id": "2886938738",
       "Name": "Play_Death_Madness",
       "ObjectPath": "\\Events\\Player\\Play_Death_Madness",
       "GUID": "{3E85F310-8FD8-453B-B92C-4E8F4BF817E7}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "2.5",
+      "DurationMax": "2.5",
+      "MediaRefs": [
+       {
+        "Id": "687659212"
+       }
+      ]
      },
      {
       "Id": "1660008929",
@@ -1688,13 +1831,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "108067363"
-       },
-       {
         "Id": "109863866"
-       },
-       {
-        "Id": "276145719"
        },
        {
         "Id": "457107375"
@@ -1704,12 +1841,6 @@
        },
        {
         "Id": "911826227"
-       },
-       {
-        "Id": "914261374"
-       },
-       {
-        "Id": "937173175"
        }
       ]
      },
@@ -1718,10 +1849,14 @@
       "Name": "Play_Final_Song",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Final_Song",
       "GUID": "{D508EB9E-30A3-44A7-9A76-10189816B51A}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "96.36615",
+      "DurationMax": "96.36615",
+      "MediaRefs": [
+       {
+        "Id": "329813184"
+       }
+      ]
      },
      {
       "Id": "1652482609",
@@ -1805,7 +1940,7 @@
       "Name": "Play_Floor_Button",
       "ObjectPath": "\\Events\\Objects\\StatueQuests\\Play_Floor_Button",
       "GUID": "{7F26D0B2-3005-4A75-A7E1-DFB62A06799C}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "0.32621315",
       "DurationMax": "0.32621315",
@@ -2024,6 +2159,18 @@
       ]
      },
      {
+      "Id": "1420135964",
+      "Name": "Play_Gear_Quest",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Gear_Quest",
+      "GUID": "{99A2474D-AC89-43DB-B24E-D96CE685309F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "82318059"
+       }
+      ]
+     },
+     {
       "Id": "703779141",
       "Name": "Play_Gen1",
       "ObjectPath": "\\Events\\Objects\\Generators\\Play_Gen1",
@@ -2054,10 +2201,12 @@
       "Name": "Play_Heart_Beating",
       "ObjectPath": "\\Events\\Player\\Play_Heart_Beating",
       "GUID": "{6600D435-BB51-4F9C-A608-351C57DECDB1}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "921603388"
+       }
+      ]
      },
      {
       "Id": "1170362071",
@@ -2154,20 +2303,29 @@
       "Name": "Play_Madness_Voices",
       "ObjectPath": "\\Events\\Player\\Play_Madness_Voices",
       "GUID": "{0D1D43A8-462F-4EFD-9C64-34635DE26548}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "18",
+      "DurationMax": "18",
+      "MediaRefs": [
+       {
+        "Id": "219625918"
+       },
+       {
+        "Id": "591923190"
+       }
+      ]
      },
      {
       "Id": "2895168921",
       "Name": "Play_Main_Menu_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Menu_Music",
       "GUID": "{C99A9207-B787-4B4A-B0C9-D33E7A0607E1}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "88256846"
+       }
+      ]
      },
      {
       "Id": "2652031523",
@@ -2252,7 +2410,7 @@
       "Name": "Play_Move_Stone",
       "ObjectPath": "\\Events\\Objects\\StatueQuests\\Play_Move_Stone",
       "GUID": "{46FE7E4F-0B1D-4B87-8667-F88088C711E9}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3233,10 +3391,12 @@
       "Name": "Play_Richag_Quest_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Richag_Quest_Music",
       "GUID": "{322E4275-05AF-4470-9FE1-D84D8AE497E7}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "560344320"
+       }
+      ]
      },
      {
       "Id": "2770252186",
@@ -3282,10 +3442,15 @@
       "Name": "Play_Safe_Done",
       "ObjectPath": "\\Events\\Objects\\SafeBoxQuest\\Play_Safe_Done",
       "GUID": "{A2329B01-B054-4F1D-908A-2DEECCB1EAC9}",
-      "MaxAttenuation": "0",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.5273696",
+      "DurationMax": "0.5273696",
+      "MediaRefs": [
+       {
+        "Id": "178357822"
+       }
+      ]
      },
      {
       "Id": "1726312562",
@@ -3312,10 +3477,12 @@
       "Name": "Play_Safezone_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Safezone_Music",
       "GUID": "{3439F478-F359-432A-B31F-5B129E6FBF91}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "387037644"
+       }
+      ]
      },
      {
       "Id": "2270754086",
@@ -3328,25 +3495,7 @@
       "DurationMax": "4.967431",
       "MediaRefs": [
        {
-        "Id": "6780303"
-       },
-       {
-        "Id": "12260851"
-       },
-       {
-        "Id": "57940822"
-       },
-       {
-        "Id": "113652104"
-       },
-       {
         "Id": "146292517"
-       },
-       {
-        "Id": "164993520"
-       },
-       {
-        "Id": "338530985"
        },
        {
         "Id": "544659601"
@@ -3364,13 +3513,7 @@
         "Id": "782243920"
        },
        {
-        "Id": "800174277"
-       },
-       {
         "Id": "1036377518"
-       },
-       {
-        "Id": "1063015613"
        },
        {
         "Id": "1068077496"
@@ -3438,20 +3581,12 @@
       "Name": "Play_Statue_Quest_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Statue_Quest_Music",
       "GUID": "{21D9DF24-41EA-4381-AE3E-69D6340B8EA5}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "2235504400",
-      "Name": "Play_Statue_Theme",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Statue_Theme",
-      "GUID": "{3F119F43-42EA-4063-B3EF-B7C9BBCDE781}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "863391706"
+       }
+      ]
      },
      {
       "Id": "3276893109",
@@ -3459,35 +3594,20 @@
       "ObjectPath": "\\Events\\Player\\Drinking\\Play_Stop_Drink",
       "GUID": "{C80DA40D-326C-4D9D-8167-74DFCC03AC0C}",
       "DurationType": "OneShot",
-      "DurationMin": "1.0588208",
-      "DurationMax": "2.4705896",
+      "DurationMin": "1.4117687",
+      "DurationMax": "2.1176417",
       "MediaRefs": [
-       {
-        "Id": "108067363"
-       },
        {
         "Id": "109863866"
        },
        {
-        "Id": "189332235"
-       },
-       {
-        "Id": "276145719"
-       },
-       {
         "Id": "358761658"
-       },
-       {
-        "Id": "449530763"
        },
        {
         "Id": "457107375"
        },
        {
         "Id": "559173372"
-       },
-       {
-        "Id": "651772946"
        },
        {
         "Id": "737750761"
@@ -3497,12 +3617,6 @@
        },
        {
         "Id": "911826227"
-       },
-       {
-        "Id": "914261374"
-       },
-       {
-        "Id": "937173175"
        },
        {
         "Id": "1070034540"
@@ -3544,10 +3658,24 @@
       "Name": "Play_Use_Mech",
       "ObjectPath": "\\Events\\Objects\\SafeBoxQuest\\Play_Use_Mech",
       "GUID": "{5AB5D434-36AC-42A9-B794-C19F1947776A}",
-      "MaxAttenuation": "0",
+      "MaxAttenuation": "45",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.5163719",
+      "DurationMax": "0.5163719",
+      "MediaRefs": [
+       {
+        "Id": "412446243"
+       },
+       {
+        "Id": "497384638"
+       },
+       {
+        "Id": "773067836"
+       },
+       {
+        "Id": "819700840"
+       }
+      ]
      },
      {
       "Id": "3426924248",
@@ -3645,6 +3773,26 @@
       ]
      },
      {
+      "Id": "4264999239",
+      "Name": "Stop_Cave_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Cave_Music",
+      "GUID": "{1F2269A7-1A61-43F4-9C66-26F6F16E5E49}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1646735258",
+      "Name": "Stop_Gear_Quest",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Gear_Quest",
+      "GUID": "{C8D04954-A337-4528-A5A8-FDCB86D68BEE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2829915331",
       "Name": "Stop_Main_Menu_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Main_Menu_Music",
@@ -3659,7 +3807,7 @@
       "Name": "Stop_Move_Stone",
       "ObjectPath": "\\Events\\Objects\\StatueQuests\\Stop_Move_Stone",
       "GUID": "{4F093A07-A256-43E9-B017-E824F565E641}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.59710795",
       "DurationMax": "0.59710795",
@@ -3683,6 +3831,26 @@
       "Name": "Stop_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Music",
       "GUID": "{B7589933-9134-42BB-BDF8-38F22FF2F6A4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1812605269",
+      "Name": "Stop_Richag_Quest_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Richag_Quest_Music",
+      "GUID": "{F51FFA31-0032-4E47-AAF1-1F2D809E4694}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "36390441",
+      "Name": "Stop_Safezone_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Safezone_Music",
+      "GUID": "{A3F9AB4C-DDEC-43E4-BC8E-6BB051A421B8}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -3873,6 +4041,18 @@
       "Name": "Volume_FX_Player_Settings",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_FX_Player_Settings",
       "GUID": "{5794A9E2-955F-4062-9141-3B4B26921385}"
+     },
+     {
+      "Id": "3224646828",
+      "Name": "Madness",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Madness",
+      "GUID": "{5C3297B8-E2E8-4400-AD2A-683503B6AD53}"
+     },
+     {
+      "Id": "3677180323",
+      "Name": "Health",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Health",
+      "GUID": "{2691D2E9-6CE2-4A32-8D9F-B770E91E4A5D}"
      }
     ],
     "StateGroups": [
@@ -3941,10 +4121,36 @@
         "GUID": "{37ABC658-6CF1-4ED3-9CA5-62252B198C35}"
        }
       ]
+     },
+     {
+      "Id": "3330148755",
+      "Name": "DangerTheme",
+      "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme",
+      "GUID": "{CAACC484-A767-4E06-8BDF-B83A25335731}",
+      "Switches": [
+       {
+        "Id": "1310435349",
+        "Name": "Dead_End",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Dead_End",
+        "GUID": "{F78D8FE0-78A0-4370-9788-CD17475F66EF}"
+       },
+       {
+        "Id": "2408317961",
+        "Name": "Live_End",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Live_End",
+        "GUID": "{CA2197E9-B17E-40C6-86BE-6C0A59C49317}"
+       },
+       {
+        "Id": "3813340491",
+        "Name": "Main_Loop",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Main_Loop",
+        "GUID": "{881F9CE3-E7E5-47AB-B4B1-7850F07AF9FC}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{264B5684-3AC8-4112-0A56-D897C60C22E1}"
+  "FileHash": "{25CCF02E-7DC0-9953-7F52-C75F987DFC6B}"
  }
 }

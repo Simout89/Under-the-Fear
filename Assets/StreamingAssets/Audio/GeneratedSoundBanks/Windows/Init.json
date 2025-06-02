@@ -281,10 +281,36 @@
         "GUID": "{37ABC658-6CF1-4ED3-9CA5-62252B198C35}"
        }
       ]
+     },
+     {
+      "Id": "3330148755",
+      "Name": "DangerTheme",
+      "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme",
+      "GUID": "{CAACC484-A767-4E06-8BDF-B83A25335731}",
+      "Switches": [
+       {
+        "Id": "1310435349",
+        "Name": "Dead_End",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Dead_End",
+        "GUID": "{F78D8FE0-78A0-4370-9788-CD17475F66EF}"
+       },
+       {
+        "Id": "2408317961",
+        "Name": "Live_End",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Live_End",
+        "GUID": "{CA2197E9-B17E-40C6-86BE-6C0A59C49317}"
+       },
+       {
+        "Id": "3813340491",
+        "Name": "Main_Loop",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Main_Loop",
+        "GUID": "{881F9CE3-E7E5-47AB-B4B1-7850F07AF9FC}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{2C5DDF0A-B720-4EA3-C056-0119DB104E0F}"
+  "FileHash": "{82400E22-13DE-EFDD-217F-BCAAF98A01B2}"
  }
 }

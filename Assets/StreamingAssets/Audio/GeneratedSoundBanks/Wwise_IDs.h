@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID PLAY_BUTTON = 2099555730U;
         static const AkUniqueID PLAY_CASSETEPLAYER_BUTTON = 2055319774U;
         static const AkUniqueID PLAY_CAVE_MUSIC = 2787455125U;
+        static const AkUniqueID PLAY_CLOSED_DOOR = 3623967269U;
+        static const AkUniqueID PLAY_DANGER_THEME = 1081356717U;
         static const AkUniqueID PLAY_DEATH_HP = 727616091U;
         static const AkUniqueID PLAY_DEATH_MADNESS = 2886938738U;
         static const AkUniqueID PLAY_DOOR_OPEN = 1660008929U;
@@ -28,6 +30,7 @@ namespace AK
         static const AkUniqueID PLAY_GAZ = 2287442812U;
         static const AkUniqueID PLAY_GEAR_DROP = 3106012101U;
         static const AkUniqueID PLAY_GEAR_PICKUP = 1253718314U;
+        static const AkUniqueID PLAY_GEAR_QUEST = 1420135964U;
         static const AkUniqueID PLAY_GEN1 = 703779141U;
         static const AkUniqueID PLAY_GEN2 = 703779142U;
         static const AkUniqueID PLAY_HEART_BEATING = 2355669119U;
@@ -66,7 +69,6 @@ namespace AK
         static const AkUniqueID PLAY_SCREAM = 2470536401U;
         static const AkUniqueID PLAY_SIREN = 1185108097U;
         static const AkUniqueID PLAY_STATUE_QUEST_MUSIC = 2517107665U;
-        static const AkUniqueID PLAY_STATUE_THEME = 2235504400U;
         static const AkUniqueID PLAY_STOP_DRINK = 3276893109U;
         static const AkUniqueID PLAY_TIRED_BREATH = 1817535745U;
         static const AkUniqueID PLAY_USE_MECH = 1999651201U;
@@ -76,9 +78,13 @@ namespace AK
         static const AkUniqueID PLAY_WHITELAMP = 1638297339U;
         static const AkUniqueID PLAY_WRONG_GEAR_COMBINATION = 3637805037U;
         static const AkUniqueID PLAY_YELLOWLAMP = 2132701112U;
+        static const AkUniqueID STOP_CAVE_MUSIC = 4264999239U;
+        static const AkUniqueID STOP_GEAR_QUEST = 1646735258U;
         static const AkUniqueID STOP_MAIN_MENU_MUSIC = 2829915331U;
         static const AkUniqueID STOP_MOVE_STONE = 595172737U;
         static const AkUniqueID STOP_MUSIC = 2837384057U;
+        static const AkUniqueID STOP_RICHAG_QUEST_MUSIC = 1812605269U;
+        static const AkUniqueID STOP_SAFEZONE_MUSIC = 36390441U;
         static const AkUniqueID STOP_SIREN = 574068527U;
         static const AkUniqueID STOP_STATUE_QUEST_MUSIC = 3806907903U;
         static const AkUniqueID STOP_WHITELAMP = 2584819961U;
@@ -103,6 +109,18 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace DANGERTHEME
+        {
+            static const AkUniqueID GROUP = 3330148755U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DEAD_END = 1310435349U;
+                static const AkUniqueID LIVE_END = 2408317961U;
+                static const AkUniqueID MAIN_LOOP = 3813340491U;
+            } // namespace SWITCH
+        } // namespace DANGERTHEME
+
         namespace SURFACE
         {
             static const AkUniqueID GROUP = 1834394558U;
