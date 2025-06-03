@@ -74,7 +74,8 @@ public class PlayerFlashlight : SerializedMonoBehaviour
 
     private void HandlePlayerDeath()
     {
-        _enduranceSystem.SetValue(FlashLightMaxCapacity);
+        flashLightCurrentCapacity = FlashLightMaxCapacity;
+        _enduranceSystem.SetValue(flashLightCurrentCapacity);
         // Сбрасываем все кулдауны при смерти игрока
         _canToggle = true;
         _canBite = true;
