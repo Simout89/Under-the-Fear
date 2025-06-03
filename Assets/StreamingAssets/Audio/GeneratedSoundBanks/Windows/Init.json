@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{82262D5A-0AD3-57BE-05E8-8F3DAB9D2CA2}",
+    "Hash": "{4E3D045A-72C1-1127-4D20-EF8236247712}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -23,6 +23,40 @@
        "GUID": "{770C6FC8-8BF2-4B67-834C-14FDC4D7C6CE}",
        "LibName": "Wwise Gain",
        "LibId": "9109507"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "1159390747",
+       "Name": "Room_Medium_Tiled",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_Tiled",
+       "GUID": "{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3164629247",
+       "Name": "Holy",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
+       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3442768367",
+       "Name": "Hall_Large_Dark",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_Dark",
+       "GUID": "{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
       }
      ],
      "AudioDevices": [
@@ -88,25 +122,53 @@
       "Id": "1319739747",
       "Name": "Big_Hall_Rev",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Big_Hall_Rev",
-      "GUID": "{4827715D-324E-4E5A-8A9C-DE645FEDA69F}"
+      "GUID": "{4827715D-324E-4E5A-8A9C-DE645FEDA69F}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3442768367"
+        }
+       ]
+      }
      },
      {
       "Id": "1389012769",
       "Name": "Coridor_Rev",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Coridor_Rev",
-      "GUID": "{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}"
+      "GUID": "{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1159390747"
+        }
+       ]
+      }
      },
      {
       "Id": "1445918944",
       "Name": "Cave_Rev",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Cave_Rev",
-      "GUID": "{53BA2B3A-3575-45BD-A544-E04D99E48AB8}"
+      "GUID": "{53BA2B3A-3575-45BD-A544-E04D99E48AB8}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3164629247"
+        }
+       ]
+      }
      },
      {
       "Id": "2663941762",
       "Name": "Small_Room_Rev",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Small_Room_Rev",
-      "GUID": "{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}"
+      "GUID": "{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
      }
     ],
     "GameParameters": [
@@ -219,10 +281,36 @@
         "GUID": "{37ABC658-6CF1-4ED3-9CA5-62252B198C35}"
        }
       ]
+     },
+     {
+      "Id": "3330148755",
+      "Name": "DangerTheme",
+      "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme",
+      "GUID": "{CAACC484-A767-4E06-8BDF-B83A25335731}",
+      "Switches": [
+       {
+        "Id": "1310435349",
+        "Name": "Dead_End",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Dead_End",
+        "GUID": "{F78D8FE0-78A0-4370-9788-CD17475F66EF}"
+       },
+       {
+        "Id": "2408317961",
+        "Name": "Live_End",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Live_End",
+        "GUID": "{CA2197E9-B17E-40C6-86BE-6C0A59C49317}"
+       },
+       {
+        "Id": "3813340491",
+        "Name": "Main_Loop",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Main_Loop",
+        "GUID": "{881F9CE3-E7E5-47AB-B4B1-7850F07AF9FC}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{72521B83-C94F-2DBF-725E-6B9318241E72}"
+  "FileHash": "{82400E22-13DE-EFDD-217F-BCAAF98A01B2}"
  }
 }

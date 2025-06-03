@@ -12,6 +12,13 @@
 						<Switch Name="Dirt" ID="{741EB60C-F099-4FA4-9F40-9DE283B5F906}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="DangerTheme" ID="{CAACC484-A767-4E06-8BDF-B83A25335731}">
+					<ChildrenList>
+						<Switch Name="Main_Loop" ID="{881F9CE3-E7E5-47AB-B4B1-7850F07AF9FC}"/>
+						<Switch Name="Dead_End" ID="{F78D8FE0-78A0-4370-9788-CD17475F66EF}"/>
+						<Switch Name="Live_End" ID="{CA2197E9-B17E-40C6-86BE-6C0A59C49317}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

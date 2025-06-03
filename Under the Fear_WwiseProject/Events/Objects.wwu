@@ -424,14 +424,14 @@
 								<Action Name="" ID="{DCDA5A8C-F6A9-4AAD-9069-2C3EF10014FB}" ShortID="441288328">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Working_Mech" ID="{5A08F904-7F66-4686-A53E-26CBDBFCBD55}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+											<ObjectRef Name="Working_Richag_Mech" ID="{EC70940B-71CA-4080-9BCC-621682AF2A38}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{56059D5B-BBD2-4B33-8968-7F67545D41AC}" ShortID="342926310">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Working_Mech2" ID="{5DC191AB-6353-4781-8710-F652C086E3FC}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+											<ObjectRef Name="Working_Richag_Mech_01" ID="{819448C2-39F3-403A-A3DE-F623E45BFC5C}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -441,8 +441,28 @@
 				</Folder>
 				<Folder Name="SafeBoxQuest" ID="{9642659B-735D-479F-86C4-04B5770930D1}" ShortID="432941755">
 					<ChildrenList>
-						<Event Name="Play_Use_Mech" ID="{5AB5D434-36AC-42A9-B794-C19F1947776A}"/>
-						<Event Name="Play_Safe_Done" ID="{A2329B01-B054-4F1D-908A-2DEECCB1EAC9}"/>
+						<Event Name="Play_Use_Mech" ID="{5AB5D434-36AC-42A9-B794-C19F1947776A}">
+							<ChildrenList>
+								<Action Name="" ID="{119D6044-1EAE-4251-A775-DB581048D49A}" ShortID="612793172">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SafeBox_Use" ID="{FF637AC0-732B-45A8-9A9B-377EA7FFC141}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Safe_Done" ID="{A2329B01-B054-4F1D-908A-2DEECCB1EAC9}">
+							<ChildrenList>
+								<Action Name="" ID="{AC34F062-AB36-40D2-BD15-E7EDD6C5D417}" ShortID="681811396">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SafeQuest_Open" ID="{3A951F4F-E69F-4C8A-88A2-172B55C0486A}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_Door_Open" ID="{FA38CEF9-0251-4DC7-A16B-4E00BAB081B7}"/>

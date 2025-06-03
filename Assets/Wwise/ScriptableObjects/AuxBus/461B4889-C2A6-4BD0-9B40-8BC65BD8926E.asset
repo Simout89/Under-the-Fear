@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c4cc8ba7da59f944a757df5a3b68a9a, type: 3}
+  m_Name: 461B4889-C2A6-4BD0-9B40-8BC65BD8926E
+  m_EditorClassIdentifier: 
+  objectName: Coridor_Rev
+  id: 1389012769
+  guid: 461B4889-C2A6-4BD0-9B40-8BC65BD8926E
