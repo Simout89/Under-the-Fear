@@ -1,0 +1,316 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{AB8F8C32-59C6-A8DA-99A4-E5617CFD1FC8}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "225778262",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music Bus\\[Effect Slot [1]: (Gain)]\\Gain (Custom)",
+       "GUID": "{770C6FC8-8BF2-4B67-834C-14FDC4D7C6CE}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "1159390747",
+       "Name": "Room_Medium_Tiled",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_Tiled",
+       "GUID": "{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3164629247",
+       "Name": "Holy",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
+       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3442768367",
+       "Name": "Hall_Large_Dark",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_Dark",
+       "GUID": "{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{2DEAC849-3E2F-4D9B-8F8F-3F95ED6F1CD7}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{DACF312B-7A0A-4D6D-92DD-8CFFF02EF65B}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "2255513057",
+      "Name": "New Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus",
+      "GUID": "{8D527DE6-64B1-42D2-9CED-CE2E9F9932DB}"
+     },
+     {
+      "Id": "2799548653",
+      "Name": "New Audio Bus_01",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music Bus\\New Audio Bus_01",
+      "GUID": "{04650CE3-6878-49CF-9F71-0210D7A7CB82}"
+     },
+     {
+      "Id": "2799548654",
+      "Name": "New Audio Bus_02",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus_02",
+      "GUID": "{E60171BF-758C-4499-BA0B-CAE25DBA8197}"
+     },
+     {
+      "Id": "3127962312",
+      "Name": "Music Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music Bus",
+      "GUID": "{256032F8-FB80-4A11-9F8E-BE4348EEB4C1}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "225778262"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "1319739747",
+      "Name": "Big_Hall_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Big_Hall_Rev",
+      "GUID": "{4827715D-324E-4E5A-8A9C-DE645FEDA69F}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3442768367"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1389012769",
+      "Name": "Coridor_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Coridor_Rev",
+      "GUID": "{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1159390747"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1445918944",
+      "Name": "Cave_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Cave_Rev",
+      "GUID": "{53BA2B3A-3575-45BD-A544-E04D99E48AB8}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3164629247"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2663941762",
+      "Name": "Small_Room_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New Audio Bus\\Small_Room_Rev",
+      "GUID": "{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "511984960",
+      "Name": "Footstep_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Footstep_Volume",
+      "GUID": "{C7B827AF-8ACE-43D8-A13B-0C90B0AFD16A}"
+     },
+     {
+      "Id": "545571051",
+      "Name": "All_Volume_Player_Settings",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\All_Volume_Player_Settings",
+      "GUID": "{CB4959B0-937F-4EF4-A6CE-A29C5EC5A47D}"
+     },
+     {
+      "Id": "1274705203",
+      "Name": "Volume_Music_Player_Settings",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_Music_Player_Settings",
+      "GUID": "{13EF99E1-3DF3-4EA0-96AE-908E72927194}"
+     },
+     {
+      "Id": "1301299809",
+      "Name": "MusicIntensity",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicIntensity",
+      "GUID": "{3DBC2A6D-9935-4F29-8DA3-B809D4DC4579}"
+     },
+     {
+      "Id": "2436629268",
+      "Name": "Volume_FX_Player_Settings",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_FX_Player_Settings",
+      "GUID": "{5794A9E2-955F-4062-9141-3B4B26921385}"
+     },
+     {
+      "Id": "3224646828",
+      "Name": "Madness",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Madness",
+      "GUID": "{5C3297B8-E2E8-4400-AD2A-683503B6AD53}"
+     },
+     {
+      "Id": "3677180323",
+      "Name": "Health",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Health",
+      "GUID": "{2691D2E9-6CE2-4A32-8D9F-B770E91E4A5D}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2441027675",
+      "Name": "Language",
+      "ObjectPath": "\\States\\Default Work Unit\\Language",
+      "GUID": "{59593480-FFF0-4741-B129-96E89A7BD6EC}",
+      "States": [
+       {
+        "Id": "529726535",
+        "Name": "Eng",
+        "ObjectPath": "\\States\\Default Work Unit\\Language\\Eng",
+        "GUID": "{71299E93-13A1-4209-8736-CCB93FCEA29E}"
+       },
+       {
+        "Id": "712161717",
+        "Name": "Rus",
+        "ObjectPath": "\\States\\Default Work Unit\\Language\\Rus",
+        "GUID": "{CF7CABAD-CE46-44B2-BD8B-76914B7C2325}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Language\\None",
+        "GUID": "{EA151E0D-1170-4FC3-99D8-A818435A5C9B}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1834394558",
+      "Name": "Surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
+      "GUID": "{F3968800-11CB-4135-934E-4DCF65B0DDF0}",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Concrete",
+        "GUID": "{14AF0357-FC6D-440A-A139-3EB26ADA5CF7}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Wood",
+        "GUID": "{589452EB-DD45-4803-B1D6-C000A38F3DEB}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Dirt",
+        "GUID": "{741EB60C-F099-4FA4-9F40-9DE283B5F906}"
+       },
+       {
+        "Id": "2252896817",
+        "Name": "Graviy",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Graviy",
+        "GUID": "{0E0EFC32-2370-4B84-AE38-6F0100FFFA98}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Metal",
+        "GUID": "{37ABC658-6CF1-4ED3-9CA5-62252B198C35}"
+       }
+      ]
+     },
+     {
+      "Id": "3330148755",
+      "Name": "DangerTheme",
+      "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme",
+      "GUID": "{CAACC484-A767-4E06-8BDF-B83A25335731}",
+      "Switches": [
+       {
+        "Id": "1310435349",
+        "Name": "Dead_End",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Dead_End",
+        "GUID": "{F78D8FE0-78A0-4370-9788-CD17475F66EF}"
+       },
+       {
+        "Id": "2408317961",
+        "Name": "Live_End",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Live_End",
+        "GUID": "{CA2197E9-B17E-40C6-86BE-6C0A59C49317}"
+       },
+       {
+        "Id": "3813340491",
+        "Name": "Main_Loop",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DangerTheme\\Main_Loop",
+        "GUID": "{881F9CE3-E7E5-47AB-B4B1-7850F07AF9FC}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{61DB7DDD-723D-5B9A-899C-03C85D0CB17D}"
+ }
+}

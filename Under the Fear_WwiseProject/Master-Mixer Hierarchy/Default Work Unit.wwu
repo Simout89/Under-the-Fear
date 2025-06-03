@@ -10,10 +10,79 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="Cave_Rev" ID="{53BA2B3A-3575-45BD-A544-E04D99E48AB8}"/>
-						<AuxBus Name="Big_Hall_Rev" ID="{4827715D-324E-4E5A-8A9C-DE645FEDA69F}"/>
-						<AuxBus Name="Small_Room_Rev" ID="{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}"/>
-						<AuxBus Name="Coridor_Rev" ID="{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}"/>
+						<Bus Name="New Audio Bus" ID="{8D527DE6-64B1-42D2-9CED-CE2E9F9932DB}">
+							<ChildrenList>
+								<AuxBus Name="Cave_Rev" ID="{53BA2B3A-3575-45BD-A544-E04D99E48AB8}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{883F7474-4BB3-4AF7-A020-107DDD2E6D07}" ShortID="771429376">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Small_Room_Rev" ID="{751A7798-F0C7-42E6-8C60-3EDC9DA810AA}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{8AB25C92-F3A8-48D2-B925-BEDE68863E38}" ShortID="547567062">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Big_Hall_Rev" ID="{4827715D-324E-4E5A-8A9C-DE645FEDA69F}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{EF623DB4-2CCF-472E-98BA-A7C2ABAF9A6C}" ShortID="788676957">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Coridor_Rev" ID="{461B4889-C2A6-4BD0-9B40-8BC65BD8926E}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{ADB422DA-BFB3-40E9-9B4A-F0B7D884F96E}" ShortID="709031765">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Medium_Tiled" ID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="New Audio Bus_02" ID="{E60171BF-758C-4499-BA0B-CAE25DBA8197}"/>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">
@@ -52,6 +121,41 @@
 									</RTPC>
 								</Local>
 							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{1ADF234A-82D1-4A13-9032-49C3B4A86AE4}" ShortID="404841708">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="All_Volume_Player_Settings" ID="{CB4959B0-937F-4EF4-A6CE-A29C5EC5A47D}" WorkUnitID="{3F68F4AA-579D-4B9F-9EEF-CF7C5F970957}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{4D1EEDEF-5681-419F-8386-CC20C661CB66}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
 						</ObjectList>
 					</ObjectLists>
 				</Bus>
@@ -61,7 +165,30 @@
 							<ObjectRef Name="System" ID="{DACF312B-7A0A-4D6D-92DD-8CFFF02EF65B}" WorkUnitID="{BCD6886A-83F2-4909-BB90-E5FC1E3F2E93}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="New Audio Bus_01" ID="{04650CE3-6878-49CF-9F71-0210D7A7CB82}"/>
+					</ChildrenList>
 					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{67EBE682-B698-422E-9027-6567DD2A0526}" ShortID="665472030"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{54C11256-C850-427D-86FE-3B0EF4A82D4F}" ShortID="946626436">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Gain (Custom)" ID="{770C6FC8-8BF2-4B67-834C-14FDC4D7C6CE}" ShortID="225778262" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
 						<ObjectList Name="RTPC">
 							<Reference>
 								<Local>
@@ -76,6 +203,41 @@
 											<Reference Name="Curve">
 												<Custom>
 													<Curve Name="" ID="{977A178F-E162-401B-84D2-3DA93E261C78}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{7A78144B-6DC9-4B61-A182-1A7D7E9EB7E2}" ShortID="739104778">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="All_Volume_Player_Settings" ID="{CB4959B0-937F-4EF4-A6CE-A29C5EC5A47D}" WorkUnitID="{3F68F4AA-579D-4B9F-9EEF-CF7C5F970957}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{76633681-9300-442F-B4E6-7ECDAD5EB0CE}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>

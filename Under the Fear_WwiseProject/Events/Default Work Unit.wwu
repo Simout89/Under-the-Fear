@@ -14,6 +14,187 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Main_Menu_Music" ID="{C99A9207-B787-4B4A-B0C9-D33E7A0607E1}">
+					<ChildrenList>
+						<Action Name="" ID="{1AB47052-841E-457D-AF11-A2D3D03C57D5}" ShortID="718581545">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu_Music" ID="{12DE5222-3EC5-47CA-A46F-B461286B9269}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{B7589933-9134-42BB-BDF8-38F22FF2F6A4}">
+					<ChildrenList>
+						<Action Name="" ID="{0BCB8119-84F2-45F5-8956-21223130F3AB}" ShortID="616297434">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicLoop" ID="{88ACD382-7F88-423E-A0BC-2831EE86B059}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Main_Menu_Music" ID="{F59DB6E0-039F-48FC-884A-2B0E40176DEE}">
+					<ChildrenList>
+						<Action Name="" ID="{E3E064DE-4B02-4015-B904-A27A77C18738}" ShortID="34073074">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu_Music" ID="{12DE5222-3EC5-47CA-A46F-B461286B9269}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Safezone_Music" ID="{3439F478-F359-432A-B31F-5B129E6FBF91}">
+					<ChildrenList>
+						<Action Name="" ID="{13A15ED0-B192-4EE3-A5F3-339270830CC5}" ShortID="137949996">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SafeZoneMusic" ID="{7368DC09-894D-4CD2-B526-3A5602D79587}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5657A027-1891-4D7B-8A32-F3AF03612F9F}" ShortID="806451223">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Danger_theme" ID="{A6334EEC-7F32-41FA-ADD4-BFDCD3D1BF3C}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Final_Song" ID="{D508EB9E-30A3-44A7-9A76-10189816B51A}">
+					<ChildrenList>
+						<Action Name="" ID="{F8E994ED-9288-494E-AE36-FCEF9E43D6C4}" ShortID="122121214">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{D1B3F65C-7CB0-43EA-AA38-BBC9EE93C927}" ShortID="948643818">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FinalSong" ID="{2981FF97-1B44-4275-B26D-6F3DD0667FEE}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Statue_Quest_Music" ID="{54562E40-0436-49B9-99CE-5F118D199A7A}">
+					<ChildrenList>
+						<Action Name="" ID="{D84C37AB-35A2-4936-9AB4-E38CC9CB5D4A}" ShortID="1068579103">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Statues_Theme" ID="{C925C9B2-D715-49B0-B4EC-D9A3E3F28B8E}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Richag_Quest_Music" ID="{322E4275-05AF-4470-9FE1-D84D8AE497E7}">
+					<ChildrenList>
+						<Action Name="" ID="{F5424C8E-F89A-45B0-9CBB-F41332F91176}" ShortID="583790367">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RichagQuest" ID="{7FA842A9-7D50-4430-B463-8CB282DD9959}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Statue_Quest_Music" ID="{21D9DF24-41EA-4381-AE3E-69D6340B8EA5}">
+					<ChildrenList>
+						<Action Name="" ID="{EB12AF3B-41DE-4759-99F9-CEA1898633CC}" ShortID="1055837482">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Statues_Theme" ID="{C925C9B2-D715-49B0-B4EC-D9A3E3F28B8E}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cave_Music" ID="{2DAD3E5C-D16E-44DE-B882-8AE2ED076157}"/>
+				<Event Name="Stop_Richag_Quest_Music" ID="{F51FFA31-0032-4E47-AAF1-1F2D809E4694}">
+					<ChildrenList>
+						<Action Name="" ID="{BE3DA607-9802-4202-805D-3E827DD4A160}" ShortID="43893484">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RichagQuest" ID="{7FA842A9-7D50-4430-B463-8CB282DD9959}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Safezone_Music" ID="{A3F9AB4C-DDEC-43E4-BC8E-6BB051A421B8}">
+					<ChildrenList>
+						<Action Name="" ID="{9000CB92-0DCD-4BA2-8363-36C8DD9CC4D9}" ShortID="236382598">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SafeZoneMusic" ID="{7368DC09-894D-4CD2-B526-3A5602D79587}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gear_Quest" ID="{99A2474D-AC89-43DB-B24E-D96CE685309F}">
+					<ChildrenList>
+						<Action Name="" ID="{5FDBBB2F-5F9C-45A9-890D-76E69F08C93A}" ShortID="644859451">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Quest2" ID="{3431F5E5-1F3B-4A37-9875-C4B07E1D3EEC}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Gear_Quest" ID="{C8D04954-A337-4528-A5A8-FDCB86D68BEE}">
+					<ChildrenList>
+						<Action Name="" ID="{181AC79F-E45D-4E22-9643-8715C7D4A86D}" ShortID="94069021">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Quest2" ID="{3431F5E5-1F3B-4A37-9875-C4B07E1D3EEC}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Cave_Music" ID="{1F2269A7-1A61-43F4-9C66-26F6F16E5E49}"/>
+				<Event Name="Play_Danger_Theme" ID="{61DA057D-EE59-4AED-BEF6-89E394C9CA7D}">
+					<ChildrenList>
+						<Action Name="" ID="{EA2ADF65-D7C0-4C71-A700-6C592CC0B9D5}" ShortID="57772825">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Danger_theme" ID="{A6334EEC-7F32-41FA-ADD4-BFDCD3D1BF3C}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

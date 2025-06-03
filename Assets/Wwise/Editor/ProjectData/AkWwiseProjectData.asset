@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 1dceb37f7f7b7345864a0536d9521fe2
     GuidInternal: 
-    m_lastTime: -8584537853945567513
+    m_lastTime: -8584536849156945199
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: d0fc1eb916d4d2438bac39237f48ec7c
     GuidInternal: 
-    m_lastTime: -8584537853952679678
+    m_lastTime: -8584526402974021410
     List:
     - name: Big_Hall_Rev
       guid: 5d7127484e325a4e8a9cde645feda69f
@@ -53,10 +53,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus
+        ObjectType: 2
+        guid: e67d528db164d2429cedce2e9f9932db
       - ElementName: Big_Hall_Rev
         ObjectType: 1
         guid: 5d7127484e325a4e8a9cde645feda69f
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Big_Hall_Rev
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus\Big_Hall_Rev
     - name: Cave_Rev
       guid: 3a2bba537535bd45a544e04d99e48ab8
       id: 1445918944
@@ -70,10 +73,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus
+        ObjectType: 2
+        guid: e67d528db164d2429cedce2e9f9932db
       - ElementName: Cave_Rev
         ObjectType: 1
         guid: 3a2bba537535bd45a544e04d99e48ab8
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave_Rev
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus\Cave_Rev
     - name: Coridor_Rev
       guid: 89481b46a6c2d04b9b408bc65bd8926e
       id: 1389012769
@@ -87,10 +93,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus
+        ObjectType: 2
+        guid: e67d528db164d2429cedce2e9f9932db
       - ElementName: Coridor_Rev
         ObjectType: 1
         guid: 89481b46a6c2d04b9b408bc65bd8926e
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Coridor_Rev
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus\Coridor_Rev
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -119,6 +128,57 @@ MonoBehaviour:
         ObjectType: 2
         guid: f832602580fb114a9f8ebe4348eeb4c1
       Path: Master-Mixer Hierarchy\Default Work Unit\Music Bus
+    - name: New Audio Bus
+      guid: e67d528db164d2429cedce2e9f9932db
+      id: 2255513057
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0fc1eb916d4d2438bac39237f48ec7c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus
+        ObjectType: 2
+        guid: e67d528db164d2429cedce2e9f9932db
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus
+    - name: New Audio Bus_01
+      guid: e30c65047868cf499f710210d7a7cb82
+      id: 2799548653
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0fc1eb916d4d2438bac39237f48ec7c
+      - ElementName: Music Bus
+        ObjectType: 2
+        guid: f832602580fb114a9f8ebe4348eeb4c1
+      - ElementName: New Audio Bus_01
+        ObjectType: 2
+        guid: e30c65047868cf499f710210d7a7cb82
+      Path: Master-Mixer Hierarchy\Default Work Unit\Music Bus\New Audio Bus_01
+    - name: New Audio Bus_02
+      guid: bf7101e68c759944ba0bcae25dba8197
+      id: 2799548654
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0fc1eb916d4d2438bac39237f48ec7c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus_02
+        ObjectType: 2
+        guid: bf7101e68c759944ba0bcae25dba8197
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus_02
     - name: Small_Room_Rev
       guid: 98771a75c7f0e6428c603edc9da810aa
       id: 2663941762
@@ -132,10 +192,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: New Audio Bus
+        ObjectType: 2
+        guid: e67d528db164d2429cedce2e9f9932db
       - ElementName: Small_Room_Rev
         ObjectType: 1
         guid: 98771a75c7f0e6428c603edc9da810aa
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Small_Room_Rev
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\New Audio Bus\Small_Room_Rev
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -148,7 +211,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6b665060d0916d41bbdd601f2e444322
     GuidInternal: 
-    m_lastTime: -8584537853945602819
+    m_lastTime: -8584526402953406160
     List:
     - name: Lvl1
       guid: 05b22336d9e65e4cb95346a1ef2ceb95
@@ -176,8 +239,93 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: eb9cd630b7c18842bc284b0021107ef2
     GuidInternal: 
-    m_lastTime: -8584537853952769980
+    m_lastTime: -8584526402974861990
     List:
+    - name: Play_Cave_Music
+      guid: 5c3ead2d6ed1de44b8828ae2ed076157
+      id: 2787455125
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Play_Cave_Music
+        ObjectType: 3
+        guid: 5c3ead2d6ed1de44b8828ae2ed076157
+      Path: Events\Default Work Unit\Play_Cave_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Danger_Theme
+      guid: 7d05da6159eeed4abef689e394c9ca7d
+      id: 1081356717
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Play_Danger_Theme
+        ObjectType: 3
+        guid: 7d05da6159eeed4abef689e394c9ca7d
+      Path: Events\Default Work Unit\Play_Danger_Theme
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Final_Song
+      guid: 9eeb08d5a330a7449a7610189816b51a
+      id: 644281394
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Play_Final_Song
+        ObjectType: 3
+        guid: 9eeb08d5a330a7449a7610189816b51a
+      Path: Events\Default Work Unit\Play_Final_Song
+      maxAttenuation: 0
+      maxDuration: 96.36615
+      minDuration: 96.36615
+    - name: Play_Gear_Quest
+      guid: 4d47a29989acdb43b24ed96ce685309f
+      id: 1420135964
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Play_Gear_Quest
+        ObjectType: 3
+        guid: 4d47a29989acdb43b24ed96ce685309f
+      Path: Events\Default Work Unit\Play_Gear_Quest
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Main_Menu_Music
+      guid: 07929ac987b74a4bb0c9d33e7a0607e1
+      id: 2895168921
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Play_Main_Menu_Music
+        ObjectType: 3
+        guid: 07929ac987b74a4bb0c9d33e7a0607e1
+      Path: Events\Default Work Unit\Play_Main_Menu_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Music
       guid: 734f9c66a52fc644897780ffa57744e2
       id: 2932040671
@@ -195,6 +343,176 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Richag_Quest_Music
+      guid: 75422e32af0570449fe1d84d8ae497e7
+      id: 586710927
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Play_Richag_Quest_Music
+        ObjectType: 3
+        guid: 75422e32af0570449fe1d84d8ae497e7
+      Path: Events\Default Work Unit\Play_Richag_Quest_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Safezone_Music
+      guid: 78f4393459f32a43b31f5b129e6fbf91
+      id: 2527041227
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Play_Safezone_Music
+        ObjectType: 3
+        guid: 78f4393459f32a43b31f5b129e6fbf91
+      Path: Events\Default Work Unit\Play_Safezone_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Statue_Quest_Music
+      guid: 24dfd921ea418143ae3e69d6340b8ea5
+      id: 2517107665
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Play_Statue_Quest_Music
+        ObjectType: 3
+        guid: 24dfd921ea418143ae3e69d6340b8ea5
+      Path: Events\Default Work Unit\Play_Statue_Quest_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Cave_Music
+      guid: a769221f611af4439c6626f6f16e5e49
+      id: 4264999239
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Stop_Cave_Music
+        ObjectType: 3
+        guid: a769221f611af4439c6626f6f16e5e49
+      Path: Events\Default Work Unit\Stop_Cave_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Gear_Quest
+      guid: 5449d0c837a32845a5a8fdcb86d68bee
+      id: 1646735258
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Stop_Gear_Quest
+        ObjectType: 3
+        guid: 5449d0c837a32845a5a8fdcb86d68bee
+      Path: Events\Default Work Unit\Stop_Gear_Quest
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Main_Menu_Music
+      guid: e0b69df59f03fc48884a2b0e40176dee
+      id: 2829915331
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Stop_Main_Menu_Music
+        ObjectType: 3
+        guid: e0b69df59f03fc48884a2b0e40176dee
+      Path: Events\Default Work Unit\Stop_Main_Menu_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Music
+      guid: 339958b73491bb42bdf838f22ff2f6a4
+      id: 2837384057
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Stop_Music
+        ObjectType: 3
+        guid: 339958b73491bb42bdf838f22ff2f6a4
+      Path: Events\Default Work Unit\Stop_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Richag_Quest_Music
+      guid: 31fa1ff53200474eaaf11f2d809e4694
+      id: 1812605269
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Stop_Richag_Quest_Music
+        ObjectType: 3
+        guid: 31fa1ff53200474eaaf11f2d809e4694
+      Path: Events\Default Work Unit\Stop_Richag_Quest_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Safezone_Music
+      guid: 4cabf9a3ecdde443bc8e6bb051a421b8
+      id: 36390441
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Stop_Safezone_Music
+        ObjectType: 3
+        guid: 4cabf9a3ecdde443bc8e6bb051a421b8
+      Path: Events\Default Work Unit\Stop_Safezone_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Statue_Quest_Music
+      guid: 402e56543604b94999ce5f118d199a7a
+      id: 3806907903
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Stop_Statue_Quest_Music
+        ObjectType: 3
+        guid: 402e56543604b94999ce5f118d199a7a
+      Path: Events\Default Work Unit\Stop_Statue_Quest_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Monster.wwu
     PathAndIcons:
     - ElementName: Events
@@ -206,7 +524,7 @@ MonoBehaviour:
     ParentPath: Events\Monster
     guid: c0466b79d383d84f82cbbf065324d897
     GuidInternal: 
-    m_lastTime: -8584537853952759752
+    m_lastTime: -8584529781956691459
     List:
     - name: Play_Low_Roar
       guid: 4bc577fcbab67b479810789903ce7310
@@ -222,9 +540,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4bc577fcbab67b479810789903ce7310
       Path: Events\Monster\Play_Low_Roar
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 2.2800226
       minDuration: 0.6842857
+    - name: Play_Monster_Step
+      guid: 1959e3c62c7260468244333fe4e1c60a
+      id: 1429678133
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Monster
+        ObjectType: 12
+        guid: c0466b79d383d84f82cbbf065324d897
+      - ElementName: Play_Monster_Step
+        ObjectType: 3
+        guid: 1959e3c62c7260468244333fe4e1c60a
+      Path: Events\Monster\Play_Monster_Step
+      maxAttenuation: 35
+      maxDuration: 0.81578946
+      minDuration: 0.81578946
     - name: Play_Roar
       guid: 2041729ce443874b92be85825d3e6bdd
       id: 2770252186
@@ -239,9 +574,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2041729ce443874b92be85825d3e6bdd
       Path: Events\Monster\Play_Roar
-      maxAttenuation: 0
-      maxDuration: 7.932228
-      minDuration: 1.7647165
+      maxAttenuation: 100
+      maxDuration: 7.403404
+      minDuration: 2.1176417
     - name: Play_scream
       guid: cea2873250780a4eb6d60762e6932fd2
       id: 2470536401
@@ -256,7 +591,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: cea2873250780a4eb6d60762e6932fd2
       Path: Events\Monster\Play_scream
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 2.84
       minDuration: 1.01
   - PhysicalPath: Events\Objects.wwu
@@ -270,7 +605,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: efa17e970f8f564c9c28e8e57906fbec
     GuidInternal: 
-    m_lastTime: -8584537853952759752
+    m_lastTime: -8584526402974572809
     List:
     - name: CassetePlayer
       guid: ec6966511b9b4248acfb491426367985
@@ -289,6 +624,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: ENG
+      guid: 2f2d34729a81934697b4d1041da3060a
+      id: 529726535
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: NumbersQuest
+        ObjectType: 4
+        guid: 07c455206c6dc44c998bf9d590e8e393
+      - ElementName: ENG
+        ObjectType: 4
+        guid: 2f2d34729a81934697b4d1041da3060a
+      Path: Events\Objects\NumbersQuest\ENG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Gear
       guid: 1d9210e44927f545977ea33d4330859e
       id: 1172844112
@@ -299,10 +654,30 @@ MonoBehaviour:
       - ElementName: Objects
         ObjectType: 12
         guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: GearQuest
+        ObjectType: 4
+        guid: b5e848b7c9bdc046b05a103ae1f8a210
       - ElementName: Gear
         ObjectType: 4
         guid: 1d9210e44927f545977ea33d4330859e
-      Path: Events\Objects\Gear
+      Path: Events\Objects\GearQuest\Gear
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GearQuest
+      guid: b5e848b7c9bdc046b05a103ae1f8a210
+      id: 746209574
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: GearQuest
+        ObjectType: 4
+        guid: b5e848b7c9bdc046b05a103ae1f8a210
+      Path: Events\Objects\GearQuest
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -323,6 +698,77 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Kapli_Quest
+      guid: 6012116e08d5a04ea374bf9c571d0ed1
+      id: 751556473
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Kapli_Quest
+        ObjectType: 4
+        guid: 6012116e08d5a04ea374bf9c571d0ed1
+      Path: Events\Objects\Kapli_Quest
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Lighting
+      guid: 243716f34597b64593f2604f34976ec1
+      id: 3664531709
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Lighting
+        ObjectType: 4
+        guid: 243716f34597b64593f2604f34976ec1
+      Path: Events\Objects\Lighting
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: NumbersQuest
+      guid: 07c455206c6dc44c998bf9d590e8e393
+      id: 2670164157
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: NumbersQuest
+        ObjectType: 4
+        guid: 07c455206c6dc44c998bf9d590e8e393
+      Path: Events\Objects\NumbersQuest
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Button
+      guid: e8981adc3f99644ea38824ea0b793cb5
+      id: 2099555730
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: RichagQuest
+        ObjectType: 4
+        guid: 740ecf96132ab648aa13da2612f96dde
+      - ElementName: Play_Button
+        ObjectType: 3
+        guid: e8981adc3f99644ea38824ea0b793cb5
+      Path: Events\Objects\RichagQuest\Play_Button
+      maxAttenuation: 100
+      maxDuration: 0.75
+      minDuration: 0.75
     - name: Play_Casseteplayer_Button
       guid: 4700d14e37096e448f3aaf6f963a69a1
       id: 2055319774
@@ -343,6 +789,60 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Door_Open
+      guid: f9ce38fa5102c74da16b4e00bab081b7
+      id: 1660008929
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Play_Door_Open
+        ObjectType: 3
+        guid: f9ce38fa5102c74da16b4e00bab081b7
+      Path: Events\Objects\Play_Door_Open
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Floor_Button
+      guid: b2d0267f0530754aa7e1dfb62a06799c
+      id: 3474005947
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: StatueQuests
+        ObjectType: 4
+        guid: 79bcf00a743c7b4ea57423e9be3dcb28
+      - ElementName: Play_Floor_Button
+        ObjectType: 3
+        guid: b2d0267f0530754aa7e1dfb62a06799c
+      Path: Events\Objects\StatueQuests\Play_Floor_Button
+      maxAttenuation: 50
+      maxDuration: 0.32621315
+      minDuration: 0.32621315
+    - name: Play_Gaz
+      guid: e072983cfe201f4fb7dd320a01cdd282
+      id: 2287442812
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Play_Gaz
+        ObjectType: 3
+        guid: e072983cfe201f4fb7dd320a01cdd282
+      Path: Events\Objects\Play_Gaz
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Gear_Drop
       guid: d1c0be8942258e4cad960de6a149d7ac
       id: 3106012101
@@ -353,16 +853,19 @@ MonoBehaviour:
       - ElementName: Objects
         ObjectType: 12
         guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: GearQuest
+        ObjectType: 4
+        guid: b5e848b7c9bdc046b05a103ae1f8a210
       - ElementName: Gear
         ObjectType: 4
         guid: 1d9210e44927f545977ea33d4330859e
       - ElementName: Play_Gear_Drop
         ObjectType: 3
         guid: d1c0be8942258e4cad960de6a149d7ac
-      Path: Events\Objects\Gear\Play_Gear_Drop
-      maxAttenuation: 0
-      maxDuration: 2.8419049
-      minDuration: 2.8419049
+      Path: Events\Objects\GearQuest\Gear\Play_Gear_Drop
+      maxAttenuation: 100
+      maxDuration: 2.2873867
+      minDuration: 1.3837278
     - name: Play_Gear_PickUp
       guid: f74cd40f599fbd4b8ae428f4a6d3309e
       id: 1253718314
@@ -373,14 +876,17 @@ MonoBehaviour:
       - ElementName: Objects
         ObjectType: 12
         guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: GearQuest
+        ObjectType: 4
+        guid: b5e848b7c9bdc046b05a103ae1f8a210
       - ElementName: Gear
         ObjectType: 4
         guid: 1d9210e44927f545977ea33d4330859e
       - ElementName: Play_Gear_PickUp
         ObjectType: 3
         guid: f74cd40f599fbd4b8ae428f4a6d3309e
-      Path: Events\Objects\Gear\Play_Gear_PickUp
-      maxAttenuation: 0
+      Path: Events\Objects\GearQuest\Gear\Play_Gear_PickUp
+      maxAttenuation: 100
       maxDuration: 0.99911565
       minDuration: 0.99911565
     - name: Play_Gen1
@@ -400,7 +906,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4f4c637eaa6d9a479dadd6e0d0256e8b
       Path: Events\Objects\Generators\Play_Gen1
-      maxAttenuation: 0
+      maxAttenuation: 30.000002
       maxDuration: 0
       minDuration: 0
     - name: Play_Gen2
@@ -420,6 +926,60 @@ MonoBehaviour:
         ObjectType: 3
         guid: cc2d605c335e6b45a1b9737e5523fc22
       Path: Events\Objects\Generators\Play_Gen2
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Kapli
+      guid: c1f87b0136795548b436c04ff827ccd9
+      id: 1170362071
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Play_Kapli
+        ObjectType: 3
+        guid: c1f87b0136795548b436c04ff827ccd9
+      Path: Events\Objects\Play_Kapli
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Little_Fire
+      guid: fb102381b77489479d11c5811c409819
+      id: 1908881673
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Lighting
+        ObjectType: 4
+        guid: 243716f34597b64593f2604f34976ec1
+      - ElementName: Play_Little_Fire
+        ObjectType: 3
+        guid: fb102381b77489479d11c5811c409819
+      Path: Events\Objects\Lighting\Play_Little_Fire
+      maxAttenuation: 30.000002
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Lvl_Starting
+      guid: 4c5c931315e5ad42848229d44a4e71a9
+      id: 2070755871
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Play_Lvl_Starting
+        ObjectType: 3
+        guid: 4c5c931315e5ad42848229d44a4e71a9
+      Path: Events\Objects\Play_Lvl_Starting
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -437,9 +997,390 @@ MonoBehaviour:
         ObjectType: 3
         guid: dbc085208a00b74390c177394e0b5bd0
       Path: Events\Objects\Play_Mechanical_Sound
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 4.35449
       minDuration: 2.8235373
+    - name: Play_Move_Stone
+      guid: 4f7efe461d0b874b8667f88088c711e9
+      id: 2184129563
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: StatueQuests
+        ObjectType: 4
+        guid: 79bcf00a743c7b4ea57423e9be3dcb28
+      - ElementName: Play_Move_Stone
+        ObjectType: 3
+        guid: 4f7efe461d0b874b8667f88088c711e9
+      Path: Events\Objects\StatueQuests\Play_Move_Stone
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_number_01
+      guid: 234e1a211d134243a9f5252f4501337d
+      id: 1582615549
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: NumbersQuest
+        ObjectType: 4
+        guid: 07c455206c6dc44c998bf9d590e8e393
+      - ElementName: ENG
+        ObjectType: 4
+        guid: 2f2d34729a81934697b4d1041da3060a
+      - ElementName: Play_number_01
+        ObjectType: 3
+        guid: 234e1a211d134243a9f5252f4501337d
+      Path: Events\Objects\NumbersQuest\ENG\Play_number_01
+      maxAttenuation: 100
+      maxDuration: 1.0497279
+      minDuration: 0.73192745
+    - name: Play_number_02
+      guid: 06f5d35e9ac80443b8e8278c87104232
+      id: 1582615550
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: NumbersQuest
+        ObjectType: 4
+        guid: 07c455206c6dc44c998bf9d590e8e393
+      - ElementName: ENG
+        ObjectType: 4
+        guid: 2f2d34729a81934697b4d1041da3060a
+      - ElementName: Play_number_02
+        ObjectType: 3
+        guid: 06f5d35e9ac80443b8e8278c87104232
+      Path: Events\Objects\NumbersQuest\ENG\Play_number_02
+      maxAttenuation: 100
+      maxDuration: 1.0497279
+      minDuration: 0.8726757
+    - name: Play_number_03
+      guid: 7ebddc7a516d9c45a78928e969813910
+      id: 1582615551
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: NumbersQuest
+        ObjectType: 4
+        guid: 07c455206c6dc44c998bf9d590e8e393
+      - ElementName: ENG
+        ObjectType: 4
+        guid: 2f2d34729a81934697b4d1041da3060a
+      - ElementName: Play_number_03
+        ObjectType: 3
+        guid: 7ebddc7a516d9c45a78928e969813910
+      Path: Events\Objects\NumbersQuest\ENG\Play_number_03
+      maxAttenuation: 100
+      maxDuration: 1.0497279
+      minDuration: 1.0497279
+    - name: Play_number_04
+      guid: 4c3b8cb2efc30d49a799b85ea448d00c
+      id: 1582615544
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: NumbersQuest
+        ObjectType: 4
+        guid: 07c455206c6dc44c998bf9d590e8e393
+      - ElementName: ENG
+        ObjectType: 4
+        guid: 2f2d34729a81934697b4d1041da3060a
+      - ElementName: Play_number_04
+        ObjectType: 3
+        guid: 4c3b8cb2efc30d49a799b85ea448d00c
+      Path: Events\Objects\NumbersQuest\ENG\Play_number_04
+      maxAttenuation: 100
+      maxDuration: 1.0497279
+      minDuration: 0.9792063
+    - name: Play_number_05
+      guid: 6020e625523d9c459da5f4f22b34e516
+      id: 1582615545
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: NumbersQuest
+        ObjectType: 4
+        guid: 07c455206c6dc44c998bf9d590e8e393
+      - ElementName: ENG
+        ObjectType: 4
+        guid: 2f2d34729a81934697b4d1041da3060a
+      - ElementName: Play_number_05
+        ObjectType: 3
+        guid: 6020e625523d9c459da5f4f22b34e516
+      Path: Events\Objects\NumbersQuest\ENG\Play_number_05
+      maxAttenuation: 100
+      maxDuration: 1.0497279
+      minDuration: 0.92
+    - name: Play_number_06
+      guid: 21cf71ab96374147a36c279f907bb00b
+      id: 1582615546
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: NumbersQuest
+        ObjectType: 4
+        guid: 07c455206c6dc44c998bf9d590e8e393
+      - ElementName: ENG
+        ObjectType: 4
+        guid: 2f2d34729a81934697b4d1041da3060a
+      - ElementName: Play_number_06
+        ObjectType: 3
+        guid: 21cf71ab96374147a36c279f907bb00b
+      Path: Events\Objects\NumbersQuest\ENG\Play_number_06
+      maxAttenuation: 100
+      maxDuration: 1.23
+      minDuration: 1.0497279
+    - name: Play_number_07
+      guid: 3b91804ce847b44291f05e2280921c91
+      id: 1582615547
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: NumbersQuest
+        ObjectType: 4
+        guid: 07c455206c6dc44c998bf9d590e8e393
+      - ElementName: ENG
+        ObjectType: 4
+        guid: 2f2d34729a81934697b4d1041da3060a
+      - ElementName: Play_number_07
+        ObjectType: 3
+        guid: 3b91804ce847b44291f05e2280921c91
+      Path: Events\Objects\NumbersQuest\ENG\Play_number_07
+      maxAttenuation: 100
+      maxDuration: 1.0497279
+      minDuration: 0.97120184
+    - name: Play_number_08
+      guid: 340a866625ec2e46b08bcb8aaa19a977
+      id: 1582615540
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: NumbersQuest
+        ObjectType: 4
+        guid: 07c455206c6dc44c998bf9d590e8e393
+      - ElementName: ENG
+        ObjectType: 4
+        guid: 2f2d34729a81934697b4d1041da3060a
+      - ElementName: Play_number_08
+        ObjectType: 3
+        guid: 340a866625ec2e46b08bcb8aaa19a977
+      Path: Events\Objects\NumbersQuest\ENG\Play_number_08
+      maxAttenuation: 100
+      maxDuration: 1.05
+      minDuration: 1.0497279
+    - name: Play_number_09
+      guid: dfc7b3495a7cb440af66da0d90aac8fd
+      id: 1582615541
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: NumbersQuest
+        ObjectType: 4
+        guid: 07c455206c6dc44c998bf9d590e8e393
+      - ElementName: ENG
+        ObjectType: 4
+        guid: 2f2d34729a81934697b4d1041da3060a
+      - ElementName: Play_number_09
+        ObjectType: 3
+        guid: dfc7b3495a7cb440af66da0d90aac8fd
+      Path: Events\Objects\NumbersQuest\ENG\Play_number_09
+      maxAttenuation: 100
+      maxDuration: 1.07
+      minDuration: 1.0497279
+    - name: Play_One_Kaplya
+      guid: 53b4409a4bd3ba4680d5b8b92773edb9
+      id: 2998979435
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Kapli_Quest
+        ObjectType: 4
+        guid: 6012116e08d5a04ea374bf9c571d0ed1
+      - ElementName: Play_One_Kaplya
+        ObjectType: 3
+        guid: 53b4409a4bd3ba4680d5b8b92773edb9
+      Path: Events\Objects\Kapli_Quest\Play_One_Kaplya
+      maxAttenuation: 100
+      maxDuration: 0.6959622
+      minDuration: 0.5937445
+    - name: Play_Quest_Done
+      guid: fcfaf071078b594e86b3ed111571cb24
+      id: 2119603875
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: RichagQuest
+        ObjectType: 4
+        guid: 740ecf96132ab648aa13da2612f96dde
+      - ElementName: Play_Quest_Done
+        ObjectType: 3
+        guid: fcfaf071078b594e86b3ed111571cb24
+      Path: Events\Objects\RichagQuest\Play_Quest_Done
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Quest_Kaplya_Done
+      guid: 0400eb207cfb2940953d9d88fdbd6cfc
+      id: 719136048
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Kapli_Quest
+        ObjectType: 4
+        guid: 6012116e08d5a04ea374bf9c571d0ed1
+      - ElementName: Play_Quest_Kaplya_Done
+        ObjectType: 3
+        guid: 0400eb207cfb2940953d9d88fdbd6cfc
+      Path: Events\Objects\Kapli_Quest\Play_Quest_Kaplya_Done
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Quest_Statue_Done
+      guid: 1d7703aa68437041b75604780c664557
+      id: 1052410998
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: StatueQuests
+        ObjectType: 4
+        guid: 79bcf00a743c7b4ea57423e9be3dcb28
+      - ElementName: Play_Quest_Statue_Done
+        ObjectType: 3
+        guid: 1d7703aa68437041b75604780c664557
+      Path: Events\Objects\StatueQuests\Play_Quest_Statue_Done
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Richag
+      guid: d173a92748e70f4fa0e45f2d96b358aa
+      id: 2815540712
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: RichagQuest
+        ObjectType: 4
+        guid: 740ecf96132ab648aa13da2612f96dde
+      - ElementName: Play_Richag
+        ObjectType: 3
+        guid: d173a92748e70f4fa0e45f2d96b358aa
+      Path: Events\Objects\RichagQuest\Play_Richag
+      maxAttenuation: 30.000002
+      maxDuration: 1.2517687
+      minDuration: 0.7722676
+    - name: Play_Safe_Done
+      guid: 019b32a254b01d4f908a2deeccb1eac9
+      id: 3591720668
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: SafeBoxQuest
+        ObjectType: 4
+        guid: 9b6542965d739f4786c404b5770930d1
+      - ElementName: Play_Safe_Done
+        ObjectType: 3
+        guid: 019b32a254b01d4f908a2deeccb1eac9
+      Path: Events\Objects\SafeBoxQuest\Play_Safe_Done
+      maxAttenuation: 50
+      maxDuration: 0.5273696
+      minDuration: 0.5273696
+    - name: Play_Safezone_Massive_Door_Close
+      guid: b619b815c7010f47862f00dbaf5e478e
+      id: 1726312562
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Play_Safezone_Massive_Door_Close
+        ObjectType: 3
+        guid: b619b815c7010f47862f00dbaf5e478e
+      Path: Events\Objects\Play_Safezone_Massive_Door_Close
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Safezone_Massive_Door_Open
+      guid: af4b9dc151b7e7408e37af738abe2788
+      id: 3244122278
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Play_Safezone_Massive_Door_Open
+        ObjectType: 3
+        guid: af4b9dc151b7e7408e37af738abe2788
+      Path: Events\Objects\Play_Safezone_Massive_Door_Open
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Scary_Metalic_Sound
       guid: cc13e3bdfd352e47b82be84acbad2b9e
       id: 2270754086
@@ -454,9 +1395,66 @@ MonoBehaviour:
         ObjectType: 3
         guid: cc13e3bdfd352e47b82be84acbad2b9e
       Path: Events\Objects\Play_Scary_Metalic_Sound
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 4.967431
       minDuration: 2.5
+    - name: Play_Siren
+      guid: 3cf7cc3edc6b0f4c9754e7d1fda4fd7e
+      id: 1185108097
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Play_Siren
+        ObjectType: 3
+        guid: 3cf7cc3edc6b0f4c9754e7d1fda4fd7e
+      Path: Events\Objects\Play_Siren
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Use_Mech
+      guid: 34d4b55aac36a942b794c19f1947776a
+      id: 1999651201
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: SafeBoxQuest
+        ObjectType: 4
+        guid: 9b6542965d739f4786c404b5770930d1
+      - ElementName: Play_Use_Mech
+        ObjectType: 3
+        guid: 34d4b55aac36a942b794c19f1947776a
+      Path: Events\Objects\SafeBoxQuest\Play_Use_Mech
+      maxAttenuation: 45
+      maxDuration: 0.5163719
+      minDuration: 0.5163719
+    - name: Play_Ventil
+      guid: 1116379022a8ec42a6917514b19a6d67
+      id: 3426924248
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Generators
+        ObjectType: 4
+        guid: f6999f0f4a99354fac30e152b7b2007b
+      - ElementName: Play_Ventil
+        ObjectType: 3
+        guid: 1116379022a8ec42a6917514b19a6d67
+      Path: Events\Objects\Generators\Play_Ventil
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Water_Machine
       guid: 3fc18ca0d7778749934db290944b7186
       id: 3039676177
@@ -474,7 +1472,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3fc18ca0d7778749934db290944b7186
       Path: Events\Objects\Generators\Play_Water_Machine
-      maxAttenuation: 0
+      maxAttenuation: 25
       maxDuration: 0
       minDuration: 0
     - name: Play_Water_Machine_Max
@@ -497,6 +1495,194 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_WhiteLamp
+      guid: 8cd5cf162c600845b3617450eb3d8e80
+      id: 1638297339
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Lighting
+        ObjectType: 4
+        guid: 243716f34597b64593f2604f34976ec1
+      - ElementName: Play_WhiteLamp
+        ObjectType: 3
+        guid: 8cd5cf162c600845b3617450eb3d8e80
+      Path: Events\Objects\Lighting\Play_WhiteLamp
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Wrong_Gear_Combination
+      guid: 472d4eae013d5745822bb53d518d23e8
+      id: 3637805037
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: GearQuest
+        ObjectType: 4
+        guid: b5e848b7c9bdc046b05a103ae1f8a210
+      - ElementName: Play_Wrong_Gear_Combination
+        ObjectType: 3
+        guid: 472d4eae013d5745822bb53d518d23e8
+      Path: Events\Objects\GearQuest\Play_Wrong_Gear_Combination
+      maxAttenuation: 100
+      maxDuration: 4.035374
+      minDuration: 2.6926076
+    - name: Play_YellowLamp
+      guid: 878b6ad85cd6dd469040b4e0864c396b
+      id: 2132701112
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Lighting
+        ObjectType: 4
+        guid: 243716f34597b64593f2604f34976ec1
+      - ElementName: Play_YellowLamp
+        ObjectType: 3
+        guid: 878b6ad85cd6dd469040b4e0864c396b
+      Path: Events\Objects\Lighting\Play_YellowLamp
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: RichagQuest
+      guid: 740ecf96132ab648aa13da2612f96dde
+      id: 411021047
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: RichagQuest
+        ObjectType: 4
+        guid: 740ecf96132ab648aa13da2612f96dde
+      Path: Events\Objects\RichagQuest
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SafeBoxQuest
+      guid: 9b6542965d739f4786c404b5770930d1
+      id: 4096983597
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: SafeBoxQuest
+        ObjectType: 4
+        guid: 9b6542965d739f4786c404b5770930d1
+      Path: Events\Objects\SafeBoxQuest
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: StatueQuests
+      guid: 79bcf00a743c7b4ea57423e9be3dcb28
+      id: 3150131116
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: StatueQuests
+        ObjectType: 4
+        guid: 79bcf00a743c7b4ea57423e9be3dcb28
+      Path: Events\Objects\StatueQuests
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Move_Stone
+      guid: 073a094f56a2e943b017e824f565e641
+      id: 595172737
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: StatueQuests
+        ObjectType: 4
+        guid: 79bcf00a743c7b4ea57423e9be3dcb28
+      - ElementName: Stop_Move_Stone
+        ObjectType: 3
+        guid: 073a094f56a2e943b017e824f565e641
+      Path: Events\Objects\StatueQuests\Stop_Move_Stone
+      maxAttenuation: 40
+      maxDuration: 0.59710795
+      minDuration: 0.59710795
+    - name: Stop_Siren
+      guid: 6767dcab6a6d96449c2f2901afa9c9f8
+      id: 574068527
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Stop_Siren
+        ObjectType: 3
+        guid: 6767dcab6a6d96449c2f2901afa9c9f8
+      Path: Events\Objects\Stop_Siren
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_WhiteLamp
+      guid: 8f3a986bdd4e0a40b1a192b5e7b482ce
+      id: 2584819961
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Lighting
+        ObjectType: 4
+        guid: 243716f34597b64593f2604f34976ec1
+      - ElementName: Stop_WhiteLamp
+        ObjectType: 3
+        guid: 8f3a986bdd4e0a40b1a192b5e7b482ce
+      Path: Events\Objects\Lighting\Stop_WhiteLamp
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_YellowLamp
+      guid: b554e992cafc3a4882bbe9a6bb361d1e
+      id: 3345224838
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Lighting
+        ObjectType: 4
+        guid: 243716f34597b64593f2604f34976ec1
+      - ElementName: Stop_YellowLamp
+        ObjectType: 3
+        guid: b554e992cafc3a4882bbe9a6bb361d1e
+      Path: Events\Objects\Lighting\Stop_YellowLamp
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Events
@@ -508,7 +1694,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: f88c72517d10c24ca8c1136ded1d69c1
     GuidInternal: 
-    m_lastTime: -8584537853952759752
+    m_lastTime: -8584526402974307178
     List:
     - name: Drinking
       guid: eef361088e31d941b22309f7d81e6861
@@ -544,6 +1730,57 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Closed_Door
+      guid: 883a6854832bf14a8e86164de1d03ad3
+      id: 3623967269
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: Play_Closed_Door
+        ObjectType: 3
+        guid: 883a6854832bf14a8e86164de1d03ad3
+      Path: Events\Player\Play_Closed_Door
+      maxAttenuation: 90
+      maxDuration: 0.5
+      minDuration: 0.5
+    - name: Play_Death_HP
+      guid: 33dff09919a757498f3446e355befac5
+      id: 727616091
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: Play_Death_HP
+        ObjectType: 3
+        guid: 33dff09919a757498f3446e355befac5
+      Path: Events\Player\Play_Death_HP
+      maxAttenuation: 0
+      maxDuration: 3
+      minDuration: 3
+    - name: Play_Death_Madness
+      guid: 10f3853ed88f3b45b92c4e8f4bf817e7
+      id: 2886938738
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: Play_Death_Madness
+        ObjectType: 3
+        guid: 10f3853ed88f3b45b92c4e8f4bf817e7
+      Path: Events\Player\Play_Death_Madness
+      maxAttenuation: 0
+      maxDuration: 2.5
+      minDuration: 2.5
     - name: Play_Drinking
       guid: bef9d98aca302244bcd36d54288b7ba6
       id: 2006984080
@@ -583,7 +1820,7 @@ MonoBehaviour:
       Path: Events\Player\FlashLight\Play_Flashlight_Disable
       maxAttenuation: 0
       maxDuration: 0.9325178
-      minDuration: 0.6885833
+      minDuration: 0.49845806
     - name: Play_Flashlight_Enable
       guid: 7d5d517127b58743aefa041a7a41ecb6
       id: 1470796794
@@ -618,9 +1855,43 @@ MonoBehaviour:
         ObjectType: 3
         guid: d91ba34e4cebac4e906bbcad2d3b980d
       Path: Events\Player\Play_Footstep
-      maxAttenuation: 0
+      maxAttenuation: 25
       maxDuration: 0.45360452
       minDuration: 0.3099327
+    - name: Play_Heart_Beating
+      guid: 35d4006651bb9c4fa608351c57decdb1
+      id: 2355669119
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: Play_Heart_Beating
+        ObjectType: 3
+        guid: 35d4006651bb9c4fa608351c57decdb1
+      Path: Events\Player\Play_Heart_Beating
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Madness_Voices
+      guid: a8431d0d2f46fd4e9c6434635de26548
+      id: 151464529
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: f88c72517d10c24ca8c1136ded1d69c1
+      - ElementName: Play_Madness_Voices
+        ObjectType: 3
+        guid: a8431d0d2f46fd4e9c6434635de26548
+      Path: Events\Player\Play_Madness_Voices
+      maxAttenuation: 0
+      maxDuration: 18
+      minDuration: 18
     - name: Play_Player_Charge_FlashLigh
       guid: 1feb53a2105f4845b7d5587cbb14c396
       id: 1015499099
@@ -656,8 +1927,8 @@ MonoBehaviour:
         guid: 0da40dc86c329d4d816774dfcc03ac0c
       Path: Events\Player\Drinking\Play_Stop_Drink
       maxAttenuation: 0
-      maxDuration: 2.4705896
-      minDuration: 1.0588208
+      maxDuration: 2.1176417
+      minDuration: 1.4117687
     - name: Play_Tired_Breath
       guid: cc130660ab517b4a8af10c9c8e137fe9
       id: 1817535745
@@ -687,8 +1958,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: aaf4683f9d579f4b9eefcf7c5f970957
     GuidInternal: 
-    m_lastTime: -8584537853952749743
+    m_lastTime: -8584528264938176703
     List:
+    - name: All_Volume_Player_Settings
+      guid: b05949cb7f93f44ea6cea29c5ec5a47d
+      id: 545571051
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: aaf4683f9d579f4b9eefcf7c5f970957
+      - ElementName: All_Volume_Player_Settings
+        ObjectType: 13
+        guid: b05949cb7f93f44ea6cea29c5ec5a47d
+      Path: Game Parameters\Default Work Unit\All_Volume_Player_Settings
     - name: Footstep_Volume
       guid: af27b8c7ce8ad843a13b0c90b0afd16a
       id: 511984960
@@ -703,6 +1988,34 @@ MonoBehaviour:
         ObjectType: 13
         guid: af27b8c7ce8ad843a13b0c90b0afd16a
       Path: Game Parameters\Default Work Unit\Footstep_Volume
+    - name: Health
+      guid: e9d29126e26c324a8d9fb770e91e4a5d
+      id: 3677180323
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: aaf4683f9d579f4b9eefcf7c5f970957
+      - ElementName: Health
+        ObjectType: 13
+        guid: e9d29126e26c324a8d9fb770e91e4a5d
+      Path: Game Parameters\Default Work Unit\Health
+    - name: Madness
+      guid: b897325ce8e20044ad2a683503b6ad53
+      id: 3224646828
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: aaf4683f9d579f4b9eefcf7c5f970957
+      - ElementName: Madness
+        ObjectType: 13
+        guid: b897325ce8e20044ad2a683503b6ad53
+      Path: Game Parameters\Default Work Unit\Madness
     - name: MusicIntensity
       guid: 6d2abc3d3599294f8da3b809d4dc4579
       id: 1301299809
@@ -757,8 +2070,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 9c9dffaadd33354abf9dcbedd38c54b4
     GuidInternal: 
-    m_lastTime: -8584537853945592761
-    List: []
+    m_lastTime: -8584533469843518783
+    List:
+    - name: Language
+      guid: 80345959f0ff4147b12996e89a7bd6ec
+      id: 2441027675
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c9dffaadd33354abf9dcbedd38c54b4
+      - ElementName: Language
+        ObjectType: 9
+        guid: 80345959f0ff4147b12996e89a7bd6ec
+      Path: States\Default Work Unit\Language
+      values:
+      - name: Eng
+        guid: 939e2971a11309428736ccb93fcea29e
+        id: 529726535
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9c9dffaadd33354abf9dcbedd38c54b4
+        - ElementName: Language
+          ObjectType: 9
+          guid: 80345959f0ff4147b12996e89a7bd6ec
+        - ElementName: Eng
+          ObjectType: 8
+          guid: 939e2971a11309428736ccb93fcea29e
+      - name: None
+        guid: 0d1e15ea7011c34f99d8a818435a5c9b
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9c9dffaadd33354abf9dcbedd38c54b4
+        - ElementName: Language
+          ObjectType: 9
+          guid: 80345959f0ff4147b12996e89a7bd6ec
+        - ElementName: None
+          ObjectType: 8
+          guid: 0d1e15ea7011c34f99d8a818435a5c9b
+      - name: Rus
+        guid: adab7ccf46ceb244bd8b76914b7c2325
+        id: 712161717
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9c9dffaadd33354abf9dcbedd38c54b4
+        - ElementName: Language
+          ObjectType: 9
+          guid: 80345959f0ff4147b12996e89a7bd6ec
+        - ElementName: Rus
+          ObjectType: 8
+          guid: adab7ccf46ceb244bd8b76914b7c2325
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -771,8 +2150,74 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 28be07a64f8f3a44b90b9a989d77194a
     GuidInternal: 
-    m_lastTime: -8584537853945592761
+    m_lastTime: -8584526402953340612
     List:
+    - name: DangerTheme
+      guid: 84c4acca67a7064e8bdfb83a25335731
+      id: 3330148755
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 28be07a64f8f3a44b90b9a989d77194a
+      - ElementName: DangerTheme
+        ObjectType: 11
+        guid: 84c4acca67a7064e8bdfb83a25335731
+      Path: Switches\Default Work Unit\DangerTheme
+      values:
+      - name: Dead_End
+        guid: e08f8df7a07870439788cd17475f66ef
+        id: 1310435349
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 28be07a64f8f3a44b90b9a989d77194a
+        - ElementName: DangerTheme
+          ObjectType: 11
+          guid: 84c4acca67a7064e8bdfb83a25335731
+        - ElementName: Dead_End
+          ObjectType: 10
+          guid: e08f8df7a07870439788cd17475f66ef
+      - name: Live_End
+        guid: e99721ca7eb1c64086be6c0a59c49317
+        id: 2408317961
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 28be07a64f8f3a44b90b9a989d77194a
+        - ElementName: DangerTheme
+          ObjectType: 11
+          guid: 84c4acca67a7064e8bdfb83a25335731
+        - ElementName: Live_End
+          ObjectType: 10
+          guid: e99721ca7eb1c64086be6c0a59c49317
+      - name: Main_Loop
+        guid: e39c1f88e5e7ab47b4b17850f07af9fc
+        id: 3813340491
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 28be07a64f8f3a44b90b9a989d77194a
+        - ElementName: DangerTheme
+          ObjectType: 11
+          guid: 84c4acca67a7064e8bdfb83a25335731
+        - ElementName: Main_Loop
+          ObjectType: 10
+          guid: e39c1f88e5e7ab47b4b17850f07af9fc
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Surface
       guid: 008896f3cb113541934e4dcf65b0ddf0
       id: 1834394558
@@ -883,10 +2328,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 67ae3638b26a27449630b4c2b8ececad
     GuidInternal: 
-    m_lastTime: -8584537853945592761
+    m_lastTime: -8584536849157106625
     List: []
-  ExpandedFileSystemItemIds: 010000000200000003000000050000000600000008000000090000000a0000000b0000001300000014000000160000001700000018000000
-  ExpandedWaapiItemIds: 01000000050000000600000008000000
+  ExpandedFileSystemItemIds: 01000000020000000300000005000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000180000001a0000001b0000001c0000001d0000002100000032000000330000003400000038000000390000003a0000003b0000004c0000005300000054000000550000006b0000006c0000006d0000006e000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 1

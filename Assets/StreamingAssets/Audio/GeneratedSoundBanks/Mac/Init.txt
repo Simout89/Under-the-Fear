@@ -1,0 +1,37 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2441027675	Language			\Default Work Unit\Language	
+
+State	ID	Name	State Group			Notes
+	529726535	Eng	Language			
+	712161717	Rus	Language			
+	748895195	None	Language			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	545571051	All_Volume_Player_Settings			\Default Work Unit\All_Volume_Player_Settings	
+	1274705203	Volume_Music_Player_Settings			\Default Work Unit\Volume_Music_Player_Settings	
+	2436629268	Volume_FX_Player_Settings			\Default Work Unit\Volume_FX_Player_Settings	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2255513057	New Audio Bus			\Default Work Unit\Master Audio Bus\New Audio Bus	
+	2799548653	New Audio Bus_01			\Default Work Unit\Music Bus\New Audio Bus_01	
+	2799548654	New Audio Bus_02			\Default Work Unit\Master Audio Bus\New Audio Bus_02	
+	3127962312	Music Bus			\Default Work Unit\Music Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1319739747	Big_Hall_Rev			\Default Work Unit\Master Audio Bus\New Audio Bus\Big_Hall_Rev	
+	1389012769	Coridor_Rev			\Default Work Unit\Master Audio Bus\New Audio Bus\Coridor_Rev	
+	1445918944	Cave_Rev			\Default Work Unit\Master Audio Bus\New Audio Bus\Cave_Rev	
+	2663941762	Small_Room_Rev			\Default Work Unit\Master Audio Bus\New Audio Bus\Small_Room_Rev	
+
+Effect plug-ins	ID	Name	Type				Notes
+	225778262	Gain (Custom)	Wwise Gain			
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
+	3164629247	Holy	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

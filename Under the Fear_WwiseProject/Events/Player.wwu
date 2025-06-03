@@ -43,6 +43,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{52F9076D-1130-45ED-8A70-A6144BE52644}" ShortID="1052056576">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Short_high_voltage" ID="{A0FC5C80-FCE5-42F7-B9B6-17A1196504AE}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Flashlight_Disable" ID="{88303FB5-2DF7-49A8-804E-5808E960DEF4}">
@@ -54,6 +61,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{8321A2A5-FF88-4D5C-B56D-B4FF399587A2}" ShortID="539826390">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Short_high_voltage" ID="{A0FC5C80-FCE5-42F7-B9B6-17A1196504AE}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{35080B7E-F5DB-4D55-B3CE-B22005268861}" ShortID="208444015">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
@@ -61,6 +75,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="FlashLight_Working" ID="{EFA7451D-FA8A-4DFC-9CED-9762076FD676}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4C41FF54-11CD-46EE-8F43-1D905AD03103}" ShortID="123526346">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="turnofflowbattery" ID="{1A6E4D06-57B9-4E9E-9704-CC67B1A7F807}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -115,6 +136,61 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Madness_Voices" ID="{0D1D43A8-462F-4EFD-9C64-34635DE26548}">
+					<ChildrenList>
+						<Action Name="" ID="{6E5ED519-D06B-446D-B4B2-2FD4F2701766}" ShortID="312334417">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mad_Voices" ID="{F30CCDC9-7024-4941-AACD-9833108D1340}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Heart_Beating" ID="{6600D435-BB51-4F9C-A608-351C57DECDB1}">
+					<ChildrenList>
+						<Action Name="" ID="{2548CAF6-7855-4464-B133-3D3C51C7863F}" ShortID="81409098">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heart_beating" ID="{2AA4BE71-7A47-4399-AD81-55382279F704}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Death_Madness" ID="{3E85F310-8FD8-453B-B92C-4E8F4BF817E7}">
+					<ChildrenList>
+						<Action Name="" ID="{F06557DE-E382-4C1F-9B1D-25A588B88A7B}" ShortID="128941767">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death_by_Madness" ID="{82ADB59E-7D11-4342-9C79-C31170AA8ACE}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Death_HP" ID="{99F0DF33-A719-4957-8F34-46E355BEFAC5}">
+					<ChildrenList>
+						<Action Name="" ID="{F7FEBD60-B5EC-44C4-B2A2-A8B0EF413F3A}" ShortID="48567891">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death_by_HP" ID="{FD6036C9-F52A-4DC4-B50F-3620ED7E16BB}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Closed_Door" ID="{54683A88-2B83-4AF1-8E86-164DE1D03AD3}">
+					<ChildrenList>
+						<Action Name="" ID="{4AB801CC-5190-4226-8BFE-26E980F57053}" ShortID="615498779">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Closed_Door" ID="{5A3CB622-16DE-4DD1-A361-1150E7917B48}" WorkUnitID="{7171935D-28BD-44A1-B33E-9AC641531AC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
