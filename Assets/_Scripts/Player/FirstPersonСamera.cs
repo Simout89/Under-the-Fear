@@ -33,6 +33,9 @@ namespace _Script.Player
             {
                 cameraPlayer = Camera.main.transform;
             }
+
+            _xRotation = 0;
+            _yRotation = 0;
         }
 
         public void LateUpdate()

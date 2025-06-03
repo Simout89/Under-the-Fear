@@ -62,6 +62,7 @@ public class SaveManager : MonoBehaviour
 
     private void SaveDoor()
     {
+        
         for (int i = 0; i < _doors.Length; i++)
         {
             doorStates[i] = _doors[i].isOpen;
@@ -72,12 +73,15 @@ public class SaveManager : MonoBehaviour
     public void Load()
     {
         LoadDoor();
-        
-        _puzzleManager.SilentPuzzleSolved(solvedPuzzles);
-        
-        for (int i = 0; i < _puzzleBase.Length; i++)
+
+        if (_puzzleBase != null)
         {
-            _puzzleBase[i].IsSolved = puzzleBaseStates[i];
+            _puzzleManager.SilentPuzzleSolved(solvedPuzzles);
+        
+            for (int i = 0; i < _puzzleBase.Length; i++)
+            {
+                _puzzleBase[i].IsSolved = puzzleBaseStates[i];
+            }
         }
 
         if (isFirstSave)
@@ -104,6 +108,9 @@ public class SaveManager : MonoBehaviour
 
     private void LoadDoor()
     {
+        if(_doors == null)
+            return;
+        
         for (int i = 0; i < doorStates.Length; i++)
         {
             if (doorStates[i])
