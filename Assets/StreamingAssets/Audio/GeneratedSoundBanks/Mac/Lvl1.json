@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{72219EA9-27CE-BEE8-D645-BAD9F8AE88ED}",
+    "Hash": "{3806DEFD-71F4-3B04-E35B-BC9B694B128A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -1496,6 +1496,14 @@
       "CachePath": "49/{493D8ECB-92C6-2378-E2E2-B63FB96069F5}.wem"
      },
      {
+      "Id": "998767410",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "starting_under.wav",
+      "CachePath": "E7/{E73D8316-CD7B-4BAE-9399-B03C87D87423}.wem"
+     },
+     {
       "Id": "1006693240",
       "Language": "SFX",
       "Streaming": "false",
@@ -1717,10 +1725,12 @@
       "Name": "Play_Cave_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Cave_Music",
       "GUID": "{2DAD3E5C-D16E-44DE-B882-8AE2ED076157}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "998767410"
+       }
+      ]
      },
      {
       "Id": "3623967269",
@@ -4151,6 +4161,6 @@
     ]
    }
   ],
-  "FileHash": "{47BFFFFF-A124-6119-872A-708B3EC4ECA7}"
+  "FileHash": "{A226EC48-379E-CD2F-DD26-AF9392D12A73}"
  }
 }

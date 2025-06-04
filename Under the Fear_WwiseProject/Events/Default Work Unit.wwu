@@ -129,7 +129,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Cave_Music" ID="{2DAD3E5C-D16E-44DE-B882-8AE2ED076157}"/>
+				<Event Name="Play_Cave_Music" ID="{2DAD3E5C-D16E-44DE-B882-8AE2ED076157}">
+					<ChildrenList>
+						<Action Name="" ID="{7234CB17-DAE8-4750-8E61-F9491D675BF9}" ShortID="234781324">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Starting_Music" ID="{02D0B491-8445-48DB-8627-6D24DD5FE198}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Stop_Richag_Quest_Music" ID="{F51FFA31-0032-4E47-AAF1-1F2D809E4694}">
 					<ChildrenList>
 						<Action Name="" ID="{BE3DA607-9802-4202-805D-3E827DD4A160}" ShortID="43893484">
