@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{3806DEFD-71F4-3B04-E35B-BC9B694B128A}",
+    "Hash": "{DCCA1F89-45FC-5ECB-C11F-FA66B2EB57CF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -1828,10 +1828,15 @@
       "Name": "Play_Door_Open",
       "ObjectPath": "\\Events\\Objects\\Play_Door_Open",
       "GUID": "{FA38CEF9-0251-4DC7-A16B-4E00BAB081B7}",
-      "MaxAttenuation": "0",
+      "MaxAttenuation": "170",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.5",
+      "DurationMax": "1.5",
+      "MediaRefs": [
+       {
+        "Id": "836231739"
+       }
+      ]
      },
      {
       "Id": "2006984080",
@@ -4161,6 +4166,6 @@
     ]
    }
   ],
-  "FileHash": "{2D856061-8EC2-A0F9-256C-1519E0F79EEA}"
+  "FileHash": "{4D479CB0-725F-2E82-BCB3-16D35801D8E4}"
  }
 }

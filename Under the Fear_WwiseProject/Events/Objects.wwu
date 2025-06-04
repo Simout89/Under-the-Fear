@@ -465,7 +465,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_Door_Open" ID="{FA38CEF9-0251-4DC7-A16B-4E00BAB081B7}"/>
+				<Event Name="Play_Door_Open" ID="{FA38CEF9-0251-4DC7-A16B-4E00BAB081B7}">
+					<ChildrenList>
+						<Action Name="" ID="{B420E64B-4CFB-4A08-83C0-03AC9BC33066}" ShortID="904380471">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Opened_Door" ID="{98A0083B-B0D2-476E-A660-76315B927602}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Play_Safezone_Massive_Door_Open" ID="{C19D4BAF-B751-40E7-8E37-AF738ABE2788}"/>
 				<Event Name="Play_Safezone_Massive_Door_Close" ID="{15B819B6-01C7-470F-862F-00DBAF5E478E}"/>
 				<Event Name="Play_Lvl_Starting" ID="{13935C4C-E515-42AD-8482-29D44A4E71A9}"/>
