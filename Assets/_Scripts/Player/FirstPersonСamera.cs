@@ -33,14 +33,19 @@ namespace _Script.Player
             {
                 cameraPlayer = Camera.main.transform;
             }
+
+            _xRotation = 0;
+            _yRotation = 0;
         }
 
-        public void LateUpdate()
+        public void Update()
         {
-            _xRotation += input.GetLookInput().y * Time.deltaTime * Sensitivity * _sensitivityMultiplayer;
+            Vector2 lookInput = input.GetLookInput();
+            
+            _xRotation += lookInput.y * Time.deltaTime * Sensitivity * _sensitivityMultiplayer;
             _xRotation = Mathf.Clamp(_xRotation, -89.9f, 89.9f);
         
-            _yRotation += input.GetLookInput().x * Time.deltaTime * Sensitivity * _sensitivityMultiplayer;
+            _yRotation += lookInput.x * Time.deltaTime * Sensitivity * _sensitivityMultiplayer;
         
             cameraPivot.localRotation = Quaternion.Euler(0, _yRotation, _xRotation);
         }

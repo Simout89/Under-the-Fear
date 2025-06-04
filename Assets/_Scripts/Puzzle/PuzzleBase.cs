@@ -21,7 +21,7 @@ public abstract class PuzzleBase : SerializedMonoBehaviour, IPuzzleStatus
     [SerializeField] private AK.Wwise.Event failSoundStop;
     [SerializeField] private AK.Wwise.Event failSound;
     
-    protected bool IsSolved = false;
+    public bool IsSolved = false;
 
     private bool _canPlaySiren = true;
     
