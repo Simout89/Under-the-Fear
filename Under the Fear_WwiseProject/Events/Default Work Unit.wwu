@@ -205,6 +205,30 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Quest_Done" ID="{2234725E-8C3B-4336-BAB6-A6E2BF46BA9E}">
+					<ChildrenList>
+						<Action Name="" ID="{B0F144F0-D47B-4655-B9F0-A1FF8AEA43D1}" ShortID="198473977">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Working_Richag_Mech" ID="{EC70940B-71CA-4080-9BCC-621682AF2A38}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{60973C0F-6E90-4082-B105-F71A6A130801}" ShortID="24745337">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Working_Richag_Mech_01" ID="{819448C2-39F3-403A-A3DE-F623E45BFC5C}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
