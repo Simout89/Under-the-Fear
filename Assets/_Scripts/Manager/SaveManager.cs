@@ -1,6 +1,7 @@
 using System;
 using _Script.Manager;
 using _Script.Puzzle;
+using _Scripts.UI;
 using UnityEngine;
 using Zenject;
 
@@ -23,6 +24,8 @@ public class SaveManager : MonoBehaviour
     [Inject] private MonsterController _monsterController;
 
     [SerializeField] private bool isFirstSave = true;
+
+    [Inject] private TextField _textField;
 
     public void Awake()
     {
@@ -58,6 +61,8 @@ public class SaveManager : MonoBehaviour
         }
         
         Debug.Log("Сохранено");
+        
+        _textField.ShowText("Saved");
     }
 
     private void SaveDoor()

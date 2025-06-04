@@ -605,7 +605,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: efa17e970f8f564c9c28e8e57906fbec
     GuidInternal: 
-    m_lastTime: -8584526402974572809
+    m_lastTime: -8584525654011033608
     List:
     - name: CassetePlayer
       guid: ec6966511b9b4248acfb491426367985
@@ -803,9 +803,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: f9ce38fa5102c74da16b4e00bab081b7
       Path: Events\Objects\Play_Door_Open
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 170
+      maxDuration: 1.5
+      minDuration: 1.5
     - name: Play_Floor_Button
       guid: b2d0267f0530754aa7e1dfb62a06799c
       id: 3474005947

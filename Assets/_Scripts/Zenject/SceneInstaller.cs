@@ -1,4 +1,5 @@
 using _Script.Manager;
+using _Scripts.UI;
 using Zenject;
 
 namespace _Script.Zenject
@@ -14,6 +15,7 @@ namespace _Script.Zenject
             Container.BindInterfacesAndSelfTo<MonsterAi>().FromComponentsInHierarchy().AsSingle(); 
             Container.BindInterfacesAndSelfTo<MonsterController>().FromComponentsInHierarchy().AsSingle(); 
             Container.BindInterfacesAndSelfTo<SaveManager>().FromComponentsInHierarchy().AsSingle(); 
+            Container.BindInterfacesAndSelfTo<TextField>().FromComponentsInHierarchy().AsSingle(); 
         }
     }
 }
