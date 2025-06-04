@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using _Script.Manager;
 using UnityEngine;
@@ -11,6 +12,8 @@ public class SceneLoaderManager : MonoBehaviour
     [Inject] private GameStateManager _gameStateManager;
     [SerializeField] private GameObject loadingScreen;
     [SerializeField] private Slider loadingSlider;
+
+    public event Action OnSceneLoaded;
     public void LoadScene(int index)
     {   
         SceneManager.LoadScene(index);
@@ -33,5 +36,7 @@ public class SceneLoaderManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         loadingSlider.gameObject.SetActive(false);
         loadingScreen.SetActive(false);
+        
+        OnSceneLoaded?.Invoke();
     }
 }

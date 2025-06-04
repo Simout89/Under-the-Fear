@@ -18,7 +18,7 @@ public class PlayerFlashlight : SerializedMonoBehaviour
     [Header("References")]
     [SerializeField] private PlayerController _playerController;
     [SerializeField] private GameObject flashLightGameObject;
-    [OdinSerialize] private PlayerHealth _playerHealth;
+    [SerializeField] private PlayerHealth _playerHealth;
     [SerializeField] private EnduranceSlider _enduranceSlider;
     private EnduranceSystem _enduranceSystem;
 
