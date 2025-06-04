@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{DCCA1F89-45FC-5ECB-C11F-FA66B2EB57CF}",
+    "Hash": "{E9EC1951-D277-6666-8A47-96991CEBB91C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -4166,6 +4166,6 @@
     ]
    }
   ],
-  "FileHash": "{4D479CB0-725F-2E82-BCB3-16D35801D8E4}"
+  "FileHash": "{09B87F8E-CC25-A62A-A1C2-69F8BD7DCB38}"
  }
 }
