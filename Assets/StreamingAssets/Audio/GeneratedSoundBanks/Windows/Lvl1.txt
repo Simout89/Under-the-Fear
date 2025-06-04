@@ -33,6 +33,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1652482609	Play_Flashlight_Disable			\Player\FlashLight\Play_Flashlight_Disable	
 	1660008929	Play_Door_Open			\Objects\Play_Door_Open	
 	1726312562	Play_Safezone_Massive_Door_Close			\Objects\Play_Safezone_Massive_Door_Close	
+	1734945897	Stop_Quest_Done			\Default Work Unit\Stop_Quest_Done	
 	1812605269	Stop_Richag_Quest_Music			\Default Work Unit\Stop_Richag_Quest_Music	
 	1817535745	Play_Tired_Breath			\Player\Play_Tired_Breath	
 	1908881673	Play_Little_Fire			\Objects\Lighting\Play_Little_Fire	

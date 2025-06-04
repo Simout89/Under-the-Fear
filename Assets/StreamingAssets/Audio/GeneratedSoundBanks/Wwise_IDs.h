@@ -83,6 +83,7 @@ namespace AK
         static const AkUniqueID STOP_MAIN_MENU_MUSIC = 2829915331U;
         static const AkUniqueID STOP_MOVE_STONE = 595172737U;
         static const AkUniqueID STOP_MUSIC = 2837384057U;
+        static const AkUniqueID STOP_QUEST_DONE = 1734945897U;
         static const AkUniqueID STOP_RICHAG_QUEST_MUSIC = 1812605269U;
         static const AkUniqueID STOP_SAFEZONE_MUSIC = 36390441U;
         static const AkUniqueID STOP_SIREN = 574068527U;

@@ -6440,7 +6440,7 @@
 				<RandomSequenceContainer Name="Opened_Door" ID="{98A0083B-B0D2-476E-A660-76315B927602}" ShortID="673257661">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="1.7"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.9"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>

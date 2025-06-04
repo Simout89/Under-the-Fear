@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{E9EC1951-D277-6666-8A47-96991CEBB91C}",
+    "Hash": "{E6F73B33-3D60-6FFA-A95E-F10CAF5CA489}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -1828,7 +1828,7 @@
       "Name": "Play_Door_Open",
       "ObjectPath": "\\Events\\Objects\\Play_Door_Open",
       "GUID": "{FA38CEF9-0251-4DC7-A16B-4E00BAB081B7}",
-      "MaxAttenuation": "170",
+      "MaxAttenuation": "90",
       "DurationType": "OneShot",
       "DurationMin": "1.5",
       "DurationMax": "1.5",
@@ -3852,6 +3852,24 @@
       "DurationMax": "0"
      },
      {
+      "Id": "1734945897",
+      "Name": "Stop_Quest_Done",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Quest_Done",
+      "GUID": "{2234725E-8C3B-4336-BAB6-A6E2BF46BA9E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "616558375"
+       },
+       {
+        "Id": "760835207"
+       }
+      ]
+     },
+     {
       "Id": "1812605269",
       "Name": "Stop_Richag_Quest_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Richag_Quest_Music",
@@ -4166,6 +4184,6 @@
     ]
    }
   ],
-  "FileHash": "{09B87F8E-CC25-A62A-A1C2-69F8BD7DCB38}"
+  "FileHash": "{FD7C8A24-F2CD-34B4-48C1-B271DD17957F}"
  }
 }
