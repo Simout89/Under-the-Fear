@@ -239,7 +239,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: eb9cd630b7c18842bc284b0021107ef2
     GuidInternal: 
-    m_lastTime: -8584526402974861990
+    m_lastTime: -8584525606918435502
     List:
     - name: Play_Cave_Music
       guid: 5c3ead2d6ed1de44b8828ae2ed076157
@@ -462,6 +462,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_Quest_Done
+      guid: 5e7234223b8c3643bab6a6e2bf46ba9e
+      id: 1734945897
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Stop_Quest_Done
+        ObjectType: 3
+        guid: 5e7234223b8c3643bab6a6e2bf46ba9e
+      Path: Events\Default Work Unit\Stop_Quest_Done
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Richag_Quest_Music
       guid: 31fa1ff53200474eaaf11f2d809e4694
       id: 1812605269
@@ -605,7 +622,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: efa17e970f8f564c9c28e8e57906fbec
     GuidInternal: 
-    m_lastTime: -8584526402974572809
+    m_lastTime: -8584525701814814681
     List:
     - name: CassetePlayer
       guid: ec6966511b9b4248acfb491426367985
@@ -803,9 +820,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: f9ce38fa5102c74da16b4e00bab081b7
       Path: Events\Objects\Play_Door_Open
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 90
+      maxDuration: 1.5
+      minDuration: 1.5
     - name: Play_Floor_Button
       guid: b2d0267f0530754aa7e1dfb62a06799c
       id: 3474005947
