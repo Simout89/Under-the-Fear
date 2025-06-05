@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     [Header("References")]
     [SerializeField] private PlayerController _playerController;
     [SerializeField] private EnduranceSlider _enduranceSlider;
+    [SerializeField] private bool SpawnOnLowHp = false;
     private IInput _input => _playerController.input;
     [Header("Settings")]
     [SerializeField] private float maxHealthPoint = 50;
@@ -36,6 +37,11 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     {
         _enduranceSystem = new EnduranceSystem(maxHealthPoint, 0, 0,0);
         _enduranceSlider.Initialization(_enduranceSystem);
+
+        if (SpawnOnLowHp)
+        {
+            _enduranceSystem.SetValue(1);
+        }
     }
 
     public void TakeDamage(float damageCount)
