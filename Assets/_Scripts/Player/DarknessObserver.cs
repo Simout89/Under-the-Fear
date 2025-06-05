@@ -72,6 +72,7 @@ public class DarknessObserver : MonoBehaviour
         if (endurenceSystem.CurrentEndurance >= maxValue)
         {
             _playerHealth.TakeDamage(99999);
+            endurenceSystem.SetValue(0);
         }
         else
         {

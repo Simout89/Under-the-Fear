@@ -5,7 +5,7 @@ using _Script.interactive_objects;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class DictaphonePuzzle : PuzzleBase, IClickable
+public class DictaphonePuzzle : PuzzleBase
 {
     [Header("Settings")]
     [SerializeField] private float duration = 1;
@@ -15,17 +15,11 @@ public class DictaphonePuzzle : PuzzleBase, IClickable
     [Header("Sound")]
     [SerializeField] private AK.Wwise.Event[] numbers;
 
+    [SerializeField] private ButtonTrigger _buttonTrigger;
+
     private List<int> stayOnPlateOrder = new List<int>();
     private int[] order = new int[6];
     private bool _canPlay = true;
-
-    public void Click()
-    {
-        if (_canPlay)
-        {
-            StartCoroutine(PlayNumber());
-        }
-    }
 
     private void OnEnable()
     {
@@ -34,6 +28,7 @@ public class DictaphonePuzzle : PuzzleBase, IClickable
             int index = i;
             _pressurePlate[i].onStay += () => HandleStay(index);
         }
+        _buttonTrigger.onClick += HandleClickOnRadio;
     }
     private void OnDisable()
     {
@@ -41,6 +36,15 @@ public class DictaphonePuzzle : PuzzleBase, IClickable
         {
             int index = i;
             _pressurePlate[i].onStay -= () => HandleStay(index);
+        }
+        _buttonTrigger.onClick -= HandleClickOnRadio;
+    }
+
+    private void HandleClickOnRadio()
+    {
+        if (_canPlay)
+        {
+            StartCoroutine(PlayNumber());
         }
     }
 
@@ -80,7 +84,7 @@ public class DictaphonePuzzle : PuzzleBase, IClickable
         _canPlay = false;
         for (int i = 0; i < order.Length; i++)
         {
-            numbers[order[i] - 1].Post(gameObject);
+            numbers[order[i] - 1].Post(_buttonTrigger.gameObject);
             yield return new WaitForSeconds(duration);
         }
         _canPlay = true;

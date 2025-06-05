@@ -35,5 +35,25 @@ namespace _Script.Puzzle
                 Debug.Log($"Все головоломки решены");
             }
         }
+        
+        public void SilentPuzzleSolved(bool[] puzzles)
+        {
+            SolvedPuzzles = puzzles;
+            
+            if (!PuzzlesSolved)
+            {
+                foreach (var solvedPuzzle in SolvedPuzzles)
+                {
+                    if(!solvedPuzzle)
+                        return;
+                }
+            
+                AllPuzzleSolved?.Invoke();
+
+                PuzzlesSolved = true;
+            
+                Debug.Log($"Все головоломки решены");
+            }
+        }
     }
 }

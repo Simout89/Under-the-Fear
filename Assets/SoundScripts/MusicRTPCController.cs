@@ -2,13 +2,12 @@ using UnityEngine;
 
 public class MusicRTPCController : MonoBehaviour
 {
-    [Header("Wwise Settings")]
-    public string musicEventName = "Play_Music"; // Имя ивента вводится через инспектор
     public string rtpcName = "MusicIntensity";
-
-    [Header("Music Intensity")]
     public float intensity = 0f;
     public float maxIntensity = 100f;
+
+    // Выбор события через Wwise Picker
+    public AK.Wwise.Event musicEvent;
 
     public void SetIntensity(float newIntensity)
     {
@@ -24,15 +23,16 @@ public class MusicRTPCController : MonoBehaviour
         Debug.Log($"RTPC '{rtpcName}' set to {intensity}");
     }
 
-    void Start()
+    public void PlayMusic()
     {
-        if (!string.IsNullOrEmpty(musicEventName))
+        if (musicEvent != null)
         {
-            AkSoundEngine.PostEvent(musicEventName, gameObject);
+            musicEvent.Post(gameObject);
+            Debug.Log($"Event '{musicEvent.Name}' posted.");
         }
         else
         {
-            Debug.LogWarning("Music event name is not set in the inspector.");
+            Debug.LogWarning("No music event assigned.");
         }
     }
 }
