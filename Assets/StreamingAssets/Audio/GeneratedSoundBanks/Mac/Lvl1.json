@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{CDD49542-1242-7178-13F2-E15DAE075265}",
+    "Hash": "{654ED30D-02DF-8EA2-A30A-F17D90D0B33D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -2337,10 +2337,12 @@
       "Name": "Play_Lvl_Starting",
       "ObjectPath": "\\Events\\Objects\\Play_Lvl_Starting",
       "GUID": "{13935C4C-E515-42AD-8482-29D44A4E71A9}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "998767410"
+       }
+      ]
      },
      {
       "Id": "151464529",
@@ -3824,6 +3826,16 @@
       ]
      },
      {
+      "Id": "4072670616",
+      "Name": "Resume_Main_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Resume_Main_Music",
+      "GUID": "{1AA340C9-94CA-4C80-86BA-F5931796CFA8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "4264999239",
       "Name": "Stop_Cave_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Cave_Music",
@@ -4241,6 +4253,6 @@
     ]
    }
   ],
-  "FileHash": "{CFFC5463-9F42-B84F-880E-46404458CAA9}"
+  "FileHash": "{3F889D6F-68FA-25D8-ED42-96C04CC3173E}"
  }
 }

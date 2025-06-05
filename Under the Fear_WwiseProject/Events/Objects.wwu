@@ -478,7 +478,28 @@
 				</Event>
 				<Event Name="Play_Safezone_Massive_Door_Open" ID="{C19D4BAF-B751-40E7-8E37-AF738ABE2788}"/>
 				<Event Name="Play_Safezone_Massive_Door_Close" ID="{15B819B6-01C7-470F-862F-00DBAF5E478E}"/>
-				<Event Name="Play_Lvl_Starting" ID="{13935C4C-E515-42AD-8482-29D44A4E71A9}"/>
+				<Event Name="Play_Lvl_Starting" ID="{13935C4C-E515-42AD-8482-29D44A4E71A9}">
+					<ChildrenList>
+						<Action Name="" ID="{6A808447-4CD2-4649-9AA0-D1CCC6A2496C}" ShortID="852184448">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu_Music" ID="{12DE5222-3EC5-47CA-A46F-B461286B9269}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{90F30FE6-74F2-49E6-B128-BBCBCCB07156}" ShortID="992154838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Starting_Music" ID="{02D0B491-8445-48DB-8627-6D24DD5FE198}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Play_Final_Ventel" ID="{AFEF5B5B-5E83-42E2-B180-343039FC2DA8}">
 					<ChildrenList>
 						<Action Name="" ID="{8460D605-F39F-4C03-9FF5-1344EEDDE62E}" ShortID="671985704">

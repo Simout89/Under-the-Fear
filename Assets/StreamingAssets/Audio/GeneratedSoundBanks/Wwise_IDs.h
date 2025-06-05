@@ -79,6 +79,7 @@ namespace AK
         static const AkUniqueID PLAY_WHITELAMP = 1638297339U;
         static const AkUniqueID PLAY_WRONG_GEAR_COMBINATION = 3637805037U;
         static const AkUniqueID PLAY_YELLOWLAMP = 2132701112U;
+        static const AkUniqueID RESUME_MAIN_MUSIC = 4072670616U;
         static const AkUniqueID STOP_CAVE_MUSIC = 4264999239U;
         static const AkUniqueID STOP_GEAR_QUEST = 1646735258U;
         static const AkUniqueID STOP_MAIN_MENU_MUSIC = 2829915331U;

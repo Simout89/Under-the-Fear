@@ -239,7 +239,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: eb9cd630b7c18842bc284b0021107ef2
     GuidInternal: 
-    m_lastTime: -8584525606918435502
+    m_lastTime: -8584524996505973597
     List:
     - name: Play_Cave_Music
       guid: 5c3ead2d6ed1de44b8828ae2ed076157
@@ -391,6 +391,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 24dfd921ea418143ae3e69d6340b8ea5
       Path: Events\Default Work Unit\Play_Statue_Quest_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Resume_Main_Music
+      guid: c940a31aca94804c86baf5931796cfa8
+      id: 4072670616
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb9cd630b7c18842bc284b0021107ef2
+      - ElementName: Resume_Main_Music
+        ObjectType: 3
+        guid: c940a31aca94804c86baf5931796cfa8
+      Path: Events\Default Work Unit\Resume_Main_Music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -622,7 +639,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: efa17e970f8f564c9c28e8e57906fbec
     GuidInternal: 
-    m_lastTime: -8584525197141834022
+    m_lastTime: -8584525009267674069
     List:
     - name: CassetePlayer
       guid: ec6966511b9b4248acfb491426367985
@@ -2381,7 +2398,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584536849157106625
     List: []
-  ExpandedFileSystemItemIds: 010000000200000005000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000180000001a0000001b0000001d000000200000002200000032000000330000003400000038000000390000003a0000003b0000004c0000005300000054000000550000006b0000006c0000006d0000006e000000760000007700000078000000790000007d000000
+  ExpandedFileSystemItemIds: 01000000020000000300000005000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000180000001a0000001b0000001d000000200000002200000032000000330000003400000038000000390000003a0000003b0000004c0000005300000054000000550000006b0000006c0000006d0000006e000000760000007700000078000000790000007d000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

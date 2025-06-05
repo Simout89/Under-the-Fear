@@ -3,11 +3,11 @@ using UnityEngine;
 public class WwiseEnterExitTriggerZone : MonoBehaviour
 {
     [Header("Wwise Events")]
-    public string enterEvent = "Play_Sound";  // Ивент при входе (нужно назначить)
-    public string exitEvent = "Stop_Sound";   // Ивент при выходе (нужно назначить)
+    public AK.Wwise.Event enterEvent;  // Drag-and-drop из Wwise Picker
+    public AK.Wwise.Event exitEvent;   // Drag-and-drop из Wwise Picker
 
     [Header("Target")]
-    public GameObject eventTarget;            // От чьего имени проигрываются события
+    public GameObject eventTarget;     // Объект, от которого проигрываются события
 
     void Start()
     {
@@ -17,12 +17,12 @@ public class WwiseEnterExitTriggerZone : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) // Игрок должен быть с тегом!
+        if (other.CompareTag("Player"))
         {
-            if (!string.IsNullOrEmpty(enterEvent))
+            if (enterEvent != null)
             {
-                AkSoundEngine.PostEvent(enterEvent, eventTarget);
-                Debug.Log($"Triggered Wwise enter event '{enterEvent}'");
+                enterEvent.Post(eventTarget);
+                Debug.Log($"Triggered Wwise enter event '{enterEvent.Name}'");
             }
         }
     }
@@ -31,10 +31,10 @@ public class WwiseEnterExitTriggerZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (!string.IsNullOrEmpty(exitEvent))
+            if (exitEvent != null)
             {
-                AkSoundEngine.PostEvent(exitEvent, eventTarget);
-                Debug.Log($"Triggered Wwise exit event '{exitEvent}'");
+                exitEvent.Post(eventTarget);
+                Debug.Log($"Triggered Wwise exit event '{exitEvent.Name}'");
             }
         }
     }

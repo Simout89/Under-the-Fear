@@ -76,6 +76,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3637805037	Play_Wrong_Gear_Combination			\Objects\GearQuest\Play_Wrong_Gear_Combination	
 	3687303446	Play_Water_Machine_Max			\Objects\Generators\Play_Water_Machine_Max	
 	3806907903	Stop_Statue_Quest_Music			\Default Work Unit\Stop_Statue_Quest_Music	
+	4072670616	Resume_Main_Music			\Default Work Unit\Resume_Main_Music	
 	4157024899	Play_Low_Roar			\Monster\Play_Low_Roar	
 	4264999239	Stop_Cave_Music			\Default Work Unit\Stop_Cave_Music	
 

@@ -5,7 +5,22 @@
 			<ChildrenList>
 				<Event Name="Play_Music" ID="{669C4F73-2FA5-44C6-8977-80FFA57744E2}">
 					<ChildrenList>
+						<Action Name="" ID="{D892EBE1-6B77-4555-ABEF-CFB8BAEC06D6}" ShortID="777026932">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Starting_Music" ID="{02D0B491-8445-48DB-8627-6D24DD5FE198}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{7F58CEDE-D7D2-4BC6-9673-4C2549128BAE}" ShortID="980326720">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MusicLoop" ID="{88ACD382-7F88-423E-A0BC-2831EE86B059}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
@@ -30,6 +45,7 @@
 						<Action Name="" ID="{0BCB8119-84F2-45F5-8956-21223130F3AB}" ShortID="616297434">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -44,6 +60,7 @@
 						<Action Name="" ID="{E3E064DE-4B02-4015-B904-A27A77C18738}" ShortID="34073074">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -62,15 +79,14 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{5657A027-1891-4D7B-8A32-F3AF03612F9F}" ShortID="806451223">
+						<Action Name="" ID="{82AF4560-7604-4407-9E02-261FC7C11222}" ShortID="83078005">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Delay" Type="Real64" Value="5"/>
-								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Danger_theme" ID="{A6334EEC-7F32-41FA-ADD4-BFDCD3D1BF3C}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+									<ObjectRef Name="MusicLoop" ID="{88ACD382-7F88-423E-A0BC-2831EE86B059}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -110,6 +126,9 @@
 				<Event Name="Play_Richag_Quest_Music" ID="{322E4275-05AF-4470-9FE1-D84D8AE497E7}">
 					<ChildrenList>
 						<Action Name="" ID="{F5424C8E-F89A-45B0-9CBB-F41332F91176}" ShortID="583790367">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="RichagQuest" ID="{7FA842A9-7D50-4430-B463-8CB282DD9959}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
@@ -145,6 +164,7 @@
 						<Action Name="" ID="{BE3DA607-9802-4202-805D-3E827DD4A160}" ShortID="43893484">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -171,6 +191,9 @@
 				<Event Name="Play_Gear_Quest" ID="{99A2474D-AC89-43DB-B24E-D96CE685309F}">
 					<ChildrenList>
 						<Action Name="" ID="{5FDBBB2F-5F9C-45A9-890D-76E69F08C93A}" ShortID="644859451">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Quest2" ID="{3431F5E5-1F3B-4A37-9875-C4B07E1D3EEC}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
@@ -184,6 +207,7 @@
 						<Action Name="" ID="{181AC79F-E45D-4E22-9643-8715C7D4A86D}" ShortID="94069021">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -193,7 +217,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Cave_Music" ID="{1F2269A7-1A61-43F4-9C66-26F6F16E5E49}"/>
+				<Event Name="Stop_Cave_Music" ID="{1F2269A7-1A61-43F4-9C66-26F6F16E5E49}">
+					<ChildrenList>
+						<Action Name="" ID="{A6155EF1-6855-476F-9338-0705312C8015}" ShortID="365462878">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Starting_Music" ID="{02D0B491-8445-48DB-8627-6D24DD5FE198}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Play_Danger_Theme" ID="{61DA057D-EE59-4AED-BEF6-89E394C9CA7D}">
 					<ChildrenList>
 						<Action Name="" ID="{EA2ADF65-D7C0-4C71-A700-6C592CC0B9D5}" ShortID="57772825">
@@ -224,6 +262,33 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Working_Richag_Mech_01" ID="{819448C2-39F3-403A-A3DE-F623E45BFC5C}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_Main_Music" ID="{1AA340C9-94CA-4C80-86BA-F5931796CFA8}">
+					<ChildrenList>
+						<Action Name="" ID="{65B87D40-6E13-49CC-8870-47DDF0AFC90F}" ShortID="998848185">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicLoop" ID="{88ACD382-7F88-423E-A0BC-2831EE86B059}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0DA26C0C-5FC5-4AD3-B276-60A5530E410C}" ShortID="1070277771">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SafeZoneMusic" ID="{7368DC09-894D-4CD2-B526-3A5602D79587}" WorkUnitID="{0EE41ED3-7C77-4899-91D6-00AF0FF29C91}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
