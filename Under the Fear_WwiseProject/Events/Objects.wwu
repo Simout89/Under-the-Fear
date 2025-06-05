@@ -479,6 +479,34 @@
 				<Event Name="Play_Safezone_Massive_Door_Open" ID="{C19D4BAF-B751-40E7-8E37-AF738ABE2788}"/>
 				<Event Name="Play_Safezone_Massive_Door_Close" ID="{15B819B6-01C7-470F-862F-00DBAF5E478E}"/>
 				<Event Name="Play_Lvl_Starting" ID="{13935C4C-E515-42AD-8482-29D44A4E71A9}"/>
+				<Event Name="Play_Final_Ventel" ID="{AFEF5B5B-5E83-42E2-B180-343039FC2DA8}">
+					<ChildrenList>
+						<Action Name="" ID="{8460D605-F39F-4C03-9FF5-1344EEDDE62E}" ShortID="671985704">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ventil" ID="{AA94ACCC-7458-4CA5-8BD7-77BA47655F11}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ventil" ID="{E28B1813-54BA-4FE3-A28C-13B6B97F4C05}">
+					<ChildrenList>
+						<Action Name="" ID="{815E996A-BF61-4D4B-B947-ACD02CEC90B7}" ShortID="640942152">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ventil" ID="{AA94ACCC-7458-4CA5-8BD7-77BA47655F11}" WorkUnitID="{C21FC045-981D-4549-ADB3-AF36D9FB5553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

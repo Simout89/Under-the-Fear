@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: d0fc1eb916d4d2438bac39237f48ec7c
     GuidInternal: 
-    m_lastTime: -8584526402974021410
+    m_lastTime: -8584525125342498687
     List:
     - name: Big_Hall_Rev
       guid: 5d7127484e325a4e8a9cde645feda69f
@@ -622,7 +622,7 @@ MonoBehaviour:
     ParentPath: Events\Objects
     guid: efa17e970f8f564c9c28e8e57906fbec
     GuidInternal: 
-    m_lastTime: -8584525701814814681
+    m_lastTime: -8584525197141834022
     List:
     - name: CassetePlayer
       guid: ec6966511b9b4248acfb491426367985
@@ -823,6 +823,23 @@ MonoBehaviour:
       maxAttenuation: 90
       maxDuration: 1.5
       minDuration: 1.5
+    - name: Play_Final_Ventel
+      guid: 5b5befaf835ee242b180343039fc2da8
+      id: 1205284803
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Play_Final_Ventel
+        ObjectType: 3
+        guid: 5b5befaf835ee242b180343039fc2da8
+      Path: Events\Objects\Play_Final_Ventel
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Floor_Button
       guid: b2d0267f0530754aa7e1dfb62a06799c
       id: 3474005947
@@ -857,7 +874,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e072983cfe201f4fb7dd320a01cdd282
       Path: Events\Objects\Play_Gaz
-      maxAttenuation: 100
+      maxAttenuation: 25
       maxDuration: 0
       minDuration: 0
     - name: Play_Gear_Drop
@@ -960,7 +977,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c1f87b0136795548b436c04ff827ccd9
       Path: Events\Objects\Play_Kapli
-      maxAttenuation: 100
+      maxAttenuation: 25
       maxDuration: 0
       minDuration: 0
     - name: Play_Little_Fire
@@ -980,7 +997,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: fb102381b77489479d11c5811c409819
       Path: Events\Objects\Lighting\Play_Little_Fire
-      maxAttenuation: 30.000002
+      maxAttenuation: 25
       maxDuration: 0
       minDuration: 0
     - name: Play_Lvl_Starting
@@ -1660,6 +1677,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_Ventil
+      guid: 13188be2ba54e34fa28c13b6b97f4c05
+      id: 2380349110
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Objects
+        ObjectType: 12
+        guid: efa17e970f8f564c9c28e8e57906fbec
+      - ElementName: Stop_Ventil
+        ObjectType: 3
+        guid: 13188be2ba54e34fa28c13b6b97f4c05
+      Path: Events\Objects\Stop_Ventil
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_WhiteLamp
       guid: 8f3a986bdd4e0a40b1a192b5e7b482ce
       id: 2584819961
@@ -1711,7 +1745,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: f88c72517d10c24ca8c1136ded1d69c1
     GuidInternal: 
-    m_lastTime: -8584526402974307178
+    m_lastTime: -8584525184624138473
     List:
     - name: Drinking
       guid: eef361088e31d941b22309f7d81e6861
@@ -1837,7 +1871,7 @@ MonoBehaviour:
       Path: Events\Player\FlashLight\Play_Flashlight_Disable
       maxAttenuation: 0
       maxDuration: 0.9325178
-      minDuration: 0.49845806
+      minDuration: 0.6885833
     - name: Play_Flashlight_Enable
       guid: 7d5d517127b58743aefa041a7a41ecb6
       id: 1470796794
@@ -2347,7 +2381,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584536849157106625
     List: []
-  ExpandedFileSystemItemIds: 01000000020000000300000005000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000180000001a0000001b0000001c0000001d0000002100000032000000330000003400000038000000390000003a0000003b0000004c0000005300000054000000550000006b0000006c0000006d0000006e000000
+  ExpandedFileSystemItemIds: 010000000200000005000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000180000001a0000001b0000001d000000200000002200000032000000330000003400000038000000390000003a0000003b0000004c0000005300000054000000550000006b0000006c0000006d0000006e000000760000007700000078000000790000007d000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

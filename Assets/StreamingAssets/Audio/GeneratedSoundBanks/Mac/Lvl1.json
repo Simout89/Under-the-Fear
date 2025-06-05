@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3623B205-E6D9-4C5E-B953-46A1EF2CEB95}",
     "Language": "SFX",
-    "Hash": "{E6F73B33-3D60-6FFA-A95E-F10CAF5CA489}",
+    "Hash": "{CDD49542-1242-7178-13F2-E15DAE075265}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lvl1",
     "ShortName": "Lvl1",
     "Path": "Lvl1.bnk",
@@ -1661,6 +1661,14 @@
        "LibId": "8912899"
       },
       {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
        "Id": "2513915904",
        "Name": "Hall_Large",
        "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
@@ -1874,12 +1882,33 @@
       ]
      },
      {
+      "Id": "1205284803",
+      "Name": "Play_Final_Ventel",
+      "ObjectPath": "\\Events\\Objects\\Play_Final_Ventel",
+      "GUID": "{AFEF5B5B-5E83-42E2-B180-343039FC2DA8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "147818670"
+       },
+       {
+        "Id": "732902176"
+       },
+       {
+        "Id": "1040577894"
+       }
+      ]
+     },
+     {
       "Id": "1652482609",
       "Name": "Play_Flashlight_Disable",
       "ObjectPath": "\\Events\\Player\\FlashLight\\Play_Flashlight_Disable",
       "GUID": "{88303FB5-2DF7-49A8-804E-5808E960DEF4}",
       "DurationType": "OneShot",
-      "DurationMin": "0.49845806",
+      "DurationMin": "0.6885833",
       "DurationMax": "0.9325178",
       "MediaRefs": [
        {
@@ -2105,7 +2134,7 @@
       "Name": "Play_Gaz",
       "ObjectPath": "\\Events\\Objects\\Play_Gaz",
       "GUID": "{3C9872E0-20FE-4F1F-B7DD-320A01CDD282}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -2228,7 +2257,7 @@
       "Name": "Play_Kapli",
       "ObjectPath": "\\Events\\Objects\\Play_Kapli",
       "GUID": "{017BF8C1-7936-4855-B436-C04FF827CCD9}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -2250,7 +2279,7 @@
       "Name": "Play_Little_Fire",
       "ObjectPath": "\\Events\\Objects\\Lighting\\Play_Little_Fire",
       "GUID": "{812310FB-74B7-4789-9D11-C5811C409819}",
-      "MaxAttenuation": "30.000002",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -3310,7 +3339,14 @@
        {
         "Id": "1019297811"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
      },
      {
       "Id": "1015499099",
@@ -3915,6 +3951,27 @@
       "DurationMax": "0"
      },
      {
+      "Id": "2380349110",
+      "Name": "Stop_Ventil",
+      "ObjectPath": "\\Events\\Objects\\Stop_Ventil",
+      "GUID": "{E28B1813-54BA-4FE3-A28C-13B6B97F4C05}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "147818670"
+       },
+       {
+        "Id": "732902176"
+       },
+       {
+        "Id": "1040577894"
+       }
+      ]
+     },
+     {
       "Id": "2584819961",
       "Name": "Stop_WhiteLamp",
       "ObjectPath": "\\Events\\Objects\\Lighting\\Stop_WhiteLamp",
@@ -4184,6 +4241,6 @@
     ]
    }
   ],
-  "FileHash": "{5E155267-53A0-557A-5B3B-97A191D84198}"
+  "FileHash": "{CFFC5463-9F42-B84F-880E-46404458CAA9}"
  }
 }

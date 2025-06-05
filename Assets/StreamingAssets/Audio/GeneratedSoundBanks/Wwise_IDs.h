@@ -23,6 +23,7 @@ namespace AK
         static const AkUniqueID PLAY_DOOR_OPEN = 1660008929U;
         static const AkUniqueID PLAY_DRINKING = 2006984080U;
         static const AkUniqueID PLAY_FINAL_SONG = 644281394U;
+        static const AkUniqueID PLAY_FINAL_VENTEL = 1205284803U;
         static const AkUniqueID PLAY_FLASHLIGHT_DISABLE = 1652482609U;
         static const AkUniqueID PLAY_FLASHLIGHT_ENABLE = 1470796794U;
         static const AkUniqueID PLAY_FLOOR_BUTTON = 3474005947U;
@@ -88,6 +89,7 @@ namespace AK
         static const AkUniqueID STOP_SAFEZONE_MUSIC = 36390441U;
         static const AkUniqueID STOP_SIREN = 574068527U;
         static const AkUniqueID STOP_STATUE_QUEST_MUSIC = 3806907903U;
+        static const AkUniqueID STOP_VENTIL = 2380349110U;
         static const AkUniqueID STOP_WHITELAMP = 2584819961U;
         static const AkUniqueID STOP_YELLOWLAMP = 3345224838U;
     } // namespace EVENTS

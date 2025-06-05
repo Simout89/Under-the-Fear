@@ -14,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1081356717	Play_Danger_Theme			\Default Work Unit\Play_Danger_Theme	
 	1170362071	Play_Kapli			\Objects\Play_Kapli	
 	1185108097	Play_Siren			\Objects\Play_Siren	
+	1205284803	Play_Final_Ventel			\Objects\Play_Final_Ventel	
 	1253718314	Play_Gear_PickUp			\Objects\GearQuest\Gear\Play_Gear_PickUp	
 	1420135964	Play_Gear_Quest			\Default Work Unit\Play_Gear_Quest	
 	1429678133	Play_Monster_Step			\Monster\Play_Monster_Step	
@@ -48,6 +49,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2270754086	Play_Scary_Metalic_Sound			\Objects\Play_Scary_Metalic_Sound	
 	2287442812	Play_Gaz			\Objects\Play_Gaz	
 	2355669119	Play_Heart_Beating			\Player\Play_Heart_Beating	
+	2380349110	Stop_Ventil			\Objects\Stop_Ventil	
 	2470536401	Play_scream			\Monster\Play_scream	
 	2517107665	Play_Statue_Quest_Music			\Default Work Unit\Play_Statue_Quest_Music	
 	2527041227	Play_Safezone_Music			\Default Work Unit\Play_Safezone_Music	
@@ -127,6 +129,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
 	1431209347	One_Tap_One_Second	Wwise Delay			
 	1431265797	Monsterize	Wwise Pitch Shifter			
+	1990128658	Room_Medium	Wwise RoomVerb			
 	2513915904	Hall_Large	Wwise RoomVerb			
 	2995775460	Room_Small	Wwise RoomVerb			
 	3164629247	Holy	Wwise RoomVerb			
@@ -144,7 +147,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	70937534	mechanical_sounds-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\0E\{0E001868-9581-8D4D-F5BA-3E2035486CE7}.wem		\Actor-Mixer Hierarchy\Objects\Switch Quest\Mechanical_Sounds\mechanical_sounds-004		249132
 	71642605	kapli-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\B7\{B7AAA9D4-5CE5-A966-1399-B95D814CCF54}.wem		\Actor-Mixer Hierarchy\Objects\Kapli\kapli-003		1183012
 	74614735	gear_off-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\0D\{0D115FE2-BC05-F389-EAAC-F4258D1C4F60}.wem		\Actor-Mixer Hierarchy\Objects\GearQuest\Gear\GearDrop\gear_off-001		201844
-	80718749	short_high_voltage-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\CB\{CBA00E0F-306E-67BB-A841-01840B66B95A}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\FlashLight_Button\Short_high_voltage\short_high_voltage-003		44060
+	80718749	short_high_voltage-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\CB\{CBA00E0F-306E-67BB-A841-01840B66B95A}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\Short_high_voltage\short_high_voltage-003		44060
 	82318059	Q2 cut	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\FD\{FDF9ABE3-41A4-FC88-8790-E46F61F654CF}.wem		\Interactive Music Hierarchy\Default Work Unit\Quest2\Q2 cut\Q2 cut		1105415
 	84763226	steps_metal-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\B9\{B996BE13-7017-E066-6456-CB405C9C819B}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Metal\steps_metal-003		62356
 	88256846	Menu_Music	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\10\{10332B1A-EFFC-5F1E-E211-5E3FDE261547}.wem		\Interactive Music Hierarchy\Default Work Unit\Menu_Music\Menu_Music\Menu_Music		577173
@@ -167,7 +170,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	156904797	Player_Charge_FlashLight_5	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\CA\{CA0C7177-0CCE-7D02-9EFA-1F76CE587FAB}.wem		\Actor-Mixer Hierarchy\Player\Player_Charge_FlashLight\Player_Charge_FlashLight_5		142132
 	161771181	richag3	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\0A\{0A57D78C-CB2F-C03C-C904-7646051161A4}.wem		\Actor-Mixer Hierarchy\Objects\Switch Quest\Richag\richag3		87196
 	166830043	gaz-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\48\{48F85CF2-5CF1-4C56-93AF-83B6F0966AE8}.wem		\Actor-Mixer Hierarchy\Objects\Gaz\gaz-001		441096
-	168566831	short_high_voltage-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\26\{26909877-B2C9-D020-1791-78977709257E}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\FlashLight_Button\Short_high_voltage\short_high_voltage-001		44060
+	168566831	short_high_voltage-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\26\{26909877-B2C9-D020-1791-78977709257E}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\Short_high_voltage\short_high_voltage-001		44060
 	175387463	steps dirt-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\6C\{6CACE3CB-4E39-296C-0437-5F2569591FF0}.wem		\Actor-Mixer Hierarchy\Player\Footsteps\Dirt\steps dirt-002		70360
 	178357822	Safe_opened	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\DA\{DA862CC1-69C3-B2CD-FE33-E86F174B527A}.wem		\Actor-Mixer Hierarchy\Objects\SafeBoxQuest\SafeQuest_Open\Safe_opened		93124
 	181228194	casseteplayer_button	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\1D\{1D6F4E29-ACFD-21EE-F8EF-2CFE1C738E12}.wem		\Actor-Mixer Hierarchy\Objects\CassetePlayer\Casseteplayer_button\casseteplayer_button		73552
@@ -254,13 +257,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	589164636	Monster_Low_Roar-007	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\17\{176E739C-D3A9-658F-E51E-1953DE13C92D}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Low_Roars\Monster_Low_Roar-007		229604
 	591923190	mad_voices2	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\3E\{3EA8136F-33BF-86BC-1BB3-793ECDC41771}.wem		\Actor-Mixer Hierarchy\Player\Mad_Voices\mad_voices2		3175296
 	616558375	gear_mech_working2	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\FA\{FACD3E00-E880-8F27-9660-7A1F9DD67608}.wem		\Actor-Mixer Hierarchy\Objects\Switch Quest\Working_Richag_Mech\Working_Mech2\gear_mech_working2		793896
-	633788129	short_high_voltage-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\63\{63809CB7-58A3-FD1B-6C9D-364FDE795671}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\FlashLight_Button\Short_high_voltage\short_high_voltage-004		44060
+	633788129	short_high_voltage-004	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\63\{63809CB7-58A3-FD1B-6C9D-364FDE795671}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\Short_high_voltage\short_high_voltage-004		44060
 	636477786	Moster_Roar-009	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\09\{0972D586-DE88-F581-F74A-01A4C48E362A}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-009		373648
 	638463490	electic lamp1-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\02\{02ECB347-36B0-0877-A33C-8C4809C9BB60}.wem		\Actor-Mixer Hierarchy\Objects\Lighting\WhiteLamp\electic lamp1-002		441096
 	661065338	siren	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\7C\{7CB8D675-0CA8-572A-708B-B0DB9B38B3EC}.wem		\Actor-Mixer Hierarchy\Objects\Siren\siren		2446488
 	665262124	eng_numbers-003	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\65\{65D320C2-7E2B-6546-4D26-F8921160463E}.wem		\Actor-Mixer Hierarchy\Objects\Numbers_Records_Quest\ENG\num3\eng_numbers-003		92682
 	669827478	button_1st	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\23\{23FBA899-8C43-7637-33F0-1F285D842713}.wem		\Actor-Mixer Hierarchy\Objects\Switch Quest\Button\button_1st		66246
-	677871912	short_high_voltage-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\72\{72F2361B-2961-FB48-492C-CEDC42B55526}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\FlashLight_Button\Short_high_voltage\short_high_voltage-002		44060
+	677871912	short_high_voltage-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\72\{72F2361B-2961-FB48-492C-CEDC42B55526}.wem		\Actor-Mixer Hierarchy\Player\Flashlight\Short_high_voltage\short_high_voltage-002		44060
 	687659212	maddeathzatichka	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\34\{34C59AC3-5C6B-A12B-F7F5-43FD7B2D90AE}.wem		\Actor-Mixer Hierarchy\Player\Death_by_Madness\maddeathzatichka		220596
 	689492451	Moster_Roar-001	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\A7\{A7C08386-D84D-9614-2D3D-805C50175307}.wem		\Actor-Mixer Hierarchy\Monster\Monster_Roars\Moster_Roar-001		373648
 	719565595	kapli-002	G:\Unity prod\under the fear\Under the Fear_WwiseProject\.cache\65\{654F4376-9116-0172-A6C4-32BB92A38982}.wem		\Actor-Mixer Hierarchy\Objects\Kapli\kapli-002		1183012

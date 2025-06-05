@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c35810219dac7b439dd27f5913dfd64, type: 3}
+  m_Name: 3C9872E0-20FE-4F1F-B7DD-320A01CDD282
+  m_EditorClassIdentifier: 
+  objectName: Play_Gaz
+  id: 2287442812
+  guid: 3C9872E0-20FE-4F1F-B7DD-320A01CDD282
+  IsInUserDefinedSoundBank: 1
